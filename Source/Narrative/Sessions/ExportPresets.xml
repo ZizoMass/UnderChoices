@@ -1,0 +1,18 @@
+<ExportPresets LastType="XlsxExport">
+  <Preset DisplayName="" Type="XlsxExport">
+    <ExportSettings Type="XlsxExport">
+      <Filename>C:\Users\zizom\GitHub\UnderChoices\Source\Narrative\Sheets\Under Choices.xlsx</Filename>
+      <TablePerGroup>1</TablePerGroup>
+      <GroupedBy>ObjectType</GroupedBy>
+      <SortedBy>DisplayName</SortedBy>
+      <WhichName>DisplayName</WhichName>
+      <FeatureOrder>Alphabetical</FeatureOrder>
+      <CollectStatistics>1</CollectStatistics>
+      <ExportMarkup>0</ExportMarkup>
+      <VariableOrder>Namespace</VariableOrder>
+      <ExportQueries>True</ExportQueries>
+      <PageSize>A4</PageSize>
+      <AutoOpenFile>1</AutoOpenFile>
+    </ExportSettings>
+  </Preset>
+</ExportPresets>
