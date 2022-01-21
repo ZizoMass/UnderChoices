@@ -1,0 +1,4 @@
+﻿Post Number (Integer),Publisher (String),"Subject (Government, Violence, Health, Radicalism)","Day (Integer, 1-8)","Reaction (Happy, Sad, Angry)",Hashtag 1 (String),Hashtag 2 (String),Hashtag 3 (String),Base Engagement (Integer),Boosted Engagement (Integer),Boost Cost (Float),Headline (String),Image File Path (String)
+001,Pox,Government,1,Happy,KeepThemIn,GetsThingsDone,InGoodHands,75,16000,100.00,Government Popularity All Time High,post_001.jpg
+002,CYPost,Violence,2,Sad,TooSoon,SoTragic,PrayForThem,117,28000,156.00,Child Dies From Riot Injuries,post_002.jpg
+003,Forbees,Health,3,Angry,CrappyHealthCare,OverpaidIdiots,MoneyForWhat,50,15000,80.00,Surgeons Walk Out,post_003.jpg
