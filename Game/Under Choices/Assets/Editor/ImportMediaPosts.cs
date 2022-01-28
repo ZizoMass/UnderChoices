@@ -68,7 +68,7 @@ public class ImportMediaPosts
             mediaPost.imageFilePath = splitData[12];
 
             // Create media post object
-            AssetDatabase.CreateAsset(mediaPost, $"Assets/Media Posts/{"Media Post #" + mediaPost.postNumber}.asset");
+            AssetDatabase.CreateAsset(mediaPost, $"Assets/Resources/Media Posts/{"Media Post #" + mediaPost.postNumber}.asset");
         }
     }
 }
