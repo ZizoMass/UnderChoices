@@ -36,4 +36,10 @@ public class Buttons : MonoBehaviour
     {
         FindObjectOfType<GameController>().ScreenTransition("Title Screen");
     }
+
+    public void Boost()
+    {
+        print("test");
+        FindObjectOfType<GameController>().BoostPost(transform.parent.GetComponent<PostObject>());
+    }
 }

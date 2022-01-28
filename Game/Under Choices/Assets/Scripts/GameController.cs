@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -17,8 +18,10 @@ public class GameController : MonoBehaviour
     Screen currentScreen;
 
     // Game objects
-    GameObject playerFundsDisplay, currentNightDisplay, timerDisplay;
+    GameObject playerFundsDisplay, currentNightDisplay, timerDisplay, postSpawnPoint, postTemplate, screen;
     Scene currentScene;
+    List<MediaPost> mediaPosts, boostedPosts;
+    List<GameObject> currentDayPosts;
 
     private void Awake()
     {
@@ -31,12 +34,16 @@ public class GameController : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(this.gameObject);
         }
+
+        // Load media posts and post template
+        mediaPosts = Resources.LoadAll<MediaPost>("Media Posts").ToList();
+        postTemplate = Resources.Load("Prefabs/Media Post") as GameObject;
+        boostedPosts = new List<MediaPost>();
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        print(Application.dataPath);
         // Check which scene to load
         CheckScene();
     }
@@ -76,6 +83,24 @@ public class GameController : MonoBehaviour
         playerFundsDisplay = GameObject.FindGameObjectWithTag("Player Funds Display");
         currentNightDisplay = GameObject.FindGameObjectWithTag("Current Night Display");
         timerDisplay = GameObject.FindGameObjectWithTag("Timer Display");
+        postSpawnPoint = GameObject.FindGameObjectWithTag("Post Spawn Point");
+        screen = GameObject.FindGameObjectWithTag("Screen");
+
+        int postCount = -1;
+
+        // Load current day media posts
+        foreach(MediaPost post in mediaPosts)
+        {
+            if (post.day == currentNight)
+            {
+                postCount++;
+                GameObject newPost = Instantiate(postTemplate, new Vector2(postSpawnPoint.transform.position.x, postSpawnPoint.transform.position.y 
+                    - postCount * 2.1f), Quaternion.identity);
+                newPost.GetComponent<PostObject>().SetPost(post);
+                newPost.transform.SetParent(screen.transform);
+
+            }
+        }
 
         UpdatePlayerFunds();
         UpdateCurrentNight();
@@ -100,6 +125,17 @@ public class GameController : MonoBehaviour
     void UpdateTimer()
     {
         timerDisplay.GetComponent<Text>().text = TimeSpan.FromSeconds(timer).ToString(@"mm\:ss");
+    }
+
+    public void BoostPost(PostObject post)
+    {
+        if(!post.isBoosted && playerFunds >= post.mediaPost.boostCost)
+        {
+            post.Boost();
+            playerFunds -= post.mediaPost.boostCost;
+            boostedPosts.Add(post.mediaPost);
+            UpdatePlayerFunds();
+        }
     }
 
     void CheckScene()
