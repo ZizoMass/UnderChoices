@@ -64,18 +64,20 @@ public class GameController : MonoBehaviour
 
     void LoadTitleScreen()
     {
-        // Currently unused
+        currentScreen = Screen.Title;
     }
 
     void LoadGameScreen()
     {
         // If a new game just started, initialize parameters
-        if (currentNight == 0)
+        /*if (currentNight == 0)
         {
             currentNight = 1;
             playerFunds = startingFund;
-        }
+        }*/
 
+        currentNight = 1;
+        playerFunds = startingFund;
         timer = timerLength;
         currentScreen = Screen.Game;
 
@@ -124,7 +126,13 @@ public class GameController : MonoBehaviour
 
     void UpdateTimer()
     {
-        timerDisplay.GetComponent<Text>().text = TimeSpan.FromSeconds(timer).ToString(@"mm\:ss");
+        if (currentScreen != Screen.Game)
+            return;
+
+        if (timer <= 0)
+            ScreenTransition("Title Screen");
+        else
+            timerDisplay.GetComponent<Text>().text = TimeSpan.FromSeconds(timer).ToString(@"mm\:ss");
     }
 
     public void BoostPost(PostObject post)
@@ -153,7 +161,6 @@ public class GameController : MonoBehaviour
     public void ScreenTransition(string screenName)
     {
         SceneManager.LoadScene(screenName);
-        //currentScene = SceneManager.GetActiveScene();
         StartCoroutine(LoadDelay(screenName));
     }
 

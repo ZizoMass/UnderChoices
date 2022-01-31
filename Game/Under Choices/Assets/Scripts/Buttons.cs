@@ -39,7 +39,6 @@ public class Buttons : MonoBehaviour
 
     public void Boost()
     {
-        print("test");
         FindObjectOfType<GameController>().BoostPost(transform.parent.GetComponent<PostObject>());
     }
 }

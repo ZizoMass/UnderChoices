@@ -39,7 +39,7 @@ public class PostObject : MonoBehaviour, IPointerDownHandler, IBeginDragHandler,
     void Update()
     {
         if(isScrolling)
-            transform.position = new Vector2(transform.position.x, transform.position.y + 1 * Time.deltaTime);
+            transform.position = new Vector2(transform.position.x, transform.position.y + .5f * Time.deltaTime);
     }
 
     public void SetPost(MediaPost _mediaPost)
