@@ -126,13 +126,13 @@ public class GameController : MonoBehaviour
 
     void UpdateTimer()
     {
-        if (currentScreen != Screen.Game)
+        /*if (currentScreen != Screen.Game)
             return;
 
         if (timer <= 0)
             ScreenTransition("Title Screen");
         else
-            timerDisplay.GetComponent<Text>().text = TimeSpan.FromSeconds(timer).ToString(@"mm\:ss");
+            timerDisplay.GetComponent<Text>().text = TimeSpan.FromSeconds(timer).ToString(@"mm\:ss");*/
     }
 
     public void BoostPost(PostObject post)
