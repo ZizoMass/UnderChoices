@@ -1,4 +1,4 @@
 ﻿Order Number (Integer),Day (Integer),Number to Boost (Integer),"Subject (Any, Government, Violence, Health, Radicalism)","Reaction (Any, Happy, Sad, Angry)","Type (Primary or Secondary; Primary On First Sticky Note, Secondary on Second)"
 1,1,1,Any,Any,Primary
 2,1,1,Government,Happy,Primary
-3,1,1,Violence,Sad,Secondary
+3,1,1,Violence,Angry,Secondary

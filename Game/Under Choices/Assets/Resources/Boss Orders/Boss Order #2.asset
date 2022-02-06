@@ -20,3 +20,5 @@ MonoBehaviour:
   subject: 0
   reaction: 0
   type: 0
+  progress: 0
+  isComplete: 0

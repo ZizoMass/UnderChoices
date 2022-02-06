@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -18,9 +19,10 @@ public class GameController : MonoBehaviour
     Screen currentScreen;
 
     // Game objects
-    GameObject playerFundsDisplay, currentNightDisplay, timerDisplay, postSpawnPoint, postTemplate, screen;
+    GameObject playerFundsDisplay, currentNightDisplay, timerDisplay, postSpawnPoint, postTemplate, screen, primaryOrders, secondaryOrders;
     Scene currentScene;
     List<MediaPost> mediaPosts, boostedPosts;
+    List<BossOrder> bossOrders, currentOrders, completedOrders;
     List<GameObject> currentDayPosts;
 
     private void Awake()
@@ -37,8 +39,11 @@ public class GameController : MonoBehaviour
 
         // Load media posts and post template
         mediaPosts = Resources.LoadAll<MediaPost>("Media Posts").ToList();
+        bossOrders = Resources.LoadAll<BossOrder>("Boss Orders").ToList();
         postTemplate = Resources.Load("Prefabs/Media Post") as GameObject;
         boostedPosts = new List<MediaPost>();
+        currentOrders = new List<BossOrder>();
+        completedOrders = new List<BossOrder>();
     }
 
     // Start is called before the first frame update
@@ -87,6 +92,8 @@ public class GameController : MonoBehaviour
         timerDisplay = GameObject.FindGameObjectWithTag("Timer Display");
         postSpawnPoint = GameObject.FindGameObjectWithTag("Post Spawn Point");
         screen = GameObject.FindGameObjectWithTag("Screen");
+        primaryOrders = GameObject.FindGameObjectWithTag("Primary Orders Display");
+        secondaryOrders = GameObject.FindGameObjectWithTag("Secondary Orders Display");
 
         int postCount = -1;
 
@@ -104,9 +111,17 @@ public class GameController : MonoBehaviour
             }
         }
 
+        // Load current day orders
+        foreach(BossOrder order in bossOrders)
+        {
+            if(order.day == currentNight)
+                currentOrders.Add(Instantiate(order));
+        }
+
         UpdatePlayerFunds();
         UpdateCurrentNight();
         UpdateTimer();
+        UpdateOrders();
     }
 
     void LoadFileScreen()
@@ -135,6 +150,47 @@ public class GameController : MonoBehaviour
             timerDisplay.GetComponent<Text>().text = TimeSpan.FromSeconds(timer).ToString(@"mm\:ss");*/
     }
 
+    void UpdateOrders()
+    {
+        primaryOrders.GetComponent<TextMeshProUGUI>().text = "";
+        secondaryOrders.GetComponent<TextMeshProUGUI>().text = "";
+
+        foreach (BossOrder order in currentOrders)
+        {
+            order.progress = 0;
+            foreach (MediaPost post in boostedPosts)
+            {
+                // If subject required, check if the subject matches
+                if (order.anyReaction && post.subject == order.subject)
+                    order.progress++;
+
+                // If reaction required, check if the reaction matches
+                else if (order.anySubject && post.reaction == order.reaction)
+                    order.progress++;
+
+                // If both required, check if both matches
+                else if (post.subject == order.subject && post.reaction == order.reaction)
+                    order.progress++;
+                
+                // If neither required, just increase
+                else if (order.anySubject && order.anyReaction)
+                    order.progress++;
+            }
+
+            if (order.type == BossOrder.Type.Primary)
+                primaryOrders.GetComponent<TextMeshProUGUI>().text += order.ToString() + "\n";
+            else if (order.type == BossOrder.Type.Secondary)
+                secondaryOrders.GetComponent<TextMeshProUGUI>().text += order.ToString() + "\n";
+
+            // Check if order is complete
+            if (!order.isComplete && order.progress >= order.numberToBoost)
+            {
+                order.isComplete = true;
+                completedOrders.Add(order);
+            }
+        }
+    }
+
     public void BoostPost(PostObject post)
     {
         if(!post.isBoosted && playerFunds >= post.mediaPost.boostCost)
@@ -143,6 +199,7 @@ public class GameController : MonoBehaviour
             playerFunds -= post.mediaPost.boostCost;
             boostedPosts.Add(post.mediaPost);
             UpdatePlayerFunds();
+            UpdateOrders();
         }
     }
 

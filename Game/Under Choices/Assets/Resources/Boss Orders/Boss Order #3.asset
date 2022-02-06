@@ -18,5 +18,7 @@ MonoBehaviour:
   anySubject: 0
   anyReaction: 0
   subject: 1
-  reaction: 1
+  reaction: 2
   type: 1
+  progress: 0
+  isComplete: 0
