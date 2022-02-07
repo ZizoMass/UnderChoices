@@ -8,8 +8,9 @@ public class BossOrder : ScriptableObject
     public enum Type { Primary, Secondary }
 
     public int orderNumber, day, numberToBoost;
-    public bool anySubject, anyReaction;
-    public MediaPost.Subject subject;
+    public bool anySubject, anyReaction, dontBoost;
+    public string publisher;
+    public MediaPost.Subject subject, narrativeSubject;
     public MediaPost.Reaction reaction;
     public Type type;
 
@@ -18,7 +19,12 @@ public class BossOrder : ScriptableObject
 
     override public string ToString()
     {
-        string tempString = "- Boost " + numberToBoost;
+        string tempString = "- ";
+
+        if (!dontBoost)
+            tempString += "Boost " + numberToBoost;
+        else
+            tempString += "Don't boost any";
 
         if (!anyReaction)
             tempString += " " + reaction.ToString();
@@ -28,13 +34,20 @@ public class BossOrder : ScriptableObject
 
         tempString += " post";
 
-        if (numberToBoost > 1)
+        if (numberToBoost > 1 || dontBoost)
             tempString += "s";
+
+        if (publisher != "" && publisher != "None")
+            tempString += " by " + publisher;
 
         /*if (anySubject && anyReaction)
             tempString += " of your choice";*/
 
-        tempString += " (" + progress + "/" + numberToBoost + ")";
+        if (!dontBoost)
+            tempString += " (" + progress + "/" + numberToBoost + ")";
+        else if (dontBoost && progress > 0)
+            tempString += " (failed)";
+
 
         return tempString;
     }

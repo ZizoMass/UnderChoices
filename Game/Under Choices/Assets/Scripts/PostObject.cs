@@ -69,7 +69,7 @@ public class PostObject : MonoBehaviour, IPointerDownHandler, IBeginDragHandler,
             reaction.GetComponent<Image>().sprite = Resources.Load<Sprite>("Media Post Assets/" + SadReactionPath);
 
         for(int i = 0; i < hashtags.Count && i < mediaPost.hashtags.Count; i++)
-            hashtags[i].GetComponent<Text>().text = mediaPost.hashtags[i];
+            hashtags[i].GetComponent<Text>().text = "#" + mediaPost.hashtags[i];
     }
 
     public void Boost()

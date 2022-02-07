@@ -7,7 +7,7 @@ using UnityEngine;
 public class ImportBossOrders
 {
     static string CSVPath = "/Editor/Boss Orders.csv";
-    static int NumberOfFields = 6;
+    static int NumberOfFields = 7;
 
     [MenuItem("Utilities/Import Boss Orders")]
     public static void Import()
@@ -37,8 +37,13 @@ public class ImportBossOrders
             BossOrder bossOrder = ScriptableObject.CreateInstance<BossOrder>();
             bossOrder.orderNumber = int.Parse(splitData[0]);
             bossOrder.day = int.Parse(splitData[1]);
-            bossOrder.numberToBoost = int.Parse(splitData[2]);
 
+            // Boost number
+            bossOrder.numberToBoost = int.Parse(splitData[2]);
+            if (bossOrder.numberToBoost <= 0)
+                bossOrder.dontBoost = true;
+
+            // Subject
             string tempString_1 = splitData[3];
             if (tempString_1 == "Government")
                 bossOrder.subject = MediaPost.Subject.Government;
@@ -51,6 +56,7 @@ public class ImportBossOrders
             else
                 bossOrder.anySubject = true;
 
+            // Reaction
             string tempString_2 = splitData[4];
             if (tempString_2 == "Happy")
                 bossOrder.reaction = MediaPost.Reaction.Happy;
@@ -61,11 +67,27 @@ public class ImportBossOrders
             else
                 bossOrder.anyReaction = true;
 
+            // Narrative Subject
             string tempString_3 = splitData[5];
-            if (tempString_3 == "Primary")
+            if (tempString_3 == "Government")
+            {
+                bossOrder.narrativeSubject = MediaPost.Subject.Government;
                 bossOrder.type = BossOrder.Type.Primary;
+            }
             else
+            {
+                if (tempString_1 == "Violence")
+                    bossOrder.narrativeSubject = MediaPost.Subject.Violence;
+                else if (tempString_1 == "Health")
+                    bossOrder.narrativeSubject = MediaPost.Subject.Health;
+                else if (tempString_1 == "Radicalism")
+                    bossOrder.narrativeSubject = MediaPost.Subject.Radicalism;
+
                 bossOrder.type = BossOrder.Type.Secondary;
+            }
+
+            // Publisher
+            bossOrder.publisher = splitData[6];
 
             // Create media post object
             AssetDatabase.CreateAsset(bossOrder, $"Assets/Resources/Boss Orders/{"Boss Order #" + bossOrder.orderNumber}.asset");

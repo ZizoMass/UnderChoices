@@ -17,7 +17,10 @@ MonoBehaviour:
   numberToBoost: 1
   anySubject: 0
   anyReaction: 0
+  dontBoost: 0
+  publisher: SeeEnEn
   subject: 0
+  narrativeSubject: 0
   reaction: 0
   type: 0
   progress: 0

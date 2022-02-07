@@ -160,7 +160,21 @@ public class GameController : MonoBehaviour
             order.progress = 0;
             foreach (MediaPost post in boostedPosts)
             {
-                // If subject required, check if the subject matches
+                bool doesMatch = true;
+
+                if (!order.anySubject && order.subject != post.subject)
+                    doesMatch = false;
+
+                if (!order.anyReaction && order.reaction != post.reaction)
+                    doesMatch = false;
+
+                if (order.publisher != "None" && order.publisher != post.publisher)
+                    doesMatch = false;
+
+                if (doesMatch)
+                    order.progress++;
+
+                /*// If subject required, check if the subject matches
                 if (order.anyReaction && post.subject == order.subject)
                     order.progress++;
 
@@ -174,7 +188,7 @@ public class GameController : MonoBehaviour
                 
                 // If neither required, just increase
                 else if (order.anySubject && order.anyReaction)
-                    order.progress++;
+                    order.progress++;*/
             }
 
             if (order.type == BossOrder.Type.Primary)
@@ -183,7 +197,7 @@ public class GameController : MonoBehaviour
                 secondaryOrders.GetComponent<TextMeshProUGUI>().text += order.ToString() + "\n";
 
             // Check if order is complete
-            if (!order.isComplete && order.progress >= order.numberToBoost)
+            if (!order.dontBoost && !order.isComplete && order.progress >= order.numberToBoost)
             {
                 order.isComplete = true;
                 completedOrders.Add(order);
