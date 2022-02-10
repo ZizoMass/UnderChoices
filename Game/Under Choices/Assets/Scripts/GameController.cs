@@ -15,15 +15,16 @@ public class GameController : MonoBehaviour
     // Game data
     [SerializeField] float startingFund, timerLength;
     float playerFunds, timer;
-    int currentNight;
+    int currentNight, playerStrikes;
     Screen currentScreen;
+    [HideInInspector] public bool dayComplete;
 
     // Game objects
-    GameObject playerFundsDisplay, currentNightDisplay, timerDisplay, postSpawnPoint, postTemplate, screen, primaryOrders, secondaryOrders;
+    GameObject playerFundsDisplay, currentNightDisplay, timerDisplay, postSpawnPoint, postTemplate, screen, primaryOrders, secondaryOrders, strikesDisplay;
     Scene currentScene;
-    List<MediaPost> mediaPosts, boostedPosts;
+    List<MediaPost> mediaPosts, currentDayPosts, boostedPosts;
     List<BossOrder> bossOrders, currentOrders, completedOrders;
-    List<GameObject> currentDayPosts;
+    List<GameObject> postSpawnPointSet, currentPostSet;
 
     private void Awake()
     {
@@ -41,9 +42,11 @@ public class GameController : MonoBehaviour
         mediaPosts = Resources.LoadAll<MediaPost>("Media Posts").ToList();
         bossOrders = Resources.LoadAll<BossOrder>("Boss Orders").ToList();
         postTemplate = Resources.Load("Prefabs/Media Post") as GameObject;
+        currentDayPosts = new List<MediaPost>();
         boostedPosts = new List<MediaPost>();
         currentOrders = new List<BossOrder>();
         completedOrders = new List<BossOrder>();
+        currentPostSet = new List<GameObject>();
     }
 
     // Start is called before the first frame update
@@ -85,17 +88,20 @@ public class GameController : MonoBehaviour
         playerFunds = startingFund;
         timer = timerLength;
         currentScreen = Screen.Game;
+        dayComplete = false;
 
         // Load game objects
         playerFundsDisplay = GameObject.FindGameObjectWithTag("Player Funds Display");
         currentNightDisplay = GameObject.FindGameObjectWithTag("Current Night Display");
         timerDisplay = GameObject.FindGameObjectWithTag("Timer Display");
-        postSpawnPoint = GameObject.FindGameObjectWithTag("Post Spawn Point");
+        strikesDisplay = GameObject.FindGameObjectWithTag("Strikes Display");
+        //postSpawnPoint = GameObject.FindGameObjectWithTag("Post Spawn Point");
+        postSpawnPointSet = new List<GameObject>(GameObject.FindGameObjectsWithTag("Post Spawn Point"));
         screen = GameObject.FindGameObjectWithTag("Screen");
         primaryOrders = GameObject.FindGameObjectWithTag("Primary Orders Display");
         secondaryOrders = GameObject.FindGameObjectWithTag("Secondary Orders Display");
 
-        int postCount = -1;
+        /*int postCount = -1;
 
         // Load current day media posts
         foreach(MediaPost post in mediaPosts)
@@ -109,10 +115,19 @@ public class GameController : MonoBehaviour
                 newPost.transform.SetParent(screen.transform);
 
             }
+        }*/
+
+        // Load current day media posts
+        foreach (MediaPost post in mediaPosts)
+        {
+            if (post.day == currentNight)
+                currentDayPosts.Add(post);
         }
 
         // Load current day orders
-        foreach(BossOrder order in bossOrders)
+        boostedPosts.Clear();
+        currentOrders.Clear();
+        foreach (BossOrder order in bossOrders)
         {
             if(order.day == currentNight)
                 currentOrders.Add(Instantiate(order));
@@ -122,6 +137,8 @@ public class GameController : MonoBehaviour
         UpdateCurrentNight();
         UpdateTimer();
         UpdateOrders();
+        UpdateStrikes();
+        RefreshSet();
     }
 
     void LoadFileScreen()
@@ -148,6 +165,16 @@ public class GameController : MonoBehaviour
             ScreenTransition("Title Screen");
         else
             timerDisplay.GetComponent<Text>().text = TimeSpan.FromSeconds(timer).ToString(@"mm\:ss");*/
+    }
+
+    void UpdateStrikes()
+    {
+        if (playerStrikes <= 0)
+            return;
+
+        strikesDisplay.GetComponent<Text>().text = "Strikes:";
+        for (int i = 0; i < playerStrikes; i++)
+            strikesDisplay.GetComponent<Text>().text += " X";
     }
 
     void UpdateOrders()
@@ -214,6 +241,46 @@ public class GameController : MonoBehaviour
             boostedPosts.Add(post.mediaPost);
             UpdatePlayerFunds();
             UpdateOrders();
+        }
+    }
+
+    public void RefreshSet()
+    {
+        // Clear current set
+        for(int j = currentPostSet.Count - 1; j >= 0; j--)
+            Destroy(currentPostSet[j]);
+
+        // Load new set
+        for (int i = 0; i < postSpawnPointSet.Count; i++)
+        {
+            if (currentDayPosts.Count <= 0)
+            {
+                dayComplete = true;
+                break;
+            }
+
+            GameObject newPost = Instantiate(postTemplate, postSpawnPointSet[i].transform.position, Quaternion.identity);
+            newPost.GetComponent<PostObject>().SetPost(currentDayPosts[0]);
+            currentDayPosts.RemoveAt(0);
+            currentPostSet.Add(newPost);
+            newPost.transform.SetParent(screen.transform);
+        }
+    }
+
+    public void CheckOrders()
+    {
+        foreach(BossOrder order in currentOrders)
+        {
+            // Check for "don't boost" orders
+            if (order.dontBoost && order.progress == 0)
+                completedOrders.Add(order);
+
+            // If there's an uncompleted order, give a strike
+            if (!completedOrders.Contains(order))
+            {
+                playerStrikes++;
+                break;
+            }
         }
     }
 

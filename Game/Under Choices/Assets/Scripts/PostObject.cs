@@ -38,8 +38,8 @@ public class PostObject : MonoBehaviour, IPointerDownHandler, IBeginDragHandler,
     // Update is called once per frame
     void Update()
     {
-        if(isScrolling)
-            transform.position = new Vector2(transform.position.x, transform.position.y + .5f * Time.deltaTime);
+        /*if(isScrolling)
+            transform.position = new Vector2(transform.position.x, transform.position.y + .5f * Time.deltaTime);*/
     }
 
     public void SetPost(MediaPost _mediaPost)

@@ -46,6 +46,29 @@ public class Buttons : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,
         FindObjectOfType<GameController>().BoostPost(transform.parent.GetComponent<PostObject>());
     }
 
+    public void Refresh()
+    {
+        FindObjectOfType<GameController>().RefreshSet();
+
+        if (FindObjectOfType<GameController>().GetComponent<GameController>().dayComplete)
+        {
+            GameObject.FindGameObjectWithTag("Day Complete Label").GetComponent<Text>().text = "No more posts";
+            StartCoroutine(Disable());
+        }
+    }
+
+    public void CompleteDay()
+    {
+        FindObjectOfType<GameController>().CheckOrders();
+        BackToTitle();
+    }
+
+    public IEnumerator Disable()
+    {
+        yield return new WaitForSeconds(0.0001f);
+        gameObject.SetActive(false);
+    }
+
     public void OnPointerEnter(PointerEventData eventData)
     {
         if(isBoostButton)
