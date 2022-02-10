@@ -104,7 +104,7 @@ public class GameController : MonoBehaviour
             {
                 postCount++;
                 GameObject newPost = Instantiate(postTemplate, new Vector2(postSpawnPoint.transform.position.x, postSpawnPoint.transform.position.y 
-                    - postCount * 2.1f), Quaternion.identity);
+                    - postCount * 2.5f), Quaternion.identity);
                 newPost.GetComponent<PostObject>().SetPost(post);
                 newPost.transform.SetParent(screen.transform);
 
