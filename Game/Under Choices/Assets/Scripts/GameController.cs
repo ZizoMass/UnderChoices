@@ -16,6 +16,7 @@ public class GameController : MonoBehaviour
     [SerializeField] float startingFund, timerLength;
     float playerFunds, timer;
     int currentNight, playerStrikes;
+    int pointsGovernment, pointsViolence, pointsHealth, pointsRadicalism;
     Screen currentScreen;
     [HideInInspector] public bool dayComplete;
 
@@ -24,6 +25,7 @@ public class GameController : MonoBehaviour
     Scene currentScene;
     List<MediaPost> mediaPosts, currentDayPosts, boostedPosts;
     List<BossOrder> bossOrders, currentOrders, completedOrders;
+    List<NarrativeEvent> narrativeEvents;
     List<GameObject> postSpawnPointSet, currentPostSet;
 
     private void Awake()
@@ -41,6 +43,7 @@ public class GameController : MonoBehaviour
         // Load media posts and post template
         mediaPosts = Resources.LoadAll<MediaPost>("Media Posts").ToList();
         bossOrders = Resources.LoadAll<BossOrder>("Boss Orders").ToList();
+        narrativeEvents = Resources.LoadAll<NarrativeEvent>("Narrative Events").ToList();
         postTemplate = Resources.Load("Prefabs/Media Post") as GameObject;
         currentDayPosts = new List<MediaPost>();
         boostedPosts = new List<MediaPost>();
@@ -77,6 +80,8 @@ public class GameController : MonoBehaviour
 
     void LoadGameScreen()
     {
+        PlayNarrativeEvent();
+
         // If a new game just started, initialize parameters
         /*if (currentNight == 0)
         {
@@ -232,6 +237,46 @@ public class GameController : MonoBehaviour
         }
     }
 
+    void PlayNarrativeEvent()
+    {
+        // Find narrative subject with most points
+        MediaPost.Subject dominantSubject;
+        int[] pointsArray = new int[4];
+        pointsArray[0] = pointsGovernment;
+        pointsArray[1] = pointsViolence;
+        pointsArray[2] = pointsHealth;
+        pointsArray[3] = pointsRadicalism;
+
+        int highestIndex = 0;
+        for (int i = 1; i < pointsArray.Length; i++)
+        {
+            if (pointsArray[i] > pointsArray[highestIndex])
+                highestIndex = i;
+        }
+
+        if (pointsArray[highestIndex] == 0)
+            return;
+
+        // Play correspoing narrative event
+        if (highestIndex == 0)
+            dominantSubject = MediaPost.Subject.Government;
+        else if (highestIndex == 1)
+            dominantSubject = MediaPost.Subject.Violence;
+        else if (highestIndex == 2)
+            dominantSubject = MediaPost.Subject.Health;
+        else
+            dominantSubject = MediaPost.Subject.Radicalism;
+
+        foreach (NarrativeEvent narrativeEvent in narrativeEvents)
+        {
+            if (narrativeEvent.subject == dominantSubject && narrativeEvent.day == currentNight)
+            {
+                print(narrativeEvent.ToString());
+                break;
+            }
+        }
+    }
+
     public void BoostPost(PostObject post)
     {
         if(!post.isBoosted && playerFunds >= post.mediaPost.boostCost)
@@ -264,6 +309,22 @@ public class GameController : MonoBehaviour
             currentDayPosts.RemoveAt(0);
             currentPostSet.Add(newPost);
             newPost.transform.SetParent(screen.transform);
+        }
+    }
+
+    public void CheckPosts()
+    {
+        // Tally points in each narrative subject
+        foreach(MediaPost post in boostedPosts)
+        {
+            if (post.subject == MediaPost.Subject.Government)
+                pointsGovernment++;
+            else if (post.subject == MediaPost.Subject.Violence)
+                pointsViolence++;
+            else if (post.subject == MediaPost.Subject.Health)
+                pointsHealth++;
+            else
+                pointsRadicalism++;
         }
     }
 

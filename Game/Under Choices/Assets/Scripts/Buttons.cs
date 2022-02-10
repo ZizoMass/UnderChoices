@@ -60,6 +60,7 @@ public class Buttons : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,
     public void CompleteDay()
     {
         FindObjectOfType<GameController>().CheckOrders();
+        FindObjectOfType<GameController>().CheckPosts();
         BackToTitle();
     }
 
