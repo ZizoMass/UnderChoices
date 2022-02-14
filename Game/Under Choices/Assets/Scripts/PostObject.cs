@@ -38,8 +38,8 @@ public class PostObject : MonoBehaviour, IPointerDownHandler, IBeginDragHandler,
     // Update is called once per frame
     void Update()
     {
-        if(isScrolling)
-            transform.position = new Vector2(transform.position.x, transform.position.y + .5f * Time.deltaTime);
+        /*if(isScrolling)
+            transform.position = new Vector2(transform.position.x, transform.position.y + .5f * Time.deltaTime);*/
     }
 
     public void SetPost(MediaPost _mediaPost)
@@ -69,7 +69,7 @@ public class PostObject : MonoBehaviour, IPointerDownHandler, IBeginDragHandler,
             reaction.GetComponent<Image>().sprite = Resources.Load<Sprite>("Media Post Assets/" + SadReactionPath);
 
         for(int i = 0; i < hashtags.Count && i < mediaPost.hashtags.Count; i++)
-            hashtags[i].GetComponent<Text>().text = mediaPost.hashtags[i];
+            hashtags[i].GetComponent<Text>().text = "#" + mediaPost.hashtags[i];
     }
 
     public void Boost()

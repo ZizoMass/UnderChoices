@@ -9,6 +9,10 @@ TagManager:
   - Timer Display
   - Post Spawn Point
   - Screen
+  - Primary Orders Display
+  - Secondary Orders Display
+  - Day Complete Label
+  - Strikes Display
   layers:
   - Default
   - TransparentFX
