@@ -15,9 +15,6 @@ MonoBehaviour:
   messageNumber: 9
   correspondingEvent: 3
   messages:
-  - Heyo Moleque, I know you're busy, but I need a ride to an apointment with the
-    doc.
-  - Nothing serious, just a check up. Apointment's tomorrow, just before you get
-    on the clock.
-  - I hope it's not too much trouble. I'll see you then.
-  character: 0
+  - '"Did you hear about what the U.S.A.R. has been doing to people that ""disobey""?'
+  - It's ludicrous! People shouldn't have to stand for this!"
+  character: 3

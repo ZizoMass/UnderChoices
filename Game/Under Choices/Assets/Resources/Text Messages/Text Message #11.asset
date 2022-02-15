@@ -13,11 +13,10 @@ MonoBehaviour:
   m_Name: Text Message #11
   m_EditorClassIdentifier: 
   messageNumber: 11
-  correspondingEvent: 5
+  correspondingEvent: 10
   messages:
-  - Heyo Moleque! You been seeing this crazy stuff about that new flu they're talking
-    about?
-  - Got my neighbours going nuts about locking up the house. I told em that I am
-    confident the govs got it all locked up.
-  - Either way Moleque, hope you're staying safe and healthy!
+  - Heyo there Moleque! Still at the doctor's office.
+  - They're saying I'm fine, but they wanna have me back in in a few days for some
+    blood tests.
+  - Don't worry, they say it's just to make sure I'm in tip top shape. Loves ya!
   character: 0

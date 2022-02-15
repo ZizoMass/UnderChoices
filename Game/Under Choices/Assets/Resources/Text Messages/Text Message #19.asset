@@ -13,11 +13,9 @@ MonoBehaviour:
   m_Name: Text Message #19
   m_EditorClassIdentifier: 
   messageNumber: 19
-  correspondingEvent: 9
+  correspondingEvent: 19
   messages:
-  - Hey, you hear about the protests going on?
-  - Sounds like people are starting to question the U.S.A.R. and how much they really
-    stand for us.
-  - Listen, I know you shouldn't be doing this, but I could really use your help
-    in proving the people right. Could you help me?
-  character: 3
+  - "Hey meu irm\xE3o, aren't those riots that have been going on like down the street
+    from you?!"
+  - I'm not saying to bounce outta there or anything, but man you gotta be careful!
+  character: 4

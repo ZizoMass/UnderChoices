@@ -13,11 +13,9 @@ MonoBehaviour:
   m_Name: Text Message #16
   m_EditorClassIdentifier: 
   messageNumber: 16
-  correspondingEvent: 7
+  correspondingEvent: 18
   messages:
-  - You see the news about the separatists? Crazy huh?
-  - It's really strange that this came out of the blue like this.
-  - Such an organized group suddenly appearing in the heart of the country isn't
-    exactly likely.
-  - I wonder who could be organizing this?
-  character: 3
+  - Hey, hey, hey! Looking like the people have finally come to their senses eh?
+  - You've done a good thing getting the ball rolling her pal.
+  - Now just keep on feeding the people more stuff like that. Keep it up pivete.
+  character: 2

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Narrative Event #3
   m_EditorClassIdentifier: 
   eventNumber: 3
-  day: 1
-  eventName: Scheduled Check-Up
+  day: 3
+  eventName: Public Speech
   effect: None
-  subject: 2
+  subject: 0

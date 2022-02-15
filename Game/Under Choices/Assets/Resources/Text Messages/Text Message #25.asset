@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa5b042174d89b140a2b7e16233de8e4, type: 3}
+  m_Name: Text Message #25
+  m_EditorClassIdentifier: 
+  messageNumber: 25
+  correspondingEvent: 35
+  messages:
+  - I take pleasure in informing you that you have no orders today, as we have discerned
+    the source of our inapropriately posted news adverts.
+  - You. Your work term has been terminated and company officials are on route to
+    retrieve company property from your home.
+  - You will no longer be able to injure and herd the people of our glorious country.
+    Good night and good riddance.
+  character: 1

@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Text Message #13
   m_EditorClassIdentifier: 
   messageNumber: 13
-  correspondingEvent: 5
+  correspondingEvent: 11
   messages:
-  - Yo man! How you feeling? This flu stuff is kinda crazy right?
-  - Some people back here have started to get sick. Hope you're staying healthy!
-  character: 4
+  - I figured I'd issue a warning to certain staff members to try and stay inside
+    your homes for the time being.
+  - We don't want to risk our vital employess getting sick at this point in time.
+  character: 1

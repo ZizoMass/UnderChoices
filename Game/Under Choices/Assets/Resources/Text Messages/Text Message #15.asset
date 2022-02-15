@@ -13,9 +13,12 @@ MonoBehaviour:
   m_Name: Text Message #15
   m_EditorClassIdentifier: 
   messageNumber: 15
-  correspondingEvent: 7
+  correspondingEvent: 17
   messages:
-  - Hey, hey, hey! Looking like the people have finally come to their senses eh?
-  - You've done a good thing getting the ball rolling her pal.
-  - Now just keep on feeding the people more stuff like that. Keep it up pivete.
+  - Ey, pivete. I got a favor I need done.
+  - Me and my boys are looking to start a little trouble for the government, ya hear?
+  - An' where there's trouble, there's money to be made, capiche?
+  - If you could put in a few good words to spread around for your ole pal here,
+    you'd be doing all the people back home a BIG favor eh?
+  - I know you won't dissapoint.
   character: 2

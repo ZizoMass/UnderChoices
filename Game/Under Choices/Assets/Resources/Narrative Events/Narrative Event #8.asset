@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Narrative Event #8
   m_EditorClassIdentifier: 
   eventNumber: 8
-  day: 3
-  eventName: Protestors Riot
+  day: 8
+  eventName: Temp
   effect: None
-  subject: 1
+  subject: 0

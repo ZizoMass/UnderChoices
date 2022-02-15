@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Narrative Event #0
   m_EditorClassIdentifier: 
   eventNumber: 0
-  day: 1
+  day: 0
   eventName: Meet Your Contacts
   effect: None
   subject: 0

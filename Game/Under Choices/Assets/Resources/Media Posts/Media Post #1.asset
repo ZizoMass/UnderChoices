@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Media Post #1
   m_EditorClassIdentifier: 
   postNumber: 1
-  day: 1
+  day: 0
   baseEngagement: 117
   boostedEngagement: 28000
   publisher: SeeEnEn

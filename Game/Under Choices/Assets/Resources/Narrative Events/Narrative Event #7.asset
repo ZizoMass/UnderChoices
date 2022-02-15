@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Narrative Event #7
   m_EditorClassIdentifier: 
   eventNumber: 7
-  day: 2
-  eventName: Separational Protests
+  day: 7
+  eventName: Temp
   effect: None
-  subject: 1
+  subject: 0

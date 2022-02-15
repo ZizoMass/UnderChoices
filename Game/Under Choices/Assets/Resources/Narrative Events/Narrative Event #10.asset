@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eventNumber: 10
   day: 2
-  eventName: News Station Hijack
-  effect: Hijack
-  subject: 3
+  eventName: Doctor's Visit
+  effect: None
+  subject: 2

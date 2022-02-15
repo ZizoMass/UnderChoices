@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eventNumber: 9
   day: 1
-  eventName: Anti-Government Protest
+  eventName: Scheduled Check-Up
   effect: None
-  subject: 3
+  subject: 2

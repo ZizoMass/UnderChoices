@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Narrative Event #4
   m_EditorClassIdentifier: 
   eventNumber: 4
-  day: 2
-  eventName: Doctor's Visit
+  day: 4
+  eventName: Temp
   effect: None
-  subject: 2
+  subject: 0

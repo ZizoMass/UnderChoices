@@ -13,16 +13,11 @@ MonoBehaviour:
   m_Name: Text Message #17
   m_EditorClassIdentifier: 
   messageNumber: 17
-  correspondingEvent: 8
+  correspondingEvent: 18
   messages:
-  - You been seeing this news stuff?!
-  - The public are really giving the gov something to worry about now huh? You're
-    doing great work pivete.
-  - The beginnings gonna be rough, but no one ever said things like this blew over
-    easy.
-  - Now, I need you to keep doing what you're doing, but start leading em my way
-    now eh?
-  - The folks are gonna need someone to buy from that ain't gonna check their ID's
-    you know?
-  - Thanks pal, I'll be sure to send you something pricy in the mail.
-  character: 2
+  - You see the news about the separatists? Crazy huh?
+  - It's really strange that this came out of the blue like this.
+  - Such an organized group suddenly appearing in the heart of the country isn't
+    exactly likely.
+  - I wonder who could be organizing this?
+  character: 3

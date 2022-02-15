@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: Text Message #12
   m_EditorClassIdentifier: 
   messageNumber: 12
-  correspondingEvent: 5
+  correspondingEvent: 11
   messages:
-  - I figured I'd issue a warning to certain staff members to try and stay inside
-    your homes for the time being.
-  - We don't want to risk our vital employess getting sick at this point in time.
-  character: 1
+  - Heyo Moleque! You been seeing this crazy stuff about that new flu they're talking
+    about?
+  - Got my neighbours going nuts about locking up the house. I told em that I am
+    confident the govs got it all locked up.
+  - Either way Moleque, hope you're staying safe and healthy!
+  character: 0

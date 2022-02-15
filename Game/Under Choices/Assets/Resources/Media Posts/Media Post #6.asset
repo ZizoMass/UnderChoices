@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Media Post #6
   m_EditorClassIdentifier: 
   postNumber: 6
-  day: 1
+  day: 0
   baseEngagement: 75
   boostedEngagement: 16000
   publisher: 3Wasps

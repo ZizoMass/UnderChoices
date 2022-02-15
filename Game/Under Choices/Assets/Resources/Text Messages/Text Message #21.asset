@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Text Message #21
   m_EditorClassIdentifier: 
   messageNumber: 21
-  correspondingEvent: 11
+  correspondingEvent: 26
   messages:
-  - Yes! The broadcast went out without a hitch this time.
-  - Listen, you've been doing wonders for helping us spread the truth about the U.S.A.R.
-  - People are actually beginning to think for themselves instead of being brainwashed
-    by their postings.
-  - I've got some more things you could do to help buy us more time to get set up.
+  - You hear that broadcast. People are starting to speak up about what they believe
+    in!
+  - It's amazing. But... I would be lying if I said I wasn't a part of it.
+  - Listen, this government is only using you to control the people. Don't let them!
+  - There's more you can do to help not only me, but the whole country!
   character: 3

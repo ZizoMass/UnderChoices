@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eventNumber: 11
   day: 3
-  eventName: News Station Hijack 2
-  effect: Hijack
-  subject: 3
+  eventName: Initial Epidemic Report
+  effect: None
+  subject: 2

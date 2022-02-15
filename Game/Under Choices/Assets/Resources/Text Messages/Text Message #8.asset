@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: Text Message #8
   m_EditorClassIdentifier: 
   messageNumber: 8
-  correspondingEvent: 2
+  correspondingEvent: 3
   messages:
-  - '"Did you hear about what the U.S.A.R. has been doing to people that ""disobey""?'
-  - It's ludicrous! People shouldn't have to stand for this!"
-  character: 3
+  - As you may have heard from recent news, the country takes loyalty and obedience
+    very seriously.
+  - I'd like this to be a reminder to do your job properly, lest the U.S.A.R. hear
+    about your potentially criminal behaviour.
+  character: 1

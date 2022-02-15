@@ -13,9 +13,16 @@ MonoBehaviour:
   m_Name: Text Message #18
   m_EditorClassIdentifier: 
   messageNumber: 18
-  correspondingEvent: 8
+  correspondingEvent: 19
   messages:
-  - "Hey meu irm\xE3o, aren't those riots that have been going on like down the street
-    from you?!"
-  - I'm not saying to bounce outta there or anything, but man you gotta be careful!
-  character: 4
+  - You been seeing this news stuff?!
+  - The public are really giving the gov something to worry about now huh? You're
+    doing great work pivete.
+  - The beginnings gonna be rough, but no one ever said things like this blew over
+    easy.
+  - Now, I need you to keep doing what you're doing, but start leading em my way
+    now eh?
+  - The folks are gonna need someone to buy from that ain't gonna check their ID's
+    you know?
+  - Thanks pal, I'll be sure to send you something pricy in the mail.
+  character: 2

@@ -13,12 +13,8 @@ MonoBehaviour:
   m_Name: Text Message #14
   m_EditorClassIdentifier: 
   messageNumber: 14
-  correspondingEvent: 6
+  correspondingEvent: 11
   messages:
-  - Ey, pivete. I got a favor I need done.
-  - Me and my boys are looking to start a little trouble for the government, ya hear?
-  - An' where there's trouble, there's money to be made, capiche?
-  - If you could put in a few good words to spread around for your ole pal here,
-    you'd be doing all the people back home a BIG favor eh?
-  - I know you won't dissapoint.
-  character: 2
+  - Yo man! How you feeling? This flu stuff is kinda crazy right?
+  - Some people back here have started to get sick. Hope you're staying healthy!
+  character: 4

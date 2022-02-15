@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Text Message #20
   m_EditorClassIdentifier: 
   messageNumber: 20
-  correspondingEvent: 10
+  correspondingEvent: 25
   messages:
-  - You hear that broadcast. People are starting to speak up about what they believe
-    in!
-  - It's amazing. But... I would be lying if I said I wasn't a part of it.
-  - Listen, this government is only using you to control the people. Don't let them!
-  - There's more you can do to help not only me, but the whole country!
+  - Hey, you hear about the protests going on?
+  - Sounds like people are starting to question the U.S.A.R. and how much they really
+    stand for us.
+  - Listen, I know you shouldn't be doing this, but I could really use your help
+    in proving the people right. Could you help me?
   character: 3
