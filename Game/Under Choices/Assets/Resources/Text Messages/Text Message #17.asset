@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa5b042174d89b140a2b7e16233de8e4, type: 3}
+  m_Name: Text Message #17
+  m_EditorClassIdentifier: 
+  messageNumber: 17
+  correspondingEvent: 8
+  messages:
+  - You been seeing this news stuff?!
+  - The public are really giving the gov something to worry about now huh? You're
+    doing great work pivete.
+  - The beginnings gonna be rough, but no one ever said things like this blew over
+    easy.
+  - Now, I need you to keep doing what you're doing, but start leading em my way
+    now eh?
+  - The folks are gonna need someone to buy from that ain't gonna check their ID's
+    you know?
+  - Thanks pal, I'll be sure to send you something pricy in the mail.
+  character: 2

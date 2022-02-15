@@ -1,5 +1,13 @@
-﻿Event Number (Integer),Day (Integer),"Subject (Government, Violence, Health, Radicalism)",Name (String),Effect (For Programmer's Reference)
-1,1,Government,First Day,None; test event
-2,1,Violence,Collecting the Band,None; test event
-3,1,Health,Scheduled Check-Up,None; test event
-4,1,Radicalism,Anti-Government Protest,None; test event
+﻿Event Number (Integer),Day (Integer),"Subject (Government, Violence, Health, Radicalism)",Name (String),"Effect (None, Hijack, Riot)"
+0,1,Government,Meet Your Contacts,None
+1,1,Government,First Day,None
+2,3,Government,Public Speech,None
+3,1,Health,Scheduled Check-Up,None
+4,2,Health,Doctor's Visit,None
+5,3,Health,Initial Epidemic Report,None
+6,1,Violence,Collecting the Band,None
+7,2,Violence,Separational Protests,None
+8,3,Violence,Protestors Riot,None
+9,1,Radicalism,Anti-Government Protest,None
+10,2,Radicalism,News Station Hijack,Hijack
+11,3,Radicalism,News Station Hijack 2,Hijack

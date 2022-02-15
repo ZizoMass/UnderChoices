@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa5b042174d89b140a2b7e16233de8e4, type: 3}
+  m_Name: Text Message #14
+  m_EditorClassIdentifier: 
+  messageNumber: 14
+  correspondingEvent: 6
+  messages:
+  - Ey, pivete. I got a favor I need done.
+  - Me and my boys are looking to start a little trouble for the government, ya hear?
+  - An' where there's trouble, there's money to be made, capiche?
+  - If you could put in a few good words to spread around for your ole pal here,
+    you'd be doing all the people back home a BIG favor eh?
+  - I know you won't dissapoint.
+  character: 2

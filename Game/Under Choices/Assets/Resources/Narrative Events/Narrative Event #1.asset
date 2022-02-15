@@ -15,5 +15,5 @@ MonoBehaviour:
   eventNumber: 1
   day: 1
   eventName: First Day
-  effect: None; test event
+  effect: None
   subject: 0

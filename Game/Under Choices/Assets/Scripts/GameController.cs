@@ -21,12 +21,14 @@ public class GameController : MonoBehaviour
     [HideInInspector] public bool dayComplete;
 
     // Game objects
-    GameObject playerFundsDisplay, currentNightDisplay, timerDisplay, postSpawnPoint, postTemplate, screen, primaryOrders, secondaryOrders, strikesDisplay;
+    GameObject playerFundsDisplay, currentNightDisplay, timerDisplay, postSpawnPoint, postTemplate, screen, primaryOrders, secondaryOrders, strikesDisplay, messageSpawn,
+        messageTemplate;
     Scene currentScene;
     List<MediaPost> mediaPosts, currentDayPosts, boostedPosts;
     List<BossOrder> bossOrders, currentOrders, completedOrders;
     List<NarrativeEvent> narrativeEvents;
-    List<GameObject> postSpawnPointSet, currentPostSet;
+    List<TextMessage> textMessages;
+    List<GameObject> postSpawnPointSet, currentPostSet, currentMessages;
 
     private void Awake()
     {
@@ -44,12 +46,15 @@ public class GameController : MonoBehaviour
         mediaPosts = Resources.LoadAll<MediaPost>("Media Posts").ToList();
         bossOrders = Resources.LoadAll<BossOrder>("Boss Orders").ToList();
         narrativeEvents = Resources.LoadAll<NarrativeEvent>("Narrative Events").ToList();
-        postTemplate = Resources.Load("Prefabs/Media Post") as GameObject;
+        textMessages = Resources.LoadAll<TextMessage>("Text Messages").ToList();
+        postTemplate = Resources.Load("Prefabs/Media Post 2") as GameObject;
+        messageTemplate = Resources.Load("Prefabs/Message") as GameObject;
         currentDayPosts = new List<MediaPost>();
         boostedPosts = new List<MediaPost>();
         currentOrders = new List<BossOrder>();
         completedOrders = new List<BossOrder>();
         currentPostSet = new List<GameObject>();
+        currentMessages = new List<GameObject>();
     }
 
     // Start is called before the first frame update
@@ -102,6 +107,7 @@ public class GameController : MonoBehaviour
         strikesDisplay = GameObject.FindGameObjectWithTag("Strikes Display");
         //postSpawnPoint = GameObject.FindGameObjectWithTag("Post Spawn Point");
         postSpawnPointSet = new List<GameObject>(GameObject.FindGameObjectsWithTag("Post Spawn Point"));
+        messageSpawn = GameObject.FindGameObjectWithTag("Message Spawn");
         screen = GameObject.FindGameObjectWithTag("Screen");
         primaryOrders = GameObject.FindGameObjectWithTag("Primary Orders Display");
         secondaryOrders = GameObject.FindGameObjectWithTag("Secondary Orders Display");
@@ -271,10 +277,23 @@ public class GameController : MonoBehaviour
         {
             if (narrativeEvent.subject == dominantSubject && narrativeEvent.day == currentNight)
             {
-                print(narrativeEvent.ToString());
+                UpdateMessages(narrativeEvent);
                 break;
             }
         }
+    }
+
+    void UpdateMessages(NarrativeEvent narrativeEvent)
+    {
+        List<TextMessage> messages = new List<TextMessage>();
+
+        foreach(TextMessage message in textMessages)
+        {
+            if (message.correspondingEvent == narrativeEvent.eventNumber)
+                messages.Add(message);
+        }
+
+        StartCoroutine(LoadMessage(messages, 0));
     }
 
     public void BoostPost(PostObject post)
@@ -367,5 +386,34 @@ public class GameController : MonoBehaviour
     {
         yield return new WaitForSeconds(0.0001f);
         CheckScene();
+    }
+
+    IEnumerator LoadMessage(List<TextMessage> _messages, int index)
+    {
+        yield return new WaitForSeconds(4);
+
+        foreach (GameObject messageObject in currentMessages)
+            messageObject.transform.position = new Vector2(messageObject.transform.position.x, messageObject.transform.position.y - 1.2f);
+
+        GameObject newMessage = Instantiate(messageTemplate, messageSpawn.transform.position, Quaternion.identity);
+        newMessage.GetComponent<MessageObject>().SetMessage(_messages[0].messages[index], _messages[0].character);
+        currentMessages.Add(newMessage);
+        newMessage.transform.SetParent(messageSpawn.transform);
+        newMessage.transform.localPosition = new Vector2(0, 0);
+        newMessage.transform.localScale = new Vector2(1, 1);
+
+        if (currentMessages.Count > 3)
+            currentMessages.RemoveAt(0);
+
+        // If there are more texts in the current message, continue
+        if(index < _messages[0].messages.Count - 1)
+            StartCoroutine(LoadMessage(_messages, index + 1));
+
+        // If there are no more texts in the current message, move on to the next message
+        else if(_messages.Count > 1)
+        {
+            _messages.RemoveAt(0);
+            StartCoroutine(LoadMessage(_messages, 0));
+        }
     }
 }

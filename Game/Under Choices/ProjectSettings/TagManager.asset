@@ -13,6 +13,7 @@ TagManager:
   - Secondary Orders Display
   - Day Complete Label
   - Strikes Display
+  - Message Spawn
   layers:
   - Default
   - TransparentFX
