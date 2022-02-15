@@ -17,8 +17,8 @@ MonoBehaviour:
   baseEngagement: 75
   boostedEngagement: 16000
   publisher: 3Wasps
-  headline: Neighbors Form Militias
-  imageFilePath: media_post_6
+  headline: Public Boxing Arena Opened
+  imageFilePath: media_post_06
   subject: 1
   reaction: 0
   hashtags:

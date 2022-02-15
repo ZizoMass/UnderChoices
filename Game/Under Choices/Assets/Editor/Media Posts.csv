@@ -1,22 +1,22 @@
 ﻿Post Number (Integer),Publisher (String),"Subject (Government, Violence, Health, Radicalism)","Day (Integer, 1-8)","Reaction (Happy, Sad, Angry)",Hashtag 1 (String),Hashtag 2 (String),Hashtag 3 (String),Base Engagement (Integer),Boosted Engagement (Integer),Boost Cost (Float),Headline (String),Image File Path (String)
-0,SeeEnEn,Government,1,Happy,KeepThemIn,GetsThingsDone,InGoodHands,75,16000,100.00,Government Popularity All Time High,media_post_0
+0,SeeEnEn,Government,1,Happy,KeepThemIn,GetsThingsDone,InGoodHands,75,16000,100.00,U.S.A.R. Declares Smile Day a New Holiday!,media_post_0
 1,SeeEnEn,Government,1,Happy,VoteAgain,KeepThemIn,GetsThingsDone,117,28000,156.00,90% Want to Re-elect The Prime Minister,media_post_1
 2,CYPost,Government,1,Sad,WhatAJoke,I'maSitDown,ItsDoomed,50,15000,80.00,Government Cutbacks Harming Citizens,media_post_2
 3,Forbees,Government,1,Sad,WhatAJoke,I'maSitDown,ItsDoomed,75,16000,75.00,The Federal Squeeze on Happiness,media_post_3
 4,PickMe,Government,1,Angry,GetEmOUT,LeRevolution!,RiotTIME,117,28000,121.00,Population Enraged At Government Actions,media_post_4
-5,PickMe,Government,1,Angry,GetEmOUT,LeRevolution!,RiotTIME,50,15000,131.00,Riots Outside Politician Homes,media_post_5
-6,3Wasps,Violence,1,Happy,ComeTogether!!,Justified!,BeSafe,75,16000,98.00,Neighbors Form Militias,media_post_6
-7,3Wasps,Violence,1,Happy,ComeTogether!!,Justified!,BeSafe,117,28000,132.00,Community Defenses Fortified,media_post_7
-8,3Wasps,Violence,1,Sad,PrayForThem,GodLeftChat,FreeThem,50,15000,149.00,Child Dies From Injuries From Riots,media_post_8
-9,UnderChoicesVictim,Violence,1,Sad,PrayForThem,GodLeftChat,FreeThem,75,16000,89.00,Homeless Dogs Trampled By Crowd,media_post_9
-10,PickMe,Violence,1,Angry,SickEM!!!,BetterDead,Dispicable!,117,28000,69.00,Grieving Father Takes Revenge on Murderer,media_post_10
-11,UnderChoicesVictim,Violence,1,Angry,SickEM!!!,BetterDead,Dispicable!,50,15000,50.00,Gangs Unite And Attack Middle Income Homes,media_post_11
+5,PickMe,Government,1,Angry,GetEmOUT,LeRevolution!,RiotTIME,50,15000,131.00,Government Official Settles a Debate with a Slapboxing Match!?!,media_post_05
+6,3Wasps,Violence,1,Happy,ComeTogether!!,Justified!,BeSafe,75,16000,98.00,Public Boxing Arena Opened,media_post_06
+7,3Wasps,Violence,1,Happy,ComeTogether!!,Justified!,BeSafe,117,28000,132.00,Bar Patrons Stop Fighting to Settle Conflict with a Thumb Wrestling Match,media_post_07
+8,3Wasps,Violence,1,Sad,PrayForThem,GodLeftChat,FreeThem,50,15000,149.00,"Bystander Heavily Insulted for Being ""Involved"" in Car Crash",media_post_08
+9,UnderChoicesVictim,Violence,1,Sad,PrayForThem,GodLeftChat,FreeThem,75,16000,89.00,Civilian Tackled for Listening to Music!?!,media_post_09
+10,PickMe,Violence,1,Angry,SickEM!!!,BetterDead,Dispicable!,117,28000,69.00,Pigeon Jumped by Highschoolers,media_post_10
+11,UnderChoicesVictim,Violence,1,Angry,SickEM!!!,BetterDead,Dispicable!,50,15000,50.00,Police Man Laughs at Deathly Injured Victim of Assault!!!,media_post_11
 12,PickMe,Health,1,Happy,Hugs&Kisses,BestWishes,100Sober,75,16000,134.00,How I Survived Alone for 10 Weeks,media_post_12
 13,GloomIce,Health,1,Happy,Hugs&Kisses,BestWishes,100Sober,117,28000,78.00,Heart-Warming Stories Of Single Parents,media_post_13
-14,CYPost,Health,1,Sad,WeLostThem,God'sPlan,Depressi,50,15000,145.00,Single Father Dies After Defending  Family of 5 ,media_post_14
+14,CYPost,Health,1,Sad,WeLostThem,God'sPlan,Depressi,50,15000,145.00,Elderly Woman Passes Away After Being in Hospital for 20 Years,media_post_14
 15,GloomIce,Health,1,Sad,WeLostThem,God'sPlan,Depressi,75,16000,82.00,Doner Gives Life But Organs Rejected,media_post_15
-16,GloomIce,Health,1,Angry,$$$ForWhat??,CrappyHealthCare,TaxedForThis?,117,28000,175.00,Surgeons Walk Out,media_post_16
-17,CYPost,Health,1,Angry,$$$ForWhat??,CrappyHealthCare,TaxedForThis?,50,15000,91.00,Wait Times All Time High,media_post_17
+16,GloomIce,Health,1,Angry,$$$ForWhat??,CrappyHealthCare,TaxedForThis?,117,28000,175.00,Man With Cancer Turned Away By Hospital!!!,media_post_16
+17,CYPost,Health,1,Angry,$$$ForWhat??,CrappyHealthCare,TaxedForThis?,50,15000,91.00,Doctor Late to Surgery to Take a Smoke Break!,media_post_17
 18,Forbees,Radicalism,1,Happy,ALWAYsSupport,WEStrong,OurWayOrHiWay,75,16000,150.00,Yoga Radicals Form New Country,media_post_18
 19,SeeEnEn,Radicalism,1,Happy,ALWAYsSupport,WEStrong,OurWayOrHiWay,117,28000,110.00,The Next Generation Dig Holes In Economic Downturn,media_post_19
 20,CYPost,Radicalism,1,Sad,WeNeedChange,AlwaysThem,ItsTheOnlyWay,50,15000,60.00,Zealots Lead to Hunting Of Chihuahas ,media_post_20
