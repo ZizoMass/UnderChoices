@@ -395,7 +395,10 @@ public class GameController : MonoBehaviour
             return;
         }
 
-        ScreenTransition("Game Screen");
+        if (playerStrikes < 3)
+            ScreenTransition("Game Screen");
+        else
+            ScreenTransition("Game Over Screen");
     }
 
     void CheckScene()
