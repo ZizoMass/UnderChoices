@@ -23,6 +23,7 @@ public class Buttons : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,
 
     public void NewGame()
     {
+        FindObjectOfType<GameController>().NewGame();
         FindObjectOfType<GameController>().ScreenTransition("Game Screen");
     }
 
@@ -61,7 +62,8 @@ public class Buttons : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,
     {
         FindObjectOfType<GameController>().CheckOrders();
         FindObjectOfType<GameController>().CheckPosts();
-        BackToTitle();
+        FindObjectOfType<GameController>().EndDay();
+        StartCoroutine(Disable());
     }
 
     public IEnumerator Disable()
@@ -73,7 +75,7 @@ public class Buttons : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,
     public void OnPointerEnter(PointerEventData eventData)
     {
         if(isBoostButton)
-            GetComponent<Image>().sprite = Resources.Load<Sprite>("Media Post Assets/media_post_button_OnClick");
+            GetComponent<Image>().sprite = Resources.Load<Sprite>("Media Post Assets/media_post_button_OnHover");
     }
 
     public void OnPointerExit(PointerEventData eventData)
@@ -85,6 +87,6 @@ public class Buttons : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,
     public void OnPointerDown(PointerEventData eventData)
     {
         if (isBoostButton)
-            GetComponent<Image>().sprite = Resources.Load<Sprite>("Media Post Assets/media_post_button_OnHover");
+            GetComponent<Image>().sprite = Resources.Load<Sprite>("Media Post Assets/media_post_button_OnClick");
     }
 }

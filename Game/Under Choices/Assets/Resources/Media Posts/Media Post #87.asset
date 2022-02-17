@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23ad429dbd359e243a93a02893448a96, type: 3}
+  m_Name: Media Post #87
+  m_EditorClassIdentifier: 
+  postNumber: 87
+  day: 4
+  baseEngagement: 100
+  boostedEngagement: 10000
+  publisher: Forbees
+  headline: Lead Epidemic Researcher Lost in Plane Crash
+  imageFilePath: media_post_87
+  subject: 2
+  reaction: 1
+  hashtags:
+  - WeLostThem
+  - God'sPlan
+  - Depressi
+  boostCost: 82

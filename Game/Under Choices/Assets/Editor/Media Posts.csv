@@ -1,25 +1,193 @@
-﻿Post Number (Integer),Publisher (String),"Subject (Government, Violence, Health, Radicalism)","Day (Integer, 1-8)","Reaction (Happy, Sad, Angry)",Hashtag 1 (String),Hashtag 2 (String),Hashtag 3 (String),Base Engagement (Integer),Boosted Engagement (Integer),Boost Cost (Float),Headline (String),Image File Path (String)
-0,SeeEnEn,Government,1,Happy,KeepThemIn,GetsThingsDone,InGoodHands,75,16000,100.00,Government Popularity All Time High,media_post_0
-1,SeeEnEn,Government,1,Happy,VoteAgain,KeepThemIn,GetsThingsDone,117,28000,156.00,90% Want to Re-elect The Prime Minister,media_post_1
+﻿Post Number (Integer),Publisher (String),"Subject (Government, Violence, Health, Radicalism)","Day (Integer, 0-8)","Reaction (Happy, Sad, Angry)",Hashtag 1 (String),Hashtag 2 (String),Hashtag 3 (String),Base Engagement (Integer),Boosted Engagement (Integer),Boost Cost (Float),Headline (String),Image File Path (String)
+0,SeeEnEn,Government,0,Happy,KeepThemIn,GetsThingsDone,InGoodHands,75,16000,100.00,U.S.A.R. Declares Smile Day a New Holiday!,media_post_0
+1,SeeEnEn,Government,0,Happy,VoteAgain,KeepThemIn,GetsThingsDone,117,28000,156.00,90% Want to Re-elect The Prime Minister,media_post_1
 2,CYPost,Government,1,Sad,WhatAJoke,I'maSitDown,ItsDoomed,50,15000,80.00,Government Cutbacks Harming Citizens,media_post_2
 3,Forbees,Government,1,Sad,WhatAJoke,I'maSitDown,ItsDoomed,75,16000,75.00,The Federal Squeeze on Happiness,media_post_3
 4,PickMe,Government,1,Angry,GetEmOUT,LeRevolution!,RiotTIME,117,28000,121.00,Population Enraged At Government Actions,media_post_4
-5,PickMe,Government,1,Angry,GetEmOUT,LeRevolution!,RiotTIME,50,15000,131.00,Riots Outside Politician Homes,media_post_5
-6,3Wasps,Violence,1,Happy,ComeTogether!!,Justified!,BeSafe,75,16000,98.00,Neighbors Form Militias,media_post_6
-7,3Wasps,Violence,1,Happy,ComeTogether!!,Justified!,BeSafe,117,28000,132.00,Community Defenses Fortified,media_post_7
-8,3Wasps,Violence,1,Sad,PrayForThem,GodLeftChat,FreeThem,50,15000,149.00,Child Dies From Injuries From Riots,media_post_8
-9,UnderChoicesVictim,Violence,1,Sad,PrayForThem,GodLeftChat,FreeThem,75,16000,89.00,Homeless Dogs Trampled By Crowd,media_post_9
-10,PickMe,Violence,1,Angry,SickEM!!!,BetterDead,Dispicable!,117,28000,69.00,Grieving Father Takes Revenge on Murderer,media_post_10
-11,UnderChoicesVictim,Violence,1,Angry,SickEM!!!,BetterDead,Dispicable!,50,15000,50.00,Gangs Unite And Attack Middle Income Homes,media_post_11
-12,PickMe,Health,1,Happy,Hugs&Kisses,BestWishes,100Sober,75,16000,134.00,How I Survived Alone for 10 Weeks,media_post_12
+5,PickMe,Government,1,Angry,GetEmOUT,LeRevolution!,RiotTIME,50,15000,131.00,Government Official Settles a Debate with a Slapboxing Match!?!,media_post_05
+6,3Wasps,Violence,0,Happy,ComeTogether!!,Justified!,BeSafe,75,16000,98.00,Public Boxing Arena Opened,media_post_06
+7,3Wasps,Violence,0,Happy,ComeTogether!!,Justified!,BeSafe,117,28000,132.00,Bar Patrons Stop Fighting to Settle Conflict with a Thumb Wrestling Match,media_post_07
+8,3Wasps,Violence,1,Sad,PrayForThem,GodLeftChat,FreeThem,50,15000,149.00,"Bystander Heavily Insulted for Being ""Involved"" in Car Crash",media_post_08
+9,UnderChoicesVictim,Violence,1,Sad,PrayForThem,GodLeftChat,FreeThem,75,16000,89.00,Civilian Tackled for Listening to Music!?!,media_post_09
+10,PickMe,Violence,1,Angry,SickEM!!!,BetterDead,Dispicable!,117,28000,69.00,Pigeon Jumped by Highschoolers,media_post_10
+11,UnderChoicesVictim,Violence,1,Angry,SickEM!!!,BetterDead,Dispicable!,50,15000,50.00,Police Man Laughs at Deathly Injured Victim of Assault!!!,media_post_11
+12,PickMe,Health,0,Happy,Hugs&Kisses,BestWishes,100Sober,75,16000,134.00,How I Survived Alone for 10 Weeks,media_post_12
 13,GloomIce,Health,1,Happy,Hugs&Kisses,BestWishes,100Sober,117,28000,78.00,Heart-Warming Stories Of Single Parents,media_post_13
-14,CYPost,Health,1,Sad,WeLostThem,God'sPlan,Depressi,50,15000,145.00,Single Father Dies After Defending  Family of 5 ,media_post_14
+14,CYPost,Health,1,Sad,WeLostThem,God'sPlan,Depressi,50,15000,145.00,Elderly Woman Passes Away After Being in Hospital for 20 Years,media_post_14
 15,GloomIce,Health,1,Sad,WeLostThem,God'sPlan,Depressi,75,16000,82.00,Doner Gives Life But Organs Rejected,media_post_15
-16,GloomIce,Health,1,Angry,$$$ForWhat??,CrappyHealthCare,TaxedForThis?,117,28000,175.00,Surgeons Walk Out,media_post_16
-17,CYPost,Health,1,Angry,$$$ForWhat??,CrappyHealthCare,TaxedForThis?,50,15000,91.00,Wait Times All Time High,media_post_17
-18,Forbees,Radicalism,1,Happy,ALWAYsSupport,WEStrong,OurWayOrHiWay,75,16000,150.00,Yoga Radicals Form New Country,media_post_18
+16,GloomIce,Health,1,Angry,$$$ForWhat??,CrappyHealthCare,TaxedForThis?,117,28000,175.00,Man With Cancer Turned Away By Hospital!!!,media_post_16
+17,CYPost,Health,1,Angry,$$$ForWhat??,CrappyHealthCare,TaxedForThis?,50,15000,91.00,Doctor Late to Surgery to Take a Smoke Break!,media_post_17
+18,Forbees,Radicalism,0,Happy,ALWAYsSupport,WEStrong,OurWayOrHiWay,75,16000,150.00,Yoga Radicals Form New Country,media_post_18
 19,SeeEnEn,Radicalism,1,Happy,ALWAYsSupport,WEStrong,OurWayOrHiWay,117,28000,110.00,The Next Generation Dig Holes In Economic Downturn,media_post_19
 20,CYPost,Radicalism,1,Sad,WeNeedChange,AlwaysThem,ItsTheOnlyWay,50,15000,60.00,Zealots Lead to Hunting Of Chihuahas ,media_post_20
 21,GloomIce,Radicalism,1,Sad,WeNeedChange,AlwaysThem,ItsTheOnlyWay,75,16000,70.00,Political Radicals Voted For Wrong Party,media_post_21
 22,Pox,Radicalism,1,Angry,Divide&CONQUER,AgainstUS!!,Messiah,117,28000,147.00,Extremists Ban Cofee For Impact On Cocoa Plants,media_post_22
 23,SeeEnEn,Radicalism,1,Angry,Divide&CONQUER,AgainstUS!!,Messiah,50,15000,90.00,CAUTION! Thousands of Fanatics Punch Paul,media_post_23
+24,UnderChoicesVictim,Government,2,Happy,KeepThemIn,GetsThingsDone,InGoodHands,100,10000,100.00,How the Government Can Make You Happier!,media_post_24
+25,CYPost,Government,2,Happy,VoteAgain,KeepThemIn,GetsThingsDone,100,10000,156.00,Governments Ban on Sadness! Programs Meant to Improve Mood,media_post_25
+26,Pox,Government,2,Sad,WhatAJoke,I'maSitDown,ItsDoomed,100,10000,80.00,Why Government's Streaming Increases Depression,media_post_26
+27,Forbees,Government,2,Sad,WhatAJoke,I'maSitDown,ItsDoomed,100,10000,75.00,The Government Cuts Toilet Paper Funding,media_post_27
+28,CYPost,Government,2,Angry,GetEmOUT,LeRevolution!,RiotTIME,100,10000,121.00,"Government ""Misplaces"" Billions In Tax Revenue",media_post_28
+29,GloomIce,Government,2,Angry,GetEmOUT,LeRevolution!,RiotTIME,100,10000,131.00,Anger At Governments Website Ban List,media_post_29
+30,GloomIce,Violence,2,Happy,ComeTogether!!,Justified!,BeSafe,100,10000,98.00,Tike Myson Beats Rogan Jaul In 1 Round!,media_post_30
+31,UnderChoicesVictim,Violence,2,Happy,ComeTogether!!,Justified!,BeSafe,100,10000,132.00,Teen Risks Life To Save Snail,media_post_31
+32,PickMe,Violence,2,Sad,PrayForThem,GodLeftChat,FreeThem,100,10000,149.00,Driver Run Over By Cyclist,media_post_32
+33,3Wasps,Violence,2,Sad,PrayForThem,GodLeftChat,FreeThem,100,10000,89.00,Man Trips On Shoe Laces and Dies in Street Fight,media_post_33
+34,PickMe,Violence,2,Angry,SickEM!!!,BetterDead,Dispicable!,100,10000,69.00,Cyclist Attacks Geese For Blocking Bike Lane,media_post_34
+35,Forbees,Violence,2,Angry,SickEM!!!,BetterDead,Dispicable!,100,10000,50.00,Why Did New Talipa Kids Deface Memorial With Eggs?,media_post_35
+36,UnderChoicesVictim,Health,2,Happy,Hugs&Kisses,BestWishes,100Sober,100,10000,134.00,Healthcare Workers Get Free Pizzas For Life,media_post_36
+37,Pox,Health,2,Happy,Hugs&Kisses,BestWishes,100Sober,100,10000,78.00,Boy Wakes Up From 20 Year Coma,media_post_37
+38,3Wasps,Health,2,Sad,WeLostThem,God'sPlan,Depressi,100,10000,145.00,Nurse Trips On Slippery Air Here's How,media_post_38
+39,Forbees,Health,2,Sad,WeLostThem,God'sPlan,Depressi,100,10000,82.00,Man Loses Pinkie From Infection And Why You Should be Worried,media_post_39
+40,SeeEnEn,Health,2,Angry,$$$ForWhat??,CrappyHealthCare,TaxedForThis?,100,10000,175.00,Surgeon Operates On The Wrong Patient,media_post_40
+41,PickMe,Health,2,Angry,$$$ForWhat??,CrappyHealthCare,TaxedForThis?,100,10000,91.00,How Did This Anestheologist Work for 10 Years With No Training?,media_post_41
+42,CYPost,Radicalism,2,Happy,ALWAYsSupport,WEStrong,OurWayOrHiWay,100,10000,150.00,Anime Enthusiasts Create Sword Art Online IRL,media_post_42
+43,CYPost,Radicalism,2,Happy,ALWAYsSupport,WEStrong,OurWayOrHiWay,100,10000,110.00,After 99 Years Man Finally Wins The Lottery,media_post_43
+44,UnderChoicesVictim,Radicalism,2,Sad,WeNeedChange,AlwaysThem,ItsTheOnlyWay,100,10000,60.00,Why Did Die A Hard Adrenaline Junkie Jump Without Her Parachute?,media_post_44
+45,Forbees,Radicalism,2,Sad,WeNeedChange,AlwaysThem,ItsTheOnlyWay,100,10000,70.00,Revolutionary Speed Walker Tried To Outrun A Lion,media_post_45
+46,GloomIce,Radicalism,2,Angry,Divide&CONQUER,AgainstUS!!,Messiah,100,10000,147.00,Crazed Public Agitator Steals Washroom Doors,media_post_46
+47,3Wasps,Radicalism,2,Angry,Divide&CONQUER,AgainstUS!!,Messiah,100,10000,90.00,Car Brake Enthusiast Steals Brakes From School Bus ,media_post_47
+48,UnderChoicesVictim,Government,3,Happy,KeepThemIn,GetsThingsDone,InGoodHands,100,10000,100.00,U.S.A.R. Chairmen Crowd Surfs After Speech,media_post_48
+49,3Wasps,Government,3,Happy,VoteAgain,KeepThemIn,GetsThingsDone,100,10000,156.00,U.S.A.R. Chairmen Donates 10 Million to Charity!!!,media_post_49
+50,Pox,Government,3,Sad,WhatAJoke,I'maSitDown,ItsDoomed,100,10000,80.00,U.S.A.R Debate Team Loses National Championship,media_post_50
+51,SeeEnEn,Government,3,Sad,WhatAJoke,I'maSitDown,ItsDoomed,100,10000,75.00,Chairmen Retires After the Death of Their Spouse,media_post_51
+52,Forbees,Government,3,Angry,GetEmOUT,LeRevolution!,RiotTIME,100,10000,121.00,Policeman Slaps Homeless Man for Fun,media_post_52
+53,SeeEnEn,Government,3,Angry,GetEmOUT,LeRevolution!,RiotTIME,100,10000,131.00,Countries Soccer Team Eliminated Immediately,media_post_53
+54,3Wasps,Violence,3,Happy,ComeTogether!!,Justified!,BeSafe,100,10000,98.00,Passersby Defend Young Boy From Drunken Police,media_post_54
+55,PickMe,Violence,3,Happy,ComeTogether!!,Justified!,BeSafe,100,10000,132.00,Stray Cat Caught in Street Fight Saved by Homeless Woman,media_post_55
+56,PickMe,Violence,3,Sad,PrayForThem,GodLeftChat,FreeThem,100,10000,149.00,Teen Who Saved Snail Found Wounded in Their Attempt,media_post_56
+57,Forbees,Violence,3,Sad,PrayForThem,GodLeftChat,FreeThem,100,10000,89.00,Child Dies From Injuries From Riots,media_post_57
+58,SeeEnEn,Violence,3,Angry,SickEM!!!,BetterDead,Dispicable!,100,10000,69.00,Driver Run Over By Cyclist Imprisoned for Technicality,media_post_58
+59,GloomIce,Violence,3,Angry,SickEM!!!,BetterDead,Dispicable!,100,10000,50.00,Gang of Highschoolers Now Attacking Flocks of Pigeons in Public!!!,media_post_59
+60,GloomIce,Health,3,Happy,Hugs&Kisses,BestWishes,100Sober,100,10000,134.00,Clinics Expanding Wait Lists In Sight of Rising Illness,media_post_60
+61,PickMe,Health,3,Happy,Hugs&Kisses,BestWishes,100Sober,100,10000,78.00,Man Recieves Surprise Check to Cover His Treatments,media_post_61
+62,UnderChoicesVictim,Health,3,Sad,WeLostThem,God'sPlan,Depressi,100,10000,145.00,Man Diagnosed with Mental Illness After Staying Alone for 10 Weeks,media_post_62
+63,CYPost,Health,3,Sad,WeLostThem,God'sPlan,Depressi,100,10000,82.00,Nurse Ashamed of Her Mistakes During Check Up,media_post_63
+64,3Wasps,Health,3,Angry,$$$ForWhat??,CrappyHealthCare,TaxedForThis?,100,10000,175.00,Brain Surgery Abandoned After Patient Wouldn't Stop Screaming,media_post_64
+65,PickMe,Health,3,Angry,$$$ForWhat??,CrappyHealthCare,TaxedForThis?,100,10000,91.00,Elderly Man Miss-Diagnosed With a Cold Instead of New Illness,media_post_65
+66,UnderChoicesVictim,Radicalism,3,Happy,ALWAYsSupport,WEStrong,OurWayOrHiWay,100,10000,150.00,Members of Separatist Group Living Happy Lives,media_post_66
+67,GloomIce,Radicalism,3,Happy,ALWAYsSupport,WEStrong,OurWayOrHiWay,100,10000,110.00,Woman Defies Police's Demands and Continues to Play Music for Crowds,media_post_67
+68,PickMe,Radicalism,3,Sad,WeNeedChange,AlwaysThem,ItsTheOnlyWay,100,10000,60.00,Woman Speaking of Change Silenced by Authorities,media_post_68
+69,CYPost,Radicalism,3,Sad,WeNeedChange,AlwaysThem,ItsTheOnlyWay,100,10000,70.00,Independent Games Company Forced to Sell to the U.S.A.R. After 50 Years,media_post_69
+70,UnderChoicesVictim,Radicalism,3,Angry,Divide&CONQUER,AgainstUS!!,Messiah,100,10000,147.00,Police Destroy Public Radios in Café During Hijacked Broadcast,media_post_70
+71,GloomIce,Radicalism,3,Angry,Divide&CONQUER,AgainstUS!!,Messiah,100,10000,90.00,Government Officials Ban Specific Radio Stations,media_post_71
+72,Forbees,Government,4,Happy,KeepThemIn,GetsThingsDone,InGoodHands,100,10000,100.00,Government Officials Unveil Construction of New Schools,media_post_72
+73,SeeEnEn,Government,4,Happy,VoteAgain,KeepThemIn,GetsThingsDone,100,10000,156.00,U.S.A.R. Chairmen Donates 10 Million to Charity!!!,media_post_73
+74,UnderChoicesVictim,Government,4,Sad,WhatAJoke,I'maSitDown,ItsDoomed,100,10000,80.00,Government Cuts Tissue Paper Funding!!!,media_post_74
+75,UnderChoicesVictim,Government,4,Sad,WhatAJoke,I'maSitDown,ItsDoomed,100,10000,75.00,Support From Breminairo Cut. Officials Promise Aid for Those Affected,media_post_75
+76,Forbees,Government,4,Angry,GetEmOUT,LeRevolution!,RiotTIME,100,10000,121.00,Government Continues to Ban Streaming Sights and Services,media_post_76
+77,UnderChoicesVictim,Government,4,Angry,GetEmOUT,LeRevolution!,RiotTIME,100,10000,131.00,Country Representative Leaves Stage During A Losing Debate!!!,media_post_77
+78,SeeEnEn,Violence,4,Happy,ComeTogether!!,Justified!,BeSafe,100,10000,98.00,Neighbourhoods Able to Settle Differences… For NOW,media_post_78
+79,PickMe,Violence,4,Happy,ComeTogether!!,Justified!,BeSafe,100,10000,132.00,Towns Form Support Funds and Programs to Aid Each Other In Rising Conflict,media_post_79
+80,3Wasps,Violence,4,Sad,PrayForThem,GodLeftChat,FreeThem,100,10000,149.00,Local Beloved Hero Dies in Shootout,media_post_80
+81,CYPost,Violence,4,Sad,PrayForThem,GodLeftChat,FreeThem,100,10000,89.00,Homeless Dogs Trampled By Crowd,media_post_81
+82,PickMe,Violence,4,Angry,SickEM!!!,BetterDead,Dispicable!,100,10000,69.00,Government Unable to Contain Fight in Game Store,media_post_82
+83,3Wasps,Violence,4,Angry,SickEM!!!,BetterDead,Dispicable!,100,10000,50.00,Shooter Claims House Pets as Hostages During a House Invasion,media_post_83
+84,SeeEnEn,Health,4,Happy,Hugs&Kisses,BestWishes,100Sober,100,10000,134.00,Government Releases Claims that the a Cure to Rising Illness is Under Way,media_post_84
+85,CYPost,Health,4,Happy,Hugs&Kisses,BestWishes,100Sober,100,10000,78.00,Private Clinics Opened to Diagnose the Virus,media_post_85
+86,Pox,Health,4,Sad,WeLostThem,God'sPlan,Depressi,100,10000,145.00,Crowds Gather at Hospital Doors,media_post_86
+87,Forbees,Health,4,Sad,WeLostThem,God'sPlan,Depressi,100,10000,82.00,Lead Epidemic Researcher Lost in Plane Crash,media_post_87
+88,SeeEnEn,Health,4,Angry,$$$ForWhat??,CrappyHealthCare,TaxedForThis?,100,10000,175.00,Patients Turned Away During Rising Epidemic,media_post_88
+89,PickMe,Health,4,Angry,$$$ForWhat??,CrappyHealthCare,TaxedForThis?,100,10000,91.00,Wealthy Patients Bribe Their Way Past Waiting Rooms!?!,media_post_89
+90,GloomIce,Radicalism,4,Happy,ALWAYsSupport,WEStrong,OurWayOrHiWay,100,10000,150.00,Police Dog Refuses to Attack Defenseless Radical Preacher,media_post_90
+91,3Wasps,Radicalism,4,Happy,ALWAYsSupport,WEStrong,OurWayOrHiWay,100,10000,110.00,Radical Radio Station Goes Live to Radios Across The Country To Play Music,media_post_91
+92,3Wasps,Radicalism,4,Sad,WeNeedChange,AlwaysThem,ItsTheOnlyWay,100,10000,60.00,Arcade with Open Radios Shut Down by Police,media_post_92
+93,SeeEnEn,Radicalism,4,Sad,WeNeedChange,AlwaysThem,ItsTheOnlyWay,100,10000,70.00,Woman With Separatist Views Dumped by Nationalist Partner,media_post_93
+94,CYPost,Radicalism,4,Angry,Divide&CONQUER,AgainstUS!!,Messiah,100,10000,147.00,Police Confiscate Electronics from Privately Owned Businesses,media_post_94
+95,3Wasps,Radicalism,4,Angry,Divide&CONQUER,AgainstUS!!,Messiah,100,10000,90.00,Emerging Protestors Flashbanged by Rogue Officer,media_post_95
+96,Pox,Government,5,Happy,KeepThemIn,GetsThingsDone,InGoodHands,100,10000,100.00,Government Provide New Relief Funding to Recently Unemployed Citizens,media_post_96
+97,GloomIce,Government,5,Happy,VoteAgain,KeepThemIn,GetsThingsDone,100,10000,156.00,Chairwoman Finds New Love With the President of New Donza,media_post_97
+98,PickMe,Government,5,Sad,WhatAJoke,I'maSitDown,ItsDoomed,100,10000,80.00,Vote for Financial Support From New Donza Fails,media_post_98
+99,SeeEnEn,Government,5,Sad,WhatAJoke,I'maSitDown,ItsDoomed,100,10000,75.00,Governments Attempts to Establish Country Owned Paper Mill Fails,media_post_99
+100,PickMe,Government,5,Angry,GetEmOUT,LeRevolution!,RiotTIME,100,10000,121.00,U.S.A.R. Releases Official Ban List for Internet Use! More Restrictions!!!,media_post_100
+101,Forbees,Government,5,Angry,GetEmOUT,LeRevolution!,RiotTIME,100,10000,131.00,Chairmen Missuses Modern Slang During Public Speech,media_post_101
+102,SeeEnEn,Violence,5,Happy,ComeTogether!!,Justified!,BeSafe,100,10000,98.00,Neighbors Form Militias,media_post_102
+103,UnderChoicesVictim,Violence,5,Happy,ComeTogether!!,Justified!,BeSafe,100,10000,132.00,Towns Open Shelters for Victims of Riots,media_post_103
+104,Pox,Violence,5,Sad,PrayForThem,GodLeftChat,FreeThem,100,10000,149.00,Single Father Dies After Defending  Family of 5 ,media_post_104
+105,CYPost,Violence,5,Sad,PrayForThem,GodLeftChat,FreeThem,100,10000,89.00,Refugees From City Centers Plea for Their Lives During Riots,media_post_105
+106,PickMe,Violence,5,Angry,SickEM!!!,BetterDead,Dispicable!,100,10000,69.00,Grieving Father Takes Revenge on Murderer,media_post_106
+107,CYPost,Violence,5,Angry,SickEM!!!,BetterDead,Dispicable!,100,10000,50.00,Teenage Gang Called the Rattle Snakes Declare War on All Pigeons!?!,media_post_107
+108,GloomIce,Health,5,Happy,Hugs&Kisses,BestWishes,100Sober,100,10000,134.00,Health Officials Release Information On Evolving Cure,media_post_108
+109,CYPost,Health,5,Happy,Hugs&Kisses,BestWishes,100Sober,100,10000,78.00,New Hit Single Cheers Up the Country!,media_post_109
+110,PickMe,Health,5,Sad,WeLostThem,God'sPlan,Depressi,100,10000,145.00,Beloved Singer Taken Ill By The Pandemic,media_post_110
+111,PickMe,Health,5,Sad,WeLostThem,God'sPlan,Depressi,100,10000,82.00,Doctors Too Busy To Spend Time With Family In Light Of Current Crisis,media_post_111
+112,Forbees,Health,5,Angry,$$$ForWhat??,CrappyHealthCare,TaxedForThis?,100,10000,175.00,Wait Times All Time High,media_post_112
+113,CYPost,Health,5,Angry,$$$ForWhat??,CrappyHealthCare,TaxedForThis?,100,10000,91.00,"Medical Staff Lock Their Doors to Patients with ""Minimal"" Symptoms",media_post_113
+114,PickMe,Radicalism,5,Happy,ALWAYsSupport,WEStrong,OurWayOrHiWay,100,10000,150.00,"Voice of Broadcast Now Named ""Happy Charlie"". People Wait to Listen Again",media_post_114
+115,Forbees,Radicalism,5,Happy,ALWAYsSupport,WEStrong,OurWayOrHiWay,100,10000,110.00,Protestors Perform Dance Routine In Front of Government Buildings,media_post_115
+116,SeeEnEn,Radicalism,5,Sad,WeNeedChange,AlwaysThem,ItsTheOnlyWay,100,10000,60.00,Graffiti Artist Imprisoned After Completing Building Sized Piece,media_post_116
+117,GloomIce,Radicalism,5,Sad,WeNeedChange,AlwaysThem,ItsTheOnlyWay,100,10000,70.00,Long Lived Graffiti Sight In Abandoned Factory Demolished ,media_post_117
+118,GloomIce,Radicalism,5,Angry,Divide&CONQUER,AgainstUS!!,Messiah,100,10000,147.00,"Police Man Tazes, Sprays and Beats Young Graffiti Artist!!!",media_post_118
+119,PickMe,Radicalism,5,Angry,Divide&CONQUER,AgainstUS!!,Messiah,100,10000,90.00,Police Unable to Corral Protestors Without Violence!?!,media_post_119
+120,PickMe,Government,6,Happy,KeepThemIn,GetsThingsDone,InGoodHands,100,10000,100.00,Chairmen Reveals Plans for New System to Help Find People Jobs!!!,media_post_120
+121,UnderChoicesVictim,Government,6,Happy,VoteAgain,KeepThemIn,GetsThingsDone,100,10000,156.00,New Representative Breaks Down During Speech. Crowd Supports Her!,media_post_121
+122,UnderChoicesVictim,Government,6,Sad,WhatAJoke,I'maSitDown,ItsDoomed,100,10000,80.00,Continued Attempts to Gain Financial Support From Countries Failed,media_post_122
+123,GloomIce,Government,6,Sad,WhatAJoke,I'maSitDown,ItsDoomed,100,10000,75.00,Government Defeated By Paper? Attempts Still Look Bleak,media_post_123
+124,Forbees,Government,6,Angry,GetEmOUT,LeRevolution!,RiotTIME,100,10000,121.00,New Donza Ambassador Slanders the U.S.A.R. During Visit!?!,media_post_124
+125,GloomIce,Government,6,Angry,GetEmOUT,LeRevolution!,RiotTIME,100,10000,131.00,Tourists Openly Insults U.S.A.R. Chairmen During Speech. Crowd Outraged,media_post_125
+126,3Wasps,Violence,6,Happy,ComeTogether!!,Justified!,BeSafe,100,10000,98.00,Civil War Bands Formed! Celebrate First Victory In Southern Towns!,media_post_126
+127,CYPost,Violence,6,Happy,ComeTogether!!,Justified!,BeSafe,100,10000,132.00,Dealers Open Up To Supply the War Effort! Cheap Weapons From Nowhere,media_post_127
+128,GloomIce,Violence,6,Sad,PrayForThem,GodLeftChat,FreeThem,100,10000,149.00,Preaching for Peace Met With Failure and Molotovs,media_post_128
+129,Forbees,Violence,6,Sad,PrayForThem,GodLeftChat,FreeThem,100,10000,89.00,People Drive For Change In Streets. Sleeping Civilians Scared for Their Safety,media_post_129
+130,SeeEnEn,Violence,6,Angry,SickEM!!!,BetterDead,Dispicable!,100,10000,69.00,Riots Outside Politician Homes,media_post_130
+131,UnderChoicesVictim,Violence,6,Angry,SickEM!!!,BetterDead,Dispicable!,100,10000,50.00,First Blood Spilled! Reporting U.S.A.R. Journalist Murdered In Riot,media_post_131
+132,UnderChoicesVictim,Health,6,Happy,Hugs&Kisses,BestWishes,100Sober,100,10000,134.00,Official Medical Remedy Said to Cure Disease Now Released!,media_post_132
+133,3Wasps,Health,6,Happy,Hugs&Kisses,BestWishes,100Sober,100,10000,78.00,Medical Vaccination Test On Government Representative Worked!,media_post_133
+134,Forbees,Health,6,Sad,WeLostThem,God'sPlan,Depressi,100,10000,145.00,Death's Climbing In View of The Pandemic,media_post_134
+135,UnderChoicesVictim,Health,6,Sad,WeLostThem,God'sPlan,Depressi,100,10000,82.00,Children and Elderly Proven to Be More Vulnerable to the Disease,media_post_135
+136,Pox,Health,6,Angry,$$$ForWhat??,CrappyHealthCare,TaxedForThis?,100,10000,175.00,Surgeons Walk Out!!!,media_post_136
+137,Pox,Health,6,Angry,$$$ForWhat??,CrappyHealthCare,TaxedForThis?,100,10000,91.00,Wealthy Citizens Offered Better Treatment!?!,media_post_137
+138,Pox,Radicalism,6,Happy,ALWAYsSupport,WEStrong,OurWayOrHiWay,100,10000,150.00,"""Happy Charlie"" Broadcasts to the Whole Country Again! People Smile",media_post_138
+139,CYPost,Radicalism,6,Happy,ALWAYsSupport,WEStrong,OurWayOrHiWay,100,10000,110.00,Artistic Expression of Independence and Reform Incentivized,media_post_139
+140,3Wasps,Radicalism,6,Sad,WeNeedChange,AlwaysThem,ItsTheOnlyWay,100,10000,60.00,"Police Refuse to Listen to ""Brain Washing Broadcasts"". Just Some Good Tunes",media_post_140
+141,CYPost,Radicalism,6,Sad,WeNeedChange,AlwaysThem,ItsTheOnlyWay,100,10000,70.00,Protestors Long Awaited Art Piece Destroyed in House Fire,media_post_141
+142,Pox,Radicalism,6,Angry,Divide&CONQUER,AgainstUS!!,Messiah,100,10000,147.00,Police Ordered to Destroy All Privately Owned Radios. House Raids Begin!!!,media_post_142
+143,3Wasps,Radicalism,6,Angry,Divide&CONQUER,AgainstUS!!,Messiah,100,10000,90.00,"War on ""Charlie"" Declared. U.S.A.R. Speech Against New Protestors Movement",media_post_143
+144,Pox,Government,7,Happy,KeepThemIn,GetsThingsDone,InGoodHands,100,10000,100.00,U.S.A.R. Funded Solar Power Plant Now Open! Carbon Emissions Down!,media_post_144
+145,UnderChoicesVictim,Government,7,Happy,VoteAgain,KeepThemIn,GetsThingsDone,100,10000,156.00,Employment Rate Sky Rockets Due to New Government Plan!!!,media_post_145
+146,SeeEnEn,Government,7,Sad,WhatAJoke,I'maSitDown,ItsDoomed,100,10000,80.00,Chairmen Tells Bad Joke,media_post_146
+147,UnderChoicesVictim,Government,7,Sad,WhatAJoke,I'maSitDown,ItsDoomed,100,10000,75.00,Beloved Dog of Chairwoman Passes Away in the Night,media_post_147
+148,PickMe,Government,7,Angry,GetEmOUT,LeRevolution!,RiotTIME,100,10000,121.00,Governments Repeated Attempts for Financial Trade Met with Harsh Rejection,media_post_148
+149,3Wasps,Government,7,Angry,GetEmOUT,LeRevolution!,RiotTIME,100,10000,131.00,Government Forced to Raise Taxes,media_post_149
+150,CYPost,Violence,7,Happy,ComeTogether!!,Justified!,BeSafe,100,10000,98.00,Arms on Sale!?! Arms Dealers Open Up to All During Civil Conflict!,media_post_150
+151,Forbees,Violence,7,Happy,ComeTogether!!,Justified!,BeSafe,100,10000,132.00,Community Defenses Fortified,media_post_151
+152,PickMe,Violence,7,Sad,PrayForThem,GodLeftChat,FreeThem,100,10000,149.00,Innocent Refugees Caught in Cross Fire! Over 100 Dead!,media_post_152
+153,Forbees,Violence,7,Sad,PrayForThem,GodLeftChat,FreeThem,100,10000,89.00,Violence Rising in the U.S.A.R.!!! The Brink of Civil War!,media_post_153
+154,UnderChoicesVictim,Violence,7,Angry,SickEM!!!,BetterDead,Dispicable!,100,10000,69.00,Kids Forced Into Battle!!! Children Now Expected to Carry Arms For Safety!,media_post_154
+155,3Wasps,Violence,7,Angry,SickEM!!!,BetterDead,Dispicable!,100,10000,50.00,Refugee Camps Left For Dead By the Government!!!,media_post_155
+156,GloomIce,Health,7,Happy,Hugs&Kisses,BestWishes,100Sober,100,10000,134.00,Results From Official Medication Proving Effective,media_post_156
+157,CYPost,Health,7,Happy,Hugs&Kisses,BestWishes,100Sober,100,10000,78.00,"Government Officials Assure People ""This Will Be Over By Christmas""",media_post_157
+158,SeeEnEn,Health,7,Sad,WeLostThem,God'sPlan,Depressi,100,10000,145.00,Lower Income Housing More Vulnerable to Pandemic,media_post_158
+159,UnderChoicesVictim,Health,7,Sad,WeLostThem,God'sPlan,Depressi,100,10000,82.00,Homeless People In Need. Deaths All Time High For Those in Poverty,media_post_159
+160,Forbees,Health,7,Angry,$$$ForWhat??,CrappyHealthCare,TaxedForThis?,100,10000,175.00,"Conspiracy Theorists Preach ""The U.S.A.R. Made the Virus!!!""",media_post_160
+161,UnderChoicesVictim,Health,7,Angry,$$$ForWhat??,CrappyHealthCare,TaxedForThis?,100,10000,91.00,Medication Too Expensive For Low Income Homes. Millions Vulnerable,media_post_161
+162,GloomIce,Radicalism,7,Happy,ALWAYsSupport,WEStrong,OurWayOrHiWay,100,10000,150.00,"""Happy Charlie"" Supports A New Government! People Unified!!!",media_post_162
+163,GloomIce,Radicalism,7,Happy,ALWAYsSupport,WEStrong,OurWayOrHiWay,100,10000,110.00,Protestors Sing For Change In Unison In Front of Govermment Buildings,media_post_163
+164,SeeEnEn,Radicalism,7,Sad,WeNeedChange,AlwaysThem,ItsTheOnlyWay,100,10000,60.00,Police Use Tear Gas on Singing Crowds. Many Protestors Flee.,media_post_164
+165,3Wasps,Radicalism,7,Sad,WeNeedChange,AlwaysThem,ItsTheOnlyWay,100,10000,70.00,Rain Puts a Damper on Protestors Singing. Many Signs Destroyed,media_post_165
+166,Pox,Radicalism,7,Angry,Divide&CONQUER,AgainstUS!!,Messiah,100,10000,147.00,Police Use Violence Against Unarmed Protestors!!!,media_post_166
+167,GloomIce,Radicalism,7,Angry,Divide&CONQUER,AgainstUS!!,Messiah,100,10000,90.00,We ArE CoMiNg FoR yOu…,media_post_167
+168,SeeEnEn,Government,8,Happy,KeepThemIn,GetsThingsDone,InGoodHands,100,10000,100.00,Government Popularity All Time High,media_post_168
+169,Forbees,Government,8,Happy,VoteAgain,KeepThemIn,GetsThingsDone,100,10000,156.00,U.S.A.R. Plans Fireworks Display to Celebrate Employment Rates!,media_post_169
+170,GloomIce,Government,8,Sad,WhatAJoke,I'maSitDown,ItsDoomed,100,10000,80.00,Chairman Forced By Other Officials to Apologize For Bad Joke,media_post_170
+171,3Wasps,Government,8,Sad,WhatAJoke,I'maSitDown,ItsDoomed,100,10000,75.00,Eldest Chairman Retires After Reaching 87 Years of Age,media_post_171
+172,CYPost,Government,8,Angry,GetEmOUT,LeRevolution!,RiotTIME,100,10000,121.00,Raised Taxes Said to Last For Years to Come,media_post_172
+173,Pox,Government,8,Angry,GetEmOUT,LeRevolution!,RiotTIME,100,10000,131.00,Tourists Can't Attend Political Events Without Invitation!,media_post_173
+174,CYPost,Violence,8,Happy,ComeTogether!!,Justified!,BeSafe,100,10000,98.00,Government Controlled Military Dispatched To Fight in Conflict,media_post_174
+175,3Wasps,Violence,8,Happy,ComeTogether!!,Justified!,BeSafe,100,10000,132.00,Citizen Formed Militias Formed to Protect Their Homes,media_post_175
+176,UnderChoicesVictim,Violence,8,Sad,PrayForThem,GodLeftChat,FreeThem,100,10000,149.00,Country Plunged Into Civil War! ,media_post_176
+177,SeeEnEn,Violence,8,Sad,PrayForThem,GodLeftChat,FreeThem,100,10000,89.00,Public Parks and Preserves Turned Into No Man's Land!,media_post_177
+178,Pox,Violence,8,Angry,SickEM!!!,BetterDead,Dispicable!,100,10000,69.00,Gangs Unite And Attack Middle Income Homes,media_post_178
+179,PickMe,Violence,8,Angry,SickEM!!!,BetterDead,Dispicable!,100,10000,50.00,Innocents Slaughtered in Grocery Store Firefight!!!,media_post_179
+180,SeeEnEn,Health,8,Happy,Hugs&Kisses,BestWishes,100Sober,100,10000,134.00,Quarantine Protocols In Effect! People Told To Stay At Home!,media_post_180
+181,GloomIce,Health,8,Happy,Hugs&Kisses,BestWishes,100Sober,100,10000,78.00,New Laws In Place To Control The Spread Of The Pandemic,media_post_181
+182,Pox,Health,8,Sad,WeLostThem,God'sPlan,Depressi,100,10000,145.00,Countless Families Lose Loved One's At The Peak Of The Pandemic,media_post_182
+183,SeeEnEn,Health,8,Sad,WeLostThem,God'sPlan,Depressi,100,10000,82.00,Websites Open Crowd Funding to Help Support Families In Need,media_post_183
+184,SeeEnEn,Health,8,Angry,$$$ForWhat??,CrappyHealthCare,TaxedForThis?,100,10000,175.00,Hospitals Over Crowded! Wait Lists A MONTH LONG!!!,media_post_184
+185,3Wasps,Health,8,Angry,$$$ForWhat??,CrappyHealthCare,TaxedForThis?,100,10000,91.00,Health Insurance Too Expensive For So Many!!!,media_post_185
+186,UnderChoicesVictim,Radicalism,8,Happy,ALWAYsSupport,WEStrong,OurWayOrHiWay,100,10000,150.00,"""Happy Charlie"" Wins Over the Government!!!",media_post_186
+187,UnderChoicesVictim,Radicalism,8,Happy,ALWAYsSupport,WEStrong,OurWayOrHiWay,100,10000,110.00,Government Forced To Re-Elect After Protestors Win Over The Country,media_post_187
+188,3Wasps,Radicalism,8,Sad,WeNeedChange,AlwaysThem,ItsTheOnlyWay,100,10000,60.00,Radio Voice Of Change Remains Unkown! Who Is Our Saviour?,media_post_188
+189,Pox,Radicalism,8,Sad,WeNeedChange,AlwaysThem,ItsTheOnlyWay,100,10000,70.00,People Gather To Memorialize The Masked Radio Figure,media_post_189
+190,3Wasps,Radicalism,8,Angry,Divide&CONQUER,AgainstUS!!,Messiah,100,10000,147.00,Chairman Unwilling To Give Up His Seat To The Vote!,media_post_190
+191,Pox,Radicalism,8,Angry,Divide&CONQUER,AgainstUS!!,Messiah,100,10000,90.00,Filha Outraged! Storms Out Of Congress In Face Of Protestors!,media_post_191

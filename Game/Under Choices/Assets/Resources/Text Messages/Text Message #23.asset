@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa5b042174d89b140a2b7e16233de8e4, type: 3}
+  m_Name: Text Message #23
+  m_EditorClassIdentifier: 
+  messageNumber: 23
+  correspondingEvent: 27
+  messages:
+  - I am sending this under the suspicion that someone in our company has been intentionally
+    sending out postings to help with the anti government movement.
+  - UCE has reasons to believe you may be the culprit, as your recent chosen postings
+    have been linked back to some anti government propaganda.
+  - If you are doing this on purpose, this is the one and final warning to stop before
+    we take action.
+  character: 1

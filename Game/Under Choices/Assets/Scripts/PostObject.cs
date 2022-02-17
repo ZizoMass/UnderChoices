@@ -6,14 +6,14 @@ using UnityEngine.UI;
 
 public class PostObject : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler
 {
-    const string GovernmentTemplatePath = "post_template_government";
-    const string HealthTemplatePath = "post_template_health";
-    const string RadicalismTemplatePath = "post_template_radicalism";
-    const string ViolenceTemplatePath = "post_template_violence";
+    const string GovernmentTemplatePath = "post_template_VERSION_03_0002_Government";
+    const string HealthTemplatePath = "post_template_VERSION_03_0000_Health";
+    const string RadicalismTemplatePath = "post_template_VERSION_03_0001_Radicalism";
+    const string ViolenceTemplatePath = "post_template_VERSION_03_0003_Violence";
 
-    const string AngryReactionPath = "emoji_reaction_angry";
-    const string HappyReactionPath = "emoji_reaction_happy";
-    const string SadReactionPath = "emoji_reaction_sad";
+    const string AngryReactionPath = "emoji_reaction_angry_gradient";
+    const string HappyReactionPath = "emoji_reaction_happy_gradient";
+    const string SadReactionPath = "emoji_reaction_sad_gradient";
 
     [HideInInspector] public MediaPost mediaPost;
     public GameObject template, publisher, headline, image, reaction, engagement, boostCost;
@@ -68,8 +68,12 @@ public class PostObject : MonoBehaviour, IPointerDownHandler, IBeginDragHandler,
         else
             reaction.GetComponent<Image>().sprite = Resources.Load<Sprite>("Media Post Assets/" + SadReactionPath);
 
-        for(int i = 0; i < hashtags.Count && i < mediaPost.hashtags.Count; i++)
-            hashtags[i].GetComponent<Text>().text = "#" + mediaPost.hashtags[i];
+        /*for(int i = 0; i < hashtags.Count && i < mediaPost.hashtags.Count; i++)
+            hashtags[i].GetComponent<Text>().text = "#" + mediaPost.hashtags[i];*/
+
+        hashtags[0].GetComponent<Text>().text = "";
+        foreach (string tag in mediaPost.hashtags)
+            hashtags[0].GetComponent<Text>().text += "#" + tag + " ";
     }
 
     public void Boost()

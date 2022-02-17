@@ -1,5 +1,37 @@
-﻿Event Number (Integer),Day (Integer),"Subject (Government, Violence, Health, Radicalism)",Name (String),Effect (For Programmer's Reference)
-1,1,Government,First Day,None; test event
-2,1,Violence,Collecting the Band,None; test event
-3,1,Health,Scheduled Check-Up,None; test event
-4,1,Radicalism,Anti-Government Protest,None; test event
+﻿Event Number (Integer),Day (Integer),"Subject (Government, Violence, Health, Radicalism)",Name (String),"Effect (None, Hijack, Speech, Game Over)"
+0,0,Government,Meet Your Contacts,None
+1,1,Government,First Day,None
+2,2,Government,Authoritorial Assurance,None
+3,3,Government,Public Speech,None
+4,4,Government,Temp,None
+5,5,Government,Temp,None
+6,6,Government,Temp,None
+7,7,Government,Temp,None
+8,8,Government,Temp,None
+9,1,Health,Scheduled Check-Up,None
+10,2,Health,Doctor's Visit,None
+11,3,Health,Initial Epidemic Report,None
+12,4,Health,Temp,None
+13,5,Health,Temp,None
+14,6,Health,Temp,None
+15,7,Health,Temp,None
+16,8,Health,Temp,None
+17,1,Violence,Collecting the Band,None
+18,2,Violence,Separational Protests,None
+19,3,Violence,Protestors Riot,None
+20,4,Violence,Temp,None
+21,5,Violence,Temp,None
+22,6,Violence,Temp,None
+23,7,Violence,Temp,None
+24,8,Violence,Temp,None
+25,1,Radicalism,Anti-Government Protest,None
+26,2,Radicalism,News Station Hijack,Hijack
+27,3,Radicalism,News Station Hijack 2,Hijack
+28,4,Radicalism,Temp,None
+29,5,Radicalism,Temp,None
+30,6,Radicalism,Temp,None
+31,7,Radicalism,Temp,None
+32,8,Radicalism,Temp,None
+33,0,Government,Strike #1: Public Speech,Speech
+34,0,Government,Strike #2: Public Speech,Speech
+35,0,Government,Strike #3: Contract Termination,Game Over

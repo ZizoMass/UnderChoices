@@ -16,9 +16,9 @@ MonoBehaviour:
   day: 1
   numberToBoost: 1
   anySubject: 0
-  anyReaction: 0
+  anyReaction: 1
   dontBoost: 0
-  publisher: SeeEnEn
+  publisher: None
   subject: 0
   narrativeSubject: 0
   reaction: 0

@@ -17,16 +17,19 @@ public class GameController : MonoBehaviour
     float playerFunds, timer;
     int currentNight, playerStrikes;
     int pointsGovernment, pointsViolence, pointsHealth, pointsRadicalism;
+    MediaPost.Subject dominantSubject;
     Screen currentScreen;
     [HideInInspector] public bool dayComplete;
 
     // Game objects
-    GameObject playerFundsDisplay, currentNightDisplay, timerDisplay, postSpawnPoint, postTemplate, screen, primaryOrders, secondaryOrders, strikesDisplay;
+    GameObject playerFundsDisplay, currentNightDisplay, timerDisplay, postSpawnPoint, postTemplate, screen, primaryOrders, secondaryOrders, strikesDisplay, messageSpawn,
+        messageTemplate;
     Scene currentScene;
     List<MediaPost> mediaPosts, currentDayPosts, boostedPosts;
     List<BossOrder> bossOrders, currentOrders, completedOrders;
     List<NarrativeEvent> narrativeEvents;
-    List<GameObject> postSpawnPointSet, currentPostSet;
+    List<TextMessage> textMessages;
+    List<GameObject> postSpawnPointSet, currentPostSet, currentMessages;
 
     private void Awake()
     {
@@ -44,12 +47,15 @@ public class GameController : MonoBehaviour
         mediaPosts = Resources.LoadAll<MediaPost>("Media Posts").ToList();
         bossOrders = Resources.LoadAll<BossOrder>("Boss Orders").ToList();
         narrativeEvents = Resources.LoadAll<NarrativeEvent>("Narrative Events").ToList();
-        postTemplate = Resources.Load("Prefabs/Media Post") as GameObject;
+        textMessages = Resources.LoadAll<TextMessage>("Text Messages").ToList();
+        postTemplate = Resources.Load("Prefabs/Media Post 2") as GameObject;
+        messageTemplate = Resources.Load("Prefabs/Message") as GameObject;
         currentDayPosts = new List<MediaPost>();
         boostedPosts = new List<MediaPost>();
         currentOrders = new List<BossOrder>();
         completedOrders = new List<BossOrder>();
         currentPostSet = new List<GameObject>();
+        currentMessages = new List<GameObject>();
     }
 
     // Start is called before the first frame update
@@ -63,14 +69,25 @@ public class GameController : MonoBehaviour
     void Update()
     {
         // Update timer when on the game screen
-        if(currentScreen == Screen.Game)
+        /*if(currentScreen == Screen.Game)
         {
             timer -= Time.deltaTime;
             if (timer < 0)
                 timer = 0;
 
             UpdateTimer();
-        }
+        }*/
+    }
+
+    public void NewGame()
+    {
+        currentNight = 0;
+        pointsGovernment = 1;
+        pointsViolence = 0;
+        pointsHealth = 0;
+        pointsRadicalism = 0;
+        dominantSubject = MediaPost.Subject.Government;
+        playerStrikes = 0;
     }
 
     void LoadTitleScreen()
@@ -80,20 +97,19 @@ public class GameController : MonoBehaviour
 
     void LoadGameScreen()
     {
-        PlayNarrativeEvent();
 
         // If a new game just started, initialize parameters
-        /*if (currentNight == 0)
+        if (currentNight == 0)
         {
-            currentNight = 1;
-            playerFunds = startingFund;
-        }*/
+            pointsGovernment = 1;
+            dominantSubject = MediaPost.Subject.Government;
+        }
 
-        currentNight = 1;
         playerFunds = startingFund;
-        timer = timerLength;
         currentScreen = Screen.Game;
         dayComplete = false;
+
+        PlayNarrativeEvent();
 
         // Load game objects
         playerFundsDisplay = GameObject.FindGameObjectWithTag("Player Funds Display");
@@ -102,6 +118,7 @@ public class GameController : MonoBehaviour
         strikesDisplay = GameObject.FindGameObjectWithTag("Strikes Display");
         //postSpawnPoint = GameObject.FindGameObjectWithTag("Post Spawn Point");
         postSpawnPointSet = new List<GameObject>(GameObject.FindGameObjectsWithTag("Post Spawn Point"));
+        messageSpawn = GameObject.FindGameObjectWithTag("Message Spawn");
         screen = GameObject.FindGameObjectWithTag("Screen");
         primaryOrders = GameObject.FindGameObjectWithTag("Primary Orders Display");
         secondaryOrders = GameObject.FindGameObjectWithTag("Secondary Orders Display");
@@ -130,12 +147,15 @@ public class GameController : MonoBehaviour
         }
 
         // Load current day orders
-        boostedPosts.Clear();
-        currentOrders.Clear();
         foreach (BossOrder order in bossOrders)
         {
-            if(order.day == currentNight)
-                currentOrders.Add(Instantiate(order));
+            if (order.day != currentNight)
+                continue;
+
+            if (order.type == BossOrder.Type.Secondary && order.subject != dominantSubject)
+                continue;
+               
+            currentOrders.Add(Instantiate(order));
         }
 
         UpdatePlayerFunds();
@@ -240,7 +260,6 @@ public class GameController : MonoBehaviour
     void PlayNarrativeEvent()
     {
         // Find narrative subject with most points
-        MediaPost.Subject dominantSubject;
         int[] pointsArray = new int[4];
         pointsArray[0] = pointsGovernment;
         pointsArray[1] = pointsViolence;
@@ -264,17 +283,30 @@ public class GameController : MonoBehaviour
             dominantSubject = MediaPost.Subject.Violence;
         else if (highestIndex == 2)
             dominantSubject = MediaPost.Subject.Health;
-        else
+        else if (highestIndex == 3)
             dominantSubject = MediaPost.Subject.Radicalism;
 
         foreach (NarrativeEvent narrativeEvent in narrativeEvents)
         {
             if (narrativeEvent.subject == dominantSubject && narrativeEvent.day == currentNight)
             {
-                print(narrativeEvent.ToString());
+                UpdateMessages(narrativeEvent);
                 break;
             }
         }
+    }
+
+    void UpdateMessages(NarrativeEvent narrativeEvent)
+    {
+        List<TextMessage> messages = new List<TextMessage>();
+
+        foreach(TextMessage message in textMessages)
+        {
+            if (message.correspondingEvent == narrativeEvent.eventNumber)
+                messages.Add(message);
+        }
+
+        StartCoroutine(LoadMessage(messages, 0));
     }
 
     public void BoostPost(PostObject post)
@@ -336,13 +368,34 @@ public class GameController : MonoBehaviour
             if (order.dontBoost && order.progress == 0)
                 completedOrders.Add(order);
 
-            // If there's an uncompleted order, give a strike
-            if (!completedOrders.Contains(order))
+            // If there's an incomplete primary order, give a strike
+            if (order.type == BossOrder.Type.Primary && !completedOrders.Contains(order))
             {
                 playerStrikes++;
                 break;
             }
         }
+    }
+
+    public void EndDay()
+    {
+        // Clear data
+        boostedPosts.Clear();
+        currentOrders.Clear();
+        currentMessages.Clear();
+
+        // Update night number
+        currentNight++;
+
+        StopAllCoroutines();
+
+        if(currentNight > 3)
+        {
+            ScreenTransition("Title Screen");
+            return;
+        }
+
+        ScreenTransition("Game Screen");
     }
 
     void CheckScene()
@@ -359,13 +412,56 @@ public class GameController : MonoBehaviour
 
     public void ScreenTransition(string screenName)
     {
+        StartCoroutine(Transition(screenName));
+    }
+
+    IEnumerator Transition(string screenName)
+    {
+        GameObject.FindGameObjectWithTag("Transition").GetComponent<Animator>().SetTrigger("Fade In");
+        yield return new WaitForSeconds(1);
         SceneManager.LoadScene(screenName);
         StartCoroutine(LoadDelay(screenName));
+        GameObject.FindGameObjectWithTag("Transition").GetComponent<Animator>().SetTrigger("Fade Out");
     }
 
     IEnumerator LoadDelay(string screenName)
     {
         yield return new WaitForSeconds(0.0001f);
         CheckScene();
+    }
+
+    IEnumerator LoadMessage(List<TextMessage> _messages, int index)
+    {
+        yield return new WaitForSeconds(1f);
+
+        // Move current messages down
+        foreach (GameObject messageObject in currentMessages)
+            messageObject.transform.position = new Vector2(messageObject.transform.position.x, messageObject.transform.position.y - 1.2f);
+
+        // Load newest message
+        GameObject newMessage = Instantiate(messageTemplate, messageSpawn.transform.position, Quaternion.identity);
+        newMessage.GetComponent<MessageObject>().SetMessage(_messages[0].messages[index], _messages[0].character);
+        currentMessages.Add(newMessage);
+        newMessage.transform.SetParent(messageSpawn.transform);
+        newMessage.transform.localPosition = new Vector2(0, 0);
+        newMessage.transform.localScale = new Vector2(1, 1);
+
+        // Remove offscreen messages
+        if (currentMessages.Count > 3)
+            currentMessages.RemoveAt(0);
+
+        // Wait for next message
+        yield return new WaitForSeconds(4);
+
+        // If there are more texts in the current message, continue
+        if (index < _messages[0].messages.Count - 1)
+            StartCoroutine(LoadMessage(_messages, index + 1));
+
+        // If there are no more texts in the current message, move on to the next message
+        else if(_messages.Count > 1)
+        {
+            _messages.RemoveAt(0);
+            StartCoroutine(LoadMessage(_messages, 0));
+        }
     }
 }
