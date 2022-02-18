@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Boss Order #4
   m_EditorClassIdentifier: 
   orderNumber: 4
-  day: 3
-  numberToBoost: 1
+  day: 2
+  numberToBoost: 2
   anySubject: 0
   anyReaction: 1
   dontBoost: 0

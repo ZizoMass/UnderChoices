@@ -152,7 +152,7 @@ public class GameController : MonoBehaviour
             if (order.day != currentNight)
                 continue;
 
-            if (order.type == BossOrder.Type.Secondary && order.subject != dominantSubject)
+            if (order.type == BossOrder.Type.Secondary && order.narrativeSubject != dominantSubject)
                 continue;
                
             currentOrders.Add(Instantiate(order));

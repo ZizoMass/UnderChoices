@@ -80,7 +80,7 @@ public class ImportBossOrders
                     bossOrder.narrativeSubject = MediaPost.Subject.Violence;
                 else if (tempString_1 == "Health")
                     bossOrder.narrativeSubject = MediaPost.Subject.Health;
-                else if (tempString_1 == "Radicalism")
+                else
                     bossOrder.narrativeSubject = MediaPost.Subject.Radicalism;
 
                 bossOrder.type = BossOrder.Type.Secondary;

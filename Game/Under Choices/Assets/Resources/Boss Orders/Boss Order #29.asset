@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   orderNumber: 29
   day: 4
-  numberToBoost: 1
+  numberToBoost: 0
   anySubject: 0
-  anyReaction: 1
-  dontBoost: 0
+  anyReaction: 0
+  dontBoost: 1
   publisher: None
-  subject: 3
+  subject: 0
   narrativeSubject: 3
   reaction: 0
   type: 1
