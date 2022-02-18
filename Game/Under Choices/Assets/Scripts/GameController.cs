@@ -146,6 +146,16 @@ public class GameController : MonoBehaviour
                 currentDayPosts.Add(post);
         }
 
+        // Randomize posts
+        int lastPos = currentDayPosts.Count - 1;
+        for (int i = 0; i < lastPos; i++)
+        {
+            int random = UnityEngine.Random.Range(i, lastPos);
+            MediaPost tempPost = currentDayPosts[i];
+            currentDayPosts[i] = currentDayPosts[random];
+            currentDayPosts[random] = tempPost;
+        }
+
         // Load current day orders
         foreach (BossOrder order in bossOrders)
         {
