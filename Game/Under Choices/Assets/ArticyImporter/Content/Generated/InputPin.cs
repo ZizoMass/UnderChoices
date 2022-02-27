@@ -22,7 +22,7 @@ namespace Articy.Underchoices
     
     
     [Serializable()]
-    [Articy.Unity.ArticyCodeGenerationHashAttribute(637785767468429061)]
+    [Articy.Unity.ArticyCodeGenerationHashAttribute(637815662789242347)]
     public class InputPin : ArticyPrimitive, IInputPin
     {
         
