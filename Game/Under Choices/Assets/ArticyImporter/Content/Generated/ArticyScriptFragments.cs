@@ -20,7 +20,7 @@ namespace Articy.Underchoices.GlobalVariables
 {
     
     
-    [Articy.Unity.ArticyCodeGenerationHashAttribute(637785767941047397)]
+    [Articy.Unity.ArticyCodeGenerationHashAttribute(637815662843608011)]
     public class ArticyScriptFragments : BaseScriptFragments, ISerializationCallbackReceiver
     {
         

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9213247370534419184
+--- !u!114 &-9092768206155569938
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,37 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: Dialogue
+  m_Name: ShapeType
   m_EditorClassIdentifier: 
-  mTechnicalName: Dialogue
-  mDisplayName: Dialogue
-  mBaseType: {fileID: -2836981519538854315}
-  mCSharpType: Articy.Underchoices.Dialogue, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+  mTechnicalName: ShapeType
+  mDisplayName: ShapeType
+  mBaseType: {fileID: 0}
+  mCSharpType: Articy.Underchoices.ShapeType, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
-  mIsEnum: 0
+  mIsEnum: 1
   mHasTemplate: 0
   mFeatures: []
-  mProperties:
-  - {fileID: -7790624827420705697}
-  - {fileID: 4429827070368180004}
-  - {fileID: 6505520596619223242}
-  - {fileID: -3485107705507147423}
-  - {fileID: 1724115899336531785}
-  - {fileID: 118138315883161770}
-  - {fileID: -9147550486894461480}
-  - {fileID: 8668482931881007372}
-  - {fileID: -2736421502641684113}
-  - {fileID: -2858678564222849418}
-  - {fileID: -430349774899503736}
-  - {fileID: 2380903722774341614}
-  - {fileID: 6155191785474430485}
-  - {fileID: 7937640332826795031}
-  - {fileID: -4775532040035671775}
-  - {fileID: -8825237382754675836}
-  - {fileID: -3392346210860184281}
-  - {fileID: 2472848359553488286}
-  mEnumValues: []
---- !u!114 &-9147550486894461480
+  mProperties: []
+  mEnumValues:
+  - {fileID: -3808383416386082944}
+  - {fileID: -3427980045814516220}
+  - {fileID: 8062784366457430365}
+  - {fileID: -8609460714889396965}
+  - {fileID: -5726446657166841478}
+  - {fileID: -164376221596896347}
+  - {fileID: -203766447934260942}
+--- !u!114 &-8883854756629013643
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -50,16 +39,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: Position
+  m_Name: OutlineColor
   m_EditorClassIdentifier: 
-  mTechnicalName: Position
+  mTechnicalName: OutlineColor
   mDisplayName: 
   mIsTemplateProperty: 0
-  mPropertyType: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+  mPropertyType: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
   mConstraintNames: 
   mConstraintValues: []
---- !u!114 &-9047425278302539157
+--- !u!114 &-8778731006450433458
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -68,45 +57,65 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: DefaultSupportingCharacterTemplate
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: LocationAnchorSize.Small
   m_EditorClassIdentifier: 
-  mTechnicalName: DefaultSupportingCharacterTemplate
-  mDisplayName: Supporting characters
-  mBaseType: {fileID: 5350723466102367061}
-  mCSharpType: Articy.Underchoices.DefaultSupportingCharacterTemplate, Assembly-CSharp,
-    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  mIsEnum: 0
-  mHasTemplate: 1
-  mFeatures:
-  - DefaultBasicCharacterFeature
-  mProperties:
-  - {fileID: -909093202611899487}
-  - {fileID: 6187460743925172504}
-  - {fileID: -1831738605356687348}
-  - {fileID: 7193514072590148620}
-  - {fileID: -2480078870025226333}
-  - {fileID: 990322560781075763}
-  - {fileID: 5971069427084224250}
-  - {fileID: 1544144401895414489}
-  - {fileID: -7790624827420705697}
-  - {fileID: 4429827070368180004}
-  - {fileID: -3485107705507147423}
-  - {fileID: 1724115899336531785}
-  - {fileID: 118138315883161770}
-  - {fileID: -9147550486894461480}
-  - {fileID: 8668482931881007372}
-  - {fileID: -2736421502641684113}
-  - {fileID: 6505520596619223242}
-  - {fileID: -2858678564222849418}
-  - {fileID: -430349774899503736}
-  - {fileID: 2380903722774341614}
-  - {fileID: 6155191785474430485}
-  - {fileID: -8825237382754675836}
-  - {fileID: -3392346210860184281}
-  - {fileID: 2472848359553488286}
-  mEnumValues: []
---- !u!114 &-9010639885188711991
+  mTechnicalName: Small
+  mDisplayName: Small
+  mValue: 0
+--- !u!114 &-8704161519889192618
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Target
+  m_EditorClassIdentifier: 
+  mTechnicalName: Target
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: Articy.Unity.ArticyObject, ArticyRuntime, Version=2.3.3.0, Culture=neutral,
+    PublicKeyToken=null
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-8609460714889396965
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ShapeType.Rectangle
+  m_EditorClassIdentifier: 
+  mTechnicalName: Rectangle
+  mDisplayName: Rectangle
+  mValue: 3
+--- !u!114 &-8231807760657635304
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: CachedImageHeight
+  m_EditorClassIdentifier: 
+  mTechnicalName: CachedImageHeight
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-8218773584575273991
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -128,40 +137,10 @@ MonoBehaviour:
   mFeatures: []
   mProperties: []
   mEnumValues:
-  - {fileID: 4618926072651750267}
-  - {fileID: 2480444284371339628}
-  - {fileID: 7159429530633529593}
---- !u!114 &-8931547996366572628
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: PathCaps.None
-  m_EditorClassIdentifier: 
-  mTechnicalName: None
-  mDisplayName: None
-  mValue: 1
---- !u!114 &-8910891393052136577
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: PreviewImageViewBoxModes.Custom
-  m_EditorClassIdentifier: 
-  mTechnicalName: Custom
-  mDisplayName: Custom
-  mValue: 1
---- !u!114 &-8825237382754675836
+  - {fileID: -8778731006450433458}
+  - {fileID: -1384329289219901371}
+  - {fileID: -3669406750889882242}
+--- !u!114 &-8088092954690698062
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -171,106 +150,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: ParentId
+  m_Name: DisplayNameSize
   m_EditorClassIdentifier: 
-  mTechnicalName: ParentId
+  mTechnicalName: DisplayNameSize
   mDisplayName: 
   mIsTemplateProperty: 0
-  mPropertyType: System.UInt64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mPropertyType: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
   mConstraintNames: 
   mConstraintValues: []
---- !u!114 &-8518955842840586952
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: Speaker
-  m_EditorClassIdentifier: 
-  mTechnicalName: Speaker
-  mDisplayName: 
-  mIsTemplateProperty: 0
-  mPropertyType: Articy.Unity.ArticyObject, ArticyRuntime, Version=2.3.3.0, Culture=neutral,
-    PublicKeyToken=null
-  mConstraintNames: 
-  mConstraintValues: []
---- !u!114 &-8223366858407557890
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: CreatedOn
-  m_EditorClassIdentifier: 
-  mTechnicalName: CreatedOn
-  mDisplayName: 
-  mIsTemplateProperty: 0
-  mPropertyType: System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-  mConstraintNames: 
-  mConstraintValues: []
---- !u!114 &-8103532868752245861
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: DefaultExtendedCharacterFeature.Motivation
-  m_EditorClassIdentifier: 
-  mTechnicalName: DefaultExtendedCharacterFeature.Motivation
-  mDisplayName: Goals
-  mIsTemplateProperty: 1
-  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
-  mConstraintValues:
-  - 
-  - 
-  - 
-  - True
-  - 
-  - False
-  - True
-  - 2048
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 
-  - 0
-  - 
-  - 
-  - 
---- !u!114 &-7790624827420705697
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: Attachments
-  m_EditorClassIdentifier: 
-  mTechnicalName: Attachments
-  mDisplayName: 
-  mIsTemplateProperty: 0
-  mPropertyType: Articy.Underchoices.List`1, Assembly-CSharp
-  mConstraintNames: 
-  mConstraintValues: []
---- !u!114 &-7775815321669199818
+--- !u!114 &-8086470589410521932
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -280,64 +168,146 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: LocationText
+  m_Name: Post_Template
   m_EditorClassIdentifier: 
-  mTechnicalName: LocationText
-  mDisplayName: LocationText
-  mBaseType: {fileID: -2836981519538854315}
-  mCSharpType: Articy.Underchoices.LocationText, Assembly-CSharp, Version=0.0.0.0,
+  mTechnicalName: Post_Template
+  mDisplayName: Post Template
+  mBaseType: {fileID: -6827204980891448686}
+  mCSharpType: Articy.Underchoices.Post_Template, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 1
+  mFeatures: []
+  mProperties:
+  - {fileID: 1731386030214731837}
+  - {fileID: -5132588695977438072}
+  - {fileID: -7855026312651197688}
+  - {fileID: -1534790788800208407}
+  - {fileID: 6797650975051001715}
+  - {fileID: -5581288421942238389}
+  - {fileID: -6479369266071410904}
+  - {fileID: -6224275204576912370}
+  - {fileID: 8594347215239677294}
+  - {fileID: 3273398339767465931}
+  - {fileID: 8727276483749021671}
+  - {fileID: 7993819545501960310}
+  - {fileID: -2451784760825021103}
+  - {fileID: 6863526355959517411}
+  - {fileID: -5317537122540884883}
+  - {fileID: -3024223832354478204}
+  - {fileID: 5075174895231135988}
+  - {fileID: -4113273896423915915}
+  mEnumValues: []
+--- !u!114 &-7873299556552755968
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Path
+  m_EditorClassIdentifier: 
+  mTechnicalName: Path
+  mDisplayName: Path
+  mBaseType: {fileID: 829181714692815706}
+  mCSharpType: Articy.Underchoices.Path, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: -5132588695977438072}
+  - {fileID: -7855026312651197688}
+  - {fileID: 3497258013941469415}
+  - {fileID: 1535711497987218099}
+  - {fileID: -1534790788800208407}
+  - {fileID: 6797650975051001715}
+  - {fileID: -5581288421942238389}
+  - {fileID: -6224275204576912370}
+  - {fileID: 8594347215239677294}
+  - {fileID: 3273398339767465931}
+  - {fileID: 4511317402286396386}
+  - {fileID: 5519500780283198484}
+  - {fileID: 178164908879119436}
+  - {fileID: 1425527902021691371}
+  - {fileID: -8088092954690698062}
+  - {fileID: 8633557021057436693}
+  - {fileID: -8883854756629013643}
+  - {fileID: -9060664501317164}
+  - {fileID: -2297449305681182425}
+  - {fileID: -992551690611146419}
+  - {fileID: -3727757357850451238}
+  - {fileID: 8773882228715511636}
+  - {fileID: 8727276483749021671}
+  - {fileID: 7993819545501960310}
+  - {fileID: -2451784760825021103}
+  - {fileID: -3024223832354478204}
+  - {fileID: 5075174895231135988}
+  - {fileID: -4113273896423915915}
+  mEnumValues: []
+--- !u!114 &-7855026312651197688
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: PreviewImage
+  m_EditorClassIdentifier: 
+  mTechnicalName: PreviewImage
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: Articy.Unity.PreviewImage, ArticyRuntime, Version=2.3.3.0, Culture=neutral,
+    PublicKeyToken=null
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-7388589531359856962
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DialogueFragment
+  m_EditorClassIdentifier: 
+  mTechnicalName: DialogueFragment
+  mDisplayName: DialogueFragment
+  mBaseType: {fileID: 829181714692815706}
+  mCSharpType: Articy.Underchoices.DialogueFragment, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   mIsEnum: 0
   mHasTemplate: 0
   mFeatures: []
   mProperties:
-  - {fileID: 4429827070368180004}
-  - {fileID: 6505520596619223242}
-  - {fileID: 8881418413977872153}
-  - {fileID: 2345564439846375760}
-  - {fileID: 5828179020708818442}
-  - {fileID: 5013533951149917616}
-  - {fileID: -3485107705507147423}
-  - {fileID: 1724115899336531785}
-  - {fileID: 118138315883161770}
-  - {fileID: 8668482931881007372}
-  - {fileID: -2736421502641684113}
-  - {fileID: -2858678564222849418}
-  - {fileID: 2222694859541650110}
-  - {fileID: -5542612095123533433}
-  - {fileID: -3814366461905286975}
-  - {fileID: 4017223301593338384}
-  - {fileID: -4160704576680947411}
-  - {fileID: 9184731920916651474}
-  - {fileID: 8322491061244663270}
-  - {fileID: 2902046961591524275}
-  - {fileID: -430349774899503736}
-  - {fileID: 2380903722774341614}
-  - {fileID: 6155191785474430485}
-  - {fileID: -8825237382754675836}
-  - {fileID: -3392346210860184281}
-  - {fileID: 2472848359553488286}
+  - {fileID: 5822948701648054951}
+  - {fileID: 6786923957958992299}
+  - {fileID: -374711221247283586}
+  - {fileID: -1534790788800208407}
+  - {fileID: 6797650975051001715}
+  - {fileID: -5581288421942238389}
+  - {fileID: -6479369266071410904}
+  - {fileID: -6224275204576912370}
+  - {fileID: 8594347215239677294}
+  - {fileID: 3273398339767465931}
+  - {fileID: 8727276483749021671}
+  - {fileID: 7993819545501960310}
+  - {fileID: -2451784760825021103}
+  - {fileID: 6863526355959517411}
+  - {fileID: -5317537122540884883}
+  - {fileID: -3024223832354478204}
+  - {fileID: 5075174895231135988}
+  - {fileID: -4113273896423915915}
   mEnumValues: []
---- !u!114 &-7506545766994899984
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: StartCap
-  m_EditorClassIdentifier: 
-  mTechnicalName: StartCap
-  mDisplayName: 
-  mIsTemplateProperty: 0
-  mPropertyType: Articy.Underchoices.PathCaps, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  mConstraintNames: 
-  mConstraintValues: []
---- !u!114 &-7441289010838048764
+--- !u!114 &-6844565867741416230
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -347,100 +317,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: PathCaps.Diamond
+  m_Name: VisibilityModes.Invisible
   m_EditorClassIdentifier: 
-  mTechnicalName: Diamond
-  mDisplayName: Diamond
-  mValue: 4
---- !u!114 &-7374366030195375787
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: ShapeType.Link
-  m_EditorClassIdentifier: 
-  mTechnicalName: Link
-  mDisplayName: Link
-  mValue: 6
---- !u!114 &-7320406366576043310
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: Filename
-  m_EditorClassIdentifier: 
-  mTechnicalName: Filename
-  mDisplayName: 
-  mIsTemplateProperty: 0
-  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-  mConstraintNames: 
-  mConstraintValues: []
---- !u!114 &-7082009553544225993
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: ClipRect
-  m_EditorClassIdentifier: 
-  mTechnicalName: ClipRect
-  mDisplayName: 
-  mIsTemplateProperty: 0
-  mPropertyType: UnityEngine.Rect, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
-    PublicKeyToken=null
-  mConstraintNames: 
-  mConstraintValues: []
---- !u!114 &-7034261921996986607
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: DefaultExtendedCharacterFeature.InnerConflict
-  m_EditorClassIdentifier: 
-  mTechnicalName: DefaultExtendedCharacterFeature.InnerConflict
-  mDisplayName: Inner Conflict
-  mIsTemplateProperty: 1
-  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
-  mConstraintValues:
-  - 
-  - 
-  - 
-  - True
-  - 
-  - False
-  - True
-  - 2048
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 
-  - 0
-  - 
-  - 
-  - 
---- !u!114 &-6535828814733693692
+  mTechnicalName: Invisible
+  mDisplayName: Invisible
+  mValue: 0
+--- !u!114 &-6827204980891448686
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -450,24 +332,37 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: OutlineStyle
+  m_Name: Dialogue
   m_EditorClassIdentifier: 
-  mTechnicalName: OutlineStyle
-  mDisplayName: OutlineStyle
-  mBaseType: {fileID: 0}
-  mCSharpType: Articy.Underchoices.OutlineStyle, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  mIsEnum: 1
+  mTechnicalName: Dialogue
+  mDisplayName: Dialogue
+  mBaseType: {fileID: 829181714692815706}
+  mCSharpType: Articy.Underchoices.Dialogue, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 0
   mHasTemplate: 0
   mFeatures: []
-  mProperties: []
-  mEnumValues:
-  - {fileID: -6138037106555896459}
-  - {fileID: 5776598998160880593}
-  - {fileID: -2137617416953403369}
-  - {fileID: 1251974293752395429}
-  - {fileID: 106849871167005066}
---- !u!114 &-6138037106555896459
+  mProperties:
+  - {fileID: 1731386030214731837}
+  - {fileID: -5132588695977438072}
+  - {fileID: -7855026312651197688}
+  - {fileID: -1534790788800208407}
+  - {fileID: 6797650975051001715}
+  - {fileID: -5581288421942238389}
+  - {fileID: -6479369266071410904}
+  - {fileID: -6224275204576912370}
+  - {fileID: 8594347215239677294}
+  - {fileID: 3273398339767465931}
+  - {fileID: 8727276483749021671}
+  - {fileID: 7993819545501960310}
+  - {fileID: -2451784760825021103}
+  - {fileID: 6863526355959517411}
+  - {fileID: -5317537122540884883}
+  - {fileID: -3024223832354478204}
+  - {fileID: 5075174895231135988}
+  - {fileID: -4113273896423915915}
+  mEnumValues: []
+--- !u!114 &-6758954898445879138
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -476,13 +371,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: OutlineStyle.Solid
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ForcedHeight
   m_EditorClassIdentifier: 
-  mTechnicalName: Solid
-  mDisplayName: Solid
-  mValue: 0
---- !u!114 &-5873512221206415295
+  mTechnicalName: ForcedHeight
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-6679505449272808096
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -491,13 +389,127 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: Sex.Male
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: LocationImage
   m_EditorClassIdentifier: 
-  mTechnicalName: Male
-  mDisplayName: Male
-  mValue: 0
---- !u!114 &-5752537748890126967
+  mTechnicalName: LocationImage
+  mDisplayName: LocationImage
+  mBaseType: {fileID: 829181714692815706}
+  mCSharpType: Articy.Underchoices.LocationImage, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: -5132588695977438072}
+  - {fileID: -7855026312651197688}
+  - {fileID: -3020050655283708579}
+  - {fileID: 3497258013941469415}
+  - {fileID: 1535711497987218099}
+  - {fileID: 3685053733091607239}
+  - {fileID: -1534790788800208407}
+  - {fileID: 6797650975051001715}
+  - {fileID: -5581288421942238389}
+  - {fileID: -6224275204576912370}
+  - {fileID: 8594347215239677294}
+  - {fileID: 3273398339767465931}
+  - {fileID: 4511317402286396386}
+  - {fileID: -8883854756629013643}
+  - {fileID: -9060664501317164}
+  - {fileID: -2297449305681182425}
+  - {fileID: 5519500780283198484}
+  - {fileID: 8633557021057436693}
+  - {fileID: 6957455901637121914}
+  - {fileID: -5833444035429060821}
+  - {fileID: 6351603800076988160}
+  - {fileID: 4740671236960779828}
+  - {fileID: -8231807760657635304}
+  - {fileID: 178164908879119436}
+  - {fileID: 1425527902021691371}
+  - {fileID: -8088092954690698062}
+  - {fileID: 8727276483749021671}
+  - {fileID: 7993819545501960310}
+  - {fileID: -2451784760825021103}
+  - {fileID: -3024223832354478204}
+  - {fileID: 5075174895231135988}
+  - {fileID: -4113273896423915915}
+  mEnumValues: []
+--- !u!114 &-6540031489442539898
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Hub
+  m_EditorClassIdentifier: 
+  mTechnicalName: Hub
+  mDisplayName: Hub
+  mBaseType: {fileID: 829181714692815706}
+  mCSharpType: Articy.Underchoices.Hub, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: -5132588695977438072}
+  - {fileID: -1534790788800208407}
+  - {fileID: 6797650975051001715}
+  - {fileID: -5581288421942238389}
+  - {fileID: -6479369266071410904}
+  - {fileID: -6224275204576912370}
+  - {fileID: 8594347215239677294}
+  - {fileID: 3273398339767465931}
+  - {fileID: 8727276483749021671}
+  - {fileID: 7993819545501960310}
+  - {fileID: -2451784760825021103}
+  - {fileID: 6863526355959517411}
+  - {fileID: -5317537122540884883}
+  - {fileID: -3024223832354478204}
+  - {fileID: 5075174895231135988}
+  - {fileID: -4113273896423915915}
+  mEnumValues: []
+--- !u!114 &-6479369266071410904
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Position
+  m_EditorClassIdentifier: 
+  mTechnicalName: Position
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-6224275204576912370
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ZIndex
+  m_EditorClassIdentifier: 
+  mTechnicalName: ZIndex
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-6112172953039254793
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -511,39 +523,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mTechnicalName: Spot
   mDisplayName: Spot
-  mBaseType: {fileID: -2836981519538854315}
+  mBaseType: {fileID: 829181714692815706}
   mCSharpType: Articy.Underchoices.Spot, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
   mIsEnum: 0
   mHasTemplate: 0
   mFeatures: []
   mProperties:
-  - {fileID: 4429827070368180004}
-  - {fileID: -3485107705507147423}
-  - {fileID: 1724115899336531785}
-  - {fileID: 118138315883161770}
-  - {fileID: -9147550486894461480}
-  - {fileID: 8668482931881007372}
-  - {fileID: -2736421502641684113}
-  - {fileID: 6505520596619223242}
-  - {fileID: -2858678564222849418}
-  - {fileID: 2222694859541650110}
-  - {fileID: 6518763055536614362}
-  - {fileID: 6494697602519144838}
-  - {fileID: 6978992068925557624}
-  - {fileID: -5542612095123533433}
-  - {fileID: -3814366461905286975}
-  - {fileID: 4017223301593338384}
-  - {fileID: 2902046961591524275}
-  - {fileID: -4160704576680947411}
-  - {fileID: -430349774899503736}
-  - {fileID: 2380903722774341614}
-  - {fileID: 6155191785474430485}
-  - {fileID: -8825237382754675836}
-  - {fileID: -3392346210860184281}
-  - {fileID: 2472848359553488286}
+  - {fileID: -5132588695977438072}
+  - {fileID: -1534790788800208407}
+  - {fileID: 6797650975051001715}
+  - {fileID: -5581288421942238389}
+  - {fileID: -6479369266071410904}
+  - {fileID: -6224275204576912370}
+  - {fileID: 8594347215239677294}
+  - {fileID: -7855026312651197688}
+  - {fileID: 3273398339767465931}
+  - {fileID: 4511317402286396386}
+  - {fileID: 178164908879119436}
+  - {fileID: 1425527902021691371}
+  - {fileID: -8088092954690698062}
+  - {fileID: -8883854756629013643}
+  - {fileID: -9060664501317164}
+  - {fileID: -2297449305681182425}
+  - {fileID: 8633557021057436693}
+  - {fileID: 5519500780283198484}
+  - {fileID: 8727276483749021671}
+  - {fileID: 7993819545501960310}
+  - {fileID: -2451784760825021103}
+  - {fileID: -3024223832354478204}
+  - {fileID: 5075174895231135988}
+  - {fileID: -4113273896423915915}
   mEnumValues: []
---- !u!114 &-5731123214933124992
+--- !u!114 &-6082672608210867831
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -553,15 +565,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: MenuText
+  m_Name: TargetPin
   m_EditorClassIdentifier: 
-  mTechnicalName: MenuText
+  mTechnicalName: TargetPin
   mDisplayName: 
   mIsTemplateProperty: 0
-  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mPropertyType: Articy.Underchoices.UInt64, Assembly-CSharp
   mConstraintNames: 
   mConstraintValues: []
---- !u!114 &-5542612095123533433
+--- !u!114 &-5953483617347294619
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -570,17 +582,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: OutlineColor
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: OutlineStyle.Dash
   m_EditorClassIdentifier: 
-  mTechnicalName: OutlineColor
-  mDisplayName: 
-  mIsTemplateProperty: 0
-  mPropertyType: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
-    PublicKeyToken=null
-  mConstraintNames: 
-  mConstraintValues: []
---- !u!114 &-5434090626936600004
+  mTechnicalName: Dash
+  mDisplayName: Dash
+  mValue: 2
+--- !u!114 &-5833444035429060821
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -598,7 +606,77 @@ MonoBehaviour:
   mPropertyType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
   mConstraintNames: 
   mConstraintValues: []
---- !u!114 &-4775532040035671775
+--- !u!114 &-5743281894696134850
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DefaultBasicCharacterFeature.Sex
+  m_EditorClassIdentifier: 
+  mTechnicalName: DefaultBasicCharacterFeature.Sex
+  mDisplayName: Sex
+  mIsTemplateProperty: 1
+  mPropertyType: Articy.Underchoices.Sex, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - False
+  - 
+  - False
+  - True
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - BySortIndex
+  - 
+--- !u!114 &-5726446657166841478
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ShapeType.Path
+  m_EditorClassIdentifier: 
+  mTechnicalName: Path
+  mDisplayName: Path
+  mValue: 4
+--- !u!114 &-5581288421942238389
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ExternalId
+  m_EditorClassIdentifier: 
+  mTechnicalName: ExternalId
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-5317537122540884883
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -616,25 +694,7 @@ MonoBehaviour:
   mPropertyType: Articy.Underchoices.List`1, Assembly-CSharp
   mConstraintNames: 
   mConstraintValues: []
---- !u!114 &-4720114240007259864
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: OriginalSource
-  m_EditorClassIdentifier: 
-  mTechnicalName: OriginalSource
-  mDisplayName: 
-  mIsTemplateProperty: 0
-  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-  mConstraintNames: 
-  mConstraintValues: []
---- !u!114 &-4607676678139626051
+--- !u!114 &-5232732318382797077
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -644,12 +704,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: ShapeType.Rectangle
+  m_Name: OutlineStyle.Solid
   m_EditorClassIdentifier: 
-  mTechnicalName: Rectangle
-  mDisplayName: Rectangle
-  mValue: 3
---- !u!114 &-4160704576680947411
+  mTechnicalName: Solid
+  mDisplayName: Solid
+  mValue: 0
+--- !u!114 &-5132588695977438072
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -659,16 +719,98 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: Selectability
+  m_Name: DisplayName
   m_EditorClassIdentifier: 
-  mTechnicalName: Selectability
+  mTechnicalName: DisplayName
   mDisplayName: 
   mIsTemplateProperty: 0
-  mPropertyType: Articy.Underchoices.SelectabilityModes, Assembly-CSharp, Version=0.0.0.0,
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-5113634859532176113
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: PreviewImageViewBoxModes.Custom
+  m_EditorClassIdentifier: 
+  mTechnicalName: Custom
+  mDisplayName: Custom
+  mValue: 1
+--- !u!114 &-4513432284792191871
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Sex.Unknown
+  m_EditorClassIdentifier: 
+  mTechnicalName: Unknown
+  mDisplayName: Unknown
+  mValue: 2
+--- !u!114 &-4113273896423915915
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Children
+  m_EditorClassIdentifier: 
+  mTechnicalName: Children
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.Collections.ArrayList, mscorlib, Version=4.0.0.0, Culture=neutral,
+    PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-3808383416386082944
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ShapeType.Invalid
+  m_EditorClassIdentifier: 
+  mTechnicalName: Invalid
+  mDisplayName: Invalid
+  mValue: 0
+--- !u!114 &-3727757357850451238
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: EndCap
+  m_EditorClassIdentifier: 
+  mTechnicalName: EndCap
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: Articy.Underchoices.PathCaps, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   mConstraintNames: 
   mConstraintValues: []
---- !u!114 &-3877125649578515818
+--- !u!114 &-3669406750889882242
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -677,34 +819,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: LineWidth
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: LocationAnchorSize.Large
   m_EditorClassIdentifier: 
-  mTechnicalName: LineWidth
-  mDisplayName: 
-  mIsTemplateProperty: 0
-  mPropertyType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-  mConstraintNames: 
-  mConstraintValues: []
---- !u!114 &-3814366461905286975
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: OutlineSize
-  m_EditorClassIdentifier: 
-  mTechnicalName: OutlineSize
-  mDisplayName: 
-  mIsTemplateProperty: 0
-  mPropertyType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-  mConstraintNames: 
-  mConstraintValues: []
---- !u!114 &-3735999333062432422
+  mTechnicalName: Large
+  mDisplayName: Large
+  mValue: 2
+--- !u!114 &-3465881890753470330
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -714,33 +835,466 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: Document
+  m_Name: DefaultMainCharacterTemplate
   m_EditorClassIdentifier: 
-  mTechnicalName: Document
-  mDisplayName: Document
-  mBaseType: {fileID: -2836981519538854315}
-  mCSharpType: Articy.Underchoices.Document, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+  mTechnicalName: DefaultMainCharacterTemplate
+  mDisplayName: Main characters
+  mBaseType: {fileID: -2231378108924111971}
+  mCSharpType: Articy.Underchoices.DefaultMainCharacterTemplate, Assembly-CSharp,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 1
+  mFeatures:
+  - DefaultExtendedCharacterFeature
+  - DefaultBasicCharacterFeature
+  mProperties:
+  - {fileID: 8999685390567966471}
+  - {fileID: 6489536582954253835}
+  - {fileID: 3692909523070415312}
+  - {fileID: 962735483883770522}
+  - {fileID: 3788079438121848467}
+  - {fileID: 5790910942307714452}
+  - {fileID: 4857091636654154893}
+  - {fileID: -2554321547623990354}
+  - {fileID: 3747743516378535011}
+  - {fileID: -5743281894696134850}
+  - {fileID: 3947883108038902205}
+  - {fileID: -3274976379257272442}
+  - {fileID: 3347943606320071534}
+  - {fileID: 7088553365005347692}
+  - {fileID: 1731386030214731837}
+  - {fileID: -5132588695977438072}
+  - {fileID: -1534790788800208407}
+  - {fileID: 6797650975051001715}
+  - {fileID: -5581288421942238389}
+  - {fileID: -6479369266071410904}
+  - {fileID: -6224275204576912370}
+  - {fileID: 8594347215239677294}
+  - {fileID: -7855026312651197688}
+  - {fileID: 3273398339767465931}
+  - {fileID: 8727276483749021671}
+  - {fileID: 7993819545501960310}
+  - {fileID: -2451784760825021103}
+  - {fileID: -3024223832354478204}
+  - {fileID: 5075174895231135988}
+  - {fileID: -4113273896423915915}
+  mEnumValues: []
+--- !u!114 &-3427980045814516220
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ShapeType.Spot
+  m_EditorClassIdentifier: 
+  mTechnicalName: Spot
+  mDisplayName: Spot
+  mValue: 1
+--- !u!114 &-3274976379257272442
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DefaultBasicCharacterFeature.Accent
+  m_EditorClassIdentifier: 
+  mTechnicalName: DefaultBasicCharacterFeature.Accent
+  mDisplayName: Voice
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - False
+  - 
+  - False
+  - True
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &-3024223832354478204
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ParentId
+  m_EditorClassIdentifier: 
+  mTechnicalName: ParentId
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.UInt64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-3020050655283708579
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Anchors
+  m_EditorClassIdentifier: 
+  mTechnicalName: Anchors
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: Articy.Underchoices.List`1, Assembly-CSharp
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-2772401137038670828
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: CreatedBy
+  m_EditorClassIdentifier: 
+  mTechnicalName: CreatedBy
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-2744263789283944029
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Condition
+  m_EditorClassIdentifier: 
+  mTechnicalName: Condition
+  mDisplayName: Condition
+  mBaseType: {fileID: 829181714692815706}
+  mCSharpType: Articy.Underchoices.Condition, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
   mIsEnum: 0
   mHasTemplate: 0
   mFeatures: []
   mProperties:
-  - {fileID: 4429827070368180004}
-  - {fileID: -3485107705507147423}
-  - {fileID: 1724115899336531785}
-  - {fileID: 118138315883161770}
-  - {fileID: -9147550486894461480}
-  - {fileID: 8668482931881007372}
-  - {fileID: -2736421502641684113}
-  - {fileID: -2858678564222849418}
-  - {fileID: -430349774899503736}
-  - {fileID: 2380903722774341614}
-  - {fileID: 6155191785474430485}
-  - {fileID: -8825237382754675836}
-  - {fileID: -3392346210860184281}
-  - {fileID: 2472848359553488286}
+  - {fileID: -5132588695977438072}
+  - {fileID: 6797650975051001715}
+  - {fileID: -5581288421942238389}
+  - {fileID: -6479369266071410904}
+  - {fileID: -6224275204576912370}
+  - {fileID: 8594347215239677294}
+  - {fileID: 3273398339767465931}
+  - {fileID: -2272808671838561710}
+  - {fileID: -1534790788800208407}
+  - {fileID: 8727276483749021671}
+  - {fileID: 7993819545501960310}
+  - {fileID: -2451784760825021103}
+  - {fileID: 6863526355959517411}
+  - {fileID: -5317537122540884883}
+  - {fileID: -3024223832354478204}
+  - {fileID: 5075174895231135988}
+  - {fileID: -4113273896423915915}
   mEnumValues: []
---- !u!114 &-3485107705507147423
+--- !u!114 &-2664356380368159500
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Comment
+  m_EditorClassIdentifier: 
+  mTechnicalName: Comment
+  mDisplayName: Comment
+  mBaseType: {fileID: 829181714692815706}
+  mCSharpType: Articy.Underchoices.Comment, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: -2772401137038670828}
+  - {fileID: 7954355313083206526}
+  - {fileID: -1534790788800208407}
+  - {fileID: 6797650975051001715}
+  - {fileID: -5581288421942238389}
+  - {fileID: -6479369266071410904}
+  - {fileID: -6224275204576912370}
+  - {fileID: 8594347215239677294}
+  - {fileID: 3273398339767465931}
+  - {fileID: 8727276483749021671}
+  - {fileID: 7993819545501960310}
+  - {fileID: -2451784760825021103}
+  - {fileID: -3024223832354478204}
+  - {fileID: 5075174895231135988}
+  - {fileID: -4113273896423915915}
+  mEnumValues: []
+--- !u!114 &-2554321547623990354
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DefaultBasicCharacterFeature.Species
+  m_EditorClassIdentifier: 
+  mTechnicalName: DefaultBasicCharacterFeature.Species
+  mDisplayName: Species
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - False
+  - 
+  - False
+  - True
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &-2546852795877305931
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: PathCaps.Disc
+  m_EditorClassIdentifier: 
+  mTechnicalName: Disc
+  mDisplayName: Disc
+  mValue: 6
+--- !u!114 &-2451784760825021103
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Parent
+  m_EditorClassIdentifier: 
+  mTechnicalName: Parent
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: Articy.Unity.ArticyObject, ArticyRuntime, Version=2.3.3.0, Culture=neutral,
+    PublicKeyToken=null
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-2392489073515712931
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: LocationText
+  m_EditorClassIdentifier: 
+  mTechnicalName: LocationText
+  mDisplayName: LocationText
+  mBaseType: {fileID: 829181714692815706}
+  mCSharpType: Articy.Underchoices.LocationText, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: -5132588695977438072}
+  - {fileID: -7855026312651197688}
+  - {fileID: -3020050655283708579}
+  - {fileID: 3497258013941469415}
+  - {fileID: 1535711497987218099}
+  - {fileID: 3685053733091607239}
+  - {fileID: -1534790788800208407}
+  - {fileID: 6797650975051001715}
+  - {fileID: -5581288421942238389}
+  - {fileID: -6224275204576912370}
+  - {fileID: 8594347215239677294}
+  - {fileID: 3273398339767465931}
+  - {fileID: 4511317402286396386}
+  - {fileID: -8883854756629013643}
+  - {fileID: -9060664501317164}
+  - {fileID: -2297449305681182425}
+  - {fileID: 5519500780283198484}
+  - {fileID: 1746479005289640288}
+  - {fileID: -6758954898445879138}
+  - {fileID: 8633557021057436693}
+  - {fileID: 8727276483749021671}
+  - {fileID: 7993819545501960310}
+  - {fileID: -2451784760825021103}
+  - {fileID: -3024223832354478204}
+  - {fileID: 5075174895231135988}
+  - {fileID: -4113273896423915915}
+  mEnumValues: []
+--- !u!114 &-2297449305681182425
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: OutlineStyle
+  m_EditorClassIdentifier: 
+  mTechnicalName: OutlineStyle
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: Articy.Underchoices.OutlineStyle, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-2272808671838561710
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Expression
+  m_EditorClassIdentifier: 
+  mTechnicalName: Expression
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: Articy.Unity.ArticyScriptCondition, ArticyRuntime, Version=2.3.3.0,
+    Culture=neutral, PublicKeyToken=null
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-2231378108924111971
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Entity
+  m_EditorClassIdentifier: 
+  mTechnicalName: Entity
+  mDisplayName: Entity
+  mBaseType: {fileID: 829181714692815706}
+  mCSharpType: Articy.Underchoices.Entity, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: 1731386030214731837}
+  - {fileID: -5132588695977438072}
+  - {fileID: -1534790788800208407}
+  - {fileID: 6797650975051001715}
+  - {fileID: -5581288421942238389}
+  - {fileID: -6479369266071410904}
+  - {fileID: -6224275204576912370}
+  - {fileID: 8594347215239677294}
+  - {fileID: -7855026312651197688}
+  - {fileID: 3273398339767465931}
+  - {fileID: 8727276483749021671}
+  - {fileID: 7993819545501960310}
+  - {fileID: -2451784760825021103}
+  - {fileID: -3024223832354478204}
+  - {fileID: 5075174895231135988}
+  - {fileID: -4113273896423915915}
+  mEnumValues: []
+--- !u!114 &-1962900389559952520
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: FlowFragment
+  m_EditorClassIdentifier: 
+  mTechnicalName: FlowFragment
+  mDisplayName: FlowFragment
+  mBaseType: {fileID: 829181714692815706}
+  mCSharpType: Articy.Underchoices.FlowFragment, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: 1731386030214731837}
+  - {fileID: -5132588695977438072}
+  - {fileID: -7855026312651197688}
+  - {fileID: -1534790788800208407}
+  - {fileID: 6797650975051001715}
+  - {fileID: -5581288421942238389}
+  - {fileID: -6479369266071410904}
+  - {fileID: -6224275204576912370}
+  - {fileID: 8594347215239677294}
+  - {fileID: 3273398339767465931}
+  - {fileID: 8727276483749021671}
+  - {fileID: 7993819545501960310}
+  - {fileID: -2451784760825021103}
+  - {fileID: 6863526355959517411}
+  - {fileID: -5317537122540884883}
+  - {fileID: -3024223832354478204}
+  - {fileID: 5075174895231135988}
+  - {fileID: -4113273896423915915}
+  mEnumValues: []
+--- !u!114 &-1534790788800208407
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -759,7 +1313,7 @@ MonoBehaviour:
     PublicKeyToken=null
   mConstraintNames: 
   mConstraintValues: []
---- !u!114 &-3409559848390001553
+--- !u!114 &-1475281659058528337
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -769,125 +1323,63 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: SelectabilityModes
+  m_Name: Document
   m_EditorClassIdentifier: 
-  mTechnicalName: SelectabilityModes
-  mDisplayName: SelectabilityModes
-  mBaseType: {fileID: 0}
-  mCSharpType: Articy.Underchoices.SelectabilityModes, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  mIsEnum: 1
-  mHasTemplate: 0
-  mFeatures: []
-  mProperties: []
-  mEnumValues:
-  - {fileID: 1629331651511424040}
-  - {fileID: 2855246290862785602}
---- !u!114 &-3392346210860184281
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: InstanceId
-  m_EditorClassIdentifier: 
-  mTechnicalName: InstanceId
-  mDisplayName: 
-  mIsTemplateProperty: 0
-  mPropertyType: System.UInt64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-  mConstraintNames: 
-  mConstraintValues: []
---- !u!114 &-2935812370845010635
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: FlowFragment
-  m_EditorClassIdentifier: 
-  mTechnicalName: FlowFragment
-  mDisplayName: FlowFragment
-  mBaseType: {fileID: -2836981519538854315}
-  mCSharpType: Articy.Underchoices.FlowFragment, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  mIsEnum: 0
-  mHasTemplate: 0
-  mFeatures: []
-  mProperties:
-  - {fileID: -7790624827420705697}
-  - {fileID: 4429827070368180004}
-  - {fileID: 6505520596619223242}
-  - {fileID: -3485107705507147423}
-  - {fileID: 1724115899336531785}
-  - {fileID: 118138315883161770}
-  - {fileID: -9147550486894461480}
-  - {fileID: 8668482931881007372}
-  - {fileID: -2736421502641684113}
-  - {fileID: -2858678564222849418}
-  - {fileID: -430349774899503736}
-  - {fileID: 2380903722774341614}
-  - {fileID: 6155191785474430485}
-  - {fileID: 7937640332826795031}
-  - {fileID: -4775532040035671775}
-  - {fileID: -8825237382754675836}
-  - {fileID: -3392346210860184281}
-  - {fileID: 2472848359553488286}
-  mEnumValues: []
---- !u!114 &-2858678564222849418
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: ShortId
-  m_EditorClassIdentifier: 
-  mTechnicalName: ShortId
-  mDisplayName: 
-  mIsTemplateProperty: 0
-  mPropertyType: System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-  mConstraintNames: 
-  mConstraintValues: []
---- !u!114 &-2836981519538854315
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: ArticyObject
-  m_EditorClassIdentifier: 
-  mTechnicalName: ArticyObject
-  mDisplayName: 
-  mBaseType: {fileID: 0}
-  mCSharpType: Articy.Unity.ArticyObject, ArticyRuntime, Version=2.3.3.0, Culture=neutral,
+  mTechnicalName: Document
+  mDisplayName: Document
+  mBaseType: {fileID: 829181714692815706}
+  mCSharpType: Articy.Underchoices.Document, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
   mIsEnum: 0
   mHasTemplate: 0
   mFeatures: []
   mProperties:
-  - {fileID: -8825237382754675836}
-  - {fileID: -430349774899503736}
-  - {fileID: -3392346210860184281}
-  - {fileID: 2380903722774341614}
-  - {fileID: 6155191785474430485}
-  - {fileID: 2472848359553488286}
+  - {fileID: -5132588695977438072}
+  - {fileID: -1534790788800208407}
+  - {fileID: 6797650975051001715}
+  - {fileID: -5581288421942238389}
+  - {fileID: -6479369266071410904}
+  - {fileID: -6224275204576912370}
+  - {fileID: 8594347215239677294}
+  - {fileID: 3273398339767465931}
+  - {fileID: 8727276483749021671}
+  - {fileID: 7993819545501960310}
+  - {fileID: -2451784760825021103}
+  - {fileID: -3024223832354478204}
+  - {fileID: 5075174895231135988}
+  - {fileID: -4113273896423915915}
   mEnumValues: []
---- !u!114 &-2736421502641684113
+--- !u!114 &-1384329289219901371
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: LocationAnchorSize.Medium
+  m_EditorClassIdentifier: 
+  mTechnicalName: Medium
+  mDisplayName: Medium
+  mValue: 1
+--- !u!114 &-1332132360336479005
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: SelectabilityModes.Selectable
+  m_EditorClassIdentifier: 
+  mTechnicalName: Selectable
+  mDisplayName: Selectable
+  mValue: 1
+--- !u!114 &-1241266678825233832
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -897,16 +1389,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: Size
+  m_Name: Filename
   m_EditorClassIdentifier: 
-  mTechnicalName: Size
+  mTechnicalName: Filename
   mDisplayName: 
   mIsTemplateProperty: 0
-  mPropertyType: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
-    PublicKeyToken=null
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
   mConstraintNames: 
   mConstraintValues: []
---- !u!114 &-2628870838770958266
+--- !u!114 &-1083079780688956742
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -920,32 +1411,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mTechnicalName: Asset
   mDisplayName: Asset
-  mBaseType: {fileID: -2836981519538854315}
+  mBaseType: {fileID: 829181714692815706}
   mCSharpType: Articy.Underchoices.Asset, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
   mIsEnum: 0
   mHasTemplate: 0
   mFeatures: []
   mProperties:
-  - {fileID: 4429827070368180004}
-  - {fileID: -7320406366576043310}
-  - {fileID: -4720114240007259864}
-  - {fileID: 6505520596619223242}
-  - {fileID: -3485107705507147423}
-  - {fileID: 1724115899336531785}
-  - {fileID: 118138315883161770}
-  - {fileID: -9147550486894461480}
-  - {fileID: 8668482931881007372}
-  - {fileID: -2736421502641684113}
-  - {fileID: -2858678564222849418}
-  - {fileID: -430349774899503736}
-  - {fileID: 2380903722774341614}
-  - {fileID: 6155191785474430485}
-  - {fileID: -8825237382754675836}
-  - {fileID: -3392346210860184281}
-  - {fileID: 2472848359553488286}
+  - {fileID: -5132588695977438072}
+  - {fileID: -1241266678825233832}
+  - {fileID: -331525702652539818}
+  - {fileID: -7855026312651197688}
+  - {fileID: -1534790788800208407}
+  - {fileID: 6797650975051001715}
+  - {fileID: -5581288421942238389}
+  - {fileID: -6479369266071410904}
+  - {fileID: -6224275204576912370}
+  - {fileID: 8594347215239677294}
+  - {fileID: 3273398339767465931}
+  - {fileID: 8727276483749021671}
+  - {fileID: 7993819545501960310}
+  - {fileID: -2451784760825021103}
+  - {fileID: -3024223832354478204}
+  - {fileID: 5075174895231135988}
+  - {fileID: -4113273896423915915}
   mEnumValues: []
---- !u!114 &-2480078870025226333
+--- !u!114 &-992551690611146419
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -955,174 +1446,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: DefaultBasicCharacterFeature.Occupation
+  m_Name: StartCap
   m_EditorClassIdentifier: 
-  mTechnicalName: DefaultBasicCharacterFeature.Occupation
-  mDisplayName: Profession
-  mIsTemplateProperty: 1
-  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
-  mConstraintValues:
-  - 
-  - 
-  - 
-  - False
-  - 
-  - False
-  - True
-  - 2048
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 
-  - 0
-  - 
-  - 
-  - 
---- !u!114 &-2137617416953403369
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: OutlineStyle.Dash
-  m_EditorClassIdentifier: 
-  mTechnicalName: Dash
-  mDisplayName: Dash
-  mValue: 2
---- !u!114 &-1918418907479452736
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: DefaultExtendedCharacterFeature.FurtherDetails
-  m_EditorClassIdentifier: 
-  mTechnicalName: DefaultExtendedCharacterFeature.FurtherDetails
-  mDisplayName: Further Details
-  mIsTemplateProperty: 1
-  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
-  mConstraintValues:
-  - 
-  - 
-  - 
-  - True
-  - 
-  - False
-  - True
-  - 2048
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 
-  - 0
-  - 
-  - 
-  - 
---- !u!114 &-1831738605356687348
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: DefaultBasicCharacterFeature.BornIn
-  m_EditorClassIdentifier: 
-  mTechnicalName: DefaultBasicCharacterFeature.BornIn
-  mDisplayName: Born in
-  mIsTemplateProperty: 1
-  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
-  mConstraintValues:
-  - 
-  - 
-  - 
-  - False
-  - 
-  - False
-  - True
-  - 2048
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 
-  - 0
-  - 
-  - 
-  - 
---- !u!114 &-1639185982665423099
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: LocationImage
-  m_EditorClassIdentifier: 
-  mTechnicalName: LocationImage
-  mDisplayName: LocationImage
-  mBaseType: {fileID: -2836981519538854315}
-  mCSharpType: Articy.Underchoices.LocationImage, Assembly-CSharp, Version=0.0.0.0,
+  mTechnicalName: StartCap
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: Articy.Underchoices.PathCaps, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  mIsEnum: 0
-  mHasTemplate: 0
-  mFeatures: []
-  mProperties:
-  - {fileID: 4429827070368180004}
-  - {fileID: 6505520596619223242}
-  - {fileID: 8881418413977872153}
-  - {fileID: 2345564439846375760}
-  - {fileID: 5828179020708818442}
-  - {fileID: 5013533951149917616}
-  - {fileID: -3485107705507147423}
-  - {fileID: 1724115899336531785}
-  - {fileID: 118138315883161770}
-  - {fileID: 8668482931881007372}
-  - {fileID: -2736421502641684113}
-  - {fileID: -2858678564222849418}
-  - {fileID: 2222694859541650110}
-  - {fileID: -5542612095123533433}
-  - {fileID: -3814366461905286975}
-  - {fileID: 4017223301593338384}
-  - {fileID: -4160704576680947411}
-  - {fileID: 2902046961591524275}
-  - {fileID: -7082009553544225993}
-  - {fileID: -5434090626936600004}
-  - {fileID: 2248249151011966317}
-  - {fileID: 6387378409270126687}
-  - {fileID: 8214684707953643586}
-  - {fileID: 6518763055536614362}
-  - {fileID: 6494697602519144838}
-  - {fileID: 6978992068925557624}
-  - {fileID: -430349774899503736}
-  - {fileID: 2380903722774341614}
-  - {fileID: 6155191785474430485}
-  - {fileID: -8825237382754675836}
-  - {fileID: -3392346210860184281}
-  - {fileID: 2472848359553488286}
-  mEnumValues: []
---- !u!114 &-1588129945865162599
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-596962607584006971
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1144,48 +1477,10 @@ MonoBehaviour:
   mFeatures: []
   mProperties: []
   mEnumValues:
-  - {fileID: -5873512221206415295}
-  - {fileID: 4866981370913500471}
-  - {fileID: 1711702284610199484}
---- !u!114 &-1314458066103185344
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: TextObject
-  m_EditorClassIdentifier: 
-  mTechnicalName: TextObject
-  mDisplayName: TextObject
-  mBaseType: {fileID: -2836981519538854315}
-  mCSharpType: Articy.Underchoices.TextObject, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  mIsEnum: 0
-  mHasTemplate: 0
-  mFeatures: []
-  mProperties:
-  - {fileID: 4429827070368180004}
-  - {fileID: -7790624827420705697}
-  - {fileID: 6505520596619223242}
-  - {fileID: -3485107705507147423}
-  - {fileID: 1724115899336531785}
-  - {fileID: 118138315883161770}
-  - {fileID: -9147550486894461480}
-  - {fileID: 8668482931881007372}
-  - {fileID: -2736421502641684113}
-  - {fileID: -2858678564222849418}
-  - {fileID: -430349774899503736}
-  - {fileID: 2380903722774341614}
-  - {fileID: 6155191785474430485}
-  - {fileID: -8825237382754675836}
-  - {fileID: -3392346210860184281}
-  - {fileID: 2472848359553488286}
-  mEnumValues: []
---- !u!114 &-1085870147461162542
+  - {fileID: 3770594848907855452}
+  - {fileID: 2217157553521961129}
+  - {fileID: -4513432284792191871}
+--- !u!114 &-374711221247283586
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1195,144 +1490,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: DefaultExtendedCharacterFeature.Habits
+  m_Name: Speaker
   m_EditorClassIdentifier: 
-  mTechnicalName: DefaultExtendedCharacterFeature.Habits
-  mDisplayName: Quirks / Habits
-  mIsTemplateProperty: 1
-  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
-  mConstraintValues:
-  - 
-  - 
-  - 
-  - True
-  - 
-  - False
-  - True
-  - 2048
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 
-  - 0
-  - 
-  - 
-  - 
---- !u!114 &-909093202611899487
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: DefaultBasicCharacterFeature.Age
-  m_EditorClassIdentifier: 
-  mTechnicalName: DefaultBasicCharacterFeature.Age
-  mDisplayName: Age
-  mIsTemplateProperty: 1
-  mPropertyType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
-  mConstraintValues:
-  - 
-  - 
-  - 
-  - False
-  - 
-  - False
-  - False
-  - 0
-  - 0
-  - 0
-  - 3,40282346638529E+38
-  - 0
-  - -3,40282346638529E+38
-  - 
-  - 0
-  - 
-  - 
-  - 
---- !u!114 &-503296209654120626
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: StageDirections
-  m_EditorClassIdentifier: 
-  mTechnicalName: StageDirections
+  mTechnicalName: Speaker
   mDisplayName: 
   mIsTemplateProperty: 0
-  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-  mConstraintNames: 
-  mConstraintValues: []
---- !u!114 &-430349774899503736
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: Id
-  m_EditorClassIdentifier: 
-  mTechnicalName: Id
-  mDisplayName: 
-  mIsTemplateProperty: 0
-  mPropertyType: System.UInt64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-  mConstraintNames: 
-  mConstraintValues: []
---- !u!114 &-312323520880323133
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: Jump
-  m_EditorClassIdentifier: 
-  mTechnicalName: Jump
-  mDisplayName: Jump
-  mBaseType: {fileID: -2836981519538854315}
-  mCSharpType: Articy.Underchoices.Jump, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+  mPropertyType: Articy.Unity.ArticyObject, ArticyRuntime, Version=2.3.3.0, Culture=neutral,
     PublicKeyToken=null
-  mIsEnum: 0
-  mHasTemplate: 0
-  mFeatures: []
-  mProperties:
-  - {fileID: -3485107705507147423}
-  - {fileID: 1724115899336531785}
-  - {fileID: 118138315883161770}
-  - {fileID: -9147550486894461480}
-  - {fileID: 8668482931881007372}
-  - {fileID: -2736421502641684113}
-  - {fileID: -2858678564222849418}
-  - {fileID: -430349774899503736}
-  - {fileID: 2380903722774341614}
-  - {fileID: 6155191785474430485}
-  - {fileID: 7310251551771695905}
-  - {fileID: 7430728033136972516}
-  - {fileID: 7937640332826795031}
-  - {fileID: -4775532040035671775}
-  - {fileID: -8825237382754675836}
-  - {fileID: -3392346210860184281}
-  - {fileID: 2472848359553488286}
-  mEnumValues: []
---- !u!114 &-73669766121395550
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-331525702652539818
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1341,51 +1508,63 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: DefaultMainCharacterTemplate
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: OriginalSource
   m_EditorClassIdentifier: 
-  mTechnicalName: DefaultMainCharacterTemplate
-  mDisplayName: Main characters
-  mBaseType: {fileID: 5350723466102367061}
-  mCSharpType: Articy.Underchoices.DefaultMainCharacterTemplate, Assembly-CSharp,
-    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  mIsEnum: 0
-  mHasTemplate: 1
-  mFeatures:
-  - DefaultExtendedCharacterFeature
-  - DefaultBasicCharacterFeature
-  mProperties:
-  - {fileID: -8103532868752245861}
-  - {fileID: -7034261921996986607}
-  - {fileID: 2836634350447908913}
-  - {fileID: 1903551572311103149}
-  - {fileID: -1085870147461162542}
-  - {fileID: -1918418907479452736}
-  - {fileID: -909093202611899487}
-  - {fileID: 6187460743925172504}
-  - {fileID: -1831738605356687348}
-  - {fileID: 7193514072590148620}
-  - {fileID: -2480078870025226333}
-  - {fileID: 990322560781075763}
-  - {fileID: 5971069427084224250}
-  - {fileID: 1544144401895414489}
-  - {fileID: -7790624827420705697}
-  - {fileID: 4429827070368180004}
-  - {fileID: -3485107705507147423}
-  - {fileID: 1724115899336531785}
-  - {fileID: 118138315883161770}
-  - {fileID: -9147550486894461480}
-  - {fileID: 8668482931881007372}
-  - {fileID: -2736421502641684113}
-  - {fileID: 6505520596619223242}
-  - {fileID: -2858678564222849418}
-  - {fileID: -430349774899503736}
-  - {fileID: 2380903722774341614}
-  - {fileID: 6155191785474430485}
-  - {fileID: -8825237382754675836}
-  - {fileID: -3392346210860184281}
-  - {fileID: 2472848359553488286}
-  mEnumValues: []
+  mTechnicalName: OriginalSource
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-203766447934260942
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ShapeType.Link
+  m_EditorClassIdentifier: 
+  mTechnicalName: Link
+  mDisplayName: Link
+  mValue: 6
+--- !u!114 &-164376221596896347
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ShapeType.Polygon
+  m_EditorClassIdentifier: 
+  mTechnicalName: Polygon
+  mDisplayName: Polygon
+  mValue: 5
+--- !u!114 &-9060664501317164
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: OutlineSize
+  m_EditorClassIdentifier: 
+  mTechnicalName: OutlineSize
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1399,104 +1578,104 @@ MonoBehaviour:
   m_Name: ArticyTypeSystem
   m_EditorClassIdentifier: 
   mArticyTypes:
-  - {fileID: -2836981519538854315}
-  - {fileID: -1588129945865162599}
-  - {fileID: 4117124630502382444}
-  - {fileID: -3409559848390001553}
-  - {fileID: 1526059190022140143}
-  - {fileID: -6535828814733693692}
-  - {fileID: 56743779050861682}
-  - {fileID: -9010639885188711991}
-  - {fileID: 5875498032812162669}
-  - {fileID: -2935812370845010635}
-  - {fileID: -9213247370534419184}
-  - {fileID: 1791760570330488190}
-  - {fileID: 2199246035740970373}
-  - {fileID: 1923042775549131614}
-  - {fileID: 1183236627245458466}
-  - {fileID: -312323520880323133}
-  - {fileID: 5350723466102367061}
-  - {fileID: -9047425278302539157}
-  - {fileID: -73669766121395550}
-  - {fileID: 3214349388474109480}
-  - {fileID: -5752537748890126967}
-  - {fileID: 397555376207437223}
-  - {fileID: 6380563879536673852}
-  - {fileID: 2520033533005480229}
-  - {fileID: -2628870838770958266}
-  - {fileID: 1774509851625619339}
-  - {fileID: 1628265846533119424}
-  - {fileID: -7775815321669199818}
-  - {fileID: -1639185982665423099}
-  - {fileID: -3735999333062432422}
-  - {fileID: -1314458066103185344}
-  - {fileID: 6986263427148399114}
+  - {fileID: 829181714692815706}
+  - {fileID: -596962607584006971}
+  - {fileID: -9092768206155569938}
+  - {fileID: 459326342598858338}
+  - {fileID: 7247283787593379525}
+  - {fileID: 1850631115765733815}
+  - {fileID: 7105207171150831815}
+  - {fileID: -8218773584575273991}
+  - {fileID: 316029812154773512}
+  - {fileID: -1962900389559952520}
+  - {fileID: -6827204980891448686}
+  - {fileID: -8086470589410521932}
+  - {fileID: -7388589531359856962}
+  - {fileID: -6540031489442539898}
+  - {fileID: -2664356380368159500}
+  - {fileID: 8404985729165749638}
+  - {fileID: -2231378108924111971}
+  - {fileID: 606481853158112636}
+  - {fileID: -3465881890753470330}
+  - {fileID: 4261166291959377660}
+  - {fileID: -6112172953039254793}
+  - {fileID: 5679286685915704636}
+  - {fileID: -7873299556552755968}
+  - {fileID: 2903214086537916304}
+  - {fileID: -1083079780688956742}
+  - {fileID: -2744263789283944029}
+  - {fileID: 7939212933438626644}
+  - {fileID: -2392489073515712931}
+  - {fileID: -6679505449272808096}
+  - {fileID: -1475281659058528337}
+  - {fileID: 9220370907937712070}
+  - {fileID: 3646564991507666159}
   mArticyPropertyInfos:
-  - {fileID: -8825237382754675836}
-  - {fileID: -430349774899503736}
-  - {fileID: -3392346210860184281}
-  - {fileID: 2380903722774341614}
-  - {fileID: 6155191785474430485}
-  - {fileID: 2472848359553488286}
-  - {fileID: -7790624827420705697}
-  - {fileID: 4429827070368180004}
-  - {fileID: 6505520596619223242}
-  - {fileID: -3485107705507147423}
-  - {fileID: 1724115899336531785}
-  - {fileID: 118138315883161770}
-  - {fileID: -9147550486894461480}
-  - {fileID: 8668482931881007372}
-  - {fileID: -2736421502641684113}
-  - {fileID: -2858678564222849418}
-  - {fileID: 7937640332826795031}
-  - {fileID: -4775532040035671775}
-  - {fileID: -5731123214933124992}
-  - {fileID: -503296209654120626}
-  - {fileID: -8518955842840586952}
-  - {fileID: 7463388459970651967}
-  - {fileID: -8223366858407557890}
-  - {fileID: 7310251551771695905}
-  - {fileID: 7430728033136972516}
-  - {fileID: -909093202611899487}
-  - {fileID: 6187460743925172504}
-  - {fileID: -1831738605356687348}
-  - {fileID: 7193514072590148620}
-  - {fileID: -2480078870025226333}
-  - {fileID: 990322560781075763}
-  - {fileID: 5971069427084224250}
-  - {fileID: 1544144401895414489}
-  - {fileID: -8103532868752245861}
-  - {fileID: -7034261921996986607}
-  - {fileID: 2836634350447908913}
-  - {fileID: 1903551572311103149}
-  - {fileID: -1085870147461162542}
-  - {fileID: -1918418907479452736}
-  - {fileID: 2222694859541650110}
-  - {fileID: 6518763055536614362}
-  - {fileID: 6494697602519144838}
-  - {fileID: 6978992068925557624}
-  - {fileID: -5542612095123533433}
-  - {fileID: -3814366461905286975}
-  - {fileID: 4017223301593338384}
-  - {fileID: 2902046961591524275}
-  - {fileID: -4160704576680947411}
-  - {fileID: 2345564439846375760}
-  - {fileID: 5828179020708818442}
-  - {fileID: 5013533951149917616}
-  - {fileID: -7506545766994899984}
-  - {fileID: 901001932286283153}
-  - {fileID: -3877125649578515818}
-  - {fileID: -7320406366576043310}
-  - {fileID: -4720114240007259864}
-  - {fileID: 4328229887118148378}
-  - {fileID: 8881418413977872153}
-  - {fileID: 9184731920916651474}
-  - {fileID: 8322491061244663270}
-  - {fileID: -7082009553544225993}
-  - {fileID: -5434090626936600004}
-  - {fileID: 2248249151011966317}
-  - {fileID: 6387378409270126687}
-  - {fileID: 8214684707953643586}
+  - {fileID: -3024223832354478204}
+  - {fileID: 8727276483749021671}
+  - {fileID: 5075174895231135988}
+  - {fileID: 7993819545501960310}
+  - {fileID: -2451784760825021103}
+  - {fileID: -4113273896423915915}
+  - {fileID: 1731386030214731837}
+  - {fileID: -5132588695977438072}
+  - {fileID: -7855026312651197688}
+  - {fileID: -1534790788800208407}
+  - {fileID: 6797650975051001715}
+  - {fileID: -5581288421942238389}
+  - {fileID: -6479369266071410904}
+  - {fileID: -6224275204576912370}
+  - {fileID: 8594347215239677294}
+  - {fileID: 3273398339767465931}
+  - {fileID: 6863526355959517411}
+  - {fileID: -5317537122540884883}
+  - {fileID: 5822948701648054951}
+  - {fileID: 6786923957958992299}
+  - {fileID: -374711221247283586}
+  - {fileID: -2772401137038670828}
+  - {fileID: 7954355313083206526}
+  - {fileID: -8704161519889192618}
+  - {fileID: -6082672608210867831}
+  - {fileID: 4857091636654154893}
+  - {fileID: -2554321547623990354}
+  - {fileID: 3747743516378535011}
+  - {fileID: -5743281894696134850}
+  - {fileID: 3947883108038902205}
+  - {fileID: -3274976379257272442}
+  - {fileID: 3347943606320071534}
+  - {fileID: 7088553365005347692}
+  - {fileID: 8999685390567966471}
+  - {fileID: 6489536582954253835}
+  - {fileID: 3692909523070415312}
+  - {fileID: 962735483883770522}
+  - {fileID: 3788079438121848467}
+  - {fileID: 5790910942307714452}
+  - {fileID: 4511317402286396386}
+  - {fileID: 178164908879119436}
+  - {fileID: 1425527902021691371}
+  - {fileID: -8088092954690698062}
+  - {fileID: -8883854756629013643}
+  - {fileID: -9060664501317164}
+  - {fileID: -2297449305681182425}
+  - {fileID: 8633557021057436693}
+  - {fileID: 5519500780283198484}
+  - {fileID: 3497258013941469415}
+  - {fileID: 1535711497987218099}
+  - {fileID: 3685053733091607239}
+  - {fileID: -992551690611146419}
+  - {fileID: -3727757357850451238}
+  - {fileID: 8773882228715511636}
+  - {fileID: -1241266678825233832}
+  - {fileID: -331525702652539818}
+  - {fileID: -2272808671838561710}
+  - {fileID: -3020050655283708579}
+  - {fileID: 1746479005289640288}
+  - {fileID: -6758954898445879138}
+  - {fileID: 6957455901637121914}
+  - {fileID: -5833444035429060821}
+  - {fileID: 6351603800076988160}
+  - {fileID: 4740671236960779828}
+  - {fileID: -8231807760657635304}
   mArticyTypeNames:
   - ArticyObject
   - Sex
@@ -1608,86 +1787,27 @@ MonoBehaviour:
   - DefaultExtendedCharacterFeature.Habits
   - DefaultExtendedCharacterFeature.FurtherDetails
   mFeaturePropInfos:
-  - {fileID: -909093202611899487}
-  - {fileID: 6187460743925172504}
-  - {fileID: -1831738605356687348}
-  - {fileID: 7193514072590148620}
-  - {fileID: -2480078870025226333}
-  - {fileID: 990322560781075763}
-  - {fileID: 5971069427084224250}
-  - {fileID: 1544144401895414489}
-  - {fileID: -8103532868752245861}
-  - {fileID: -7034261921996986607}
-  - {fileID: 2836634350447908913}
-  - {fileID: 1903551572311103149}
-  - {fileID: -1085870147461162542}
-  - {fileID: -1918418907479452736}
+  - {fileID: 4857091636654154893}
+  - {fileID: -2554321547623990354}
+  - {fileID: 3747743516378535011}
+  - {fileID: -5743281894696134850}
+  - {fileID: 3947883108038902205}
+  - {fileID: -3274976379257272442}
+  - {fileID: 3347943606320071534}
+  - {fileID: 7088553365005347692}
+  - {fileID: 8999685390567966471}
+  - {fileID: 6489536582954253835}
+  - {fileID: 3692909523070415312}
+  - {fileID: 962735483883770522}
+  - {fileID: 3788079438121848467}
+  - {fileID: 5790910942307714452}
   mFeatureTechnicalNames:
   - DefaultBasicCharacterFeature
   - DefaultExtendedCharacterFeature
   mFeatureDisplayNames:
   - Basic Character Properties
   - Extended Character Properties
---- !u!114 &56743779050861682
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: PathCaps
-  m_EditorClassIdentifier: 
-  mTechnicalName: PathCaps
-  mDisplayName: PathCaps
-  mBaseType: {fileID: 0}
-  mCSharpType: Articy.Underchoices.PathCaps, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-    PublicKeyToken=null
-  mIsEnum: 1
-  mHasTemplate: 0
-  mFeatures: []
-  mProperties: []
-  mEnumValues:
-  - {fileID: 6338625492312494776}
-  - {fileID: -8931547996366572628}
-  - {fileID: 912413383793669120}
-  - {fileID: 1897940565292206362}
-  - {fileID: -7441289010838048764}
-  - {fileID: 1666690007705410155}
-  - {fileID: 599978404572900104}
---- !u!114 &86779143575052778
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: ShapeType.Spot
-  m_EditorClassIdentifier: 
-  mTechnicalName: Spot
-  mDisplayName: Spot
-  mValue: 1
---- !u!114 &106849871167005066
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: OutlineStyle.DashDotDot
-  m_EditorClassIdentifier: 
-  mTechnicalName: DashDotDot
-  mDisplayName: DashDotDot
-  mValue: 4
---- !u!114 &118138315883161770
+--- !u!114 &178164908879119436
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1697,15 +1817,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: ExternalId
+  m_Name: ShowDisplayName
   m_EditorClassIdentifier: 
-  mTechnicalName: ExternalId
+  mTechnicalName: ShowDisplayName
   mDisplayName: 
   mIsTemplateProperty: 0
-  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mPropertyType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
   mConstraintNames: 
   mConstraintValues: []
---- !u!114 &397555376207437223
+--- !u!114 &316029812154773512
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1715,257 +1835,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: Zone
+  m_Name: PreviewImageViewBoxModes
   m_EditorClassIdentifier: 
-  mTechnicalName: Zone
-  mDisplayName: Zone
-  mBaseType: {fileID: -2836981519538854315}
-  mCSharpType: Articy.Underchoices.Zone, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-    PublicKeyToken=null
-  mIsEnum: 0
-  mHasTemplate: 0
-  mFeatures: []
-  mProperties:
-  - {fileID: 4429827070368180004}
-  - {fileID: 6505520596619223242}
-  - {fileID: 2345564439846375760}
-  - {fileID: 5828179020708818442}
-  - {fileID: 5013533951149917616}
-  - {fileID: -3485107705507147423}
-  - {fileID: 1724115899336531785}
-  - {fileID: 118138315883161770}
-  - {fileID: 8668482931881007372}
-  - {fileID: -2736421502641684113}
-  - {fileID: -2858678564222849418}
-  - {fileID: 2222694859541650110}
-  - {fileID: -5542612095123533433}
-  - {fileID: -3814366461905286975}
-  - {fileID: 4017223301593338384}
-  - {fileID: 6518763055536614362}
-  - {fileID: 6494697602519144838}
-  - {fileID: 6978992068925557624}
-  - {fileID: 2902046961591524275}
-  - {fileID: -4160704576680947411}
-  - {fileID: -430349774899503736}
-  - {fileID: 2380903722774341614}
-  - {fileID: 6155191785474430485}
-  - {fileID: -8825237382754675836}
-  - {fileID: -3392346210860184281}
-  - {fileID: 2472848359553488286}
-  mEnumValues: []
---- !u!114 &599978404572900104
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: PathCaps.Disc
-  m_EditorClassIdentifier: 
-  mTechnicalName: Disc
-  mDisplayName: Disc
-  mValue: 6
---- !u!114 &701449113059846398
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: PreviewImageViewBoxModes.FromAsset
-  m_EditorClassIdentifier: 
-  mTechnicalName: FromAsset
-  mDisplayName: FromAsset
-  mValue: 0
---- !u!114 &901001932286283153
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: EndCap
-  m_EditorClassIdentifier: 
-  mTechnicalName: EndCap
-  mDisplayName: 
-  mIsTemplateProperty: 0
-  mPropertyType: Articy.Underchoices.PathCaps, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  mConstraintNames: 
-  mConstraintValues: []
---- !u!114 &912413383793669120
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: PathCaps.LineArrowHead
-  m_EditorClassIdentifier: 
-  mTechnicalName: LineArrowHead
-  mDisplayName: LineArrowHead
-  mValue: 2
---- !u!114 &990322560781075763
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: DefaultBasicCharacterFeature.Accent
-  m_EditorClassIdentifier: 
-  mTechnicalName: DefaultBasicCharacterFeature.Accent
-  mDisplayName: Voice
-  mIsTemplateProperty: 1
-  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
-  mConstraintValues:
-  - 
-  - 
-  - 
-  - False
-  - 
-  - False
-  - True
-  - 2048
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 
-  - 0
-  - 
-  - 
-  - 
---- !u!114 &1183236627245458466
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: Comment
-  m_EditorClassIdentifier: 
-  mTechnicalName: Comment
-  mDisplayName: Comment
-  mBaseType: {fileID: -2836981519538854315}
-  mCSharpType: Articy.Underchoices.Comment, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-    PublicKeyToken=null
-  mIsEnum: 0
-  mHasTemplate: 0
-  mFeatures: []
-  mProperties:
-  - {fileID: 7463388459970651967}
-  - {fileID: -8223366858407557890}
-  - {fileID: -3485107705507147423}
-  - {fileID: 1724115899336531785}
-  - {fileID: 118138315883161770}
-  - {fileID: -9147550486894461480}
-  - {fileID: 8668482931881007372}
-  - {fileID: -2736421502641684113}
-  - {fileID: -2858678564222849418}
-  - {fileID: -430349774899503736}
-  - {fileID: 2380903722774341614}
-  - {fileID: 6155191785474430485}
-  - {fileID: -8825237382754675836}
-  - {fileID: -3392346210860184281}
-  - {fileID: 2472848359553488286}
-  mEnumValues: []
---- !u!114 &1251974293752395429
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: OutlineStyle.DashDot
-  m_EditorClassIdentifier: 
-  mTechnicalName: DashDot
-  mDisplayName: DashDot
-  mValue: 3
---- !u!114 &1526059190022140143
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: VisibilityModes
-  m_EditorClassIdentifier: 
-  mTechnicalName: VisibilityModes
-  mDisplayName: VisibilityModes
+  mTechnicalName: PreviewImageViewBoxModes
+  mDisplayName: PreviewImageViewBoxModes
   mBaseType: {fileID: 0}
-  mCSharpType: Articy.Underchoices.VisibilityModes, Assembly-CSharp, Version=0.0.0.0,
+  mCSharpType: Articy.Unity.PreviewImageViewBoxModes, ArticyRuntime, Version=2.3.3.0,
     Culture=neutral, PublicKeyToken=null
   mIsEnum: 1
   mHasTemplate: 0
   mFeatures: []
   mProperties: []
   mEnumValues:
-  - {fileID: 4969228941261052355}
-  - {fileID: 2173336658817546310}
---- !u!114 &1544144401895414489
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: DefaultBasicCharacterFeature.Appearance
-  m_EditorClassIdentifier: 
-  mTechnicalName: DefaultBasicCharacterFeature.Appearance
-  mDisplayName: Appearance
-  mIsTemplateProperty: 1
-  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
-  mConstraintValues:
-  - 
-  - 
-  - 
-  - True
-  - 
-  - False
-  - True
-  - 2048
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 
-  - 0
-  - 
-  - 
-  - 
---- !u!114 &1628265846533119424
+  - {fileID: 8083484402781781450}
+  - {fileID: -5113634859532176113}
+--- !u!114 &459326342598858338
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1975,99 +1859,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: Instruction
+  m_Name: SelectabilityModes
   m_EditorClassIdentifier: 
-  mTechnicalName: Instruction
-  mDisplayName: Instruction
-  mBaseType: {fileID: -2836981519538854315}
-  mCSharpType: Articy.Underchoices.Instruction, Assembly-CSharp, Version=0.0.0.0,
+  mTechnicalName: SelectabilityModes
+  mDisplayName: SelectabilityModes
+  mBaseType: {fileID: 0}
+  mCSharpType: Articy.Underchoices.SelectabilityModes, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  mIsEnum: 0
+  mIsEnum: 1
   mHasTemplate: 0
   mFeatures: []
-  mProperties:
-  - {fileID: 4429827070368180004}
-  - {fileID: 1724115899336531785}
-  - {fileID: 118138315883161770}
-  - {fileID: -9147550486894461480}
-  - {fileID: 8668482931881007372}
-  - {fileID: -2736421502641684113}
-  - {fileID: -2858678564222849418}
-  - {fileID: 4328229887118148378}
-  - {fileID: -3485107705507147423}
-  - {fileID: -430349774899503736}
-  - {fileID: 2380903722774341614}
-  - {fileID: 6155191785474430485}
-  - {fileID: 7937640332826795031}
-  - {fileID: -4775532040035671775}
-  - {fileID: -8825237382754675836}
-  - {fileID: -3392346210860184281}
-  - {fileID: 2472848359553488286}
-  mEnumValues: []
---- !u!114 &1629331651511424040
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: SelectabilityModes.Unselectable
-  m_EditorClassIdentifier: 
-  mTechnicalName: Unselectable
-  mDisplayName: Unselectable
-  mValue: 0
---- !u!114 &1666690007705410155
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: PathCaps.Square
-  m_EditorClassIdentifier: 
-  mTechnicalName: Square
-  mDisplayName: Square
-  mValue: 5
---- !u!114 &1711702284610199484
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: Sex.Unknown
-  m_EditorClassIdentifier: 
-  mTechnicalName: Unknown
-  mDisplayName: Unknown
-  mValue: 2
---- !u!114 &1724115899336531785
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: Text
-  m_EditorClassIdentifier: 
-  mTechnicalName: Text
-  mDisplayName: 
-  mIsTemplateProperty: 0
-  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-  mConstraintNames: 
-  mConstraintValues: []
---- !u!114 &1774509851625619339
+  mProperties: []
+  mEnumValues:
+  - {fileID: 4827506280919131563}
+  - {fileID: -1332132360336479005}
+--- !u!114 &606481853158112636
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2077,76 +1883,44 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: Condition
+  m_Name: DefaultSupportingCharacterTemplate
   m_EditorClassIdentifier: 
-  mTechnicalName: Condition
-  mDisplayName: Condition
-  mBaseType: {fileID: -2836981519538854315}
-  mCSharpType: Articy.Underchoices.Condition, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-    PublicKeyToken=null
-  mIsEnum: 0
-  mHasTemplate: 0
-  mFeatures: []
-  mProperties:
-  - {fileID: 4429827070368180004}
-  - {fileID: 1724115899336531785}
-  - {fileID: 118138315883161770}
-  - {fileID: -9147550486894461480}
-  - {fileID: 8668482931881007372}
-  - {fileID: -2736421502641684113}
-  - {fileID: -2858678564222849418}
-  - {fileID: 4328229887118148378}
-  - {fileID: -3485107705507147423}
-  - {fileID: -430349774899503736}
-  - {fileID: 2380903722774341614}
-  - {fileID: 6155191785474430485}
-  - {fileID: 7937640332826795031}
-  - {fileID: -4775532040035671775}
-  - {fileID: -8825237382754675836}
-  - {fileID: -3392346210860184281}
-  - {fileID: 2472848359553488286}
-  mEnumValues: []
---- !u!114 &1791760570330488190
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: Post_Template
-  m_EditorClassIdentifier: 
-  mTechnicalName: Post_Template
-  mDisplayName: Post Template
-  mBaseType: {fileID: -9213247370534419184}
-  mCSharpType: Articy.Underchoices.Post_Template, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
+  mTechnicalName: DefaultSupportingCharacterTemplate
+  mDisplayName: Supporting characters
+  mBaseType: {fileID: -2231378108924111971}
+  mCSharpType: Articy.Underchoices.DefaultSupportingCharacterTemplate, Assembly-CSharp,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   mIsEnum: 0
   mHasTemplate: 1
-  mFeatures: []
+  mFeatures:
+  - DefaultBasicCharacterFeature
   mProperties:
-  - {fileID: -7790624827420705697}
-  - {fileID: 4429827070368180004}
-  - {fileID: 6505520596619223242}
-  - {fileID: -3485107705507147423}
-  - {fileID: 1724115899336531785}
-  - {fileID: 118138315883161770}
-  - {fileID: -9147550486894461480}
-  - {fileID: 8668482931881007372}
-  - {fileID: -2736421502641684113}
-  - {fileID: -2858678564222849418}
-  - {fileID: -430349774899503736}
-  - {fileID: 2380903722774341614}
-  - {fileID: 6155191785474430485}
-  - {fileID: 7937640332826795031}
-  - {fileID: -4775532040035671775}
-  - {fileID: -8825237382754675836}
-  - {fileID: -3392346210860184281}
-  - {fileID: 2472848359553488286}
+  - {fileID: 4857091636654154893}
+  - {fileID: -2554321547623990354}
+  - {fileID: 3747743516378535011}
+  - {fileID: -5743281894696134850}
+  - {fileID: 3947883108038902205}
+  - {fileID: -3274976379257272442}
+  - {fileID: 3347943606320071534}
+  - {fileID: 7088553365005347692}
+  - {fileID: 1731386030214731837}
+  - {fileID: -5132588695977438072}
+  - {fileID: -1534790788800208407}
+  - {fileID: 6797650975051001715}
+  - {fileID: -5581288421942238389}
+  - {fileID: -6479369266071410904}
+  - {fileID: -6224275204576912370}
+  - {fileID: 8594347215239677294}
+  - {fileID: -7855026312651197688}
+  - {fileID: 3273398339767465931}
+  - {fileID: 8727276483749021671}
+  - {fileID: 7993819545501960310}
+  - {fileID: -2451784760825021103}
+  - {fileID: -3024223832354478204}
+  - {fileID: 5075174895231135988}
+  - {fileID: -4113273896423915915}
   mEnumValues: []
---- !u!114 &1897940565292206362
+--- !u!114 &722519692224431415
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2161,7 +1935,35 @@ MonoBehaviour:
   mTechnicalName: FilledArrowHead
   mDisplayName: FilledArrowHead
   mValue: 3
---- !u!114 &1903551572311103149
+--- !u!114 &829181714692815706
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ArticyObject
+  m_EditorClassIdentifier: 
+  mTechnicalName: ArticyObject
+  mDisplayName: 
+  mBaseType: {fileID: 0}
+  mCSharpType: Articy.Unity.ArticyObject, ArticyRuntime, Version=2.3.3.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: -3024223832354478204}
+  - {fileID: 8727276483749021671}
+  - {fileID: 5075174895231135988}
+  - {fileID: 7993819545501960310}
+  - {fileID: -2451784760825021103}
+  - {fileID: -4113273896423915915}
+  mEnumValues: []
+--- !u!114 &962735483883770522
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2197,7 +1999,7 @@ MonoBehaviour:
   - 
   - 
   - 
---- !u!114 &1923042775549131614
+--- !u!114 &1425527902021691371
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2206,36 +2008,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: Hub
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DisplayNameColor
   m_EditorClassIdentifier: 
-  mTechnicalName: Hub
-  mDisplayName: Hub
-  mBaseType: {fileID: -2836981519538854315}
-  mCSharpType: Articy.Underchoices.Hub, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+  mTechnicalName: DisplayNameColor
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
-  mIsEnum: 0
-  mHasTemplate: 0
-  mFeatures: []
-  mProperties:
-  - {fileID: 4429827070368180004}
-  - {fileID: -3485107705507147423}
-  - {fileID: 1724115899336531785}
-  - {fileID: 118138315883161770}
-  - {fileID: -9147550486894461480}
-  - {fileID: 8668482931881007372}
-  - {fileID: -2736421502641684113}
-  - {fileID: -2858678564222849418}
-  - {fileID: -430349774899503736}
-  - {fileID: 2380903722774341614}
-  - {fileID: 6155191785474430485}
-  - {fileID: 7937640332826795031}
-  - {fileID: -4775532040035671775}
-  - {fileID: -8825237382754675836}
-  - {fileID: -3392346210860184281}
-  - {fileID: 2472848359553488286}
-  mEnumValues: []
---- !u!114 &2173336658817546310
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &1504456920715943668
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2245,526 +2028,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: VisibilityModes.Visible
+  m_Name: PathCaps.None
   m_EditorClassIdentifier: 
-  mTechnicalName: Visible
-  mDisplayName: Visible
+  mTechnicalName: None
+  mDisplayName: None
   mValue: 1
---- !u!114 &2199246035740970373
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: DialogueFragment
-  m_EditorClassIdentifier: 
-  mTechnicalName: DialogueFragment
-  mDisplayName: DialogueFragment
-  mBaseType: {fileID: -2836981519538854315}
-  mCSharpType: Articy.Underchoices.DialogueFragment, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  mIsEnum: 0
-  mHasTemplate: 0
-  mFeatures: []
-  mProperties:
-  - {fileID: -5731123214933124992}
-  - {fileID: -503296209654120626}
-  - {fileID: -8518955842840586952}
-  - {fileID: -3485107705507147423}
-  - {fileID: 1724115899336531785}
-  - {fileID: 118138315883161770}
-  - {fileID: -9147550486894461480}
-  - {fileID: 8668482931881007372}
-  - {fileID: -2736421502641684113}
-  - {fileID: -2858678564222849418}
-  - {fileID: -430349774899503736}
-  - {fileID: 2380903722774341614}
-  - {fileID: 6155191785474430485}
-  - {fileID: 7937640332826795031}
-  - {fileID: -4775532040035671775}
-  - {fileID: -8825237382754675836}
-  - {fileID: -3392346210860184281}
-  - {fileID: 2472848359553488286}
-  mEnumValues: []
---- !u!114 &2222694859541650110
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: Visibility
-  m_EditorClassIdentifier: 
-  mTechnicalName: Visibility
-  mDisplayName: 
-  mIsTemplateProperty: 0
-  mPropertyType: Articy.Underchoices.VisibilityModes, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  mConstraintNames: 
-  mConstraintValues: []
---- !u!114 &2248249151011966317
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: ImageAsset
-  m_EditorClassIdentifier: 
-  mTechnicalName: ImageAsset
-  mDisplayName: 
-  mIsTemplateProperty: 0
-  mPropertyType: Articy.Unity.ArticyObject, ArticyRuntime, Version=2.3.3.0, Culture=neutral,
-    PublicKeyToken=null
-  mConstraintNames: 
-  mConstraintValues: []
---- !u!114 &2345564439846375760
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: Vertices
-  m_EditorClassIdentifier: 
-  mTechnicalName: Vertices
-  mDisplayName: 
-  mIsTemplateProperty: 0
-  mPropertyType: Articy.Underchoices.List`1, Assembly-CSharp
-  mConstraintNames: 
-  mConstraintValues: []
---- !u!114 &2380903722774341614
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: TechnicalName
-  m_EditorClassIdentifier: 
-  mTechnicalName: TechnicalName
-  mDisplayName: 
-  mIsTemplateProperty: 0
-  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-  mConstraintNames: 
-  mConstraintValues: []
---- !u!114 &2472848359553488286
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: Children
-  m_EditorClassIdentifier: 
-  mTechnicalName: Children
-  mDisplayName: 
-  mIsTemplateProperty: 0
-  mPropertyType: System.Collections.ArrayList, mscorlib, Version=4.0.0.0, Culture=neutral,
-    PublicKeyToken=b77a5c561934e089
-  mConstraintNames: 
-  mConstraintValues: []
---- !u!114 &2480444284371339628
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: LocationAnchorSize.Medium
-  m_EditorClassIdentifier: 
-  mTechnicalName: Medium
-  mDisplayName: Medium
-  mValue: 1
---- !u!114 &2487563316974705570
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: ShapeType.Path
-  m_EditorClassIdentifier: 
-  mTechnicalName: Path
-  mDisplayName: Path
-  mValue: 4
---- !u!114 &2520033533005480229
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: Link
-  m_EditorClassIdentifier: 
-  mTechnicalName: Link
-  mDisplayName: Link
-  mBaseType: {fileID: -2836981519538854315}
-  mCSharpType: Articy.Underchoices.Link, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-    PublicKeyToken=null
-  mIsEnum: 0
-  mHasTemplate: 0
-  mFeatures: []
-  mProperties:
-  - {fileID: -3485107705507147423}
-  - {fileID: 1724115899336531785}
-  - {fileID: 118138315883161770}
-  - {fileID: -9147550486894461480}
-  - {fileID: 8668482931881007372}
-  - {fileID: -2736421502641684113}
-  - {fileID: 7310251551771695905}
-  - {fileID: -2858678564222849418}
-  - {fileID: 2222694859541650110}
-  - {fileID: 6518763055536614362}
-  - {fileID: 6494697602519144838}
-  - {fileID: 6978992068925557624}
-  - {fileID: -4160704576680947411}
-  - {fileID: 2902046961591524275}
-  - {fileID: -430349774899503736}
-  - {fileID: 2380903722774341614}
-  - {fileID: 6155191785474430485}
-  - {fileID: -8825237382754675836}
-  - {fileID: -3392346210860184281}
-  - {fileID: 2472848359553488286}
-  mEnumValues: []
---- !u!114 &2836634350447908913
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: DefaultExtendedCharacterFeature.Skills
-  m_EditorClassIdentifier: 
-  mTechnicalName: DefaultExtendedCharacterFeature.Skills
-  mDisplayName: Skills
-  mIsTemplateProperty: 1
-  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
-  mConstraintValues:
-  - 
-  - 
-  - 
-  - True
-  - 
-  - False
-  - True
-  - 2048
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 
-  - 0
-  - 
-  - 
-  - 
---- !u!114 &2855246290862785602
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: SelectabilityModes.Selectable
-  m_EditorClassIdentifier: 
-  mTechnicalName: Selectable
-  mDisplayName: Selectable
-  mValue: 1
---- !u!114 &2902046961591524275
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: DropShadow
-  m_EditorClassIdentifier: 
-  mTechnicalName: DropShadow
-  mDisplayName: 
-  mIsTemplateProperty: 0
-  mPropertyType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-  mConstraintNames: 
-  mConstraintValues: []
---- !u!114 &3214349388474109480
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: Location
-  m_EditorClassIdentifier: 
-  mTechnicalName: Location
-  mDisplayName: Location
-  mBaseType: {fileID: -2836981519538854315}
-  mCSharpType: Articy.Underchoices.Location, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-    PublicKeyToken=null
-  mIsEnum: 0
-  mHasTemplate: 0
-  mFeatures: []
-  mProperties:
-  - {fileID: -7790624827420705697}
-  - {fileID: 4429827070368180004}
-  - {fileID: 6505520596619223242}
-  - {fileID: -3485107705507147423}
-  - {fileID: 1724115899336531785}
-  - {fileID: 118138315883161770}
-  - {fileID: -9147550486894461480}
-  - {fileID: 8668482931881007372}
-  - {fileID: -2736421502641684113}
-  - {fileID: -2858678564222849418}
-  - {fileID: -430349774899503736}
-  - {fileID: 2380903722774341614}
-  - {fileID: 6155191785474430485}
-  - {fileID: -8825237382754675836}
-  - {fileID: -3392346210860184281}
-  - {fileID: 2472848359553488286}
-  mEnumValues: []
---- !u!114 &4017223301593338384
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: OutlineStyle
-  m_EditorClassIdentifier: 
-  mTechnicalName: OutlineStyle
-  mDisplayName: 
-  mIsTemplateProperty: 0
-  mPropertyType: Articy.Underchoices.OutlineStyle, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  mConstraintNames: 
-  mConstraintValues: []
---- !u!114 &4117124630502382444
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: ShapeType
-  m_EditorClassIdentifier: 
-  mTechnicalName: ShapeType
-  mDisplayName: ShapeType
-  mBaseType: {fileID: 0}
-  mCSharpType: Articy.Underchoices.ShapeType, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-    PublicKeyToken=null
-  mIsEnum: 1
-  mHasTemplate: 0
-  mFeatures: []
-  mProperties: []
-  mEnumValues:
-  - {fileID: 7051644864855508755}
-  - {fileID: 86779143575052778}
-  - {fileID: 7986746744753845637}
-  - {fileID: -4607676678139626051}
-  - {fileID: 2487563316974705570}
-  - {fileID: 7886530988608015285}
-  - {fileID: -7374366030195375787}
---- !u!114 &4328229887118148378
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: Expression
-  m_EditorClassIdentifier: 
-  mTechnicalName: Expression
-  mDisplayName: 
-  mIsTemplateProperty: 0
-  mPropertyType: Articy.Unity.ArticyScriptCondition, ArticyRuntime, Version=2.3.3.0,
-    Culture=neutral, PublicKeyToken=null
-  mConstraintNames: 
-  mConstraintValues: []
---- !u!114 &4429827070368180004
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: DisplayName
-  m_EditorClassIdentifier: 
-  mTechnicalName: DisplayName
-  mDisplayName: 
-  mIsTemplateProperty: 0
-  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-  mConstraintNames: 
-  mConstraintValues: []
---- !u!114 &4618926072651750267
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: LocationAnchorSize.Small
-  m_EditorClassIdentifier: 
-  mTechnicalName: Small
-  mDisplayName: Small
-  mValue: 0
---- !u!114 &4866981370913500471
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: Sex.Female
-  m_EditorClassIdentifier: 
-  mTechnicalName: Female
-  mDisplayName: Female
-  mValue: 1
---- !u!114 &4969228941261052355
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: VisibilityModes.Invisible
-  m_EditorClassIdentifier: 
-  mTechnicalName: Invisible
-  mDisplayName: Invisible
-  mValue: 0
---- !u!114 &5013533951149917616
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: ShapeType
-  m_EditorClassIdentifier: 
-  mTechnicalName: ShapeType
-  mDisplayName: 
-  mIsTemplateProperty: 0
-  mPropertyType: Articy.Underchoices.ShapeType, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  mConstraintNames: 
-  mConstraintValues: []
---- !u!114 &5350723466102367061
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: Entity
-  m_EditorClassIdentifier: 
-  mTechnicalName: Entity
-  mDisplayName: Entity
-  mBaseType: {fileID: -2836981519538854315}
-  mCSharpType: Articy.Underchoices.Entity, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-    PublicKeyToken=null
-  mIsEnum: 0
-  mHasTemplate: 0
-  mFeatures: []
-  mProperties:
-  - {fileID: -7790624827420705697}
-  - {fileID: 4429827070368180004}
-  - {fileID: -3485107705507147423}
-  - {fileID: 1724115899336531785}
-  - {fileID: 118138315883161770}
-  - {fileID: -9147550486894461480}
-  - {fileID: 8668482931881007372}
-  - {fileID: -2736421502641684113}
-  - {fileID: 6505520596619223242}
-  - {fileID: -2858678564222849418}
-  - {fileID: -430349774899503736}
-  - {fileID: 2380903722774341614}
-  - {fileID: 6155191785474430485}
-  - {fileID: -8825237382754675836}
-  - {fileID: -3392346210860184281}
-  - {fileID: 2472848359553488286}
-  mEnumValues: []
---- !u!114 &5776598998160880593
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: OutlineStyle.Dot
-  m_EditorClassIdentifier: 
-  mTechnicalName: Dot
-  mDisplayName: Dot
-  mValue: 1
---- !u!114 &5828179020708818442
+--- !u!114 &1535711497987218099
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2783,7 +2052,58 @@ MonoBehaviour:
     PublicKeyToken=null
   mConstraintNames: 
   mConstraintValues: []
---- !u!114 &5875498032812162669
+--- !u!114 &1551259413408440340
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: OutlineStyle.Dot
+  m_EditorClassIdentifier: 
+  mTechnicalName: Dot
+  mDisplayName: Dot
+  mValue: 1
+--- !u!114 &1731386030214731837
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Attachments
+  m_EditorClassIdentifier: 
+  mTechnicalName: Attachments
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: Articy.Underchoices.List`1, Assembly-CSharp
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &1746479005289640288
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ForcedWidth
+  m_EditorClassIdentifier: 
+  mTechnicalName: ForcedWidth
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &1850631115765733815
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2793,21 +2113,144 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: PreviewImageViewBoxModes
+  m_Name: OutlineStyle
   m_EditorClassIdentifier: 
-  mTechnicalName: PreviewImageViewBoxModes
-  mDisplayName: PreviewImageViewBoxModes
+  mTechnicalName: OutlineStyle
+  mDisplayName: OutlineStyle
   mBaseType: {fileID: 0}
-  mCSharpType: Articy.Unity.PreviewImageViewBoxModes, ArticyRuntime, Version=2.3.3.0,
+  mCSharpType: Articy.Underchoices.OutlineStyle, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   mIsEnum: 1
   mHasTemplate: 0
   mFeatures: []
   mProperties: []
   mEnumValues:
-  - {fileID: 701449113059846398}
-  - {fileID: -8910891393052136577}
---- !u!114 &5971069427084224250
+  - {fileID: -5232732318382797077}
+  - {fileID: 1551259413408440340}
+  - {fileID: -5953483617347294619}
+  - {fileID: 7830489511724415193}
+  - {fileID: 8623448573238452722}
+--- !u!114 &2217157553521961129
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Sex.Female
+  m_EditorClassIdentifier: 
+  mTechnicalName: Female
+  mDisplayName: Female
+  mValue: 1
+--- !u!114 &2903214086537916304
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Link
+  m_EditorClassIdentifier: 
+  mTechnicalName: Link
+  mDisplayName: Link
+  mBaseType: {fileID: 829181714692815706}
+  mCSharpType: Articy.Underchoices.Link, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: -1534790788800208407}
+  - {fileID: 6797650975051001715}
+  - {fileID: -5581288421942238389}
+  - {fileID: -6479369266071410904}
+  - {fileID: -6224275204576912370}
+  - {fileID: 8594347215239677294}
+  - {fileID: -8704161519889192618}
+  - {fileID: 3273398339767465931}
+  - {fileID: 4511317402286396386}
+  - {fileID: 178164908879119436}
+  - {fileID: 1425527902021691371}
+  - {fileID: -8088092954690698062}
+  - {fileID: 5519500780283198484}
+  - {fileID: 8633557021057436693}
+  - {fileID: 8727276483749021671}
+  - {fileID: 7993819545501960310}
+  - {fileID: -2451784760825021103}
+  - {fileID: -3024223832354478204}
+  - {fileID: 5075174895231135988}
+  - {fileID: -4113273896423915915}
+  mEnumValues: []
+--- !u!114 &2930469632863658747
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: PathCaps.Diamond
+  m_EditorClassIdentifier: 
+  mTechnicalName: Diamond
+  mDisplayName: Diamond
+  mValue: 4
+--- !u!114 &3057777200472901523
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: PathCaps.ColoredDot
+  m_EditorClassIdentifier: 
+  mTechnicalName: ColoredDot
+  mDisplayName: ColoredDot
+  mValue: 0
+--- !u!114 &3210237883525290065
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: PathCaps.Square
+  m_EditorClassIdentifier: 
+  mTechnicalName: Square
+  mDisplayName: Square
+  mValue: 5
+--- !u!114 &3273398339767465931
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ShortId
+  m_EditorClassIdentifier: 
+  mTechnicalName: ShortId
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &3347943606320071534
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2843,7 +2286,7 @@ MonoBehaviour:
   - 
   - 
   - 
---- !u!114 &6155191785474430485
+--- !u!114 &3497258013941469415
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2853,16 +2296,47 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: Parent
+  m_Name: Vertices
   m_EditorClassIdentifier: 
-  mTechnicalName: Parent
+  mTechnicalName: Vertices
   mDisplayName: 
   mIsTemplateProperty: 0
-  mPropertyType: Articy.Unity.ArticyObject, ArticyRuntime, Version=2.3.3.0, Culture=neutral,
-    PublicKeyToken=null
+  mPropertyType: Articy.Underchoices.List`1, Assembly-CSharp
   mConstraintNames: 
   mConstraintValues: []
---- !u!114 &6187460743925172504
+--- !u!114 &3646564991507666159
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: UserFolder
+  m_EditorClassIdentifier: 
+  mTechnicalName: UserFolder
+  mDisplayName: UserFolder
+  mBaseType: {fileID: 829181714692815706}
+  mCSharpType: Articy.Underchoices.UserFolder, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: -5132588695977438072}
+  - {fileID: -5581288421942238389}
+  - {fileID: 3273398339767465931}
+  - {fileID: 8727276483749021671}
+  - {fileID: 7993819545501960310}
+  - {fileID: -2451784760825021103}
+  - {fileID: -6224275204576912370}
+  - {fileID: -3024223832354478204}
+  - {fileID: 5075174895231135988}
+  - {fileID: -4113273896423915915}
+  mEnumValues: []
+--- !u!114 &3685053733091607239
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2872,10 +2346,65 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: DefaultBasicCharacterFeature.Species
+  m_Name: ShapeType
   m_EditorClassIdentifier: 
-  mTechnicalName: DefaultBasicCharacterFeature.Species
-  mDisplayName: Species
+  mTechnicalName: ShapeType
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: Articy.Underchoices.ShapeType, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &3692909523070415312
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DefaultExtendedCharacterFeature.Skills
+  m_EditorClassIdentifier: 
+  mTechnicalName: DefaultExtendedCharacterFeature.Skills
+  mDisplayName: Skills
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - True
+  - 
+  - False
+  - True
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &3747743516378535011
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DefaultBasicCharacterFeature.BornIn
+  m_EditorClassIdentifier: 
+  mTechnicalName: DefaultBasicCharacterFeature.BornIn
+  mDisplayName: Born in
   mIsTemplateProperty: 1
   mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
   mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
@@ -2898,7 +2427,7 @@ MonoBehaviour:
   - 
   - 
   - 
---- !u!114 &6338625492312494776
+--- !u!114 &3770594848907855452
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2908,12 +2437,99 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: PathCaps.ColoredDot
+  m_Name: Sex.Male
   m_EditorClassIdentifier: 
-  mTechnicalName: ColoredDot
-  mDisplayName: ColoredDot
+  mTechnicalName: Male
+  mDisplayName: Male
   mValue: 0
---- !u!114 &6380563879536673852
+--- !u!114 &3788079438121848467
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DefaultExtendedCharacterFeature.Habits
+  m_EditorClassIdentifier: 
+  mTechnicalName: DefaultExtendedCharacterFeature.Habits
+  mDisplayName: Quirks / Habits
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - True
+  - 
+  - False
+  - True
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &3947883108038902205
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DefaultBasicCharacterFeature.Occupation
+  m_EditorClassIdentifier: 
+  mTechnicalName: DefaultBasicCharacterFeature.Occupation
+  mDisplayName: Profession
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - False
+  - 
+  - False
+  - True
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &4094395756721454615
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: VisibilityModes.Visible
+  m_EditorClassIdentifier: 
+  mTechnicalName: Visible
+  mDisplayName: Visible
+  mValue: 1
+--- !u!114 &4261166291959377660
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2923,47 +2539,54 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: Path
+  m_Name: Location
   m_EditorClassIdentifier: 
-  mTechnicalName: Path
-  mDisplayName: Path
-  mBaseType: {fileID: -2836981519538854315}
-  mCSharpType: Articy.Underchoices.Path, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+  mTechnicalName: Location
+  mDisplayName: Location
+  mBaseType: {fileID: 829181714692815706}
+  mCSharpType: Articy.Underchoices.Location, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
   mIsEnum: 0
   mHasTemplate: 0
   mFeatures: []
   mProperties:
-  - {fileID: 4429827070368180004}
-  - {fileID: 6505520596619223242}
-  - {fileID: 2345564439846375760}
-  - {fileID: 5828179020708818442}
-  - {fileID: -3485107705507147423}
-  - {fileID: 1724115899336531785}
-  - {fileID: 118138315883161770}
-  - {fileID: 8668482931881007372}
-  - {fileID: -2736421502641684113}
-  - {fileID: -2858678564222849418}
-  - {fileID: 2222694859541650110}
-  - {fileID: -4160704576680947411}
-  - {fileID: 6518763055536614362}
-  - {fileID: 6494697602519144838}
-  - {fileID: 6978992068925557624}
-  - {fileID: 2902046961591524275}
-  - {fileID: -5542612095123533433}
-  - {fileID: -3814366461905286975}
-  - {fileID: 4017223301593338384}
-  - {fileID: -7506545766994899984}
-  - {fileID: 901001932286283153}
-  - {fileID: -3877125649578515818}
-  - {fileID: -430349774899503736}
-  - {fileID: 2380903722774341614}
-  - {fileID: 6155191785474430485}
-  - {fileID: -8825237382754675836}
-  - {fileID: -3392346210860184281}
-  - {fileID: 2472848359553488286}
+  - {fileID: 1731386030214731837}
+  - {fileID: -5132588695977438072}
+  - {fileID: -7855026312651197688}
+  - {fileID: -1534790788800208407}
+  - {fileID: 6797650975051001715}
+  - {fileID: -5581288421942238389}
+  - {fileID: -6479369266071410904}
+  - {fileID: -6224275204576912370}
+  - {fileID: 8594347215239677294}
+  - {fileID: 3273398339767465931}
+  - {fileID: 8727276483749021671}
+  - {fileID: 7993819545501960310}
+  - {fileID: -2451784760825021103}
+  - {fileID: -3024223832354478204}
+  - {fileID: 5075174895231135988}
+  - {fileID: -4113273896423915915}
   mEnumValues: []
---- !u!114 &6387378409270126687
+--- !u!114 &4511317402286396386
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Visibility
+  m_EditorClassIdentifier: 
+  mTechnicalName: Visibility
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: Articy.Underchoices.VisibilityModes, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &4740671236960779828
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2981,7 +2604,22 @@ MonoBehaviour:
   mPropertyType: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
   mConstraintNames: 
   mConstraintValues: []
---- !u!114 &6494697602519144838
+--- !u!114 &4827506280919131563
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: SelectabilityModes.Unselectable
+  m_EditorClassIdentifier: 
+  mTechnicalName: Unselectable
+  mDisplayName: Unselectable
+  mValue: 0
+--- !u!114 &4857091636654154893
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2991,16 +2629,33 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: DisplayNameColor
+  m_Name: DefaultBasicCharacterFeature.Age
   m_EditorClassIdentifier: 
-  mTechnicalName: DisplayNameColor
-  mDisplayName: 
-  mIsTemplateProperty: 0
-  mPropertyType: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
-    PublicKeyToken=null
-  mConstraintNames: 
-  mConstraintValues: []
---- !u!114 &6505520596619223242
+  mTechnicalName: DefaultBasicCharacterFeature.Age
+  mDisplayName: Age
+  mIsTemplateProperty: 1
+  mPropertyType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - False
+  - 
+  - False
+  - False
+  - 0
+  - 0
+  - 0
+  - 3.40282346638529E+38
+  - 0
+  - -3.40282346638529E+38
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &5075174895231135988
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3010,16 +2665,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: PreviewImage
+  m_Name: InstanceId
   m_EditorClassIdentifier: 
-  mTechnicalName: PreviewImage
+  mTechnicalName: InstanceId
   mDisplayName: 
   mIsTemplateProperty: 0
-  mPropertyType: Articy.Unity.PreviewImage, ArticyRuntime, Version=2.3.3.0, Culture=neutral,
-    PublicKeyToken=null
+  mPropertyType: System.UInt64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
   mConstraintNames: 
   mConstraintValues: []
---- !u!114 &6518763055536614362
+--- !u!114 &5519500780283198484
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3029,33 +2683,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: ShowDisplayName
+  m_Name: Selectability
   m_EditorClassIdentifier: 
-  mTechnicalName: ShowDisplayName
+  mTechnicalName: Selectability
   mDisplayName: 
   mIsTemplateProperty: 0
-  mPropertyType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mPropertyType: Articy.Underchoices.SelectabilityModes, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
   mConstraintNames: 
   mConstraintValues: []
---- !u!114 &6978992068925557624
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: DisplayNameSize
-  m_EditorClassIdentifier: 
-  mTechnicalName: DisplayNameSize
-  mDisplayName: 
-  mIsTemplateProperty: 0
-  mPropertyType: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-  mConstraintNames: 
-  mConstraintValues: []
---- !u!114 &6986263427148399114
+--- !u!114 &5679286685915704636
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3065,59 +2702,45 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: UserFolder
+  m_Name: Zone
   m_EditorClassIdentifier: 
-  mTechnicalName: UserFolder
-  mDisplayName: UserFolder
-  mBaseType: {fileID: -2836981519538854315}
-  mCSharpType: Articy.Underchoices.UserFolder, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
+  mTechnicalName: Zone
+  mDisplayName: Zone
+  mBaseType: {fileID: 829181714692815706}
+  mCSharpType: Articy.Underchoices.Zone, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
   mIsEnum: 0
   mHasTemplate: 0
   mFeatures: []
   mProperties:
-  - {fileID: 4429827070368180004}
-  - {fileID: 118138315883161770}
-  - {fileID: -2858678564222849418}
-  - {fileID: -430349774899503736}
-  - {fileID: 2380903722774341614}
-  - {fileID: 6155191785474430485}
-  - {fileID: 8668482931881007372}
-  - {fileID: -8825237382754675836}
-  - {fileID: -3392346210860184281}
-  - {fileID: 2472848359553488286}
+  - {fileID: -5132588695977438072}
+  - {fileID: -7855026312651197688}
+  - {fileID: 3497258013941469415}
+  - {fileID: 1535711497987218099}
+  - {fileID: 3685053733091607239}
+  - {fileID: -1534790788800208407}
+  - {fileID: 6797650975051001715}
+  - {fileID: -5581288421942238389}
+  - {fileID: -6224275204576912370}
+  - {fileID: 8594347215239677294}
+  - {fileID: 3273398339767465931}
+  - {fileID: 4511317402286396386}
+  - {fileID: -8883854756629013643}
+  - {fileID: -9060664501317164}
+  - {fileID: -2297449305681182425}
+  - {fileID: 178164908879119436}
+  - {fileID: 1425527902021691371}
+  - {fileID: -8088092954690698062}
+  - {fileID: 8633557021057436693}
+  - {fileID: 5519500780283198484}
+  - {fileID: 8727276483749021671}
+  - {fileID: 7993819545501960310}
+  - {fileID: -2451784760825021103}
+  - {fileID: -3024223832354478204}
+  - {fileID: 5075174895231135988}
+  - {fileID: -4113273896423915915}
   mEnumValues: []
---- !u!114 &7051644864855508755
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: ShapeType.Invalid
-  m_EditorClassIdentifier: 
-  mTechnicalName: Invalid
-  mDisplayName: Invalid
-  mValue: 0
---- !u!114 &7159429530633529593
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: LocationAnchorSize.Large
-  m_EditorClassIdentifier: 
-  mTechnicalName: Large
-  mDisplayName: Large
-  mValue: 2
---- !u!114 &7193514072590148620
+--- !u!114 &5790910942307714452
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3127,23 +2750,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: DefaultBasicCharacterFeature.Sex
+  m_Name: DefaultExtendedCharacterFeature.FurtherDetails
   m_EditorClassIdentifier: 
-  mTechnicalName: DefaultBasicCharacterFeature.Sex
-  mDisplayName: Sex
+  mTechnicalName: DefaultExtendedCharacterFeature.FurtherDetails
+  mDisplayName: Further Details
   mIsTemplateProperty: 1
-  mPropertyType: Articy.Underchoices.Sex, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-    PublicKeyToken=null
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
   mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
   mConstraintValues:
   - 
   - 
   - 
-  - False
+  - True
   - 
   - False
   - True
-  - 0
+  - 2048
   - 0
   - 0
   - 0
@@ -3152,9 +2774,9 @@ MonoBehaviour:
   - 
   - 0
   - 
-  - BySortIndex
   - 
---- !u!114 &7310251551771695905
+  - 
+--- !u!114 &5822948701648054951
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3164,16 +2786,34 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: Target
+  m_Name: MenuText
   m_EditorClassIdentifier: 
-  mTechnicalName: Target
+  mTechnicalName: MenuText
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &6351603800076988160
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ImageAsset
+  m_EditorClassIdentifier: 
+  mTechnicalName: ImageAsset
   mDisplayName: 
   mIsTemplateProperty: 0
   mPropertyType: Articy.Unity.ArticyObject, ArticyRuntime, Version=2.3.3.0, Culture=neutral,
     PublicKeyToken=null
   mConstraintNames: 
   mConstraintValues: []
---- !u!114 &7430728033136972516
+--- !u!114 &6489536582954253835
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3183,15 +2823,33 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: TargetPin
+  m_Name: DefaultExtendedCharacterFeature.InnerConflict
   m_EditorClassIdentifier: 
-  mTechnicalName: TargetPin
-  mDisplayName: 
-  mIsTemplateProperty: 0
-  mPropertyType: Articy.Underchoices.UInt64, Assembly-CSharp
-  mConstraintNames: 
-  mConstraintValues: []
---- !u!114 &7463388459970651967
+  mTechnicalName: DefaultExtendedCharacterFeature.InnerConflict
+  mDisplayName: Inner Conflict
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - True
+  - 
+  - False
+  - True
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &6786923957958992299
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3201,15 +2859,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: CreatedBy
+  m_Name: StageDirections
   m_EditorClassIdentifier: 
-  mTechnicalName: CreatedBy
+  mTechnicalName: StageDirections
   mDisplayName: 
   mIsTemplateProperty: 0
   mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
   mConstraintNames: 
   mConstraintValues: []
---- !u!114 &7886530988608015285
+--- !u!114 &6797650975051001715
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3218,13 +2876,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: ShapeType.Polygon
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Text
   m_EditorClassIdentifier: 
-  mTechnicalName: Polygon
-  mDisplayName: Polygon
-  mValue: 5
---- !u!114 &7937640332826795031
+  mTechnicalName: Text
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &6863526355959517411
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3242,7 +2903,220 @@ MonoBehaviour:
   mPropertyType: Articy.Underchoices.List`1, Assembly-CSharp
   mConstraintNames: 
   mConstraintValues: []
---- !u!114 &7986746744753845637
+--- !u!114 &6957455901637121914
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ClipRect
+  m_EditorClassIdentifier: 
+  mTechnicalName: ClipRect
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: UnityEngine.Rect, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &7088553365005347692
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DefaultBasicCharacterFeature.Appearance
+  m_EditorClassIdentifier: 
+  mTechnicalName: DefaultBasicCharacterFeature.Appearance
+  mDisplayName: Appearance
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - True
+  - 
+  - False
+  - True
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &7105207171150831815
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: PathCaps
+  m_EditorClassIdentifier: 
+  mTechnicalName: PathCaps
+  mDisplayName: PathCaps
+  mBaseType: {fileID: 0}
+  mCSharpType: Articy.Underchoices.PathCaps, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 1
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties: []
+  mEnumValues:
+  - {fileID: 3057777200472901523}
+  - {fileID: 1504456920715943668}
+  - {fileID: 7467914377075526973}
+  - {fileID: 722519692224431415}
+  - {fileID: 2930469632863658747}
+  - {fileID: 3210237883525290065}
+  - {fileID: -2546852795877305931}
+--- !u!114 &7247283787593379525
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: VisibilityModes
+  m_EditorClassIdentifier: 
+  mTechnicalName: VisibilityModes
+  mDisplayName: VisibilityModes
+  mBaseType: {fileID: 0}
+  mCSharpType: Articy.Underchoices.VisibilityModes, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  mIsEnum: 1
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties: []
+  mEnumValues:
+  - {fileID: -6844565867741416230}
+  - {fileID: 4094395756721454615}
+--- !u!114 &7467914377075526973
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: PathCaps.LineArrowHead
+  m_EditorClassIdentifier: 
+  mTechnicalName: LineArrowHead
+  mDisplayName: LineArrowHead
+  mValue: 2
+--- !u!114 &7830489511724415193
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: OutlineStyle.DashDot
+  m_EditorClassIdentifier: 
+  mTechnicalName: DashDot
+  mDisplayName: DashDot
+  mValue: 3
+--- !u!114 &7939212933438626644
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Instruction
+  m_EditorClassIdentifier: 
+  mTechnicalName: Instruction
+  mDisplayName: Instruction
+  mBaseType: {fileID: 829181714692815706}
+  mCSharpType: Articy.Underchoices.Instruction, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: -5132588695977438072}
+  - {fileID: 6797650975051001715}
+  - {fileID: -5581288421942238389}
+  - {fileID: -6479369266071410904}
+  - {fileID: -6224275204576912370}
+  - {fileID: 8594347215239677294}
+  - {fileID: 3273398339767465931}
+  - {fileID: -2272808671838561710}
+  - {fileID: -1534790788800208407}
+  - {fileID: 8727276483749021671}
+  - {fileID: 7993819545501960310}
+  - {fileID: -2451784760825021103}
+  - {fileID: 6863526355959517411}
+  - {fileID: -5317537122540884883}
+  - {fileID: -3024223832354478204}
+  - {fileID: 5075174895231135988}
+  - {fileID: -4113273896423915915}
+  mEnumValues: []
+--- !u!114 &7954355313083206526
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: CreatedOn
+  m_EditorClassIdentifier: 
+  mTechnicalName: CreatedOn
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &7993819545501960310
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: TechnicalName
+  m_EditorClassIdentifier: 
+  mTechnicalName: TechnicalName
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &8062784366457430365
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3257,7 +3131,61 @@ MonoBehaviour:
   mTechnicalName: Circle
   mDisplayName: Circle
   mValue: 2
---- !u!114 &8214684707953643586
+--- !u!114 &8083484402781781450
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: PreviewImageViewBoxModes.FromAsset
+  m_EditorClassIdentifier: 
+  mTechnicalName: FromAsset
+  mDisplayName: FromAsset
+  mValue: 0
+--- !u!114 &8404985729165749638
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Jump
+  m_EditorClassIdentifier: 
+  mTechnicalName: Jump
+  mDisplayName: Jump
+  mBaseType: {fileID: 829181714692815706}
+  mCSharpType: Articy.Underchoices.Jump, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: -1534790788800208407}
+  - {fileID: 6797650975051001715}
+  - {fileID: -5581288421942238389}
+  - {fileID: -6479369266071410904}
+  - {fileID: -6224275204576912370}
+  - {fileID: 8594347215239677294}
+  - {fileID: 3273398339767465931}
+  - {fileID: 8727276483749021671}
+  - {fileID: 7993819545501960310}
+  - {fileID: -2451784760825021103}
+  - {fileID: -8704161519889192618}
+  - {fileID: -6082672608210867831}
+  - {fileID: 6863526355959517411}
+  - {fileID: -5317537122540884883}
+  - {fileID: -3024223832354478204}
+  - {fileID: 5075174895231135988}
+  - {fileID: -4113273896423915915}
+  mEnumValues: []
+--- !u!114 &8594347215239677294
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3267,15 +3195,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: CachedImageHeight
+  m_Name: Size
   m_EditorClassIdentifier: 
-  mTechnicalName: CachedImageHeight
+  mTechnicalName: Size
   mDisplayName: 
   mIsTemplateProperty: 0
-  mPropertyType: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mPropertyType: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
   mConstraintNames: 
   mConstraintValues: []
---- !u!114 &8322491061244663270
+--- !u!114 &8623448573238452722
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: OutlineStyle.DashDotDot
+  m_EditorClassIdentifier: 
+  mTechnicalName: DashDotDot
+  mDisplayName: DashDotDot
+  mValue: 4
+--- !u!114 &8633557021057436693
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3285,15 +3229,51 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: ForcedHeight
+  m_Name: DropShadow
   m_EditorClassIdentifier: 
-  mTechnicalName: ForcedHeight
+  mTechnicalName: DropShadow
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &8727276483749021671
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Id
+  m_EditorClassIdentifier: 
+  mTechnicalName: Id
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.UInt64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &8773882228715511636
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: LineWidth
+  m_EditorClassIdentifier: 
+  mTechnicalName: LineWidth
   mDisplayName: 
   mIsTemplateProperty: 0
   mPropertyType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
   mConstraintNames: 
   mConstraintValues: []
---- !u!114 &8668482931881007372
+--- !u!114 &8999685390567966471
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3303,15 +3283,33 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: ZIndex
+  m_Name: DefaultExtendedCharacterFeature.Motivation
   m_EditorClassIdentifier: 
-  mTechnicalName: ZIndex
-  mDisplayName: 
-  mIsTemplateProperty: 0
-  mPropertyType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-  mConstraintNames: 
-  mConstraintValues: []
---- !u!114 &8881418413977872153
+  mTechnicalName: DefaultExtendedCharacterFeature.Motivation
+  mDisplayName: Goals
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - True
+  - 
+  - False
+  - True
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &9220370907937712070
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3320,30 +3318,32 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: Anchors
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: TextObject
   m_EditorClassIdentifier: 
-  mTechnicalName: Anchors
-  mDisplayName: 
-  mIsTemplateProperty: 0
-  mPropertyType: Articy.Underchoices.List`1, Assembly-CSharp
-  mConstraintNames: 
-  mConstraintValues: []
---- !u!114 &9184731920916651474
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: ForcedWidth
-  m_EditorClassIdentifier: 
-  mTechnicalName: ForcedWidth
-  mDisplayName: 
-  mIsTemplateProperty: 0
-  mPropertyType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-  mConstraintNames: 
-  mConstraintValues: []
+  mTechnicalName: TextObject
+  mDisplayName: TextObject
+  mBaseType: {fileID: 829181714692815706}
+  mCSharpType: Articy.Underchoices.TextObject, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: -5132588695977438072}
+  - {fileID: 1731386030214731837}
+  - {fileID: -7855026312651197688}
+  - {fileID: -1534790788800208407}
+  - {fileID: 6797650975051001715}
+  - {fileID: -5581288421942238389}
+  - {fileID: -6479369266071410904}
+  - {fileID: -6224275204576912370}
+  - {fileID: 8594347215239677294}
+  - {fileID: 3273398339767465931}
+  - {fileID: 8727276483749021671}
+  - {fileID: 7993819545501960310}
+  - {fileID: -2451784760825021103}
+  - {fileID: -3024223832354478204}
+  - {fileID: 5075174895231135988}
+  - {fileID: -4113273896423915915}
+  mEnumValues: []
