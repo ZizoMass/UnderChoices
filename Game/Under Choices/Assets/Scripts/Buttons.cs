@@ -12,7 +12,9 @@ public class Buttons : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,
     // Start is called before the first frame update
     void Start()
     {
-        
+        // If the player doesn't have enough money, grey out the boost button
+        if (isBoostButton && !FindObjectOfType<GameController>().CanBeBoosted(transform.parent.GetComponent<PostObject>()))
+            GetComponent<Button>().interactable = false;
     }
 
     // Update is called once per frame
@@ -45,6 +47,8 @@ public class Buttons : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,
     public void Boost()
     {
         FindObjectOfType<GameController>().BoostPost(transform.parent.GetComponent<PostObject>());
+        GetComponent<Image>().sprite = Resources.Load<Sprite>("Media Post Assets/media_post_button_Default_Button");
+        GetComponent<Button>().interactable = false;
     }
 
     public void Refresh()
@@ -74,19 +78,19 @@ public class Buttons : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        if(isBoostButton)
+        if(isBoostButton && GetComponent<Button>().interactable == true)
             GetComponent<Image>().sprite = Resources.Load<Sprite>("Media Post Assets/media_post_button_OnHover");
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        if (isBoostButton)
+        if (isBoostButton && GetComponent<Button>().interactable == true)
             GetComponent<Image>().sprite = Resources.Load<Sprite>("Media Post Assets/media_post_button_Default_Button");
     }
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        if (isBoostButton)
+        if (isBoostButton && GetComponent<Button>().interactable == true)
             GetComponent<Image>().sprite = Resources.Load<Sprite>("Media Post Assets/media_post_button_OnClick");
     }
 }

@@ -321,7 +321,7 @@ public class GameController : MonoBehaviour
 
     public void BoostPost(PostObject post)
     {
-        if(!post.isBoosted && playerFunds >= post.mediaPost.boostCost)
+        if(CanBeBoosted(post))
         {
             post.Boost();
             playerFunds -= post.mediaPost.boostCost;
@@ -329,6 +329,14 @@ public class GameController : MonoBehaviour
             UpdatePlayerFunds();
             UpdateOrders();
         }
+    }
+
+    public Boolean CanBeBoosted(PostObject post)
+    {
+        if (!post.isBoosted && playerFunds >= post.mediaPost.boostCost)
+            return true;
+        else
+            return false;
     }
 
     public void RefreshSet()
