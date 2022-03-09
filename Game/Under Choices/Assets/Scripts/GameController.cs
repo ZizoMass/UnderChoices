@@ -474,11 +474,11 @@ public class GameController : MonoBehaviour
         newMessage.transform.localScale = new Vector2(1, 1);
 
         // Remove offscreen messages
-        if (currentMessages.Count > 3)
-            currentMessages.RemoveAt(0);
+        /*if (currentMessages.Count > 3)
+            currentMessages.RemoveAt(0);*/
 
         // Wait for next message
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(3);
 
         // If there are more texts in the current message, continue
         if (index < _messages[0].messages.Count - 1)
