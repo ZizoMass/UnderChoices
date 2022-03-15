@@ -90,7 +90,8 @@ public class event_animation_manager : MonoBehaviour
         if (isVideoPlaying)
         {
             int videoEventIndex = (int)eventType; // can use this as an index to manipulate the appropriate index
-            videoCurrentTime = childEventsArray[videoEventIndex].gameObject.GetComponent<VideoPlayer>().time;
+            videoCurrentTime = childEventsArray[videoEventIndex].gameObject.GetComponent<VideoPlayer>().time; //IF THERE IS AN ERROR: it likely happened when the enum eventType swaps from
+            //*continued* a animation with a "Video Player" component to one like "Riot" where there isn't one. If you don't change the eventType before the animation finishes playing then there won't be an error.
             if (videoCurrentTime >= videoTotalTime-0.2)
             {
                 childEventsArray[videoEventIndex].gameObject.SetActive(false);
