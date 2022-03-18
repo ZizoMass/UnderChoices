@@ -43,10 +43,12 @@ public class BossOrder : ScriptableObject
         /*if (anySubject && anyReaction)
             tempString += " of your choice";*/
 
-        if (!dontBoost)
+        if (!dontBoost && progress < numberToBoost)
             tempString += " (" + progress + "/" + numberToBoost + ")";
+        else if(!dontBoost && progress >= numberToBoost)
+            tempString = "<s>" + tempString + "</s> (done)";
         else if (dontBoost && progress > 0)
-            tempString += " (failed)";
+            tempString = "<s>" + tempString + "</s> (failed)";
 
 
         return tempString;

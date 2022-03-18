@@ -15,6 +15,7 @@ TagManager:
   - Strikes Display
   - Message Spawn
   - Transition
+  - Messages
   layers:
   - Default
   - TransparentFX

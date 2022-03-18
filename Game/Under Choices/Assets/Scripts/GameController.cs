@@ -28,7 +28,7 @@ public class GameController : MonoBehaviour
     List<MediaPost> mediaPosts, currentDayPosts, boostedPosts;
     List<BossOrder> bossOrders, currentOrders, completedOrders;
     List<NarrativeEvent> narrativeEvents;
-    List<TextMessage> textMessages;
+    List<TextMessage> textMessages, messagesTiedToRefresh;
     List<GameObject> postSpawnPointSet, currentPostSet, currentMessages;
 
     private void Awake()
@@ -56,6 +56,7 @@ public class GameController : MonoBehaviour
         completedOrders = new List<BossOrder>();
         currentPostSet = new List<GameObject>();
         currentMessages = new List<GameObject>();
+        messagesTiedToRefresh = new List<TextMessage>();
     }
 
     // Start is called before the first frame update
@@ -321,7 +322,7 @@ public class GameController : MonoBehaviour
 
     public void BoostPost(PostObject post)
     {
-        if(!post.isBoosted && playerFunds >= post.mediaPost.boostCost)
+        if(CanBeBoosted(post))
         {
             post.Boost();
             playerFunds -= post.mediaPost.boostCost;
@@ -329,6 +330,14 @@ public class GameController : MonoBehaviour
             UpdatePlayerFunds();
             UpdateOrders();
         }
+    }
+
+    public Boolean CanBeBoosted(PostObject post)
+    {
+        if (!post.isBoosted && playerFunds >= post.mediaPost.boostCost)
+            return true;
+        else
+            return false;
     }
 
     public void RefreshSet()
@@ -352,6 +361,10 @@ public class GameController : MonoBehaviour
             currentPostSet.Add(newPost);
             newPost.transform.SetParent(screen.transform);
         }
+
+        // Receive phone message
+        if(messagesTiedToRefresh.Count > 0)
+            StartCoroutine(LoadMessage(messagesTiedToRefresh, 0));
     }
 
     public void CheckPosts()
@@ -393,6 +406,7 @@ public class GameController : MonoBehaviour
         boostedPosts.Clear();
         currentOrders.Clear();
         currentMessages.Clear();
+        messagesTiedToRefresh.Clear();
 
         // Update night number
         currentNight++;
@@ -460,11 +474,11 @@ public class GameController : MonoBehaviour
         newMessage.transform.localScale = new Vector2(1, 1);
 
         // Remove offscreen messages
-        if (currentMessages.Count > 3)
-            currentMessages.RemoveAt(0);
+        /*if (currentMessages.Count > 3)
+            currentMessages.RemoveAt(0);*/
 
         // Wait for next message
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(3);
 
         // If there are more texts in the current message, continue
         if (index < _messages[0].messages.Count - 1)
@@ -474,7 +488,8 @@ public class GameController : MonoBehaviour
         else if(_messages.Count > 1)
         {
             _messages.RemoveAt(0);
-            StartCoroutine(LoadMessage(_messages, 0));
+            messagesTiedToRefresh = _messages;
+            //StartCoroutine(LoadMessage(_messages, 0));
         }
     }
 }
