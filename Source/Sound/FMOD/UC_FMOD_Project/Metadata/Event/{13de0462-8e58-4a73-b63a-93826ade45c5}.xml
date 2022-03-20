@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{13de0462-8e58-4a73-b63a-93826ade45c5}">
 		<property name="color">
-			<value>Blue</value>
+			<value>Purple</value>
 		</property>
 		<property name="name">
 			<value>GameStart</value>

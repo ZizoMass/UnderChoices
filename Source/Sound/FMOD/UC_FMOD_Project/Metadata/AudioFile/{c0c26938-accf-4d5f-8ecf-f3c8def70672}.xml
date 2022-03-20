@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{c0c26938-accf-4d5f-8ecf-f3c8def70672}">
 		<property name="assetPath">
-			<value>MX_UnderChoices_GamePlay_WIP.wav</value>
+			<value>MX/MX_UnderChoices_GamePlay_WIP.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
