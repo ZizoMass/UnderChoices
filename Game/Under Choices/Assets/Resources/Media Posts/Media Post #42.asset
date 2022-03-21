@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #42
   m_EditorClassIdentifier: 
   postNumber: 42
-  day: 2
-  baseEngagement: 100
-  boostedEngagement: 10000
-  publisher: CYPost
-  headline: Anime Enthusiasts Create Sword Art Online IRL
-  imageFilePath: media_post_42
+  day: 1
+  baseEngagement: 75
+  boostedEngagement: 16000
+  publisher: Forbees
+  headline: Yoga Radicals Form New Country
+  imageFilePath: media_post_18
   subject: 3
   reaction: 0
   hashtags:
-  - ALWAYsSupport
-  - WEStrong
-  - OurWayOrHiWay
+  - ALWAYSSupport
+  - RallyTogether!
+  - RallyTogether!
   boostCost: 150

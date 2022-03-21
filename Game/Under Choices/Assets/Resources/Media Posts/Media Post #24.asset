@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #24
   m_EditorClassIdentifier: 
   postNumber: 24
-  day: 2
-  baseEngagement: 100
-  boostedEngagement: 10000
-  publisher: UnderChoicesVictim
-  headline: How the Government Can Make You Happier!
-  imageFilePath: media_post_24
+  day: 1
+  baseEngagement: 75
+  boostedEngagement: 16000
+  publisher: SeeEnEn
+  headline: U.S.A.R. Declares Smile Day a New Holiday!
+  imageFilePath: media_post_0
   subject: 0
   reaction: 0
   hashtags:
-  - KeepThemIn
-  - GetsThingsDone
-  - InGoodHands
+  - ReElect!!!
+  - KeepThemIN!
+  - KeepThemIN!
   boostCost: 100

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Media Post #8
   m_EditorClassIdentifier: 
   postNumber: 8
-  day: 1
+  day: 0
   baseEngagement: 50
   boostedEngagement: 15000
   publisher: 3Wasps
@@ -23,6 +23,6 @@ MonoBehaviour:
   reaction: 1
   hashtags:
   - PrayForThem
-  - GodLeftChat
-  - FreeThem
+  - PrayForThem
+  - Lowlife
   boostCost: 149

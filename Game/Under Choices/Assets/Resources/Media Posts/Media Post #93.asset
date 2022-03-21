@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #93
   m_EditorClassIdentifier: 
   postNumber: 93
-  day: 4
+  day: 3
   baseEngagement: 100
   boostedEngagement: 10000
-  publisher: SeeEnEn
-  headline: Woman With Separatist Views Dumped by Nationalist Partner
-  imageFilePath: media_post_93
+  publisher: CYPost
+  headline: Independent Games Company Forced to Sell to the U.S.A.R. After 50 Years
+  imageFilePath: media_post_69
   subject: 3
   reaction: 1
   hashtags:
-  - WeNeedChange
   - AlwaysThem
-  - ItsTheOnlyWay
+  - Desperate
+  - TimeToFixIt
   boostCost: 70

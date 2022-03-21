@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #64
   m_EditorClassIdentifier: 
   postNumber: 64
-  day: 3
+  day: 2
   baseEngagement: 100
   boostedEngagement: 10000
-  publisher: 3Wasps
-  headline: Brain Surgery Abandoned After Patient Wouldn't Stop Screaming
-  imageFilePath: media_post_64
+  publisher: SeeEnEn
+  headline: Surgeon Operates On The Wrong Patient
+  imageFilePath: media_post_40
   subject: 2
   reaction: 2
   hashtags:
-  - $$$ForWhat??
-  - CrappyHealthCare
-  - TaxedForThis?
+  - OverpaidIdiots
+  - CrapStaff
+  - OverpaidIdiots
   boostCost: 175

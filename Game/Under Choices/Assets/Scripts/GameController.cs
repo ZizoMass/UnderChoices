@@ -13,11 +13,14 @@ public class GameController : MonoBehaviour
     enum Screen { Title, Game, Load };
 
     // Game data
+    [SerializeField] int startDay, startGovernmentPoints = 1, startViolencePoints, startHealthPoints, startRadicalismPoints;
     [SerializeField] float startingFund, timerLength;
     float playerFunds, timer;
     int currentNight, playerStrikes;
     int pointsGovernment, pointsViolence, pointsHealth, pointsRadicalism;
+    bool isNewGame = true;
     MediaPost.Subject dominantSubject;
+    NarrativeEvent currentEvent;
     Screen currentScreen;
     [HideInInspector] public bool dayComplete;
 
@@ -80,14 +83,20 @@ public class GameController : MonoBehaviour
         }*/
     }
 
+    void LoadInitialValues()
+    {
+        currentNight = startDay;
+        pointsGovernment = startGovernmentPoints;
+        pointsViolence = startViolencePoints;
+        pointsHealth = startHealthPoints;
+        pointsRadicalism = startRadicalismPoints;
+        FindDominantSubject();
+        isNewGame = false;
+    }
+
     public void NewGame()
     {
-        currentNight = 0;
-        pointsGovernment = 1;
-        pointsViolence = 0;
-        pointsHealth = 0;
-        pointsRadicalism = 0;
-        dominantSubject = MediaPost.Subject.Government;
+        LoadInitialValues();
         playerStrikes = 0;
     }
 
@@ -100,11 +109,8 @@ public class GameController : MonoBehaviour
     {
 
         // If a new game just started, initialize parameters
-        if (currentNight == 0)
-        {
-            pointsGovernment = 1;
-            dominantSubject = MediaPost.Subject.Government;
-        }
+        if (isNewGame)
+            LoadInitialValues();
 
         playerFunds = startingFund;
         currentScreen = Screen.Game;
@@ -124,6 +130,9 @@ public class GameController : MonoBehaviour
         primaryOrders = GameObject.FindGameObjectWithTag("Primary Orders Display");
         secondaryOrders = GameObject.FindGameObjectWithTag("Secondary Orders Display");
 
+        if (currentNight != 0)
+            GameObject.FindGameObjectWithTag("Tutorial Email").SetActive(false);
+
         /*int postCount = -1;
 
         // Load current day media posts
@@ -140,7 +149,7 @@ public class GameController : MonoBehaviour
             }
         }*/
 
-        // Load current day media posts
+            // Load current day media posts
         foreach (MediaPost post in mediaPosts)
         {
             if (post.day == currentNight)
@@ -268,7 +277,7 @@ public class GameController : MonoBehaviour
         }
     }
 
-    void PlayNarrativeEvent()
+    void FindDominantSubject()
     {
         // Find narrative subject with most points
         int[] pointsArray = new int[4];
@@ -287,7 +296,6 @@ public class GameController : MonoBehaviour
         if (pointsArray[highestIndex] == 0)
             return;
 
-        // Play correspoing narrative event
         if (highestIndex == 0)
             dominantSubject = MediaPost.Subject.Government;
         else if (highestIndex == 1)
@@ -296,12 +304,20 @@ public class GameController : MonoBehaviour
             dominantSubject = MediaPost.Subject.Health;
         else if (highestIndex == 3)
             dominantSubject = MediaPost.Subject.Radicalism;
+    }
 
+    void PlayNarrativeEvent()
+    {
+        FindDominantSubject();
+
+        // Play correspoing narrative event
         foreach (NarrativeEvent narrativeEvent in narrativeEvents)
         {
             if (narrativeEvent.subject == dominantSubject && narrativeEvent.day == currentNight)
             {
+                currentEvent = narrativeEvent;
                 UpdateMessages(narrativeEvent);
+                PlayEvent();
                 break;
             }
         }
@@ -317,7 +333,8 @@ public class GameController : MonoBehaviour
                 messages.Add(message);
         }
 
-        StartCoroutine(LoadMessage(messages, 0));
+        if(messages.Count > 0)
+            StartCoroutine(LoadMessage(messages, 0));
     }
 
     public void BoostPost(PostObject post)
@@ -394,7 +411,7 @@ public class GameController : MonoBehaviour
             // If there's an incomplete primary order, give a strike
             if (order.type == BossOrder.Type.Primary && !completedOrders.Contains(order))
             {
-                playerStrikes++;
+                //playerStrikes++;
                 break;
             }
         }
@@ -413,7 +430,7 @@ public class GameController : MonoBehaviour
 
         StopAllCoroutines();
 
-        if(currentNight > 3)
+        if(currentNight > 8)
         {
             ScreenTransition("Title Screen");
             return;
@@ -449,6 +466,26 @@ public class GameController : MonoBehaviour
         SceneManager.LoadScene(screenName);
         StartCoroutine(LoadDelay(screenName));
         GameObject.FindGameObjectWithTag("Transition").GetComponent<Animator>().SetTrigger("Fade Out");
+    }
+
+    public void PlayEvent()
+    {
+        int eventNum;
+
+        if (currentEvent.effect == "Speech")
+            eventNum = 0;
+        else if(currentEvent.effect == "Hijack")
+            eventNum = 1;
+        else if (currentEvent.effect == "Fired")
+            eventNum = 2;
+        else if (currentEvent.effect == "Siren")
+            eventNum = 3;
+        else if (currentEvent.effect == "Riot")
+            eventNum = 4;
+        else
+            eventNum = 5;
+
+        GameObject.FindObjectOfType<event_animation_manager>().eventType = (event_animation_manager.Event) eventNum;
     }
 
     IEnumerator LoadDelay(string screenName)

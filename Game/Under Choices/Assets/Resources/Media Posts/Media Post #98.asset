@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #98
   m_EditorClassIdentifier: 
   postNumber: 98
-  day: 5
+  day: 4
   baseEngagement: 100
   boostedEngagement: 10000
-  publisher: PickMe
-  headline: Vote for Financial Support From New Donza Fails
-  imageFilePath: media_post_98
+  publisher: UnderChoicesVictim
+  headline: Government Cuts Tissue Paper Funding!!!
+  imageFilePath: media_post_74
   subject: 0
   reaction: 1
   hashtags:
-  - WhatAJoke
-  - I'maSitDown
-  - ItsDoomed
+  - ItsOver
+  - ItsDownhill
+  - NotAgainnnn
   boostCost: 80

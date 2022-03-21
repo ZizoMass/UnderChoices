@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #26
   m_EditorClassIdentifier: 
   postNumber: 26
-  day: 2
-  baseEngagement: 100
-  boostedEngagement: 10000
-  publisher: Pox
-  headline: Why Government's Streaming Increases Depression
-  imageFilePath: media_post_26
+  day: 1
+  baseEngagement: 50
+  boostedEngagement: 15000
+  publisher: CYPost
+  headline: Government Cutbacks Harming Citizens
+  imageFilePath: media_post_2
   subject: 0
   reaction: 1
   hashtags:
-  - WhatAJoke
   - I'maSitDown
-  - ItsDoomed
+  - NotAgainnnn
+  - WeAreDoomed
   boostCost: 80

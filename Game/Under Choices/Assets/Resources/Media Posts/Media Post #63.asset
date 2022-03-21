@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #63
   m_EditorClassIdentifier: 
   postNumber: 63
-  day: 3
+  day: 2
   baseEngagement: 100
   boostedEngagement: 10000
-  publisher: CYPost
-  headline: Nurse Ashamed of Her Mistakes During Check Up
-  imageFilePath: media_post_63
+  publisher: Forbees
+  headline: Man Loses Pinkie From Infection And Why You Should be Worried
+  imageFilePath: media_post_39
   subject: 2
   reaction: 1
   hashtags:
   - WeLostThem
-  - God'sPlan
-  - Depressi
+  - ThankYouAll
+  - HardTimes
   boostCost: 82

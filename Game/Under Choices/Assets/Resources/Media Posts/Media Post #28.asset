@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #28
   m_EditorClassIdentifier: 
   postNumber: 28
-  day: 2
-  baseEngagement: 100
-  boostedEngagement: 10000
-  publisher: CYPost
-  headline: '"Government ""Misplaces"" Billions In Tax Revenue"'
-  imageFilePath: media_post_28
+  day: 1
+  baseEngagement: 117
+  boostedEngagement: 28000
+  publisher: PickMe
+  headline: Population Enraged At Government Actions
+  imageFilePath: media_post_4
   subject: 0
   reaction: 2
   hashtags:
-  - GetEmOUT
-  - LeRevolution!
   - RiotTIME
+  - BurnItDOWN
+  - GetEmOUT
   boostCost: 121

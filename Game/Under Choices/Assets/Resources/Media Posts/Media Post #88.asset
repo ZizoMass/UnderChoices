@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #88
   m_EditorClassIdentifier: 
   postNumber: 88
-  day: 4
+  day: 3
   baseEngagement: 100
   boostedEngagement: 10000
-  publisher: SeeEnEn
-  headline: Patients Turned Away During Rising Epidemic
-  imageFilePath: media_post_88
+  publisher: 3Wasps
+  headline: Brain Surgery Abandoned After Patient Wouldn't Stop Screaming
+  imageFilePath: media_post_64
   subject: 2
   reaction: 2
   hashtags:
-  - $$$ForWhat??
   - CrappyHealthCare
-  - TaxedForThis?
+  - LONGWaitTimes
+  - UnderStaffed!!
   boostCost: 175

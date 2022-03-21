@@ -720,7 +720,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1216282014}
-        m_MethodName: NewGame
+        m_MethodName: GoToIntro
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -802,6 +802,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isBoostButton: 0
+  isEmailButton: 0
 --- !u!114 &1216282015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -939,6 +940,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ff0338fc292b0245a8d4cce25e1dfa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startDay: 0
+  startGovernmentPoints: 1
+  startViolencePoints: 0
+  startHealthPoints: 0
+  startRadicalismPoints: 0
   startingFund: 1000
   timerLength: 120
   dayComplete: 0
@@ -1206,6 +1212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isBoostButton: 0
+  isEmailButton: 0
 --- !u!114 &1543740227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1471,6 +1478,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isBoostButton: 0
+  isEmailButton: 0
 --- !u!114 &1901385902
 MonoBehaviour:
   m_ObjectHideFlags: 0

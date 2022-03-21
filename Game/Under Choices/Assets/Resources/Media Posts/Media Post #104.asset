@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #104
   m_EditorClassIdentifier: 
   postNumber: 104
-  day: 5
+  day: 4
   baseEngagement: 100
   boostedEngagement: 10000
-  publisher: Pox
-  headline: 'Single Father Dies After Defending  Family of 5 '
-  imageFilePath: media_post_104
+  publisher: 3Wasps
+  headline: Local Beloved Hero Dies in Shootout
+  imageFilePath: media_post_80
   subject: 1
   reaction: 1
   hashtags:
+  - SoTragic
+  - Lowlife
   - PrayForThem
-  - GodLeftChat
-  - FreeThem
   boostCost: 149

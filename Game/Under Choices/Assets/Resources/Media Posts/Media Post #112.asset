@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #112
   m_EditorClassIdentifier: 
   postNumber: 112
-  day: 5
+  day: 4
   baseEngagement: 100
   boostedEngagement: 10000
-  publisher: Forbees
-  headline: Wait Times All Time High
-  imageFilePath: media_post_112
+  publisher: SeeEnEn
+  headline: Patients Turned Away During Rising Epidemic
+  imageFilePath: media_post_88
   subject: 2
   reaction: 2
   hashtags:
-  - $$$ForWhat??
   - CrappyHealthCare
-  - TaxedForThis?
+  - UnderStaffed!!
+  - OverpaidIdiots
   boostCost: 175

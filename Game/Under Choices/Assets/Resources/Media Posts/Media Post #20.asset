@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Media Post #20
   m_EditorClassIdentifier: 
   postNumber: 20
-  day: 1
+  day: 0
   baseEngagement: 50
   boostedEngagement: 15000
   publisher: CYPost
@@ -22,7 +22,7 @@ MonoBehaviour:
   subject: 3
   reaction: 1
   hashtags:
-  - WeNeedChange
-  - AlwaysThem
+  - Desperate
+  - Desperate
   - ItsTheOnlyWay
   boostCost: 60

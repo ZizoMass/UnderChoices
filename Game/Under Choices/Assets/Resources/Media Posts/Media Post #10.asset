@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Media Post #10
   m_EditorClassIdentifier: 
   postNumber: 10
-  day: 1
+  day: 0
   baseEngagement: 117
   boostedEngagement: 28000
   publisher: PickMe
@@ -22,7 +22,7 @@ MonoBehaviour:
   subject: 1
   reaction: 2
   hashtags:
-  - SickEM!!!
-  - BetterDead
-  - Dispicable!
+  - PaybackTime
+  - BetterOffDead
+  - NoJustice!!!
   boostCost: 69

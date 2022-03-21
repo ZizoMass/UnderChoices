@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #71
   m_EditorClassIdentifier: 
   postNumber: 71
-  day: 3
+  day: 2
   baseEngagement: 100
   boostedEngagement: 10000
-  publisher: GloomIce
-  headline: Government Officials Ban Specific Radio Stations
-  imageFilePath: media_post_71
+  publisher: 3Wasps
+  headline: 'Car Brake Enthusiast Steals Brakes From School Bus '
+  imageFilePath: media_post_47
   subject: 3
   reaction: 2
   hashtags:
-  - Divide&CONQUER
   - AgainstUS!!
+  - NecessaryEvil
   - Messiah
   boostCost: 90
