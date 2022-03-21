@@ -407,6 +407,7 @@ GameObject:
   - component: {fileID: 233585470}
   - component: {fileID: 233585469}
   - component: {fileID: 233585468}
+  - component: {fileID: 233585472}
   m_Layer: 5
   m_Name: Refresh Button
   m_TagString: Untagged
@@ -501,6 +502,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 233585472}
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &233585470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -538,6 +550,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 233585466}
   m_CullTransparentMesh: 0
+--- !u!114 &233585472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233585466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1635966149
+      Data2: 1274622400
+      Data3: 2145498001
+      Data4: 1644220729
+    Path: event:/SFX/UI/PageReturn
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &265654831
 GameObject:
   m_ObjectHideFlags: 0
@@ -1570,6 +1612,7 @@ GameObject:
   - component: {fileID: 965080799}
   - component: {fileID: 965080798}
   - component: {fileID: 965080797}
+  - component: {fileID: 965080801}
   m_Layer: 5
   m_Name: Done Button
   m_TagString: Untagged
@@ -1664,6 +1707,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 965080801}
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &965080799
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1701,6 +1755,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 965080795}
   m_CullTransparentMesh: 0
+--- !u!114 &965080801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965080795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 2076476234
+      Data2: 1286809985
+      Data3: 1912075179
+      Data4: 2059113535
+    Path: event:/SFX/UI/ButtonClick
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1023537950
 GameObject:
   m_ObjectHideFlags: 0
@@ -2238,6 +2322,7 @@ GameObject:
   - component: {fileID: 1418610926}
   - component: {fileID: 1418610925}
   - component: {fileID: 1418610924}
+  - component: {fileID: 1418610927}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2316,6 +2401,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1418610927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418610923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 2040662761
+      Data2: 1194489357
+      Data3: 1691643295
+      Data4: 1909728365
+    Path: event:/Music/MX_GamePlay
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1419535509
 GameObject:
   m_ObjectHideFlags: 0
