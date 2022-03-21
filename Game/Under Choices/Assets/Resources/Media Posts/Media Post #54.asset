@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #54
   m_EditorClassIdentifier: 
   postNumber: 54
-  day: 3
+  day: 2
   baseEngagement: 100
   boostedEngagement: 10000
-  publisher: 3Wasps
-  headline: Passersby Defend Young Boy From Drunken Police
-  imageFilePath: media_post_54
+  publisher: GloomIce
+  headline: Tike Myson Beats Rogan Jaul In 1 Round!
+  imageFilePath: media_post_30
   subject: 1
   reaction: 0
   hashtags:
   - ComeTogether!!
-  - Justified!
-  - BeSafe
+  - StrongerTogether
+  - Hero
   boostCost: 98

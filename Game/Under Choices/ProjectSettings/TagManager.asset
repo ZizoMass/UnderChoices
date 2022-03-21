@@ -16,6 +16,8 @@ TagManager:
   - Message Spawn
   - Transition
   - Messages
+  - Event Manager
+  - Tutorial Email
   layers:
   - Default
   - TransparentFX
@@ -25,7 +27,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Above UI
   - 
   - 
   - 

@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #79
   m_EditorClassIdentifier: 
   postNumber: 79
-  day: 4
+  day: 3
   baseEngagement: 100
   boostedEngagement: 10000
   publisher: PickMe
-  headline: Towns Form Support Funds and Programs to Aid Each Other In Rising Conflict
-  imageFilePath: media_post_79
+  headline: Stray Cat Caught in Street Fight Saved by Homeless Woman
+  imageFilePath: media_post_55
   subject: 1
   reaction: 0
   hashtags:
   - ComeTogether!!
-  - Justified!
-  - BeSafe
+  - StrongerTogether
+  - StrongerTogether
   boostCost: 132

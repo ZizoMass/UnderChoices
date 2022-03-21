@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #87
   m_EditorClassIdentifier: 
   postNumber: 87
-  day: 4
+  day: 3
   baseEngagement: 100
   boostedEngagement: 10000
-  publisher: Forbees
-  headline: Lead Epidemic Researcher Lost in Plane Crash
-  imageFilePath: media_post_87
+  publisher: CYPost
+  headline: Nurse Ashamed of Her Mistakes During Check Up
+  imageFilePath: media_post_63
   subject: 2
   reaction: 1
   hashtags:
-  - WeLostThem
-  - God'sPlan
-  - Depressi
+  - HardTimes
+  - I'mSoLost
+  - HardTimes
   boostCost: 82

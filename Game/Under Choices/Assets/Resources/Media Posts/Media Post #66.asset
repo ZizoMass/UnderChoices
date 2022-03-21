@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #66
   m_EditorClassIdentifier: 
   postNumber: 66
-  day: 3
+  day: 2
   baseEngagement: 100
   boostedEngagement: 10000
-  publisher: UnderChoicesVictim
-  headline: Members of Separatist Group Living Happy Lives
-  imageFilePath: media_post_66
+  publisher: CYPost
+  headline: Anime Enthusiasts Create Sword Art Online IRL
+  imageFilePath: media_post_42
   subject: 3
   reaction: 0
   hashtags:
-  - ALWAYsSupport
-  - WEStrong
+  - JoinTheCAUSE
+  - ALWAYSSupport
   - OurWayOrHiWay
   boostCost: 150

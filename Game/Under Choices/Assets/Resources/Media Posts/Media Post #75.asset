@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #75
   m_EditorClassIdentifier: 
   postNumber: 75
-  day: 4
+  day: 3
   baseEngagement: 100
   boostedEngagement: 10000
-  publisher: UnderChoicesVictim
-  headline: Support From Breminairo Cut. Officials Promise Aid for Those Affected
-  imageFilePath: media_post_75
+  publisher: SeeEnEn
+  headline: Chairmen Retires After the Death of Their Spouse
+  imageFilePath: media_post_51
   subject: 0
   reaction: 1
   hashtags:
-  - WhatAJoke
-  - I'maSitDown
-  - ItsDoomed
+  - NoFaith
+  - NotAgainnnn
+  - ItsOver
   boostCost: 75

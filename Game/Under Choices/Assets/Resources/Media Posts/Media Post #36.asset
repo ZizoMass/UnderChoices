@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #36
   m_EditorClassIdentifier: 
   postNumber: 36
-  day: 2
-  baseEngagement: 100
-  boostedEngagement: 10000
-  publisher: UnderChoicesVictim
-  headline: Healthcare Workers Get Free Pizzas For Life
-  imageFilePath: media_post_36
+  day: 1
+  baseEngagement: 75
+  boostedEngagement: 16000
+  publisher: PickMe
+  headline: How I Survived Alone for 10 Weeks
+  imageFilePath: media_post_12
   subject: 2
   reaction: 0
   hashtags:
+  - ThankGod
   - Hugs&Kisses
-  - BestWishes
-  - 100Sober
+  - BackToUs
   boostCost: 134

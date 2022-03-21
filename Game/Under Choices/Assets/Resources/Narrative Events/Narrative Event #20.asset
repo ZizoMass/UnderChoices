@@ -15,5 +15,5 @@ MonoBehaviour:
   eventNumber: 20
   day: 4
   eventName: Temp
-  effect: None
+  effect: Siren
   subject: 1

@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #113
   m_EditorClassIdentifier: 
   postNumber: 113
-  day: 5
+  day: 4
   baseEngagement: 100
   boostedEngagement: 10000
-  publisher: CYPost
-  headline: '"Medical Staff Lock Their Doors to Patients with ""Minimal"" Symptoms"'
-  imageFilePath: media_post_113
+  publisher: PickMe
+  headline: Wealthy Patients Bribe Their Way Past Waiting Rooms!?!
+  imageFilePath: media_post_89
   subject: 2
   reaction: 2
   hashtags:
-  - $$$ForWhat??
-  - CrappyHealthCare
-  - TaxedForThis?
+  - OverpaidIdiots
+  - LONGWaitTimes
+  - MoneyWasted
   boostCost: 91

@@ -13,17 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #84
   m_EditorClassIdentifier: 
   postNumber: 84
-  day: 4
+  day: 3
   baseEngagement: 100
   boostedEngagement: 10000
-  publisher: SeeEnEn
-  headline: Government Releases Claims that the a Cure to Rising Illness is Under
-    Way
-  imageFilePath: media_post_84
+  publisher: GloomIce
+  headline: Clinics Expanding Wait Lists In Sight of Rising Illness
+  imageFilePath: media_post_60
   subject: 2
   reaction: 0
   hashtags:
+  - MadeIt
   - Hugs&Kisses
-  - BestWishes
-  - 100Sober
+  - BackToUs
   boostCost: 134

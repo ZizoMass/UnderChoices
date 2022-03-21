@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #95
   m_EditorClassIdentifier: 
   postNumber: 95
-  day: 4
+  day: 3
   baseEngagement: 100
   boostedEngagement: 10000
-  publisher: 3Wasps
-  headline: Emerging Protestors Flashbanged by Rogue Officer
-  imageFilePath: media_post_95
+  publisher: GloomIce
+  headline: Government Officials Ban Specific Radio Stations
+  imageFilePath: media_post_71
   subject: 3
   reaction: 2
   hashtags:
-  - Divide&CONQUER
-  - AgainstUS!!
   - Messiah
+  - OurLastHope
+  - OurLastHope
   boostCost: 90

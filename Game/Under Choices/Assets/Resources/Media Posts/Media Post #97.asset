@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #97
   m_EditorClassIdentifier: 
   postNumber: 97
-  day: 5
+  day: 4
   baseEngagement: 100
   boostedEngagement: 10000
-  publisher: GloomIce
-  headline: Chairwoman Finds New Love With the President of New Donza
-  imageFilePath: media_post_97
+  publisher: SeeEnEn
+  headline: U.S.A.R. Chairmen Donates 10 Million to Charity!!!
+  imageFilePath: media_post_73
   subject: 0
   reaction: 0
   hashtags:
-  - VoteAgain
-  - KeepThemIn
   - GetsThingsDone
+  - 'Saviours '
+  - KeepThemIN!
   boostCost: 156

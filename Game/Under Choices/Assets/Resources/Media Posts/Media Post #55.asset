@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #55
   m_EditorClassIdentifier: 
   postNumber: 55
-  day: 3
+  day: 2
   baseEngagement: 100
   boostedEngagement: 10000
-  publisher: PickMe
-  headline: Stray Cat Caught in Street Fight Saved by Homeless Woman
-  imageFilePath: media_post_55
+  publisher: UnderChoicesVictim
+  headline: Teen Risks Life To Save Snail
+  imageFilePath: media_post_31
   subject: 1
   reaction: 0
   hashtags:
-  - ComeTogether!!
-  - Justified!
+  - Justice
   - BeSafe
+  - Hero
   boostCost: 132

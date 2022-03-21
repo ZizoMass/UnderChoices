@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #65
   m_EditorClassIdentifier: 
   postNumber: 65
-  day: 3
+  day: 2
   baseEngagement: 100
   boostedEngagement: 10000
   publisher: PickMe
-  headline: Elderly Man Miss-Diagnosed With a Cold Instead of New Illness
-  imageFilePath: media_post_65
+  headline: How Did This Anestheologist Work for 10 Years With No Training?
+  imageFilePath: media_post_41
   subject: 2
   reaction: 2
   hashtags:
-  - $$$ForWhat??
-  - CrappyHealthCare
-  - TaxedForThis?
+  - UnderStaffed!!
+  - CrapStaff
+  - OverpaidIdiots
   boostCost: 91

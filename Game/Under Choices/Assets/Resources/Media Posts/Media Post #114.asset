@@ -13,17 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #114
   m_EditorClassIdentifier: 
   postNumber: 114
-  day: 5
+  day: 4
   baseEngagement: 100
   boostedEngagement: 10000
-  publisher: PickMe
-  headline: '"Voice of Broadcast Now Named ""Happy Charlie"". People Wait to Listen
-    Again"'
-  imageFilePath: media_post_114
+  publisher: GloomIce
+  headline: Police Dog Refuses to Attack Defenseless Radical Preacher
+  imageFilePath: media_post_90
   subject: 3
   reaction: 0
   hashtags:
-  - ALWAYsSupport
-  - WEStrong
-  - OurWayOrHiWay
+  - CommunityBuild
+  - OpenMinded!
+  - OpenMinded!
   boostCost: 150

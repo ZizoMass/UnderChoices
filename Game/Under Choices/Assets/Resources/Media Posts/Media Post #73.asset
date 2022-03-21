@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #73
   m_EditorClassIdentifier: 
   postNumber: 73
-  day: 4
+  day: 3
   baseEngagement: 100
   boostedEngagement: 10000
-  publisher: SeeEnEn
+  publisher: 3Wasps
   headline: U.S.A.R. Chairmen Donates 10 Million to Charity!!!
-  imageFilePath: media_post_73
+  imageFilePath: media_post_49
   subject: 0
   reaction: 0
   hashtags:
-  - VoteAgain
-  - KeepThemIn
   - GetsThingsDone
+  - RepeatElection
+  - People'sVoice
   boostCost: 156

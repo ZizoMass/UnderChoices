@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Media Post #5
   m_EditorClassIdentifier: 
   postNumber: 5
-  day: 1
+  day: 0
   baseEngagement: 50
   boostedEngagement: 15000
   publisher: PickMe
@@ -23,6 +23,6 @@ MonoBehaviour:
   reaction: 2
   hashtags:
   - GetEmOUT
-  - LeRevolution!
-  - RiotTIME
+  - CoupDeTahhh
+  - BurnItDOWN
   boostCost: 131
