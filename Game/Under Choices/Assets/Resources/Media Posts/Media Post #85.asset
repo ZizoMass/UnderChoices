@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #85
   m_EditorClassIdentifier: 
   postNumber: 85
-  day: 4
+  day: 3
   baseEngagement: 100
   boostedEngagement: 10000
-  publisher: CYPost
-  headline: Private Clinics Opened to Diagnose the Virus
-  imageFilePath: media_post_85
+  publisher: PickMe
+  headline: Man Recieves Surprise Check to Cover His Treatments
+  imageFilePath: media_post_61
   subject: 2
   reaction: 0
   hashtags:
+  - MadeIt
+  - Safe&Sound
   - Hugs&Kisses
-  - BestWishes
-  - 100Sober
   boostCost: 78

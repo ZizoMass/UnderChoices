@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #74
   m_EditorClassIdentifier: 
   postNumber: 74
-  day: 4
+  day: 3
   baseEngagement: 100
   boostedEngagement: 10000
-  publisher: UnderChoicesVictim
-  headline: Government Cuts Tissue Paper Funding!!!
-  imageFilePath: media_post_74
+  publisher: Pox
+  headline: U.S.A.R Debate Team Loses National Championship
+  imageFilePath: media_post_50
   subject: 0
   reaction: 1
   hashtags:
-  - WhatAJoke
+  - ItsDownhill
+  - ItsOver
   - I'maSitDown
-  - ItsDoomed
   boostCost: 80

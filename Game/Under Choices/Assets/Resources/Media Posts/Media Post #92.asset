@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #92
   m_EditorClassIdentifier: 
   postNumber: 92
-  day: 4
+  day: 3
   baseEngagement: 100
   boostedEngagement: 10000
-  publisher: 3Wasps
-  headline: Arcade with Open Radios Shut Down by Police
-  imageFilePath: media_post_92
+  publisher: PickMe
+  headline: Woman Speaking of Change Silenced by Authorities
+  imageFilePath: media_post_68
   subject: 3
   reaction: 1
   hashtags:
-  - WeNeedChange
-  - AlwaysThem
   - ItsTheOnlyWay
+  - TimeToFixIt
+  - WeNeedChange
   boostCost: 60

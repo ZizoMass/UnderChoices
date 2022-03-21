@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #96
   m_EditorClassIdentifier: 
   postNumber: 96
-  day: 5
+  day: 4
   baseEngagement: 100
   boostedEngagement: 10000
-  publisher: Pox
-  headline: Government Provide New Relief Funding to Recently Unemployed Citizens
-  imageFilePath: media_post_96
+  publisher: Forbees
+  headline: Government Officials Unveil Construction of New Schools
+  imageFilePath: media_post_72
   subject: 0
   reaction: 0
   hashtags:
-  - KeepThemIn
-  - GetsThingsDone
   - InGoodHands
+  - RepeatElection
+  - 'Saviours '
   boostCost: 100

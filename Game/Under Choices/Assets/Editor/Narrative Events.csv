@@ -1,4 +1,4 @@
-﻿Event Number (Integer),Day (Integer),"Subject (Government, Violence, Health, Radicalism)",Name (String),"Effect (None, Hijack, Speech, Game Over)"
+﻿Event Number (Integer),Day (Integer),"Subject (Government, Violence, Health, Radicalism)",Name (String),"Effect (None, Siren, Hijack, Speech, Game Over)"
 0,0,Government,Meet Your Contacts,None
 1,1,Government,First Day,None
 2,2,Government,Authoritorial Assurance,None
@@ -18,18 +18,18 @@
 16,8,Health,Temp,None
 17,1,Violence,Collecting the Band,None
 18,2,Violence,Separational Protests,None
-19,3,Violence,Protestors Riot,None
-20,4,Violence,Temp,None
+19,3,Violence,Protestors Riot,Siren
+20,4,Violence,Temp,Siren
 21,5,Violence,Temp,None
 22,6,Violence,Temp,None
-23,7,Violence,Temp,None
+23,7,Violence,Temp,Siren
 24,8,Violence,Temp,None
 25,1,Radicalism,Anti-Government Protest,None
 26,2,Radicalism,News Station Hijack,Hijack
 27,3,Radicalism,News Station Hijack 2,Hijack
-28,4,Radicalism,Temp,None
+28,4,Radicalism,Temp,Hijack
 29,5,Radicalism,Temp,None
-30,6,Radicalism,Temp,None
+30,6,Radicalism,Temp,Hijack
 31,7,Radicalism,Temp,None
 32,8,Radicalism,Temp,None
 33,0,Government,Strike #1: Public Speech,Speech

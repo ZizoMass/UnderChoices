@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #50
   m_EditorClassIdentifier: 
   postNumber: 50
-  day: 3
+  day: 2
   baseEngagement: 100
   boostedEngagement: 10000
   publisher: Pox
-  headline: U.S.A.R Debate Team Loses National Championship
-  imageFilePath: media_post_50
+  headline: Why Government's Streaming Increases Depression
+  imageFilePath: media_post_26
   subject: 0
   reaction: 1
   hashtags:
-  - WhatAJoke
-  - I'maSitDown
-  - ItsDoomed
+  - Where'sTioSammy
+  - NoFaith
+  - WeAreDoomed
   boostCost: 80

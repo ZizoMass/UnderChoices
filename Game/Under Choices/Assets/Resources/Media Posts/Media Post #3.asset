@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Media Post #3
   m_EditorClassIdentifier: 
   postNumber: 3
-  day: 1
+  day: 0
   baseEngagement: 75
   boostedEngagement: 16000
   publisher: Forbees
@@ -24,5 +24,5 @@ MonoBehaviour:
   hashtags:
   - WhatAJoke
   - I'maSitDown
-  - ItsDoomed
+  - NoFaith
   boostCost: 75

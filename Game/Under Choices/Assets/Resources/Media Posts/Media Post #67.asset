@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #67
   m_EditorClassIdentifier: 
   postNumber: 67
-  day: 3
+  day: 2
   baseEngagement: 100
   boostedEngagement: 10000
-  publisher: GloomIce
-  headline: Woman Defies Police's Demands and Continues to Play Music for Crowds
-  imageFilePath: media_post_67
+  publisher: CYPost
+  headline: After 99 Years Man Finally Wins The Lottery
+  imageFilePath: media_post_43
   subject: 3
   reaction: 0
   hashtags:
-  - ALWAYsSupport
-  - WEStrong
-  - OurWayOrHiWay
+  - CommunityBuild
+  - CommunityBuild
+  - CommunityBuild
   boostCost: 110

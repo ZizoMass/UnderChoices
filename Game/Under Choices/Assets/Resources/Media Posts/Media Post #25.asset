@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #25
   m_EditorClassIdentifier: 
   postNumber: 25
-  day: 2
-  baseEngagement: 100
-  boostedEngagement: 10000
-  publisher: CYPost
-  headline: Governments Ban on Sadness! Programs Meant to Improve Mood
-  imageFilePath: media_post_25
+  day: 1
+  baseEngagement: 117
+  boostedEngagement: 28000
+  publisher: SeeEnEn
+  headline: 90% Want to Re-elect The Prime Minister
+  imageFilePath: media_post_1
   subject: 0
   reaction: 0
   hashtags:
-  - VoteAgain
-  - KeepThemIn
-  - GetsThingsDone
+  - 'Saviours '
+  - KeepThemIN!
+  - KeepThemIN!
   boostCost: 156

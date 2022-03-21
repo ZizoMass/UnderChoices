@@ -15,5 +15,5 @@ MonoBehaviour:
   eventNumber: 23
   day: 7
   eventName: Temp
-  effect: None
+  effect: Riot
   subject: 1

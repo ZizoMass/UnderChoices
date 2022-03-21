@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class Buttons : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler
 {
     public bool isBoostButton;
+    public bool isEmailButton;
 
     // Start is called before the first frame update
     void Start()
@@ -15,6 +16,9 @@ public class Buttons : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,
         // If the player doesn't have enough money, grey out the boost button
         if (isBoostButton && !FindObjectOfType<GameController>().CanBeBoosted(transform.parent.GetComponent<PostObject>()))
             GetComponent<Button>().interactable = false;
+
+        if (isEmailButton)
+            StartCoroutine(ShowEmail());
     }
 
     // Update is called once per frame
@@ -27,6 +31,11 @@ public class Buttons : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,
     {
         FindObjectOfType<GameController>().NewGame();
         FindObjectOfType<GameController>().ScreenTransition("Game Screen");
+    }
+
+    public void GoToIntro()
+    {
+        SceneManager.LoadScene("IntroScene");
     }
 
     public void LoadGame()
@@ -70,10 +79,21 @@ public class Buttons : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,
         StartCoroutine(Disable());
     }
 
+    public void CloseEmail()
+    {
+        transform.parent.gameObject.SetActive(false);
+    }
+
     public IEnumerator Disable()
     {
         yield return new WaitForSeconds(0.0001f);
         gameObject.SetActive(false);
+    }
+
+    public IEnumerator ShowEmail()
+    {
+        yield return new WaitForSeconds(0.0001f);
+        transform.parent.SetAsLastSibling();
     }
 
     public void OnPointerEnter(PointerEventData eventData)

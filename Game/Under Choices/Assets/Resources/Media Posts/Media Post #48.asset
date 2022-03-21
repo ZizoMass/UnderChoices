@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #48
   m_EditorClassIdentifier: 
   postNumber: 48
-  day: 3
+  day: 2
   baseEngagement: 100
   boostedEngagement: 10000
   publisher: UnderChoicesVictim
-  headline: U.S.A.R. Chairmen Crowd Surfs After Speech
-  imageFilePath: media_post_48
+  headline: How the Government Can Make You Happier!
+  imageFilePath: media_post_24
   subject: 0
   reaction: 0
   hashtags:
-  - KeepThemIn
-  - GetsThingsDone
   - InGoodHands
+  - VoteAgain
+  - GetsThingsDone
   boostCost: 100

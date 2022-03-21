@@ -15,5 +15,5 @@ MonoBehaviour:
   eventNumber: 30
   day: 6
   eventName: Temp
-  effect: None
+  effect: Hijack
   subject: 3

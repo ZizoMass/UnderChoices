@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #30
   m_EditorClassIdentifier: 
   postNumber: 30
-  day: 2
-  baseEngagement: 100
-  boostedEngagement: 10000
-  publisher: GloomIce
-  headline: Tike Myson Beats Rogan Jaul In 1 Round!
-  imageFilePath: media_post_30
+  day: 1
+  baseEngagement: 75
+  boostedEngagement: 16000
+  publisher: 3Wasps
+  headline: Public Boxing Arena Opened
+  imageFilePath: media_post_06
   subject: 1
   reaction: 0
   hashtags:
-  - ComeTogether!!
+  - StandUp!!!
   - Justified!
-  - BeSafe
+  - FightBackTeam!
   boostCost: 98

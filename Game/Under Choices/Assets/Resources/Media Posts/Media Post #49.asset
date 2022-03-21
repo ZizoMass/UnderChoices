@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #49
   m_EditorClassIdentifier: 
   postNumber: 49
-  day: 3
+  day: 2
   baseEngagement: 100
   boostedEngagement: 10000
-  publisher: 3Wasps
-  headline: U.S.A.R. Chairmen Donates 10 Million to Charity!!!
-  imageFilePath: media_post_49
+  publisher: CYPost
+  headline: Governments Ban on Sadness! Programs Meant to Improve Mood
+  imageFilePath: media_post_25
   subject: 0
   reaction: 0
   hashtags:
-  - VoteAgain
-  - KeepThemIn
+  - InGoodHands
+  - ReElect!!!
   - GetsThingsDone
   boostCost: 156

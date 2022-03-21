@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Media Post #89
   m_EditorClassIdentifier: 
   postNumber: 89
-  day: 4
+  day: 3
   baseEngagement: 100
   boostedEngagement: 10000
   publisher: PickMe
-  headline: Wealthy Patients Bribe Their Way Past Waiting Rooms!?!
-  imageFilePath: media_post_89
+  headline: Elderly Man Miss-Diagnosed With a Cold Instead of New Illness
+  imageFilePath: media_post_65
   subject: 2
   reaction: 2
   hashtags:
-  - $$$ForWhat??
-  - CrappyHealthCare
-  - TaxedForThis?
+  - OverpaidIdiots
+  - LONGWaitTimes
+  - Refund
   boostCost: 91
