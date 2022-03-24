@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9038462221283954109}
+  - component: {fileID: 7826620663848087698}
   m_Layer: 0
   m_Name: event_riot
   m_TagString: Untagged
@@ -34,6 +35,36 @@ Transform:
   m_Father: {fileID: 7951618679637885944}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7826620663848087698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2805414269700969437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 29906571
+      Data2: 1289195582
+      Data3: -1742180734
+      Data4: -1472038502
+    Path: event:/Video Sound/Riot
+  Event: 
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &7951618679052450768
 GameObject:
   m_ObjectHideFlags: 0
@@ -45,6 +76,7 @@ GameObject:
   - component: {fileID: 7951618679052450769}
   - component: {fileID: 7951618679052450771}
   - component: {fileID: 7951618679052450770}
+  - component: {fileID: 3626927261478703953}
   m_Layer: 0
   m_Name: event_speech
   m_TagString: Untagged
@@ -150,6 +182,36 @@ VideoPlayer:
   m_Looping: 0
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
+--- !u!114 &3626927261478703953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7951618679052450768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 459849941
+      Data2: 1112405760
+      Data3: 403000224
+      Data4: -338460122
+    Path: event:/Video Sound/Speech
+  Event: 
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &7951618679440331213
 GameObject:
   m_ObjectHideFlags: 0
@@ -161,6 +223,7 @@ GameObject:
   - component: {fileID: 7951618679440331214}
   - component: {fileID: 7951618679440331248}
   - component: {fileID: 7951618679440331215}
+  - component: {fileID: 7929487100773922141}
   m_Layer: 0
   m_Name: event_hijacked_broadcast
   m_TagString: Untagged
@@ -266,6 +329,36 @@ VideoPlayer:
   m_Looping: 0
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
+--- !u!114 &7929487100773922141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7951618679440331213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1154650364
+      Data2: 1091127529
+      Data3: 189122445
+      Data4: 1239040893
+    Path: event:/Video Sound/Hijacked
+  Event: 
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &7951618679637885943
 GameObject:
   m_ObjectHideFlags: 0
@@ -316,6 +409,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eventType: 0
   childEventsArray: []
+  riotDuration: 0
 --- !u!1 &7951618679677731716
 GameObject:
   m_ObjectHideFlags: 0
@@ -327,6 +421,7 @@ GameObject:
   - component: {fileID: 7951618679677731717}
   - component: {fileID: 7951618679677731719}
   - component: {fileID: 7951618679677731718}
+  - component: {fileID: 147759809310757467}
   m_Layer: 0
   m_Name: event_you're_FIRED
   m_TagString: Untagged
@@ -432,6 +527,36 @@ VideoPlayer:
   m_Looping: 1
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
+--- !u!114 &147759809310757467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7951618679677731716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -65202565
+      Data2: 1250488475
+      Data3: -1832473946
+      Data4: 709304108
+    Path: event:/Video Sound/Fired
+  Event: 
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &7951618680131251311
 GameObject:
   m_ObjectHideFlags: 0
@@ -443,6 +568,7 @@ GameObject:
   - component: {fileID: 7951618680131251600}
   - component: {fileID: 7951618680131251602}
   - component: {fileID: 7951618680131251601}
+  - component: {fileID: 6237893516758375946}
   m_Layer: 0
   m_Name: event_protest_sirens
   m_TagString: Untagged
@@ -548,6 +674,36 @@ VideoPlayer:
   m_Looping: 1
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
+--- !u!114 &6237893516758375946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7951618680131251311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1014296944
+      Data2: 1212584324
+      Data3: 950908063
+      Data4: 1115671542
+    Path: event:/Video Sound/Sirens
+  Event: 
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &783025896330942051
 PrefabInstance:
   m_ObjectHideFlags: 0
