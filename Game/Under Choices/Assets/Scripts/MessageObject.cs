@@ -43,5 +43,8 @@ public class MessageObject : MonoBehaviour
             profile.GetComponent<Image>().sprite = Resources.Load<Sprite>("Character Profiles/" + McLeqkinProfilePath);
             nameDisplay.GetComponent<TextMeshProUGUI>().text = "Mc Leqkin";
         }
+
+        //play message sfx everytime a message is recieved 
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/FOL/FOL_RecivingMessage_001");
     }
 }
