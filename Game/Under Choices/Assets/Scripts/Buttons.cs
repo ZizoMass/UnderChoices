@@ -98,8 +98,12 @@ public class Buttons : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        if(isBoostButton && GetComponent<Button>().interactable == true)
+        if (isBoostButton && GetComponent<Button>().interactable == true)
+        {
             GetComponent<Image>().sprite = Resources.Load<Sprite>("Media Post Assets/media_post_button_OnHover");
+            //Play the mouse over button sound
+            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/UI/ButtonOver");
+        }  
     }
 
     public void OnPointerExit(PointerEventData eventData)
@@ -111,6 +115,10 @@ public class Buttons : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,
     public void OnPointerDown(PointerEventData eventData)
     {
         if (isBoostButton && GetComponent<Button>().interactable == true)
+        {
             GetComponent<Image>().sprite = Resources.Load<Sprite>("Media Post Assets/media_post_button_OnClick");
+            //Play the click button sound
+            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/UI/ButtonClick");
+        }
     }
 }
