@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{b2f0b7e8-3507-430b-a95c-07cd60804141}">
+		<property name="name">
+			<value>IsPlaying</value>
+		</property>
+		<relationship name="folder">
+			<destination>{2d361add-2ea3-49bb-899f-1b47ee9fc9c5}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{456395d9-c9b0-41ae-b148-17c3dc9d6e13}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{456395d9-c9b0-41ae-b148-17c3dc9d6e13}">
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="isHeld">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+		<relationship name="automators">
+			<destination>{69100e9e-c4b8-4921-b5cb-145aebc64c33}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{69100e9e-c4b8-4921-b5cb-145aebc64c33}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>cursorPosition</value>
+		</property>
+	</object>
+</objects>
