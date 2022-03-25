@@ -34,6 +34,9 @@ public class GameController : MonoBehaviour
     List<TextMessage> textMessages, messagesTiedToRefresh;
     List<GameObject> postSpawnPointSet, currentPostSet, currentMessages;
 
+    //Reference to the Fmod master bus
+    FMOD.Studio.Bus MasterBus;
+
     private void Awake()
     {
         if(Instance != null && Instance != this)
@@ -67,6 +70,9 @@ public class GameController : MonoBehaviour
     {
         // Check which scene to load
         CheckScene();
+
+        //Define the reference with the Master Bus from Fmod
+        MasterBus = FMODUnity.RuntimeManager.GetBus("Bus:/");
     }
 
     // Update is called once per frame
@@ -432,6 +438,9 @@ public class GameController : MonoBehaviour
 
         if(currentNight > 8)
         {
+            //Stop all Fmod audio events before return to the title scene
+            MasterBus.stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+
             ScreenTransition("Title Screen");
             return;
         }

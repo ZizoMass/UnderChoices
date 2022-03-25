@@ -10,6 +10,9 @@ public class Buttons : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,
     public bool isBoostButton;
     public bool isEmailButton;
 
+    //Reference to the Fmod master bus
+    FMOD.Studio.Bus MasterBus;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +22,9 @@ public class Buttons : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,
 
         if (isEmailButton)
             StartCoroutine(ShowEmail());
+
+        //Define the reference with the Master Bus from Fmod
+        MasterBus = FMODUnity.RuntimeManager.GetBus("Bus:/");
     }
 
     // Update is called once per frame
@@ -35,6 +41,9 @@ public class Buttons : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,
 
     public void GoToIntro()
     {
+        //Stop all Fmod audio events before change to the intro scene
+        MasterBus.stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+
         SceneManager.LoadScene("IntroScene");
     }
 
