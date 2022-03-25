@@ -15,14 +15,14 @@ MonoBehaviour:
   postNumber: 109
   day: 4
   baseEngagement: 100
-  boostedEngagement: 10000
+  boostedEngagement: 14000
   publisher: CYPost
   headline: Private Clinics Opened to Diagnose the Virus
   imageFilePath: media_post_85
   subject: 2
   reaction: 0
   hashtags:
-  - Recovered:)
-  - MadeIt
-  - Hugs&Kisses
-  boostCost: 78
+  - 100Sober
+  - BestWishes
+  - ThankGod
+  boostCost: 100

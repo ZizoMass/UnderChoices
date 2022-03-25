@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 130
   day: 5
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 325
+  boostedEngagement: 32000
   publisher: PickMe
   headline: Grieving Father Takes Revenge on Murderer
   imageFilePath: media_post_106
@@ -23,6 +23,6 @@ MonoBehaviour:
   reaction: 2
   hashtags:
   - Eye-ForAn-Eye
+  - DeathCollection
   - NoJustice!!!
-  - AskingForIt
-  boostCost: 69
+  boostCost: 100

@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 152
   day: 6
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 225
+  boostedEngagement: 16000
   publisher: GloomIce
   headline: Preaching for Peace Met With Failure and Molotovs
   imageFilePath: media_post_128
   subject: 1
   reaction: 1
   hashtags:
+  - Lowlife
   - SoTragic
-  - SoTragic
-  - GodLeftChat
-  boostCost: 149
+  - TooSoon
+  boostCost: 150

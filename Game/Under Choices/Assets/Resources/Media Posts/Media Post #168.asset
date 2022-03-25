@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 168
   day: 7
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 75
+  boostedEngagement: 11000
   publisher: Pox
-  headline: U.S.A.R. Funded Solar Power Plant Now Open! Carbon Emissions Down!
+  headline: U.S.A.R. Funded Solar Power Plant Now Open!
   imageFilePath: media_post_144
   subject: 0
   reaction: 0
   hashtags:
-  - GetsThingsDone
-  - GetsThingsDone
-  - RepeatElection
+  - VoteAgain
+  - 'Saviours '
+  - VoteAgain
   boostCost: 100

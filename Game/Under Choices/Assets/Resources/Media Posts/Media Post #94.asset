@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 94
   day: 3
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 400
+  boostedEngagement: 31000
   publisher: UnderChoicesVictim
   headline: "Police Destroy Public Radios in Caf\xE9 During Hijacked Broadcast"
   imageFilePath: media_post_70
   subject: 3
   reaction: 2
   hashtags:
-  - MartyrUS!!
+  - OurLastHope
   - MessEmUP!!!
-  - AgainstUS!!
-  boostCost: 147
+  - MartyrUS!!
+  boostCost: 100

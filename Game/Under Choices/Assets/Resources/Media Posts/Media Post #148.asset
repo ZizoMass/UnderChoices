@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 148
   day: 6
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 200
+  boostedEngagement: 30000
   publisher: Forbees
   headline: New Donza Ambassador Slanders the U.S.A.R. During Visit!?!
   imageFilePath: media_post_124
   subject: 0
   reaction: 2
   hashtags:
-  - GetEmOUT
-  - Pitchforks!!!
   - RiotTIME
-  boostCost: 121
+  - Pitchforks!!!
+  - ToTheTorches!
+  boostCost: 100

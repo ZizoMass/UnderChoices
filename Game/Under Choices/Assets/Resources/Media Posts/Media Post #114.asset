@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 114
   day: 4
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 75
+  boostedEngagement: 11000
   publisher: GloomIce
   headline: Police Dog Refuses to Attack Defenseless Radical Preacher
   imageFilePath: media_post_90
   subject: 3
   reaction: 0
   hashtags:
-  - CommunityBuild
-  - OpenMinded!
-  - OpenMinded!
+  - OurWayOrHiWay
+  - JoinTheCAUSE
+  - RallyTogether!
   boostCost: 150

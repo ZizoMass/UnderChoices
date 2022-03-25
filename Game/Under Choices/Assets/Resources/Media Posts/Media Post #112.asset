@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 112
   day: 4
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 350
+  boostedEngagement: 26000
   publisher: SeeEnEn
   headline: Patients Turned Away During Rising Epidemic
   imageFilePath: media_post_88
@@ -23,6 +23,6 @@ MonoBehaviour:
   reaction: 2
   hashtags:
   - CrappyHealthCare
+  - Refund
   - UnderStaffed!!
-  - OverpaidIdiots
-  boostCost: 175
+  boostCost: 50

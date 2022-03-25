@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 155
   day: 6
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 200
+  boostedEngagement: 28000
   publisher: UnderChoicesVictim
   headline: First Blood Spilled! Reporting U.S.A.R. Journalist Murdered In Riot
   imageFilePath: media_post_131
@@ -23,6 +23,6 @@ MonoBehaviour:
   reaction: 2
   hashtags:
   - Eye-ForAn-Eye
-  - TakeEmDOWN!!!
+  - DeathCollection
   - Eye-ForAn-Eye
   boostCost: 50

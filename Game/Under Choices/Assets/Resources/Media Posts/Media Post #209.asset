@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 209
   day: 8
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 250
+  boostedEngagement: 28000
   publisher: 3Wasps
   headline: Health Insurance Too Expensive For So Many!!!
   imageFilePath: media_post_185
@@ -23,6 +23,6 @@ MonoBehaviour:
   reaction: 2
   hashtags:
   - OverpaidIdiots
-  - CrappyHealthCare
   - CrapStaff
-  boostCost: 91
+  - CrappyHealthCare
+  boostCost: 50

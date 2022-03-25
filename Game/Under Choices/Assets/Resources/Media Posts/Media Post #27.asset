@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 27
   day: 1
-  baseEngagement: 75
+  baseEngagement: 125
   boostedEngagement: 16000
   publisher: Forbees
   headline: The Federal Squeeze on Happiness
@@ -22,7 +22,7 @@ MonoBehaviour:
   subject: 0
   reaction: 1
   hashtags:
-  - Where'sTioSammy
+  - WhatAJoke
+  - WeAreDoomed
   - ItsDownhill
-  - NoFaith
-  boostCost: 75
+  boostCost: 100

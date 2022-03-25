@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 211
   day: 8
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 50
+  boostedEngagement: 13000
   publisher: UnderChoicesVictim
   headline: Government Forced To Re-Elect After Protestors Win Over The Country
   imageFilePath: media_post_187
   subject: 3
   reaction: 0
   hashtags:
+  - CommunityBuild
+  - JoinTheCAUSE
   - ALWAYSSupport
-  - OpenMinded!
-  - ALWAYSSupport
-  boostCost: 110
+  boostCost: 150

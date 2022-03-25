@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 185
   day: 7
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 250
+  boostedEngagement: 28000
   publisher: UnderChoicesVictim
   headline: Medication Too Expensive For Low Income Homes. Millions Vulnerable
   imageFilePath: media_post_161
@@ -23,6 +23,6 @@ MonoBehaviour:
   reaction: 2
   hashtags:
   - MoneyWasted
-  - Refund
-  - Refund
-  boostCost: 91
+  - UnderStaffed!!
+  - LONGWaitTimes
+  boostCost: 50

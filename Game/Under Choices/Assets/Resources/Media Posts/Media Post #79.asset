@@ -15,14 +15,14 @@ MonoBehaviour:
   postNumber: 79
   day: 3
   baseEngagement: 100
-  boostedEngagement: 10000
+  boostedEngagement: 13000
   publisher: PickMe
   headline: Stray Cat Caught in Street Fight Saved by Homeless Woman
   imageFilePath: media_post_55
   subject: 1
   reaction: 0
   hashtags:
+  - StrongerTogether
   - ComeTogether!!
-  - StrongerTogether
-  - StrongerTogether
-  boostCost: 132
+  - FightBackTeam!
+  boostCost: 150

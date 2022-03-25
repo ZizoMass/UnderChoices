@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 184
   day: 7
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 350
+  boostedEngagement: 26000
   publisher: Forbees
   headline: '"Conspiracy Theorists Preach ""The U.S.A.R. Made the Virus!!!"""'
   imageFilePath: media_post_160
   subject: 2
   reaction: 2
   hashtags:
-  - LONGWaitTimes
-  - CrappyHealthCare
   - UnderStaffed!!
-  boostCost: 175
+  - UnderStaffed!!
+  - MoneyWasted
+  boostCost: 100

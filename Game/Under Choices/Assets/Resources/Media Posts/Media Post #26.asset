@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 26
   day: 1
-  baseEngagement: 50
+  baseEngagement: 100
   boostedEngagement: 15000
   publisher: CYPost
   headline: Government Cutbacks Harming Citizens
@@ -23,6 +23,6 @@ MonoBehaviour:
   reaction: 1
   hashtags:
   - I'maSitDown
-  - NotAgainnnn
-  - WeAreDoomed
-  boostCost: 80
+  - NoFaith
+  - ItsOver
+  boostCost: 100

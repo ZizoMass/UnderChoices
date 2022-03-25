@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 198
   day: 8
-  baseEngagement: 100
+  baseEngagement: 75
   boostedEngagement: 10000
   publisher: CYPost
   headline: Government Controlled Military Dispatched To Fight in Conflict
@@ -22,7 +22,7 @@ MonoBehaviour:
   subject: 1
   reaction: 0
   hashtags:
-  - StandUp!!!
   - StrongerTogether
-  - Justified!
-  boostCost: 98
+  - BeSafe
+  - ComeTogether!!
+  boostCost: 50

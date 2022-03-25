@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 60
   day: 2
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 75
+  boostedEngagement: 12000
   publisher: UnderChoicesVictim
   headline: Healthcare Workers Get Free Pizzas For Life
   imageFilePath: media_post_36
   subject: 2
   reaction: 0
   hashtags:
-  - 100Sober
   - Safe&Sound
-  - MadeIt
-  boostCost: 134
+  - BackToUs
+  - Hugs&Kisses
+  boostCost: 150

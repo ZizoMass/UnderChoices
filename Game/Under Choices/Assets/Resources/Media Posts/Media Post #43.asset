@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 43
   day: 1
-  baseEngagement: 117
-  boostedEngagement: 28000
+  baseEngagement: 50
+  boostedEngagement: 13000
   publisher: SeeEnEn
   headline: The Next Generation Dig Holes In Economic Downturn
   imageFilePath: media_post_19
   subject: 3
   reaction: 0
   hashtags:
+  - WEStrong
   - OurWayOrHiWay
-  - JoinTheCAUSE
-  - JoinTheCAUSE
-  boostCost: 110
+  - OurWayOrHiWay
+  boostCost: 100

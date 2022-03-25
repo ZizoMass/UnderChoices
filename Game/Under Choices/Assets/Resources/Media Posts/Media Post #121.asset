@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 121
   day: 5
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 50
+  boostedEngagement: 15000
   publisher: GloomIce
   headline: Chairwoman Finds New Love With the President of New Donza
   imageFilePath: media_post_97
   subject: 0
   reaction: 0
   hashtags:
-  - 'Saviours '
-  - 'Saviours '
-  - InGoodHands
-  boostCost: 156
+  - ReElect!!!
+  - ReElect!!!
+  - People'sVoice
+  boostCost: 150

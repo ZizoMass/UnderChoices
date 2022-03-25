@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 125
   day: 5
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 125
+  boostedEngagement: 28000
   publisher: Forbees
   headline: Chairmen Missuses Modern Slang During Public Speech
   imageFilePath: media_post_101
   subject: 0
   reaction: 2
   hashtags:
+  - Pitchforks!!!
   - CoupDeTahhh
-  - RiotTIME
-  - RiotTIME
-  boostCost: 131
+  - LeRevolution!
+  boostCost: 50

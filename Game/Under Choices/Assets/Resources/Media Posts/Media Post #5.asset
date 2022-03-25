@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 5
   day: 0
-  baseEngagement: 50
-  boostedEngagement: 15000
+  baseEngagement: 125
+  boostedEngagement: 28000
   publisher: PickMe
   headline: Government Official Settles a Debate with a Slapboxing Match!?!
   imageFilePath: media_post_05
   subject: 0
   reaction: 2
   hashtags:
-  - GetEmOUT
-  - CoupDeTahhh
-  - BurnItDOWN
-  boostCost: 131
+  - RaidingNight
+  - LeRevolution!
+  - LeRevolution!
+  boostCost: 50

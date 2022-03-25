@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 105
   day: 4
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 175
+  boostedEngagement: 12000
   publisher: CYPost
   headline: Homeless Dogs Trampled By Crowd
   imageFilePath: media_post_81
@@ -23,6 +23,6 @@ MonoBehaviour:
   reaction: 1
   hashtags:
   - PrayForThem
-  - GodLeftChat
+  - Lowlife
   - Pathetic
-  boostCost: 89
+  boostCost: 100

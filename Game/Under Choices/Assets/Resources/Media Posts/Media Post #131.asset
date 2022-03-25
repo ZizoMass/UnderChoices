@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 131
   day: 5
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 200
+  boostedEngagement: 28000
   publisher: CYPost
   headline: Teenage Gang Called the Rattle Snakes Declare War on All Pigeons!?!
   imageFilePath: media_post_107
   subject: 1
   reaction: 2
   hashtags:
-  - DeathCollection
-  - DeathCollection
-  - TakeEmDOWN!!!
+  - BetterOffDead
+  - Eye-ForAn-Eye
+  - BetterOffDead
   boostCost: 50

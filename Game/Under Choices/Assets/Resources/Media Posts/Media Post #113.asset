@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 113
   day: 4
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 250
+  boostedEngagement: 28000
   publisher: PickMe
   headline: Wealthy Patients Bribe Their Way Past Waiting Rooms!?!
   imageFilePath: media_post_89
   subject: 2
   reaction: 2
   hashtags:
-  - OverpaidIdiots
-  - LONGWaitTimes
-  - MoneyWasted
-  boostCost: 91
+  - TaxedForThis?
+  - CrapStaff
+  - TaxedForThis?
+  boostCost: 50

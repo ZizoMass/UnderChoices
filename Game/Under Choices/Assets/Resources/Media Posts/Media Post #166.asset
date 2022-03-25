@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 166
   day: 6
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 400
+  boostedEngagement: 31000
   publisher: Pox
   headline: Police Ordered to Destroy All Privately Owned Radios. House Raids Begin!!!
   imageFilePath: media_post_142
   subject: 3
   reaction: 2
   hashtags:
-  - AgainstUS!!
   - Divide&CONQUER
-  - Divide&CONQUER
-  boostCost: 147
+  - OurLastHope
+  - Messiah
+  boostCost: 100

@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 84
   day: 3
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 75
+  boostedEngagement: 12000
   publisher: GloomIce
   headline: Clinics Expanding Wait Lists In Sight of Rising Illness
   imageFilePath: media_post_60
   subject: 2
   reaction: 0
   hashtags:
-  - MadeIt
+  - BestWishes
   - Hugs&Kisses
-  - BackToUs
-  boostCost: 134
+  - BestWishes
+  boostCost: 150

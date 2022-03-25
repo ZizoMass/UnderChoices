@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 193
   day: 8
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 50
+  boostedEngagement: 15000
   publisher: Forbees
-  headline: U.S.A.R. Plans Fireworks Display to Celebrate Employment Rates!
+  headline: U.S.A.R. Plans Fireworks Display!!!
   imageFilePath: media_post_169
   subject: 0
   reaction: 0
   hashtags:
-  - GetsThingsDone
-  - VoteAgain
-  - VoteAgain
-  boostCost: 156
+  - 'Saviours '
+  - People'sVoice
+  - KeepThemIN!
+  boostCost: 150

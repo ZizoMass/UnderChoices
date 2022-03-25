@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 89
   day: 3
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 250
+  boostedEngagement: 28000
   publisher: PickMe
   headline: Elderly Man Miss-Diagnosed With a Cold Instead of New Illness
   imageFilePath: media_post_65
   subject: 2
   reaction: 2
   hashtags:
-  - OverpaidIdiots
+  - MoneyWasted
   - LONGWaitTimes
-  - Refund
-  boostCost: 91
+  - TaxedForThis?
+  boostCost: 50

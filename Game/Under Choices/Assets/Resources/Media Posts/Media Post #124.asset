@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 124
   day: 5
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 200
+  boostedEngagement: 30000
   publisher: PickMe
   headline: U.S.A.R. Releases Official Ban List for Internet Use! More Restrictions!!!
   imageFilePath: media_post_100
   subject: 0
   reaction: 2
   hashtags:
-  - LeRevolution!
-  - GetEmOUT
-  - LeRevolution!
-  boostCost: 121
+  - RaidingNight
+  - CoupDeTahhh
+  - CoupDeTahhh
+  boostCost: 100

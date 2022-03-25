@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 65
   day: 2
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 250
+  boostedEngagement: 28000
   publisher: PickMe
   headline: How Did This Anestheologist Work for 10 Years With No Training?
   imageFilePath: media_post_41
   subject: 2
   reaction: 2
   hashtags:
-  - UnderStaffed!!
-  - CrapStaff
-  - OverpaidIdiots
-  boostCost: 91
+  - CrappyHealthCare
+  - LONGWaitTimes
+  - Refund
+  boostCost: 50

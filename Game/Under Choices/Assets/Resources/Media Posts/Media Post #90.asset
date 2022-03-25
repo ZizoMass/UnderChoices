@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 90
   day: 3
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 75
+  boostedEngagement: 11000
   publisher: UnderChoicesVictim
   headline: Members of Separatist Group Living Happy Lives
   imageFilePath: media_post_66
   subject: 3
   reaction: 0
   hashtags:
+  - JoinTheCAUSE
   - OpenMinded!
-  - RallyTogether!
-  - OpenMinded!
+  - JoinTheCAUSE
   boostCost: 150

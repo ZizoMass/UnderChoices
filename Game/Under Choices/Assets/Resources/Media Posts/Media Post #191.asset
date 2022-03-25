@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 191
   day: 7
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 150
+  boostedEngagement: 28000
   publisher: GloomIce
   headline: "We ArE CoMiNg FoR yOu\u2026"
   imageFilePath: media_post_167
   subject: 3
   reaction: 2
   hashtags:
-  - NecessaryEvil
-  - MessEmUP!!!
+  - OurLastHope
   - MartyrUS!!
-  boostCost: 90
+  - NecessaryEvil
+  boostCost: 100

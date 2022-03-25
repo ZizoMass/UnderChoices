@@ -15,7 +15,7 @@ MonoBehaviour:
   postNumber: 194
   day: 8
   baseEngagement: 100
-  boostedEngagement: 10000
+  boostedEngagement: 15000
   publisher: GloomIce
   headline: Chairman Forced By Other Officials to Apologize For Bad Joke
   imageFilePath: media_post_170
@@ -23,6 +23,6 @@ MonoBehaviour:
   reaction: 1
   hashtags:
   - Where'sTioSammy
-  - Where'sTioSammy
-  - NotAgainnnn
-  boostCost: 80
+  - WeAreDoomed
+  - ItsOver
+  boostCost: 150

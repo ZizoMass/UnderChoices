@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 171
   day: 7
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 125
+  boostedEngagement: 16000
   publisher: UnderChoicesVictim
   headline: Beloved Dog of Chairwoman Passes Away in the Night
   imageFilePath: media_post_147
   subject: 0
   reaction: 1
   hashtags:
-  - NoFaith
   - Where'sTioSammy
   - Where'sTioSammy
-  boostCost: 75
+  - ItsDownhill
+  boostCost: 100

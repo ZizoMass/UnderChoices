@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 82
   day: 3
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 325
+  boostedEngagement: 32000
   publisher: SeeEnEn
   headline: Driver Run Over By Cyclist Imprisoned for Technicality
   imageFilePath: media_post_58
   subject: 1
   reaction: 2
   hashtags:
-  - NoJustice!!!
-  - Eye-ForAn-Eye
-  - AskingForIt
-  boostCost: 69
+  - TakeEmDOWN!!!
+  - TakeEmDOWN!!!
+  - PaybackTime
+  boostCost: 50

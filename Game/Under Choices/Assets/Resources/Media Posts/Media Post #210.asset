@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 210
   day: 8
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 75
+  boostedEngagement: 11000
   publisher: UnderChoicesVictim
   headline: '"""Happy Charlie"" Wins Over the Government!!!"'
   imageFilePath: media_post_186
   subject: 3
   reaction: 0
   hashtags:
-  - JoinTheCAUSE
+  - RallyTogether!
+  - OpenMinded!
   - OurWayOrHiWay
-  - WEStrong
-  boostCost: 150
+  boostCost: 50

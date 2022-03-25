@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 86
   day: 3
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 200
+  boostedEngagement: 15000
   publisher: UnderChoicesVictim
   headline: Man Diagnosed with Mental Illness After Staying Alone for 10 Weeks
   imageFilePath: media_post_62
   subject: 2
   reaction: 1
   hashtags:
+  - ThankYouAll
   - HELPME
-  - HardTimes
-  - HELPME
-  boostCost: 145
+  - I'mSoLost
+  boostCost: 100

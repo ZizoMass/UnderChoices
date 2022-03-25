@@ -15,7 +15,7 @@ MonoBehaviour:
   postNumber: 36
   day: 1
   baseEngagement: 75
-  boostedEngagement: 16000
+  boostedEngagement: 12000
   publisher: PickMe
   headline: How I Survived Alone for 10 Weeks
   imageFilePath: media_post_12
@@ -24,5 +24,5 @@ MonoBehaviour:
   hashtags:
   - ThankGod
   - Hugs&Kisses
-  - BackToUs
-  boostCost: 134
+  - Safe&Sound
+  boostCost: 150

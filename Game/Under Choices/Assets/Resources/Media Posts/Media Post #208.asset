@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 208
   day: 8
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 350
+  boostedEngagement: 26000
   publisher: SeeEnEn
   headline: Hospitals Over Crowded! Wait Lists A MONTH LONG!!!
   imageFilePath: media_post_184
   subject: 2
   reaction: 2
   hashtags:
-  - CrapStaff
   - TaxedForThis?
-  - MoneyWasted
-  boostCost: 175
+  - UnderStaffed!!
+  - LONGWaitTimes
+  boostCost: 100

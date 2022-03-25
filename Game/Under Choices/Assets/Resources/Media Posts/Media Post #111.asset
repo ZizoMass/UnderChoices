@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 111
   day: 4
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 175
+  boostedEngagement: 16000
   publisher: Forbees
   headline: Lead Epidemic Researcher Lost in Plane Crash
   imageFilePath: media_post_87
   subject: 2
   reaction: 1
   hashtags:
-  - I'mSoLost
-  - ThankYouAll
+  - HardTimes
   - HELPME
-  boostCost: 82
+  - Depressing
+  boostCost: 100

@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 76
   day: 3
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 200
+  boostedEngagement: 30000
   publisher: Forbees
   headline: Policeman Slaps Homeless Man for Fun
   imageFilePath: media_post_52
   subject: 0
   reaction: 2
   hashtags:
-  - RaidingNight
   - GetEmOUT
-  - Pitchforks!!!
-  boostCost: 121
+  - LeRevolution!
+  - CoupDeTahhh
+  boostCost: 50

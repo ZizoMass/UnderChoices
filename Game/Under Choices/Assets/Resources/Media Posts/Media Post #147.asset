@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 147
   day: 6
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 125
+  boostedEngagement: 16000
   publisher: GloomIce
   headline: Government Defeated By Paper? Attempts Still Look Bleak
   imageFilePath: media_post_123
   subject: 0
   reaction: 1
   hashtags:
-  - WeAreDoomed
   - WhatAJoke
-  - NotAgainnnn
-  boostCost: 75
+  - NoFaith
+  - I'maSitDown
+  boostCost: 100

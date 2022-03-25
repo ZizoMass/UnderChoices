@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 180
   day: 7
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 75
+  boostedEngagement: 12000
   publisher: GloomIce
   headline: Results From Official Medication Proving Effective
   imageFilePath: media_post_156
   subject: 2
   reaction: 0
   hashtags:
-  - BackToUs
+  - 100Sober
   - BestWishes
-  - Recovered:)
-  boostCost: 134
+  - Hugs&Kisses
+  boostCost: 50

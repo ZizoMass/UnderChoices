@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 150
   day: 6
-  baseEngagement: 100
+  baseEngagement: 75
   boostedEngagement: 10000
   publisher: 3Wasps
   headline: Civil War Bands Formed! Celebrate First Victory In Southern Towns!
@@ -23,6 +23,6 @@ MonoBehaviour:
   reaction: 0
   hashtags:
   - Hero
-  - Justice
+  - Hero
   - Justified!
-  boostCost: 98
+  boostCost: 50

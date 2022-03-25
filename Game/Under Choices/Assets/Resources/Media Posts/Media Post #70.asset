@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 70
   day: 2
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 400
+  boostedEngagement: 31000
   publisher: GloomIce
   headline: Crazed Public Agitator Steals Washroom Doors
   imageFilePath: media_post_46
   subject: 3
   reaction: 2
   hashtags:
-  - MessEmUP!!!
-  - OurLastHope
   - Messiah
-  boostCost: 147
+  - Divide&CONQUER
+  - AgainstUS!!
+  boostCost: 100

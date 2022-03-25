@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 203
   day: 8
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 200
+  boostedEngagement: 28000
   publisher: PickMe
   headline: Innocents Slaughtered in Grocery Store Firefight!!!
   imageFilePath: media_post_179
@@ -23,6 +23,6 @@ MonoBehaviour:
   reaction: 2
   hashtags:
   - DeathCollection
-  - BetterOffDead
-  - PaybackTime
+  - TakeEmDOWN!!!
+  - DeathCollection
   boostCost: 50

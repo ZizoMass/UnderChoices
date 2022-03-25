@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 40
   day: 1
-  baseEngagement: 117
-  boostedEngagement: 28000
+  baseEngagement: 350
+  boostedEngagement: 26000
   publisher: GloomIce
   headline: Man With Cancer Turned Away By Hospital!!!
   imageFilePath: media_post_16
   subject: 2
   reaction: 2
   hashtags:
-  - UnderStaffed!!
-  - CrapStaff
+  - TaxedForThis?
   - CrappyHealthCare
-  boostCost: 175
+  - MoneyWasted
+  boostCost: 50

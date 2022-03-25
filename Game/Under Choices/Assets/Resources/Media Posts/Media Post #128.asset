@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 128
   day: 5
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 225
+  boostedEngagement: 16000
   publisher: Pox
   headline: 'Single Father Dies After Defending  Family of 5 '
   imageFilePath: media_post_104
   subject: 1
   reaction: 1
   hashtags:
-  - PrayForThem
-  - TooSoon
+  - Pathetic
   - GodLeftChat
-  boostCost: 149
+  - TooSoon
+  boostCost: 150

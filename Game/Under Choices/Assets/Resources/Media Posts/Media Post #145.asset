@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 145
   day: 6
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 50
+  boostedEngagement: 15000
   publisher: UnderChoicesVictim
-  headline: New Representative Breaks Down During Speech. Crowd Supports Her!
+  headline: New Representative Recieves Support From Crowd
   imageFilePath: media_post_121
   subject: 0
   reaction: 0
   hashtags:
-  - ReElect!!!
-  - KeepThemIN!
-  - InGoodHands
-  boostCost: 156
+  - People'sVoice
+  - GetsThingsDone
+  - GetsThingsDone
+  boostCost: 150

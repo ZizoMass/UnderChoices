@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 115
   day: 4
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 50
+  boostedEngagement: 13000
   publisher: 3Wasps
   headline: Radical Radio Station Goes Live to Radios Across The Country To Play
     Music
@@ -23,7 +23,7 @@ MonoBehaviour:
   subject: 3
   reaction: 0
   hashtags:
-  - ALWAYSSupport
-  - OurWayOrHiWay
-  - OpenMinded!
-  boostCost: 110
+  - RallyTogether!
+  - WEStrong
+  - WEStrong
+  boostCost: 100

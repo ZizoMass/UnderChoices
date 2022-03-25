@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 201
   day: 8
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 175
+  boostedEngagement: 12000
   publisher: SeeEnEn
   headline: Public Parks and Preserves Turned Into No Man's Land!
   imageFilePath: media_post_177
   subject: 1
   reaction: 1
   hashtags:
-  - GodLeftChat
-  - SoTragic
+  - TooSoon
+  - Pathetic
   - PrayForThem
-  boostCost: 89
+  boostCost: 100

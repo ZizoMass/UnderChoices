@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 56
   day: 2
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 225
+  boostedEngagement: 16000
   publisher: PickMe
   headline: Driver Run Over By Cyclist
   imageFilePath: media_post_32
   subject: 1
   reaction: 1
   hashtags:
-  - SoTragic
-  - SoTragic
-  - SoTragic
-  boostCost: 149
+  - Pathetic
+  - PrayForThem
+  - FreeThem
+  boostCost: 100

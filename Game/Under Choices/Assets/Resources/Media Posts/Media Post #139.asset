@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 139
   day: 5
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 50
+  boostedEngagement: 13000
   publisher: Forbees
   headline: Protestors Perform Dance Routine In Front of Government Buildings
   imageFilePath: media_post_115
   subject: 3
   reaction: 0
   hashtags:
-  - CommunityBuild
-  - OpenMinded!
-  - JoinTheCAUSE
-  boostCost: 110
+  - WEStrong
+  - OurWayOrHiWay
+  - RallyTogether!
+  boostCost: 150

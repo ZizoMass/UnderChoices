@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 159
   day: 6
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 175
+  boostedEngagement: 16000
   publisher: UnderChoicesVictim
   headline: Children and Elderly Proven to Be More Vulnerable to the Disease
   imageFilePath: media_post_135
   subject: 2
   reaction: 1
   hashtags:
-  - HardTimes
   - ThankYouAll
-  - Drained
-  boostCost: 82
+  - WeLostThem
+  - HELPME
+  boostCost: 100

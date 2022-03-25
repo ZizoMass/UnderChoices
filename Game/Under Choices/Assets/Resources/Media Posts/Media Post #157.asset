@@ -15,14 +15,14 @@ MonoBehaviour:
   postNumber: 157
   day: 6
   baseEngagement: 100
-  boostedEngagement: 10000
+  boostedEngagement: 14000
   publisher: 3Wasps
   headline: Medical Vaccination Test On Government Representative Worked!
   imageFilePath: media_post_133
   subject: 2
   reaction: 0
   hashtags:
-  - BackToUs
-  - BestWishes
-  - Recovered:)
-  boostCost: 78
+  - Safe&Sound
+  - Hugs&Kisses
+  - Safe&Sound
+  boostCost: 150

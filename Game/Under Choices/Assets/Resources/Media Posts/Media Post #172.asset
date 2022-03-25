@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 172
   day: 7
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 200
+  boostedEngagement: 30000
   publisher: PickMe
   headline: Governments Repeated Attempts for Financial Trade Met with Harsh Rejection
   imageFilePath: media_post_148
   subject: 0
   reaction: 2
   hashtags:
+  - Pitchforks!!!
   - LeRevolution!
-  - BurnItDOWN
   - GetEmOUT
-  boostCost: 121
+  boostCost: 100

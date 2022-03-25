@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 153
   day: 6
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 175
+  boostedEngagement: 12000
   publisher: Forbees
   headline: People Drive For Change In Streets. Sleeping Civilians Scared for Their
     Safety
@@ -23,7 +23,7 @@ MonoBehaviour:
   subject: 1
   reaction: 1
   hashtags:
+  - Lowlife
   - FreeThem
-  - Pathetic
-  - FreeThem
-  boostCost: 89
+  - PrayForThem
+  boostCost: 100

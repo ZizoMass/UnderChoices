@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 59
   day: 2
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 200
+  boostedEngagement: 28000
   publisher: Forbees
   headline: Why Did New Talipa Kids Deface Memorial With Eggs?
   imageFilePath: media_post_35
   subject: 1
   reaction: 2
   hashtags:
-  - TakeEmDOWN!!!
-  - NoJustice!!!
-  - DeathCollection
+  - Eye-ForAn-Eye
+  - BetterOffDead
+  - BetterOffDead
   boostCost: 50

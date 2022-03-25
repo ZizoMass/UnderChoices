@@ -15,14 +15,14 @@ MonoBehaviour:
   postNumber: 151
   day: 6
   baseEngagement: 100
-  boostedEngagement: 10000
+  boostedEngagement: 13000
   publisher: CYPost
   headline: Dealers Open Up To Supply the War Effort! Cheap Weapons From Nowhere
   imageFilePath: media_post_127
   subject: 1
   reaction: 0
   hashtags:
-  - Justified!
-  - FightBackTeam!
   - Justice
-  boostCost: 132
+  - Hero
+  - StandUp!!!
+  boostCost: 100

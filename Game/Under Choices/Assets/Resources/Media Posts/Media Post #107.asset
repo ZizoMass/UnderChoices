@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 107
   day: 4
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 200
+  boostedEngagement: 28000
   publisher: 3Wasps
   headline: Shooter Claims House Pets as Hostages During a House Invasion
   imageFilePath: media_post_83
   subject: 1
   reaction: 2
   hashtags:
-  - Despicable!
-  - DeathCollection
-  - AskingForIt
+  - NoJustice!!!
+  - NoJustice!!!
+  - Eye-ForAn-Eye
   boostCost: 50

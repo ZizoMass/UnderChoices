@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 73
   day: 3
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 50
+  boostedEngagement: 15000
   publisher: 3Wasps
-  headline: U.S.A.R. Chairmen Donates 10 Million to Charity!!!
+  headline: Crowd Members Allowed to Speak on Stage
   imageFilePath: media_post_49
   subject: 0
   reaction: 0
   hashtags:
-  - GetsThingsDone
+  - KeepThemIN!
   - RepeatElection
-  - People'sVoice
-  boostCost: 156
+  - KeepThemIN!
+  boostCost: 150

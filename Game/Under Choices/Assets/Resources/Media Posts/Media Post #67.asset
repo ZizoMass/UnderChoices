@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 67
   day: 2
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 50
+  boostedEngagement: 13000
   publisher: CYPost
   headline: After 99 Years Man Finally Wins The Lottery
   imageFilePath: media_post_43
   subject: 3
   reaction: 0
   hashtags:
-  - CommunityBuild
-  - CommunityBuild
-  - CommunityBuild
-  boostCost: 110
+  - WEStrong
+  - JoinTheCAUSE
+  - ALWAYSSupport
+  boostCost: 100

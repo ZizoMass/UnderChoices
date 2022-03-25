@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 135
   day: 5
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 175
+  boostedEngagement: 16000
   publisher: PickMe
   headline: Doctors Too Busy To Spend Time With Family In Light Of Current Crisis
   imageFilePath: media_post_111
   subject: 2
   reaction: 1
   hashtags:
-  - I'mSoLost
-  - WeLostThem
-  - Drained
-  boostCost: 82
+  - HELPME
+  - ThankYouAll
+  - HardTimes
+  boostCost: 100

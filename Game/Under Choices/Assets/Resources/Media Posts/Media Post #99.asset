@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 99
   day: 4
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 125
+  boostedEngagement: 16000
   publisher: UnderChoicesVictim
   headline: Support From Breminairo Cut. Officials Promise Aid for Those Affected
   imageFilePath: media_post_75
   subject: 0
   reaction: 1
   hashtags:
-  - WhatAJoke
-  - ItsDownhill
   - Where'sTioSammy
-  boostCost: 75
+  - NotAgainnnn
+  - NotAgainnnn
+  boostCost: 100

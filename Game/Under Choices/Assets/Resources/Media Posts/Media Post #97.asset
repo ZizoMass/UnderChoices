@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 97
   day: 4
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 50
+  boostedEngagement: 15000
   publisher: SeeEnEn
-  headline: U.S.A.R. Chairmen Donates 10 Million to Charity!!!
+  headline: Police Officers Rewarded for Loyal Service
   imageFilePath: media_post_73
   subject: 0
   reaction: 0
   hashtags:
-  - GetsThingsDone
+  - VoteAgain
+  - ReElect!!!
   - 'Saviours '
-  - KeepThemIN!
-  boostCost: 156
+  boostCost: 150

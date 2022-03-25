@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 10
   day: 0
-  baseEngagement: 117
-  boostedEngagement: 28000
+  baseEngagement: 325
+  boostedEngagement: 32000
   publisher: PickMe
   headline: Pigeon Jumped by Highschoolers
   imageFilePath: media_post_10
   subject: 1
   reaction: 2
   hashtags:
-  - PaybackTime
   - BetterOffDead
   - NoJustice!!!
-  boostCost: 69
+  - Pigeons
+  boostCost: 50

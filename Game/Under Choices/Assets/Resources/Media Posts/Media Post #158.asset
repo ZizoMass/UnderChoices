@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 158
   day: 6
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 200
+  boostedEngagement: 15000
   publisher: Forbees
   headline: Death's Climbing In View of The Pandemic
   imageFilePath: media_post_134
   subject: 2
   reaction: 1
   hashtags:
-  - HELPME
-  - HELPME
-  - HELPME
-  boostCost: 145
+  - HardTimes
+  - ThankYouAll
+  - God'sPlan
+  boostCost: 100

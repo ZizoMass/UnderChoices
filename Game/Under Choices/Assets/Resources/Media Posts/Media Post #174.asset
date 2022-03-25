@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 174
   day: 7
-  baseEngagement: 100
+  baseEngagement: 75
   boostedEngagement: 10000
   publisher: CYPost
   headline: Arms on Sale!?! Arms Dealers Open Up to All During Civil Conflict!
@@ -22,7 +22,7 @@ MonoBehaviour:
   subject: 1
   reaction: 0
   hashtags:
-  - BeSafe
   - FightBackTeam!
-  - Justified!
-  boostCost: 98
+  - FightBackTeam!
+  - BeSafe
+  boostCost: 50

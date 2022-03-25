@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 118
   day: 4
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 400
+  boostedEngagement: 31000
   publisher: CYPost
   headline: Police Confiscate Electronics from Privately Owned Businesses
   imageFilePath: media_post_94
   subject: 3
   reaction: 2
   hashtags:
-  - MartyrUS!!
+  - AgainstUS!!
   - NecessaryEvil
-  - MartyrUS!!
-  boostCost: 147
+  - Messiah
+  boostCost: 100

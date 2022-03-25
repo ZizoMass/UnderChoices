@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 162
   day: 6
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 75
+  boostedEngagement: 11000
   publisher: Pox
   headline: '"""Happy Charlie"" Broadcasts to the Whole Country Again! People Smile"'
   imageFilePath: media_post_138
   subject: 3
   reaction: 0
   hashtags:
-  - ALWAYSSupport
-  - OpenMinded!
-  - OpenMinded!
-  boostCost: 150
+  - CommunityBuild
+  - CommunityBuild
+  - CommunityBuild
+  boostCost: 50

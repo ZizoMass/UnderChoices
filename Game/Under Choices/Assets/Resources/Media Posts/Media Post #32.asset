@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 32
   day: 1
-  baseEngagement: 50
-  boostedEngagement: 15000
+  baseEngagement: 225
+  boostedEngagement: 16000
   publisher: 3Wasps
   headline: '"Bystander Heavily Insulted for Being ""Involved"" in Car Crash"'
   imageFilePath: media_post_08
@@ -23,6 +23,6 @@ MonoBehaviour:
   reaction: 1
   hashtags:
   - PrayForThem
-  - TooSoon
-  - FreeThem
-  boostCost: 149
+  - GodLeftChat
+  - SoTragic
+  boostCost: 100

@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 31
   day: 1
-  baseEngagement: 117
-  boostedEngagement: 28000
+  baseEngagement: 100
+  boostedEngagement: 13000
   publisher: 3Wasps
   headline: Bar Patrons Stop Fighting to Settle Conflict with a Thumb Wrestling Match
   imageFilePath: media_post_07
   subject: 1
   reaction: 0
   hashtags:
-  - ComeTogether!!
-  - ComeTogether!!
+  - StandUp!!!
+  - Hero
   - Justice
-  boostCost: 132
+  boostCost: 150

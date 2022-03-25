@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 22
   day: 0
-  baseEngagement: 117
-  boostedEngagement: 28000
+  baseEngagement: 400
+  boostedEngagement: 31000
   publisher: Pox
   headline: Extremists Ban Cofee For Impact On Cocoa Plants
   imageFilePath: media_post_22
   subject: 3
   reaction: 2
   hashtags:
-  - AgainstUS!!
+  - MartyrUS!!
   - MartyrUS!!
   - Messiah
-  boostCost: 147
+  boostCost: 100

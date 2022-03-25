@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 154
   day: 6
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 325
+  boostedEngagement: 32000
   publisher: SeeEnEn
   headline: Riots Outside Politician Homes
   imageFilePath: media_post_130
@@ -23,6 +23,6 @@ MonoBehaviour:
   reaction: 2
   hashtags:
   - BetterOffDead
-  - Despicable!
-  - DeathCollection
-  boostCost: 69
+  - AskingForIt
+  - AskingForIt
+  boostCost: 100

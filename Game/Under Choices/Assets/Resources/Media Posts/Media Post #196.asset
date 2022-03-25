@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 196
   day: 8
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 200
+  boostedEngagement: 30000
   publisher: CYPost
   headline: Raised Taxes Said to Last For Years to Come
   imageFilePath: media_post_172
   subject: 0
   reaction: 2
   hashtags:
-  - LeRevolution!
-  - CoupDeTahhh
-  - LeRevolution!
-  boostCost: 121
+  - Pitchforks!!!
+  - GetEmOUT
+  - Pitchforks!!!
+  boostCost: 100

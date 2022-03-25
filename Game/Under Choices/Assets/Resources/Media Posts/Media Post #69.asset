@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 69
   day: 2
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 200
+  boostedEngagement: 16000
   publisher: Forbees
   headline: Revolutionary Speed Walker Tried To Outrun A Lion
   imageFilePath: media_post_45
   subject: 3
   reaction: 1
   hashtags:
-  - AlwaysThem
-  - TimeToFixIt
-  - Outcast
-  boostCost: 70
+  - ItsTheOnlyWay
+  - Desperate
+  - Desperate
+  boostCost: 100

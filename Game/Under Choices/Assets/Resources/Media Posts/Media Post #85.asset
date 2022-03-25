@@ -15,14 +15,14 @@ MonoBehaviour:
   postNumber: 85
   day: 3
   baseEngagement: 100
-  boostedEngagement: 10000
+  boostedEngagement: 14000
   publisher: PickMe
   headline: Man Recieves Surprise Check to Cover His Treatments
   imageFilePath: media_post_61
   subject: 2
   reaction: 0
   hashtags:
-  - MadeIt
-  - Safe&Sound
-  - Hugs&Kisses
-  boostCost: 78
+  - ThankGod
+  - BestWishes
+  - BackToUs
+  boostCost: 100

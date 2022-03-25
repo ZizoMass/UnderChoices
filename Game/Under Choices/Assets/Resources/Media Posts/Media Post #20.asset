@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 20
   day: 0
-  baseEngagement: 50
+  baseEngagement: 150
   boostedEngagement: 15000
   publisher: CYPost
   headline: 'Zealots Lead to Hunting Of Chihuahas '
@@ -22,7 +22,7 @@ MonoBehaviour:
   subject: 3
   reaction: 1
   hashtags:
-  - Desperate
-  - Desperate
+  - WeNeedChange
+  - Outcast
   - ItsTheOnlyWay
-  boostCost: 60
+  boostCost: 50

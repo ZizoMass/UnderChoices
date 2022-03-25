@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 178
   day: 7
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 325
+  boostedEngagement: 32000
   publisher: UnderChoicesVictim
   headline: Kids Forced Into Battle!!! Children Now Expected to Carry Arms For Safety!
   imageFilePath: media_post_154
@@ -23,6 +23,6 @@ MonoBehaviour:
   reaction: 2
   hashtags:
   - DeathCollection
-  - Despicable!
+  - PaybackTime
   - TakeEmDOWN!!!
-  boostCost: 69
+  boostCost: 100

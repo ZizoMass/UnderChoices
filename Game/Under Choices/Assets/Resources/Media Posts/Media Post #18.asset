@@ -15,14 +15,14 @@ MonoBehaviour:
   postNumber: 18
   day: 0
   baseEngagement: 75
-  boostedEngagement: 16000
+  boostedEngagement: 11000
   publisher: Forbees
   headline: Yoga Radicals Form New Country
   imageFilePath: media_post_18
   subject: 3
   reaction: 0
   hashtags:
+  - WEStrong
+  - WEStrong
   - ALWAYSSupport
-  - OurWayOrHiWay
-  - CommunityBuild
   boostCost: 150

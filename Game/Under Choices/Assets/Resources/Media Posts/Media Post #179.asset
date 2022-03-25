@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 179
   day: 7
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 200
+  boostedEngagement: 28000
   publisher: 3Wasps
   headline: Refugee Camps Left For Dead By the Government!!!
   imageFilePath: media_post_155
@@ -23,6 +23,6 @@ MonoBehaviour:
   reaction: 2
   hashtags:
   - Despicable!
-  - BetterOffDead
+  - PaybackTime
   - Eye-ForAn-Eye
   boostCost: 50

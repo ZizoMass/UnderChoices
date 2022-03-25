@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 123
   day: 5
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 125
+  boostedEngagement: 16000
   publisher: SeeEnEn
   headline: Governments Attempts to Establish Country Owned Paper Mill Fails
   imageFilePath: media_post_99
   subject: 0
   reaction: 1
   hashtags:
-  - I'maSitDown
+  - Where'sTioSammy
   - ItsOver
   - WhatAJoke
-  boostCost: 75
+  boostCost: 100

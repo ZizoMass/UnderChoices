@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 167
   day: 6
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 150
+  boostedEngagement: 28000
   publisher: 3Wasps
   headline: '"War on ""Charlie"" Declared. U.S.A.R. Speech Against New Protestors
     Movement"'
@@ -23,7 +23,7 @@ MonoBehaviour:
   subject: 3
   reaction: 2
   hashtags:
-  - Divide&CONQUER
+  - MartyrUS!!
+  - MartyrUS!!
   - OurLastHope
-  - AgainstUS!!
-  boostCost: 90
+  boostCost: 100

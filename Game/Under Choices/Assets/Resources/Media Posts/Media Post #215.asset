@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 215
   day: 8
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 150
+  boostedEngagement: 28000
   publisher: Pox
   headline: Filha Outraged! Storms Out Of Congress In Face Of Protestors!
   imageFilePath: media_post_191
   subject: 3
   reaction: 2
   hashtags:
+  - Divide&CONQUER
   - MessEmUP!!!
-  - Messiah
-  - MessEmUP!!!
-  boostCost: 90
+  - AgainstUS!!
+  boostCost: 100

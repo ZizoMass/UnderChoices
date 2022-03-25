@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 93
   day: 3
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 200
+  boostedEngagement: 16000
   publisher: CYPost
   headline: Independent Games Company Forced to Sell to the U.S.A.R. After 50 Years
   imageFilePath: media_post_69
   subject: 3
   reaction: 1
   hashtags:
-  - AlwaysThem
-  - Desperate
+  - ItsTheOnlyWay
   - TimeToFixIt
-  boostCost: 70
+  - AlwaysThem
+  boostCost: 100

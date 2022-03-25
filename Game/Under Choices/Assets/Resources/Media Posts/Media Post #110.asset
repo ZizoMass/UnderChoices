@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 110
   day: 4
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 200
+  boostedEngagement: 15000
   publisher: Pox
   headline: Crowds Gather at Hospital Doors
   imageFilePath: media_post_86
   subject: 2
   reaction: 1
   hashtags:
+  - Drained
+  - I'mSoLost
   - God'sPlan
-  - God'sPlan
-  - HardTimes
-  boostCost: 145
+  boostCost: 100

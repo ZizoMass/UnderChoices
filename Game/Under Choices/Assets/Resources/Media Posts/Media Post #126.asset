@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 126
   day: 5
-  baseEngagement: 100
+  baseEngagement: 75
   boostedEngagement: 10000
   publisher: SeeEnEn
   headline: Neighbors Form Militias
@@ -22,7 +22,7 @@ MonoBehaviour:
   subject: 1
   reaction: 0
   hashtags:
-  - StandUp!!!
   - Justice
+  - Hero
   - Justice
-  boostCost: 98
+  boostCost: 50

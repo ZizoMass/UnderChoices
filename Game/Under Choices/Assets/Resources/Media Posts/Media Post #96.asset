@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 96
   day: 4
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 75
+  boostedEngagement: 11000
   publisher: Forbees
   headline: Government Officials Unveil Construction of New Schools
   imageFilePath: media_post_72
   subject: 0
   reaction: 0
   hashtags:
+  - People'sVoice
   - InGoodHands
   - RepeatElection
-  - 'Saviours '
-  boostCost: 100
+  boostCost: 150

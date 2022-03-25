@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 160
   day: 6
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 350
+  boostedEngagement: 26000
   publisher: Pox
   headline: Surgeons Walk Out!!!
   imageFilePath: media_post_136
   subject: 2
   reaction: 2
   hashtags:
-  - CrapStaff
-  - OverpaidIdiots
-  - Refund
-  boostCost: 175
+  - CrappyHealthCare
+  - CrappyHealthCare
+  - TaxedForThis?
+  boostCost: 100

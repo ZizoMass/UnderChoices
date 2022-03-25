@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 190
   day: 7
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 400
+  boostedEngagement: 31000
   publisher: Pox
   headline: Police Use Violence Against Unarmed Protestors!!!
   imageFilePath: media_post_166
   subject: 3
   reaction: 2
   hashtags:
-  - MartyrUS!!
-  - MessEmUP!!!
   - OurLastHope
-  boostCost: 147
+  - NecessaryEvil
+  - MartyrUS!!
+  boostCost: 100

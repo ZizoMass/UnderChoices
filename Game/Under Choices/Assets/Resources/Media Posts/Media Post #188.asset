@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 188
   day: 7
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 150
+  boostedEngagement: 15000
   publisher: SeeEnEn
   headline: Police Use Tear Gas on Singing Crowds. Many Protestors Flee.
   imageFilePath: media_post_164
   subject: 3
   reaction: 1
   hashtags:
-  - ItsTheOnlyWay
+  - TimeToFixIt
   - AlwaysThem
-  - WeNeedChange
-  boostCost: 60
+  - Outcast
+  boostCost: 100

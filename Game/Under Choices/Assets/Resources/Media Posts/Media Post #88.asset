@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 88
   day: 3
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 350
+  boostedEngagement: 26000
   publisher: 3Wasps
   headline: Brain Surgery Abandoned After Patient Wouldn't Stop Screaming
   imageFilePath: media_post_64
   subject: 2
   reaction: 2
   hashtags:
-  - CrappyHealthCare
   - LONGWaitTimes
-  - UnderStaffed!!
-  boostCost: 175
+  - LONGWaitTimes
+  - OverpaidIdiots
+  boostCost: 50

@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 149
   day: 6
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 125
+  boostedEngagement: 28000
   publisher: GloomIce
   headline: Tourists Openly Insults U.S.A.R. Chairmen During Speech. Crowd Outraged
   imageFilePath: media_post_125
   subject: 0
   reaction: 2
   hashtags:
+  - GetEmOUT
   - ToTheTorches!
-  - Pitchforks!!!
-  - Pitchforks!!!
-  boostCost: 131
+  - LeRevolution!
+  boostCost: 50

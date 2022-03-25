@@ -15,14 +15,14 @@ MonoBehaviour:
   postNumber: 175
   day: 7
   baseEngagement: 100
-  boostedEngagement: 10000
+  boostedEngagement: 13000
   publisher: Forbees
   headline: Community Defenses Fortified
   imageFilePath: media_post_151
   subject: 1
   reaction: 0
   hashtags:
-  - Justice
-  - Justice
-  - Justice
-  boostCost: 132
+  - StrongerTogether
+  - StrongerTogether
+  - FightBackTeam!
+  boostCost: 100

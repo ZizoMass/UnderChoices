@@ -15,14 +15,14 @@ MonoBehaviour:
   postNumber: 55
   day: 2
   baseEngagement: 100
-  boostedEngagement: 10000
+  boostedEngagement: 13000
   publisher: UnderChoicesVictim
   headline: Teen Risks Life To Save Snail
   imageFilePath: media_post_31
   subject: 1
   reaction: 0
   hashtags:
-  - Justice
-  - BeSafe
-  - Hero
-  boostCost: 132
+  - StandUp!!!
+  - ComeTogether!!
+  - StandUp!!!
+  boostCost: 150

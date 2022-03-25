@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 54
   day: 2
-  baseEngagement: 100
+  baseEngagement: 75
   boostedEngagement: 10000
   publisher: GloomIce
   headline: Tike Myson Beats Rogan Jaul In 1 Round!
@@ -22,7 +22,7 @@ MonoBehaviour:
   subject: 1
   reaction: 0
   hashtags:
-  - ComeTogether!!
-  - StrongerTogether
+  - FightBackTeam!
   - Hero
-  boostCost: 98
+  - ComeTogether!!
+  boostCost: 100

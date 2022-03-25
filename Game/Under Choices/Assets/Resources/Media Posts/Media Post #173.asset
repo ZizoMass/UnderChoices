@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 173
   day: 7
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 125
+  boostedEngagement: 28000
   publisher: 3Wasps
   headline: Government Forced to Raise Taxes
   imageFilePath: media_post_149
   subject: 0
   reaction: 2
   hashtags:
-  - RiotTIME
-  - LeRevolution!
+  - RaidingNight
+  - CoupDeTahhh
   - ToTheTorches!
-  boostCost: 131
+  boostCost: 50

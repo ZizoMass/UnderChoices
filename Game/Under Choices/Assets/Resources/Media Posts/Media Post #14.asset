@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 14
   day: 0
-  baseEngagement: 50
+  baseEngagement: 200
   boostedEngagement: 15000
   publisher: CYPost
   headline: Elderly Woman Passes Away After Being in Hospital for 20 Years
@@ -25,4 +25,4 @@ MonoBehaviour:
   - ThankYouAll
   - Depressing
   - Drained
-  boostCost: 145
+  boostCost: 100

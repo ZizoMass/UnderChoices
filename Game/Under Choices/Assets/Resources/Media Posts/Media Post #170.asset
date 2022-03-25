@@ -15,14 +15,14 @@ MonoBehaviour:
   postNumber: 170
   day: 7
   baseEngagement: 100
-  boostedEngagement: 10000
+  boostedEngagement: 15000
   publisher: SeeEnEn
   headline: Chairmen Tells Bad Joke
   imageFilePath: media_post_146
   subject: 0
   reaction: 1
   hashtags:
-  - NoFaith
-  - Where'sTioSammy
   - I'maSitDown
-  boostCost: 80
+  - NoFaith
+  - ItsDownhill
+  boostCost: 150

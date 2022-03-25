@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 195
   day: 8
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 125
+  boostedEngagement: 16000
   publisher: 3Wasps
   headline: Eldest Chairman Retires After Reaching 87 Years of Age
   imageFilePath: media_post_171
   subject: 0
   reaction: 1
   hashtags:
-  - NotAgainnnn
-  - Where'sTioSammy
-  - Where'sTioSammy
-  boostCost: 75
+  - ItsOver
+  - ItsDownhill
+  - ItsOver
+  boostCost: 100

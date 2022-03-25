@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 91
   day: 3
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 50
+  boostedEngagement: 13000
   publisher: GloomIce
   headline: Woman Defies Police's Demands and Continues to Play Music for Crowds
   imageFilePath: media_post_67
   subject: 3
   reaction: 0
   hashtags:
-  - CommunityBuild
+  - JoinTheCAUSE
   - OurWayOrHiWay
-  - OpenMinded!
-  boostCost: 110
+  - CommunityBuild
+  boostCost: 100

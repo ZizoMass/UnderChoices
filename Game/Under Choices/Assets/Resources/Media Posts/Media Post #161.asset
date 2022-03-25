@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 161
   day: 6
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 250
+  boostedEngagement: 28000
   publisher: Pox
   headline: Wealthy Citizens Offered Better Treatment!?!
   imageFilePath: media_post_137
   subject: 2
   reaction: 2
   hashtags:
-  - CrappyHealthCare
-  - OverpaidIdiots
   - MoneyWasted
-  boostCost: 91
+  - MoneyWasted
+  - CrapStaff
+  boostCost: 50

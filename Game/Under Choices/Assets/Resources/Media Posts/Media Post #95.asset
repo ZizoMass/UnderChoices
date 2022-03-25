@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 95
   day: 3
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 150
+  boostedEngagement: 28000
   publisher: GloomIce
   headline: Government Officials Ban Specific Radio Stations
   imageFilePath: media_post_71
@@ -23,6 +23,6 @@ MonoBehaviour:
   reaction: 2
   hashtags:
   - Messiah
-  - OurLastHope
-  - OurLastHope
-  boostCost: 90
+  - Divide&CONQUER
+  - MartyrUS!!
+  boostCost: 100

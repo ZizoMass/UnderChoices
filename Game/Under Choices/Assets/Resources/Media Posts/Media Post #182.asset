@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 182
   day: 7
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 200
+  boostedEngagement: 15000
   publisher: SeeEnEn
   headline: Lower Income Housing More Vulnerable to Pandemic
   imageFilePath: media_post_158
   subject: 2
   reaction: 1
   hashtags:
-  - ThankYouAll
-  - WeLostThem
-  - WeLostThem
-  boostCost: 145
+  - Depressing
+  - God'sPlan
+  - Drained
+  boostCost: 100

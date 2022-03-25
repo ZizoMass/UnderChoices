@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 129
   day: 5
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 175
+  boostedEngagement: 12000
   publisher: CYPost
   headline: Refugees From City Centers Plea for Their Lives During Riots
   imageFilePath: media_post_105
   subject: 1
   reaction: 1
   hashtags:
-  - Pathetic
-  - GodLeftChat
-  - GodLeftChat
-  boostCost: 89
+  - PrayForThem
+  - SoTragic
+  - Lowlife
+  boostCost: 100

@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 137
   day: 5
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 250
+  boostedEngagement: 28000
   publisher: CYPost
   headline: '"Medical Staff Lock Their Doors to Patients with ""Minimal"" Symptoms"'
   imageFilePath: media_post_113
   subject: 2
   reaction: 2
   hashtags:
-  - CrapStaff
-  - MoneyWasted
   - CrappyHealthCare
-  boostCost: 91
+  - CrapStaff
+  - CrapStaff
+  boostCost: 50

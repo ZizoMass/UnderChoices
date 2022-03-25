@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 143
   day: 5
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 150
+  boostedEngagement: 28000
   publisher: PickMe
   headline: Police Unable to Corral Protestors Without Violence!?!
   imageFilePath: media_post_119
   subject: 3
   reaction: 2
   hashtags:
-  - MessEmUP!!!
-  - Divide&CONQUER
   - Messiah
-  boostCost: 90
+  - Messiah
+  - NecessaryEvil
+  boostCost: 100

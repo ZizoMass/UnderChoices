@@ -15,14 +15,14 @@ MonoBehaviour:
   postNumber: 205
   day: 8
   baseEngagement: 100
-  boostedEngagement: 10000
+  boostedEngagement: 14000
   publisher: GloomIce
   headline: New Laws In Place To Control The Spread Of The Pandemic
   imageFilePath: media_post_181
   subject: 2
   reaction: 0
   hashtags:
-  - 100Sober
   - ThankGod
   - BackToUs
-  boostCost: 78
+  - Safe&Sound
+  boostCost: 150

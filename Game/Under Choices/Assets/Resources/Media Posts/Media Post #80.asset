@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 80
   day: 3
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 225
+  boostedEngagement: 16000
   publisher: PickMe
   headline: Teen Who Saved Snail Found Wounded in Their Attempt
   imageFilePath: media_post_56
   subject: 1
   reaction: 1
   hashtags:
-  - Pathetic
-  - GodLeftChat
-  - SoTragic
-  boostCost: 149
+  - FreeThem
+  - FreeThem
+  - WhatAShame
+  boostCost: 100

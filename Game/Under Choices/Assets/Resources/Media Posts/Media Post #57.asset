@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 57
   day: 2
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 175
+  boostedEngagement: 12000
   publisher: 3Wasps
   headline: Man Trips On Shoe Laces and Dies in Street Fight
   imageFilePath: media_post_33
   subject: 1
   reaction: 1
   hashtags:
-  - TooSoon
-  - GodLeftChat
   - Pathetic
-  boostCost: 89
+  - SoTragic
+  - SoTragic
+  boostCost: 100

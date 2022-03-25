@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 132
   day: 5
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 75
+  boostedEngagement: 12000
   publisher: GloomIce
   headline: Health Officials Release Information On Evolving Cure
   imageFilePath: media_post_108
   subject: 2
   reaction: 0
   hashtags:
-  - Safe&Sound
-  - Recovered:)
-  - Safe&Sound
-  boostCost: 134
+  - BackToUs
+  - BestWishes
+  - BestWishes
+  boostCost: 50

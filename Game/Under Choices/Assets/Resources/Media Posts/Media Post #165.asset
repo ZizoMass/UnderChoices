@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 165
   day: 6
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 200
+  boostedEngagement: 16000
   publisher: CYPost
   headline: Protestors Long Awaited Art Piece Destroyed in House Fire
   imageFilePath: media_post_141
   subject: 3
   reaction: 1
   hashtags:
-  - Desperate
-  - Outcast
-  - TimeToFixIt
-  boostCost: 70
+  - SplitUp
+  - WeNeedChange
+  - WeNeedChange
+  boostCost: 50

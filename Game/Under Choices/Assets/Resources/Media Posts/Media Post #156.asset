@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 156
   day: 6
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 75
+  boostedEngagement: 12000
   publisher: UnderChoicesVictim
   headline: Official Medical Remedy Said to Cure Disease Now Released!
   imageFilePath: media_post_132
   subject: 2
   reaction: 0
   hashtags:
-  - ThankGod
   - BackToUs
   - Safe&Sound
-  boostCost: 134
+  - MadeIt
+  boostCost: 50

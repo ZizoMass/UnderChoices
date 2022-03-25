@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 192
   day: 8
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 75
+  boostedEngagement: 11000
   publisher: SeeEnEn
   headline: Government Popularity All Time High
   imageFilePath: media_post_168
   subject: 0
   reaction: 0
   hashtags:
+  - GetsThingsDone
   - People'sVoice
-  - People'sVoice
-  - People'sVoice
+  - VoteAgain
   boostCost: 100

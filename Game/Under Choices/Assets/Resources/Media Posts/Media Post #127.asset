@@ -15,14 +15,14 @@ MonoBehaviour:
   postNumber: 127
   day: 5
   baseEngagement: 100
-  boostedEngagement: 10000
+  boostedEngagement: 13000
   publisher: UnderChoicesVictim
   headline: Towns Open Shelters for Victims of Riots
   imageFilePath: media_post_103
   subject: 1
   reaction: 0
   hashtags:
-  - ComeTogether!!
-  - StrongerTogether
-  - Justice
-  boostCost: 132
+  - Justified!
+  - Justified!
+  - Hero
+  boostCost: 100

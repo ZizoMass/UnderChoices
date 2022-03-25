@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 108
   day: 4
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 75
+  boostedEngagement: 12000
   publisher: SeeEnEn
   headline: Government Releases Claims that the a Cure to Rising Illness is Under
     Way
@@ -23,7 +23,7 @@ MonoBehaviour:
   subject: 2
   reaction: 0
   hashtags:
-  - BackToUs
-  - BackToUs
   - BestWishes
-  boostCost: 134
+  - 100Sober
+  - BackToUs
+  boostCost: 150

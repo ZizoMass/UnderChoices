@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 64
   day: 2
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 350
+  boostedEngagement: 26000
   publisher: SeeEnEn
   headline: Surgeon Operates On The Wrong Patient
   imageFilePath: media_post_40
   subject: 2
   reaction: 2
   hashtags:
-  - OverpaidIdiots
   - CrapStaff
-  - OverpaidIdiots
-  boostCost: 175
+  - Refund
+  - TaxedForThis?
+  boostCost: 50

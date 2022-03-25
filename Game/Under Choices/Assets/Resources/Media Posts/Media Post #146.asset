@@ -15,14 +15,14 @@ MonoBehaviour:
   postNumber: 146
   day: 6
   baseEngagement: 100
-  boostedEngagement: 10000
+  boostedEngagement: 15000
   publisher: UnderChoicesVictim
   headline: Continued Attempts to Gain Financial Support From Countries Failed
   imageFilePath: media_post_122
   subject: 0
   reaction: 1
   hashtags:
-  - NotAgainnnn
-  - ItsDownhill
-  - WeAreDoomed
-  boostCost: 80
+  - WhatAJoke
+  - I'maSitDown
+  - ItsOver
+  boostCost: 150

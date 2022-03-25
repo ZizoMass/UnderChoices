@@ -15,14 +15,14 @@ MonoBehaviour:
   postNumber: 50
   day: 2
   baseEngagement: 100
-  boostedEngagement: 10000
+  boostedEngagement: 15000
   publisher: Pox
   headline: Why Government's Streaming Increases Depression
   imageFilePath: media_post_26
   subject: 0
   reaction: 1
   hashtags:
-  - Where'sTioSammy
-  - NoFaith
-  - WeAreDoomed
-  boostCost: 80
+  - WhatAJoke
+  - WhatAJoke
+  - WhatAJoke
+  boostCost: 100

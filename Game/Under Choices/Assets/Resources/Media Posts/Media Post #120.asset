@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 120
   day: 5
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 75
+  boostedEngagement: 11000
   publisher: Pox
-  headline: Government Provide New Relief Funding to Recently Unemployed Citizens
+  headline: Deal Made to Increase International Trade
   imageFilePath: media_post_96
   subject: 0
   reaction: 0
   hashtags:
-  - InGoodHands
-  - InGoodHands
+  - People'sVoice
   - RepeatElection
+  - 'Saviours '
   boostCost: 100

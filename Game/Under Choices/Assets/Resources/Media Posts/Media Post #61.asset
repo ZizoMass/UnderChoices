@@ -15,14 +15,14 @@ MonoBehaviour:
   postNumber: 61
   day: 2
   baseEngagement: 100
-  boostedEngagement: 10000
+  boostedEngagement: 14000
   publisher: Pox
   headline: Boy Wakes Up From 20 Year Coma
   imageFilePath: media_post_37
   subject: 2
   reaction: 0
   hashtags:
-  - BackToUs
-  - Hugs&Kisses
-  - BackToUs
-  boostCost: 78
+  - Recovered:)
+  - MadeIt
+  - ThankGod
+  boostCost: 100

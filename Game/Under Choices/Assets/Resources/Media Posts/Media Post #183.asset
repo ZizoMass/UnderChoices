@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 183
   day: 7
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 175
+  boostedEngagement: 16000
   publisher: UnderChoicesVictim
   headline: Homeless People In Need. Deaths All Time High For Those in Poverty
   imageFilePath: media_post_159
   subject: 2
   reaction: 1
   hashtags:
+  - Depressing
+  - God'sPlan
   - HELPME
-  - I'mSoLost
-  - WeLostThem
-  boostCost: 82
+  boostCost: 100

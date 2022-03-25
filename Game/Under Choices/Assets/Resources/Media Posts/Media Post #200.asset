@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 200
   day: 8
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 225
+  boostedEngagement: 16000
   publisher: UnderChoicesVictim
   headline: 'Country Plunged Into Civil War! '
   imageFilePath: media_post_176
   subject: 1
   reaction: 1
   hashtags:
-  - Pathetic
+  - Lowlife
+  - WhatAShame
   - GodLeftChat
-  - SoTragic
-  boostCost: 149
+  boostCost: 150

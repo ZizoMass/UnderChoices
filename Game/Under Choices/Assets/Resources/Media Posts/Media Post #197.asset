@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 197
   day: 8
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 125
+  boostedEngagement: 28000
   publisher: Pox
   headline: Tourists Can't Attend Political Events Without Invitation!
   imageFilePath: media_post_173
   subject: 0
   reaction: 2
   hashtags:
-  - CoupDeTahhh
-  - CoupDeTahhh
+  - Pitchforks!!!
   - BurnItDOWN
-  boostCost: 131
+  - GetEmOUT
+  boostCost: 50

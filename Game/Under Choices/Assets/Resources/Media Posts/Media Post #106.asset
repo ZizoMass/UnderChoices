@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 106
   day: 4
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 325
+  boostedEngagement: 32000
   publisher: PickMe
   headline: Government Unable to Contain Fight in Game Store
   imageFilePath: media_post_82
   subject: 1
   reaction: 2
   hashtags:
-  - NoJustice!!!
-  - Despicable!
-  - NoJustice!!!
-  boostCost: 69
+  - AskingForIt
+  - PaybackTime
+  - AskingForIt
+  boostCost: 50

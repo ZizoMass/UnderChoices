@@ -15,14 +15,14 @@ MonoBehaviour:
   postNumber: 181
   day: 7
   baseEngagement: 100
-  boostedEngagement: 10000
+  boostedEngagement: 14000
   publisher: CYPost
   headline: '"Government Officials Assure People ""This Will Be Over By Christmas"""'
   imageFilePath: media_post_157
   subject: 2
   reaction: 0
   hashtags:
-  - Safe&Sound
+  - BestWishes
   - MadeIt
-  - MadeIt
-  boostCost: 78
+  - Recovered:)
+  boostCost: 150

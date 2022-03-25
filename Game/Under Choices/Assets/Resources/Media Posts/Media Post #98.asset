@@ -15,14 +15,14 @@ MonoBehaviour:
   postNumber: 98
   day: 4
   baseEngagement: 100
-  boostedEngagement: 10000
+  boostedEngagement: 15000
   publisher: UnderChoicesVictim
   headline: Government Cuts Tissue Paper Funding!!!
   imageFilePath: media_post_74
   subject: 0
   reaction: 1
   hashtags:
-  - ItsOver
-  - ItsDownhill
   - NotAgainnnn
-  boostCost: 80
+  - NoFaith
+  - WeAreDoomed
+  boostCost: 100

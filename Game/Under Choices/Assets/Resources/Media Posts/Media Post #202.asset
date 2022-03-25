@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 202
   day: 8
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 325
+  boostedEngagement: 32000
   publisher: Pox
   headline: Gangs Unite And Attack Middle Income Homes
   imageFilePath: media_post_178
   subject: 1
   reaction: 2
   hashtags:
-  - DeathCollection
-  - Despicable!
-  - Despicable!
-  boostCost: 69
+  - TakeEmDOWN!!!
+  - Eye-ForAn-Eye
+  - PaybackTime
+  boostCost: 100

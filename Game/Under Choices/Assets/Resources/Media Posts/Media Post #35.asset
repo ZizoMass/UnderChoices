@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 35
   day: 1
-  baseEngagement: 50
-  boostedEngagement: 15000
+  baseEngagement: 200
+  boostedEngagement: 28000
   publisher: UnderChoicesVictim
   headline: Police Man Laughs at Deathly Injured Victim of Assault!!!
   imageFilePath: media_post_11
   subject: 1
   reaction: 2
   hashtags:
-  - TakeEmDOWN!!!
   - AskingForIt
-  - DeathCollection
+  - Despicable!
+  - BetterOffDead
   boostCost: 50

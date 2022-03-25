@@ -15,14 +15,14 @@ MonoBehaviour:
   postNumber: 24
   day: 1
   baseEngagement: 75
-  boostedEngagement: 16000
+  boostedEngagement: 11000
   publisher: SeeEnEn
-  headline: U.S.A.R. Declares Smile Day a New Holiday!
+  headline: Dog Rescued From Sewer Pipes
   imageFilePath: media_post_0
   subject: 0
   reaction: 0
   hashtags:
-  - ReElect!!!
-  - KeepThemIN!
-  - KeepThemIN!
-  boostCost: 100
+  - GetsThingsDone
+  - RepeatElection
+  - 'Saviours '
+  boostCost: 150

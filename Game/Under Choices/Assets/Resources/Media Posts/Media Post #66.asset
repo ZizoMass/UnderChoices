@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 66
   day: 2
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 75
+  boostedEngagement: 11000
   publisher: CYPost
   headline: Anime Enthusiasts Create Sword Art Online IRL
   imageFilePath: media_post_42
   subject: 3
   reaction: 0
   hashtags:
-  - JoinTheCAUSE
-  - ALWAYSSupport
+  - CommunityBuild
   - OurWayOrHiWay
+  - WEStrong
   boostCost: 150

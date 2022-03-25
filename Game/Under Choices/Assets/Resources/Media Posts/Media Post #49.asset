@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 49
   day: 2
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 50
+  boostedEngagement: 15000
   publisher: CYPost
-  headline: Governments Ban on Sadness! Programs Meant to Improve Mood
+  headline: Governments Ban on Sadness
   imageFilePath: media_post_25
   subject: 0
   reaction: 0
   hashtags:
-  - InGoodHands
-  - ReElect!!!
+  - VoteAgain
   - GetsThingsDone
-  boostCost: 156
+  - InGoodHands
+  boostCost: 150

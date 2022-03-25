@@ -15,7 +15,7 @@ MonoBehaviour:
   postNumber: 122
   day: 5
   baseEngagement: 100
-  boostedEngagement: 10000
+  boostedEngagement: 15000
   publisher: PickMe
   headline: Vote for Financial Support From New Donza Fails
   imageFilePath: media_post_98
@@ -23,6 +23,6 @@ MonoBehaviour:
   reaction: 1
   hashtags:
   - WhatAJoke
+  - Where'sTioSammy
   - NoFaith
-  - WhatAJoke
-  boostCost: 80
+  boostCost: 150

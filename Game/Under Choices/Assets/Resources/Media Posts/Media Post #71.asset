@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 71
   day: 2
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 150
+  boostedEngagement: 28000
   publisher: 3Wasps
   headline: 'Car Brake Enthusiast Steals Brakes From School Bus '
   imageFilePath: media_post_47
   subject: 3
   reaction: 2
   hashtags:
-  - AgainstUS!!
-  - NecessaryEvil
-  - Messiah
-  boostCost: 90
+  - Divide&CONQUER
+  - Divide&CONQUER
+  - OurLastHope
+  boostCost: 100

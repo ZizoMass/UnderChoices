@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 4
   day: 0
-  baseEngagement: 117
-  boostedEngagement: 28000
+  baseEngagement: 200
+  boostedEngagement: 30000
   publisher: PickMe
   headline: Population Enraged At Government Actions
   imageFilePath: media_post_4
   subject: 0
   reaction: 2
   hashtags:
-  - LeRevolution!
+  - CoupDeTahhh
   - RaidingNight
   - LeRevolution!
-  boostCost: 121
+  boostCost: 50

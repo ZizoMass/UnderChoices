@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 189
   day: 7
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 200
+  boostedEngagement: 16000
   publisher: 3Wasps
   headline: Rain Puts a Damper on Protestors Singing. Many Signs Destroyed
   imageFilePath: media_post_165
   subject: 3
   reaction: 1
   hashtags:
-  - ItsTheOnlyWay
-  - SplitUp
-  - TimeToFixIt
-  boostCost: 70
+  - Outcast
+  - Outcast
+  - AlwaysThem
+  boostCost: 50

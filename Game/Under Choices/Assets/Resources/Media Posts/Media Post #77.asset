@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 77
   day: 3
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 125
+  boostedEngagement: 28000
   publisher: SeeEnEn
   headline: Countries Soccer Team Eliminated Immediately
   imageFilePath: media_post_53
   subject: 0
   reaction: 2
   hashtags:
-  - RiotTIME
   - GetEmOUT
-  - LeRevolution!
-  boostCost: 131
+  - GetEmOUT
+  - Pitchforks!!!
+  boostCost: 50

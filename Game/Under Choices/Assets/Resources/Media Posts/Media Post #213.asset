@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 213
   day: 8
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 200
+  boostedEngagement: 16000
   publisher: Pox
   headline: People Gather To Memorialize The Masked Radio Figure
   imageFilePath: media_post_189
   subject: 3
   reaction: 1
   hashtags:
-  - SplitUp
-  - ItsTheOnlyWay
   - Desperate
-  boostCost: 70
+  - AlwaysThem
+  - Desperate
+  boostCost: 50

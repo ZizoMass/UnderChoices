@@ -15,14 +15,14 @@ MonoBehaviour:
   postNumber: 30
   day: 1
   baseEngagement: 75
-  boostedEngagement: 16000
+  boostedEngagement: 10000
   publisher: 3Wasps
   headline: Public Boxing Arena Opened
   imageFilePath: media_post_06
   subject: 1
   reaction: 0
   hashtags:
-  - StandUp!!!
   - Justified!
-  - FightBackTeam!
-  boostCost: 98
+  - Hero
+  - Hero
+  boostCost: 100

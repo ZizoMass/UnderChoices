@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 92
   day: 3
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 150
+  boostedEngagement: 15000
   publisher: PickMe
   headline: Woman Speaking of Change Silenced by Authorities
   imageFilePath: media_post_68
   subject: 3
   reaction: 1
   hashtags:
+  - Outcast
+  - Desperate
   - ItsTheOnlyWay
-  - TimeToFixIt
-  - WeNeedChange
-  boostCost: 60
+  boostCost: 50

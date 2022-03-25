@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 17
   day: 0
-  baseEngagement: 50
-  boostedEngagement: 15000
+  baseEngagement: 250
+  boostedEngagement: 28000
   publisher: CYPost
   headline: Doctor Late to Surgery to Take a Smoke Break!
   imageFilePath: media_post_17
   subject: 2
   reaction: 2
   hashtags:
-  - TaxedForThis?
+  - UnderStaffed!!
+  - LONGWaitTimes
   - MoneyWasted
-  - TaxedForThis?
-  boostCost: 91
+  boostCost: 50

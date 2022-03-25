@@ -15,14 +15,14 @@ MonoBehaviour:
   postNumber: 199
   day: 8
   baseEngagement: 100
-  boostedEngagement: 10000
+  boostedEngagement: 13000
   publisher: 3Wasps
   headline: Citizen Formed Militias Formed to Protect Their Homes
   imageFilePath: media_post_175
   subject: 1
   reaction: 0
   hashtags:
-  - StrongerTogether
+  - StandUp!!!
+  - Hero
   - Justified!
-  - Justified!
-  boostCost: 132
+  boostCost: 100

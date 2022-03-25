@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 187
   day: 7
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 50
+  boostedEngagement: 13000
   publisher: GloomIce
   headline: Protestors Sing For Change In Unison In Front of Govermment Buildings
   imageFilePath: media_post_163
   subject: 3
   reaction: 0
   hashtags:
-  - ALWAYSSupport
   - JoinTheCAUSE
-  - JoinTheCAUSE
-  boostCost: 110
+  - RallyTogether!
+  - RallyTogether!
+  boostCost: 150

@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 144
   day: 6
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 75
+  boostedEngagement: 11000
   publisher: PickMe
-  headline: Chairmen Reveals Plans for New System to Help Find People Jobs!!!
+  headline: '"""Together We Live In A Utopia"" Says Chairman"'
   imageFilePath: media_post_120
   subject: 0
   reaction: 0
   hashtags:
-  - People'sVoice
   - VoteAgain
-  - People'sVoice
+  - InGoodHands
+  - ReElect!!!
   boostCost: 100

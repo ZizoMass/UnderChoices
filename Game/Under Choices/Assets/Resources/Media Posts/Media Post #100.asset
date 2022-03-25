@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 100
   day: 4
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 200
+  boostedEngagement: 30000
   publisher: Forbees
   headline: Government Continues to Ban Streaming Sights and Services
   imageFilePath: media_post_76
   subject: 0
   reaction: 2
   hashtags:
-  - LeRevolution!
-  - Pitchforks!!!
+  - BurnItDOWN
   - GetEmOUT
-  boostCost: 121
+  - RiotTIME
+  boostCost: 50

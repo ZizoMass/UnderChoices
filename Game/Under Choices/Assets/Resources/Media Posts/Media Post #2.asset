@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 2
   day: 0
-  baseEngagement: 50
+  baseEngagement: 100
   boostedEngagement: 15000
   publisher: CYPost
   headline: Government Cutbacks Harming Citizens
@@ -22,7 +22,7 @@ MonoBehaviour:
   subject: 0
   reaction: 1
   hashtags:
-  - WhatAJoke
+  - Where'sTioSammy
   - WeAreDoomed
   - Where'sTioSammy
-  boostCost: 80
+  boostCost: 100

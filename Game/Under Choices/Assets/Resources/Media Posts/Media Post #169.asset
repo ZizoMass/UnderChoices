@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 169
   day: 7
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 50
+  boostedEngagement: 15000
   publisher: UnderChoicesVictim
-  headline: Employment Rate Sky Rockets Due to New Government Plan!!!
+  headline: New Food Banks Now Open!!!
   imageFilePath: media_post_145
   subject: 0
   reaction: 0
   hashtags:
-  - RepeatElection
-  - VoteAgain
   - InGoodHands
-  boostCost: 156
+  - GetsThingsDone
+  - People'sVoice
+  boostCost: 150

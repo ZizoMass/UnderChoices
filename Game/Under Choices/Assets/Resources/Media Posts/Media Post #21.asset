@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 21
   day: 0
-  baseEngagement: 75
+  baseEngagement: 200
   boostedEngagement: 16000
   publisher: GloomIce
   headline: Political Radicals Voted For Wrong Party
@@ -22,7 +22,7 @@ MonoBehaviour:
   subject: 3
   reaction: 1
   hashtags:
-  - TimeToFixIt
   - SplitUp
-  - TimeToFixIt
-  boostCost: 70
+  - SplitUp
+  - ItsTheOnlyWay
+  boostCost: 100

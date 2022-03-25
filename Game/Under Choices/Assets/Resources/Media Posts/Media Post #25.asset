@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 25
   day: 1
-  baseEngagement: 117
-  boostedEngagement: 28000
+  baseEngagement: 50
+  boostedEngagement: 15000
   publisher: SeeEnEn
-  headline: 90% Want to Re-elect The Prime Minister
+  headline: U.S.A.R. Economist Given Yet Another Raise
   imageFilePath: media_post_1
   subject: 0
   reaction: 0
   hashtags:
-  - 'Saviours '
+  - RepeatElection
+  - ReElect!!!
   - KeepThemIN!
-  - KeepThemIN!
-  boostCost: 156
+  boostCost: 150

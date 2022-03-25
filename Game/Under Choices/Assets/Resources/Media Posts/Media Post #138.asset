@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 138
   day: 5
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 75
+  boostedEngagement: 11000
   publisher: PickMe
   headline: '"Voice of Broadcast Now Named ""Happy Charlie"". People Wait to Listen
     Again"'
@@ -24,6 +24,6 @@ MonoBehaviour:
   reaction: 0
   hashtags:
   - CommunityBuild
-  - OpenMinded!
-  - RallyTogether!
-  boostCost: 150
+  - JoinTheCAUSE
+  - JoinTheCAUSE
+  boostCost: 50

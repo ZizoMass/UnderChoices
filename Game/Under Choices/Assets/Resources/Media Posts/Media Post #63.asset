@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 63
   day: 2
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 175
+  boostedEngagement: 16000
   publisher: Forbees
   headline: Man Loses Pinkie From Infection And Why You Should be Worried
   imageFilePath: media_post_39
@@ -24,5 +24,5 @@ MonoBehaviour:
   hashtags:
   - WeLostThem
   - ThankYouAll
-  - HardTimes
-  boostCost: 82
+  - I'mSoLost
+  boostCost: 100

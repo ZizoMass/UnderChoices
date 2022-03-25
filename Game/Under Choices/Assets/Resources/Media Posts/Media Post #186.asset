@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 186
   day: 7
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 75
+  boostedEngagement: 11000
   publisher: GloomIce
   headline: '"""Happy Charlie"" Supports A New Government! People Unified!!!"'
   imageFilePath: media_post_162
   subject: 3
   reaction: 0
   hashtags:
-  - RallyTogether!
-  - RallyTogether!
-  - RallyTogether!
-  boostCost: 150
+  - JoinTheCAUSE
+  - OurWayOrHiWay
+  - WEStrong
+  boostCost: 50

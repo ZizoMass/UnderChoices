@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 23
   day: 0
-  baseEngagement: 50
-  boostedEngagement: 15000
+  baseEngagement: 150
+  boostedEngagement: 28000
   publisher: SeeEnEn
   headline: CAUTION! Thousands of Fanatics Punch Paul
   imageFilePath: media_post_23
@@ -23,6 +23,6 @@ MonoBehaviour:
   reaction: 2
   hashtags:
   - MartyrUS!!
-  - AgainstUS!!
-  - Divide&CONQUER
-  boostCost: 90
+  - Messiah
+  - MartyrUS!!
+  boostCost: 100

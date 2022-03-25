@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 134
   day: 5
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 200
+  boostedEngagement: 15000
   publisher: PickMe
   headline: Beloved Singer Taken Ill By The Pandemic
   imageFilePath: media_post_110
   subject: 2
   reaction: 1
   hashtags:
+  - ThankYouAll
   - Drained
-  - God'sPlan
-  - HardTimes
-  boostCost: 145
+  - WeLostThem
+  boostCost: 100

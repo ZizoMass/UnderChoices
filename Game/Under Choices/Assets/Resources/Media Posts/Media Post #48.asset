@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 48
   day: 2
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 75
+  boostedEngagement: 11000
   publisher: UnderChoicesVictim
-  headline: How the Government Can Make You Happier!
+  headline: Crazy Concert Held In Rural Town Square
   imageFilePath: media_post_24
   subject: 0
   reaction: 0
   hashtags:
+  - KeepThemIN!
   - InGoodHands
-  - VoteAgain
-  - GetsThingsDone
-  boostCost: 100
+  - People'sVoice
+  boostCost: 150

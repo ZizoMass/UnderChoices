@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 204
   day: 8
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 75
+  boostedEngagement: 12000
   publisher: SeeEnEn
   headline: Quarantine Protocols In Effect! People Told To Stay At Home!
   imageFilePath: media_post_180
   subject: 2
   reaction: 0
   hashtags:
-  - Safe&Sound
-  - ThankGod
-  - BestWishes
-  boostCost: 134
+  - Hugs&Kisses
+  - BackToUs
+  - 100Sober
+  boostCost: 50

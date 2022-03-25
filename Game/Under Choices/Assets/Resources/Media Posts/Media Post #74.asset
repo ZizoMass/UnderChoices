@@ -15,14 +15,14 @@ MonoBehaviour:
   postNumber: 74
   day: 3
   baseEngagement: 100
-  boostedEngagement: 10000
+  boostedEngagement: 15000
   publisher: Pox
   headline: U.S.A.R Debate Team Loses National Championship
   imageFilePath: media_post_50
   subject: 0
   reaction: 1
   hashtags:
-  - ItsDownhill
-  - ItsOver
-  - I'maSitDown
-  boostCost: 80
+  - WhatAJoke
+  - WeAreDoomed
+  - NoFaith
+  boostCost: 100

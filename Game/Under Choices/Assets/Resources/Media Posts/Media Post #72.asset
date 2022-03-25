@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 72
   day: 3
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 75
+  boostedEngagement: 11000
   publisher: UnderChoicesVictim
   headline: U.S.A.R. Chairmen Crowd Surfs After Speech
   imageFilePath: media_post_48
   subject: 0
   reaction: 0
   hashtags:
-  - 'Saviours '
-  - 'Saviours '
-  - VoteAgain
-  boostCost: 100
+  - GetsThingsDone
+  - ReElect!!!
+  - KeepThemIN!
+  boostCost: 150

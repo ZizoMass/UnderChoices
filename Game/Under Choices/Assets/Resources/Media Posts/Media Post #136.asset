@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 136
   day: 5
-  baseEngagement: 100
-  boostedEngagement: 10000
+  baseEngagement: 350
+  boostedEngagement: 26000
   publisher: Forbees
   headline: Wait Times All Time High
   imageFilePath: media_post_112
   subject: 2
   reaction: 2
   hashtags:
-  - Refund
-  - CrapStaff
-  - Refund
-  boostCost: 175
+  - CrappyHealthCare
+  - UnderStaffed!!
+  - CrappyHealthCare
+  boostCost: 100

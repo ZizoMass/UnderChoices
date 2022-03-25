@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postNumber: 33
   day: 1
-  baseEngagement: 75
-  boostedEngagement: 16000
+  baseEngagement: 175
+  boostedEngagement: 12000
   publisher: UnderChoicesVictim
   headline: Civilian Tackled for Listening to Music!?!
   imageFilePath: media_post_09
   subject: 1
   reaction: 1
   hashtags:
-  - FreeThem
+  - Pathetic
   - GodLeftChat
-  - GodLeftChat
-  boostCost: 89
+  - Lowlife
+  boostCost: 100
