@@ -561,7 +561,7 @@ public class GameController : MonoBehaviour
             StartCoroutine(LoadMessage(_messages, index + 1));
 
         // If there are no more texts in the current message, move on to the next message
-        else if(_messages.Count > 1)
+        else if(_messages.Count > 0)
         {
             _messages.RemoveAt(0);
             messagesTiedToRefresh = _messages;
