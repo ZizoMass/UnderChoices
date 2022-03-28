@@ -154,7 +154,7 @@ MonoBehaviour:
   startGovernmentPoints: 1
   startViolencePoints: 10
   startHealthPoints: 0
-  startRadicalismPoints: 0
+  startRadicalismPoints: 10
   startingFund: 1000
   timerLength: 120
   dayComplete: 0
@@ -3704,7 +3704,7 @@ PrefabInstance:
     - target: {fileID: 7951618680131251600, guid: b34ba5f13d04b06459231320902cbd84,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 23.992891
+      value: 55.123035
       objectReference: {fileID: 0}
     - target: {fileID: 7951618680131251600, guid: b34ba5f13d04b06459231320902cbd84,
         type: 3}
@@ -3719,12 +3719,12 @@ PrefabInstance:
     - target: {fileID: 7951618680131251600, guid: b34ba5f13d04b06459231320902cbd84,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 341.6
+      value: 344.2
       objectReference: {fileID: 0}
     - target: {fileID: 7951618680131251600, guid: b34ba5f13d04b06459231320902cbd84,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 93
+      value: 128.4
       objectReference: {fileID: 0}
     - target: {fileID: 9038462221283954109, guid: b34ba5f13d04b06459231320902cbd84,
         type: 3}

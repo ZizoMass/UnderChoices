@@ -18,7 +18,7 @@ public class GameController : MonoBehaviour
     float playerFunds, timer;
     int currentNight, playerStrikes, currentPage, totalPages;
     int pointsGovernment, pointsViolence, pointsHealth, pointsRadicalism;
-    bool isNewGame = true;
+    bool isNewGame = true, isPlayingMessage;
     MediaPost.Subject dominantSubject;
     NarrativeEvent currentEvent;
     Screen currentScreen;
@@ -121,6 +121,7 @@ public class GameController : MonoBehaviour
         playerFunds = startingFund;
         currentScreen = Screen.Game;
         dayComplete = false;
+        isPlayingMessage = false;
 
         PlayNarrativeEvent();
 
@@ -395,8 +396,11 @@ public class GameController : MonoBehaviour
         }
 
         // Receive phone message
-        if(messagesTiedToRefresh.Count > 0)
+        if(messagesTiedToRefresh.Count > 0 && !isPlayingMessage)
+        {
+            isPlayingMessage = true;
             StartCoroutine(LoadMessage(messagesTiedToRefresh, 0));
+        }
 
         // Update page counter
         currentPage++;
@@ -565,6 +569,7 @@ public class GameController : MonoBehaviour
         {
             _messages.RemoveAt(0);
             messagesTiedToRefresh = _messages;
+            isPlayingMessage = false;
             //StartCoroutine(LoadMessage(_messages, 0));
         }
     }
