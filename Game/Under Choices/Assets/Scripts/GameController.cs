@@ -16,7 +16,7 @@ public class GameController : MonoBehaviour
     [SerializeField] int startDay, startGovernmentPoints = 1, startViolencePoints, startHealthPoints, startRadicalismPoints;
     [SerializeField] float startingFund, timerLength;
     float playerFunds, timer;
-    int currentNight, playerStrikes;
+    int currentNight, playerStrikes, currentPage, totalPages;
     int pointsGovernment, pointsViolence, pointsHealth, pointsRadicalism;
     bool isNewGame = true;
     MediaPost.Subject dominantSubject;
@@ -161,6 +161,10 @@ public class GameController : MonoBehaviour
             if (post.day == currentNight)
                 currentDayPosts.Add(post);
         }
+
+        // Count the pages
+        currentPage = 0;
+        totalPages = (int) Mathf.Ceil(currentDayPosts.Count / 3);
 
         // Randomize posts
         int lastPos = currentDayPosts.Count - 1;
@@ -388,6 +392,10 @@ public class GameController : MonoBehaviour
         // Receive phone message
         if(messagesTiedToRefresh.Count > 0)
             StartCoroutine(LoadMessage(messagesTiedToRefresh, 0));
+
+        // Update page counter
+        currentPage++;
+        GameObject.FindGameObjectWithTag("Day Complete Label").GetComponent<Text>().text = "PAGE " + currentPage + "/" + totalPages;
     }
 
     public void CheckPosts()
