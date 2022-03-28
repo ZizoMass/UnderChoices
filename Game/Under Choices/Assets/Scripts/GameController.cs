@@ -454,14 +454,31 @@ public class GameController : MonoBehaviour
             //Stop all Fmod audio events before return to the title scene
             MasterBus.stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
 
-            ScreenTransition("Title Screen");
+            SelectEnding();
             return;
         }
 
+        // Double all subject points
+        pointsGovernment *= 2;
+        pointsViolence *= 2;
+        pointsHealth *= 2;
+        pointsRadicalism *= 2;
+
+        // Go to next day
         if (playerStrikes < 3)
             ScreenTransition("Game Screen");
+    }
+
+    void SelectEnding()
+    {
+        if(dominantSubject == MediaPost.Subject.Government)
+            ScreenTransition("Ending_Government");
+        else if (dominantSubject == MediaPost.Subject.Violence)
+            ScreenTransition("Title Screen");
+        else if (dominantSubject == MediaPost.Subject.Health)
+            ScreenTransition("Ending_Health");
         else
-            ScreenTransition("Game Over Screen");
+            ScreenTransition("Title Screen");
     }
 
     void CheckScene()

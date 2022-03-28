@@ -151,8 +151,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startDay: 7
-  startGovernmentPoints: 1
-  startViolencePoints: 10
+  startGovernmentPoints: 10
+  startViolencePoints: 0
   startHealthPoints: 0
   startRadicalismPoints: 0
   startingFund: 1000
@@ -996,7 +996,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: PAGE 0/0
 --- !u!222 &520645978
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3266,6 +3266,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5139796697186142679, guid: 15f9d3d3af3415641ace4ae1824cfe90,
+        type: 3}
+      propertyPath: m_TagString
+      value: Radicalism Ending
       objectReference: {fileID: 0}
     - target: {fileID: 5139796697186142680, guid: 15f9d3d3af3415641ace4ae1824cfe90,
         type: 3}

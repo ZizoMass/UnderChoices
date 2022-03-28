@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/IntroScene.unity
     guid: 3af2d0a92f60c234198bd911b6ce69e1
+  - enabled: 1
+    path: Assets/Scenes/Ending_Health.unity
+    guid: 1a6edcffef7ceaa4db03c60d938bd11e
+  - enabled: 1
+    path: Assets/Scenes/Ending_Government.unity
+    guid: a3f0a89146381dc42a89367155876c9b
   m_configObjects: {}
