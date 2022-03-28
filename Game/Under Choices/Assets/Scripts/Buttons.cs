@@ -52,6 +52,11 @@ public class Buttons : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,
         FindObjectOfType<GameController>().ScreenTransition("Load Screen");
     }
 
+    public void Credits()
+    {
+        FindObjectOfType<GameController>().ScreenTransition("Credits Screen");
+    }
+
     public void HowToPlay()
     {
         FindObjectOfType<GameController>().ScreenTransition("How to Play Screen");
@@ -91,6 +96,11 @@ public class Buttons : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,
     public void CloseEmail()
     {
         transform.parent.gameObject.SetActive(false);
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
     }
 
     public IEnumerator Disable()
