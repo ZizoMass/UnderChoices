@@ -26,7 +26,7 @@ public class GameController : MonoBehaviour
 
     // Game objects
     GameObject playerFundsDisplay, currentNightDisplay, timerDisplay, postSpawnPoint, postTemplate, screen, primaryOrders, secondaryOrders, strikesDisplay, messageSpawn,
-        messageTemplate;
+        messageTemplate, radicalismEnding;
     Scene currentScene;
     List<MediaPost> mediaPosts, currentDayPosts, boostedPosts;
     List<BossOrder> bossOrders, currentOrders, completedOrders;
@@ -135,6 +135,11 @@ public class GameController : MonoBehaviour
         screen = GameObject.FindGameObjectWithTag("Screen");
         primaryOrders = GameObject.FindGameObjectWithTag("Primary Orders Display");
         secondaryOrders = GameObject.FindGameObjectWithTag("Secondary Orders Display");
+        radicalismEnding = GameObject.FindGameObjectWithTag("Radicalism Ending");
+
+        // If it's not the radicalism ending event, hide the radicalism ending
+        if (currentNight != 8 || dominantSubject != MediaPost.Subject.Radicalism)
+            radicalismEnding.SetActive(false);
 
         if (currentNight != 0)
             GameObject.FindGameObjectWithTag("Tutorial Email").SetActive(false);
