@@ -15,10 +15,10 @@ MonoBehaviour:
   messageNumber: 23
   correspondingEvent: 27
   messages:
-  - I am sending this under the suspicion that someone in our company has been intentionally
-    sending out postings to help with the anti government movement.
+  - Someone in our company has been intentionally sending out postings to help with
+    the anti-government movement.
   - UCE has reasons to believe you may be the culprit, as your recent chosen postings
-    have been linked back to some anti government propaganda.
-  - If you are doing this on purpose, this is the one and final warning to stop before
-    we take action.
+    have been linked back to some anti-government propaganda.
+  - If you are doing this on purpose, this is your only warning to stop before we
+    take action.
   character: 1

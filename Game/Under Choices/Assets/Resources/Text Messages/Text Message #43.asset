@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa5b042174d89b140a2b7e16233de8e4, type: 3}
+  m_Name: Text Message #43
+  m_EditorClassIdentifier: 
+  messageNumber: 43
+  correspondingEvent: 29
+  messages:
+  - Hey now, pivete. Are you the one putting all this anti-gov crap all over the
+    news?
+  - This stuffs blocking up my business with some of the feds I've been dealing with,
+    and I gotta keep all my customers happy.
+  - If I find out it's you whose been pulling this crap, you'll be sorry ya hear?
+  character: 2

@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aa5b042174d89b140a2b7e16233de8e4, type: 3}
-  m_Name: Text Message #6
+  m_Name: Text Message #53
   m_EditorClassIdentifier: 
-  messageNumber: 6
-  correspondingEvent: 1
+  messageNumber: 53
+  correspondingEvent: 6
   messages:
-  - Welcome to your first day working for us at Under Choices Entertainment.
-  - I've added your personal number to allow for more direct communication if necessary.
-  - I hope that you enjoy your time working for us and that you abide by our expectations.
-  character: 1
+  - Hey Moleque! I heard the government just started a new system to make jobs for
+    everybody.
+  - Did you have something to do with this? No no, no need to tell me, I can already
+    tell. You're doing well, Nephew.
+  character: 0

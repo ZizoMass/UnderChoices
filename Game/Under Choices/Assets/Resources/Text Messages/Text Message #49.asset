@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aa5b042174d89b140a2b7e16233de8e4, type: 3}
-  m_Name: Text Message #6
+  m_Name: Text Message #49
   m_EditorClassIdentifier: 
-  messageNumber: 6
-  correspondingEvent: 1
+  messageNumber: 49
+  correspondingEvent: 4
   messages:
-  - Welcome to your first day working for us at Under Choices Entertainment.
-  - I've added your personal number to allow for more direct communication if necessary.
-  - I hope that you enjoy your time working for us and that you abide by our expectations.
-  character: 1
+  - Did you hear that our neighbours are cutting off financial aid to us?
+  - We should find out why.
+  character: 3

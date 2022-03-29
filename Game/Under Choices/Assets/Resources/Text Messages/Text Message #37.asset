@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa5b042174d89b140a2b7e16233de8e4, type: 3}
+  m_Name: Text Message #37
+  m_EditorClassIdentifier: 
+  messageNumber: 37
+  correspondingEvent: 23
+  messages:
+  - You've done great cara. After tonight, me, you and all the other boys of mine
+    will sipping on champagne in a place far from here, while this place funnels
+    money into our wallets.
+  - Make it through tonight and I'll send a private transport with some of my best
+    guys to pick you up.
+  - You ain't never gonna live in a cruddy place like that again, I'll tell you that.
+  character: 2

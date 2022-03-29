@@ -15,7 +15,7 @@ MonoBehaviour:
   messageNumber: 13
   correspondingEvent: 11
   messages:
-  - I figured I'd issue a warning to certain staff members to try and stay inside
-    your homes for the time being.
-  - We don't want to risk our vital employess getting sick at this point in time.
+  - This is a warning to certain staff members to stay inside your homes for the
+    time being.
+  - We don't want to risk our vital employees getting sick at this point in time.
   character: 1

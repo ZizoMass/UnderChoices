@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa5b042174d89b140a2b7e16233de8e4, type: 3}
+  m_Name: Text Message #32
+  m_EditorClassIdentifier: 
+  messageNumber: 32
+  correspondingEvent: 20
+  messages:
+  - Now that's what I'm talking about! You keep this up, and you'll be living like
+    me, I'm serious fella.
+  - Now while, you keep their spirits high for their revolution or whatever, I'm
+    gonna be setting myself up with some of my gov contacts to see about where I
+    can make the most money here.
+  - Don't worry, I'll make sure your folks back here are safe from the crazies and
+    that you get a fat stack of cash on your desk.
+  - Stick with me and you'll be going far.
+  character: 2

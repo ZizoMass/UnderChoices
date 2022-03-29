@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aa5b042174d89b140a2b7e16233de8e4, type: 3}
-  m_Name: Text Message #6
+  m_Name: Text Message #41
   m_EditorClassIdentifier: 
-  messageNumber: 6
-  correspondingEvent: 1
+  messageNumber: 41
+  correspondingEvent: 28
   messages:
-  - Welcome to your first day working for us at Under Choices Entertainment.
-  - I've added your personal number to allow for more direct communication if necessary.
-  - I hope that you enjoy your time working for us and that you abide by our expectations.
-  character: 1
+  - Number two was a success! We've pulled a large amount of people to our cause
+    now, but we've drawn the eye of the government.
+  - Watch yourself, they might be on to you. Try and lay low for now and I'll see
+    what we can do to help you out.
+  character: 3

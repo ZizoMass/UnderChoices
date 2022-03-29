@@ -15,8 +15,8 @@ MonoBehaviour:
   messageNumber: 8
   correspondingEvent: 3
   messages:
-  - As you may have heard from recent news, the country takes loyalty and obedience
-    very seriously.
-  - I'd like this to be a reminder to do your job properly, lest the U.S.A.R. hear
-    about your potentially criminal behaviour.
+  - Good Evening! According to our records and reports, you are doing quite well.
+  - I will further incentivize you to continue doing your job properly by promising
+    future pay raises and a potential seat inside the company.
+  - Keep up the good work, and you will be rewarded properly.
   character: 1

@@ -15,6 +15,6 @@ MonoBehaviour:
   messageNumber: 2
   correspondingEvent: 0
   messages:
-  - Good Morning. This is your boss Braga Filha.
-  - I hope to further speak with you as you work in our news department.
+  - Good Morning. I am Braga Filha, your boss.
+  - I will speak with you further as you work in our news department.
   character: 1

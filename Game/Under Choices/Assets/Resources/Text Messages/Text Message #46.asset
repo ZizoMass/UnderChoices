@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa5b042174d89b140a2b7e16233de8e4, type: 3}
+  m_Name: Text Message #46
+  m_EditorClassIdentifier: 
+  messageNumber: 46
+  correspondingEvent: 32
+  messages:
+  - We did it! They've been forced to call a vote.
+  - And with the amount of people now armed with the knowledge of their malpractice,
+    there's no way they'll win the vote.
+  - It's... I just... Thank you. We couldn't have made this change without you.
+  - I want you to do something. One last, little thing.
+  - Look out the window. I hope you can see us.
+  character: 3

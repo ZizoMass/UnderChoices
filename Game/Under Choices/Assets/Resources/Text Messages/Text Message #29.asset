@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa5b042174d89b140a2b7e16233de8e4, type: 3}
+  m_Name: Text Message #29
+  m_EditorClassIdentifier: 
+  messageNumber: 29
+  correspondingEvent: 14
+  messages:
+  - Hey Moleque... Listen, I'm alright, but the doctor's are telling me I got that
+    new flu that's been going around.
+  - You don't need to be worrying about me though. Me and your father had been through
+    much worse when he was still around ya know.
+  - The govs gonna be getting me some new meds meant to help with it tomorrow.
+  - I'll be speaking to you alright? Love ya Moleque.
+  character: 0
