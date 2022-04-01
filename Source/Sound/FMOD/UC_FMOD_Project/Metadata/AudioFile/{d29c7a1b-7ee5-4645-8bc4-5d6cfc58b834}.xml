@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{d29c7a1b-7ee5-4645-8bc4-5d6cfc58b834}">
+		<property name="assetPath">
+			<value>Footsteps-Stairwell-Reverberant-Stairwell-Doo_GEN-HD3-34548.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>31.927437641723355</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{36af30cc-5272-4926-b57a-dc42473e27a5}</destination>
+		</relationship>
+	</object>
+</objects>

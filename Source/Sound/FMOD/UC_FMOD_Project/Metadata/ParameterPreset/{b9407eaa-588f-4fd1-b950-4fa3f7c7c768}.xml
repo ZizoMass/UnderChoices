@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{b9407eaa-588f-4fd1-b950-4fa3f7c7c768}">
+		<property name="name">
+			<value>Light flash</value>
+		</property>
+		<relationship name="folder">
+			<destination>{2d361add-2ea3-49bb-899f-1b47ee9fc9c5}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{5220e0ae-98b2-48db-bc8b-d5c72c2e30cb}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{5220e0ae-98b2-48db-bc8b-d5c72c2e30cb}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>101</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
