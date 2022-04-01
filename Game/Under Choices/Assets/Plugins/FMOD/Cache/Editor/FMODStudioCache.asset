@@ -621,6 +621,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
+--- !u!114 &-5264582757113785426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Video Sound/Violence End
+  m_EditorClassIdentifier: 
+  Path: event:/Video Sound/Violence End
+  Guid:
+    Data1: 630181653
+    Data2: 1132215404
+    Data3: -1926088024
+    Data4: 680810210
+  Banks:
+  - {fileID: 6398807348117836872}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 6442953305041070768}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 51666
 --- !u!114 &-5170647444482670255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1210,13 +1238,14 @@ MonoBehaviour:
   - {fileID: -5608860678383203300}
   - {fileID: -8230240342536711248}
   - {fileID: -6990846505499921920}
+  - {fileID: -5264582757113785426}
   EditorParameters:
   - {fileID: -3440347315059957221}
   MasterBanks:
   - {fileID: 6398807348117836872}
   StringsBanks:
   - {fileID: 3200927353117285521}
-  cacheTime: 637838068017913514
+  cacheTime: 637843768140774382
   cacheVersion: 10
 --- !u!114 &214129236277623169
 MonoBehaviour:
@@ -1422,10 +1451,10 @@ MonoBehaviour:
   Path: ../../Source/Sound/FMOD/UC_FMOD_Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637838068017913514
+  lastModified: 637843768140774382
   FileSizes:
   - Name: Desktop
-    Value: 2322
+    Value: 2418
   Exists: 1
 --- !u!114 &3546225441122745037
 MonoBehaviour:
@@ -1631,10 +1660,34 @@ MonoBehaviour:
   Path: ../../Source/Sound/FMOD/UC_FMOD_Project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637838068017903512
+  lastModified: 637843768140694309
   FileSizes:
   - Name: Desktop
-    Value: 3972736
+    Value: 4506112
+  Exists: 1
+--- !u!114 &6442953305041070768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Violence End/Light flash
+  m_EditorClassIdentifier: 
+  Name: Light flash
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2711551601
+    data2: 3377878668
+  Type: 1
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &6592878309787002136
 MonoBehaviour:
