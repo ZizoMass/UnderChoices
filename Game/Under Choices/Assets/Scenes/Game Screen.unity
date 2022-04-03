@@ -150,10 +150,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ff0338fc292b0245a8d4cce25e1dfa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startDay: 0
+  startDay: 8
   startGovernmentPoints: 1
   startViolencePoints: 0
-  startHealthPoints: 0
+  startHealthPoints: 10
   startRadicalismPoints: 0
   startingFund: 1000
   timerLength: 120

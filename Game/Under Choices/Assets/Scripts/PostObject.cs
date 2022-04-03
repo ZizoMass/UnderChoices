@@ -99,7 +99,7 @@ public class PostObject : MonoBehaviour, IPointerDownHandler, IBeginDragHandler,
 
     public void OnDrag(PointerEventData eventData)
     {
-        rectTransform.anchoredPosition += eventData.delta;
-        isScrolling = false;
+        /*rectTransform.anchoredPosition += eventData.delta;
+        isScrolling = false;*/
     }
 }
