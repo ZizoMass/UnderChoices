@@ -150,7 +150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ff0338fc292b0245a8d4cce25e1dfa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startDay: 8
+  startDay: 7
   startGovernmentPoints: 1
   startViolencePoints: 0
   startHealthPoints: 10

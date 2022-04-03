@@ -164,6 +164,9 @@ public class GameController : MonoBehaviour
             // Load current day media posts
         foreach (MediaPost post in mediaPosts)
         {
+            if (currentNight == 8 && post.subject != dominantSubject)
+                continue;
+
             if (post.day == currentNight)
                 currentDayPosts.Add(post);
         }
