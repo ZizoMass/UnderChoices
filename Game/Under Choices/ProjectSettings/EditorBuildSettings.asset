@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ending_Government.unity
     guid: a3f0a89146381dc42a89367155876c9b
+  - enabled: 1
+    path: Assets/Scenes/Ending_Violence.unity
+    guid: 4edcf4b4bb908484a93e0b77489897cb
   m_configObjects: {}

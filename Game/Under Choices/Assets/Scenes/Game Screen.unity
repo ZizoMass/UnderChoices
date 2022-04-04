@@ -150,10 +150,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ff0338fc292b0245a8d4cce25e1dfa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startDay: 7
+  startDay: 0
   startGovernmentPoints: 1
   startViolencePoints: 0
-  startHealthPoints: 10
+  startHealthPoints: 0
   startRadicalismPoints: 0
   startingFund: 1000
   timerLength: 120
@@ -1249,6 +1249,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9038462221283954109, guid: b34ba5f13d04b06459231320902cbd84,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 9038462221283954109, guid: b34ba5f13d04b06459231320902cbd84,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.019
+      objectReference: {fileID: 0}
     - target: {fileID: 9117682017478478751, guid: b34ba5f13d04b06459231320902cbd84,
         type: 3}
       propertyPath: eventType
@@ -1539,7 +1549,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 714253591}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 339.33344, y: 75.60745, z: -4050.3992}
+  m_LocalPosition: {x: 342.8, y: 76.1, z: -4050.3992}
   m_LocalScale: {x: 23.90012, y: 23.90012, z: 23.90012}
   m_Children: []
   m_Father: {fileID: 745999015}

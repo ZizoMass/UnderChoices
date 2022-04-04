@@ -379,10 +379,12 @@ public class GameController : MonoBehaviour
     public void RefreshSet()
     {
         // Clear current set
-        for(int j = currentPostSet.Count - 1; j >= 0; j--)
-            Destroy(currentPostSet[j]);
+        for (int j = currentPostSet.Count - 1; j >= 0; j--)
+            StartCoroutine(RemovePost(currentPostSet[j]));
 
-        // Load new set
+        currentPostSet.Clear();
+
+            // Load new set
         for (int i = 0; i < postSpawnPointSet.Count; i++)
         {
             if (currentDayPosts.Count <= 0)
@@ -481,7 +483,7 @@ public class GameController : MonoBehaviour
         if(dominantSubject == MediaPost.Subject.Government)
             ScreenTransition("Ending_Government");
         else if (dominantSubject == MediaPost.Subject.Violence)
-            ScreenTransition("Title Screen");
+            ScreenTransition("Ending_Violence");
         else if (dominantSubject == MediaPost.Subject.Health)
             ScreenTransition("Ending_Health");
         else
@@ -532,6 +534,17 @@ public class GameController : MonoBehaviour
             eventNum = 5;
 
         GameObject.FindObjectOfType<event_animation_manager>().eventType = (event_animation_manager.Event) eventNum;
+    }
+
+    IEnumerator RemovePost(GameObject post)
+    {
+        // Play slide out animation
+        post.GetComponent<PostObject>().animator.SetTrigger("Slide Out");
+
+        yield return new WaitForSeconds(1);
+
+        // Remove post
+        Destroy(post);
     }
 
     IEnumerator LoadDelay(string screenName)
