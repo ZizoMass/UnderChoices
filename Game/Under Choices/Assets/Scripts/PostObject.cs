@@ -18,6 +18,7 @@ public class PostObject : MonoBehaviour, IPointerDownHandler, IBeginDragHandler,
     [HideInInspector] public MediaPost mediaPost;
     public GameObject template, publisher, headline, image, reaction, engagement, boostCost;
     public List<GameObject> hashtags;
+    public Animator animator;
     [HideInInspector] public bool isBoosted;
 
     RectTransform rectTransform;
@@ -79,7 +80,7 @@ public class PostObject : MonoBehaviour, IPointerDownHandler, IBeginDragHandler,
     public void Boost()
     {
         isBoosted = true;
-        engagement.GetComponent<Text>().text = mediaPost.boostedEngagement.ToString();
+        StartCoroutine(Increment());
     }
 
     public void OnPointerDown(PointerEventData eventData)
@@ -99,7 +100,37 @@ public class PostObject : MonoBehaviour, IPointerDownHandler, IBeginDragHandler,
 
     public void OnDrag(PointerEventData eventData)
     {
-        rectTransform.anchoredPosition += eventData.delta;
-        isScrolling = false;
+        /*rectTransform.anchoredPosition += eventData.delta;
+        isScrolling = false;*/
+    }
+
+    IEnumerator Increment()
+    {
+        int endValue = mediaPost.boostedEngagement;
+
+        // 1/5 increment
+        yield return new WaitForSeconds(.5f);
+        animator.SetTrigger("Boost");
+        engagement.GetComponent<Text>().text = ( (int) (endValue / 5) ).ToString();
+
+        // 2/5 increment
+        yield return new WaitForSeconds(.5f);
+        animator.SetTrigger("Boost");
+        engagement.GetComponent<Text>().text = ( (int) ( 2 * endValue / 5) ).ToString();
+
+        // 3/5 increment
+        yield return new WaitForSeconds(.5f);
+        animator.SetTrigger("Boost");
+        engagement.GetComponent<Text>().text = ( (int) ( 3 * endValue / 5) ).ToString();
+
+        // 4/5 increment
+        yield return new WaitForSeconds(.5f);
+        animator.SetTrigger("Boost");
+        engagement.GetComponent<Text>().text = ( (int) ( 4 * endValue / 5) ).ToString();
+
+        // Display final value
+        yield return new WaitForSeconds(.5f);
+        animator.SetTrigger("Boost");
+        engagement.GetComponent<Text>().text = endValue.ToString();
     }
 }
