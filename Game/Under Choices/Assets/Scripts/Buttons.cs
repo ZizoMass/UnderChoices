@@ -95,6 +95,7 @@ public class Buttons : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,
 
     public void CloseEmail()
     {
+        FindObjectOfType<GameController>().PlayNarrativeEvent();
         transform.parent.gameObject.SetActive(false);
     }
 

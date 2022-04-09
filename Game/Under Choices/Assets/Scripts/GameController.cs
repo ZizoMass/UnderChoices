@@ -123,7 +123,9 @@ public class GameController : MonoBehaviour
         dayComplete = false;
         isPlayingMessage = false;
 
-        PlayNarrativeEvent();
+        // Play the narrative event/text messages, unless it's day 0
+        if(currentNight != 0)
+            PlayNarrativeEvent();
 
         // Load game objects
         playerFundsDisplay = GameObject.FindGameObjectWithTag("Player Funds Display");
@@ -325,7 +327,7 @@ public class GameController : MonoBehaviour
             dominantSubject = MediaPost.Subject.Radicalism;
     }
 
-    void PlayNarrativeEvent()
+    public void PlayNarrativeEvent()
     {
         FindDominantSubject();
 
