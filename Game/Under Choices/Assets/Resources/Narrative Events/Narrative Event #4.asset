@@ -15,5 +15,5 @@ MonoBehaviour:
   eventNumber: 4
   day: 4
   eventName: Temp
-  effect: None
+  effect: Speech
   subject: 0
