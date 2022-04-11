@@ -723,12 +723,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Your Uncle Alexandre hopes you are staying safe.
+  m_text: 'The government has been brought down.
 
-    Mc Leqkin and Patricia
-    wonder where you are.
+    Your Uncle Alexandre calls
+    you to ask you about what is happening.
 
-'
+    Patricia calls to thank you for
+    helping bring down the government.
+
+    Mc Leqkin calls to ask if you can hang
+    out with him later.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
