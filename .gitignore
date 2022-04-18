@@ -23,3 +23,4 @@ Game/Under Choices/Assets/ArticyImporter/Content/Generated/ArticyEditorSettings.
 # Log files can be ignored.
 fmod_editor.log
 *.log
+*.log
