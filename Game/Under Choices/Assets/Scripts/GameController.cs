@@ -10,18 +10,16 @@ using UnityEngine.UI;
 public class GameController : MonoBehaviour
 {
     public static GameController Instance { get; private set; }
-    enum Screen { Title, Game, Load };
 
     // Game data
     [SerializeField] int startDay, startGovernmentPoints = 1, startViolencePoints, startHealthPoints, startRadicalismPoints;
     [SerializeField] float startingFund, timerLength;
-    float playerFunds, timer;
-    int currentNight, playerStrikes, currentPage, totalPages;
+    float playerFunds;
+    int currentNight, currentPage, totalPages;
     int pointsGovernment, pointsViolence, pointsHealth, pointsRadicalism;
     bool isNewGame = true, isPlayingMessage;
     MediaPost.Subject dominantSubject;
     NarrativeEvent currentEvent;
-    Screen currentScreen;
     [HideInInspector] public bool dayComplete;
 
     // Game objects
@@ -39,6 +37,7 @@ public class GameController : MonoBehaviour
 
     private void Awake()
     {
+        // Check for singleton
         if(Instance != null && Instance != this)
         {
             Destroy(this.gameObject);
@@ -75,22 +74,9 @@ public class GameController : MonoBehaviour
         MasterBus = FMODUnity.RuntimeManager.GetBus("Bus:/");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        // Update timer when on the game screen
-        /*if(currentScreen == Screen.Game)
-        {
-            timer -= Time.deltaTime;
-            if (timer < 0)
-                timer = 0;
-
-            UpdateTimer();
-        }*/
-    }
-
     void LoadInitialValues()
     {
+        // Initialize values for a new game
         currentNight = startDay;
         pointsGovernment = startGovernmentPoints;
         pointsViolence = startViolencePoints;
@@ -102,13 +88,8 @@ public class GameController : MonoBehaviour
 
     public void NewGame()
     {
+        // Begin a new game
         LoadInitialValues();
-        playerStrikes = 0;
-    }
-
-    void LoadTitleScreen()
-    {
-        currentScreen = Screen.Title;
     }
 
     void LoadGameScreen()
@@ -119,7 +100,6 @@ public class GameController : MonoBehaviour
             LoadInitialValues();
 
         playerFunds = startingFund;
-        currentScreen = Screen.Game;
         dayComplete = false;
         isPlayingMessage = false;
 
@@ -147,23 +127,7 @@ public class GameController : MonoBehaviour
         if (currentNight != 0)
             GameObject.FindGameObjectWithTag("Tutorial Email").SetActive(false);
 
-        /*int postCount = -1;
-
         // Load current day media posts
-        foreach(MediaPost post in mediaPosts)
-        {
-            if (post.day == currentNight)
-            {
-                postCount++;
-                GameObject newPost = Instantiate(postTemplate, new Vector2(postSpawnPoint.transform.position.x, postSpawnPoint.transform.position.y 
-                    - postCount * 2.5f), Quaternion.identity);
-                newPost.GetComponent<PostObject>().SetPost(post);
-                newPost.transform.SetParent(screen.transform);
-
-            }
-        }*/
-
-            // Load current day media posts
         foreach (MediaPost post in mediaPosts)
         {
             if (currentNight == 8 && post.subject != dominantSubject)
@@ -200,47 +164,13 @@ public class GameController : MonoBehaviour
         }
 
         UpdatePlayerFunds();
-        UpdateCurrentNight();
-        UpdateTimer();
         UpdateOrders();
-        UpdateStrikes();
         RefreshSet();
-    }
-
-    void LoadFileScreen()
-    {
-        // Currently unused
     }
 
     void UpdatePlayerFunds()
     {
         playerFundsDisplay.GetComponent<Text>().text = "R$" + playerFunds;
-    }
-
-    void UpdateCurrentNight()
-    {
-        currentNightDisplay.GetComponent<Text>().text = "NIGHT " + currentNight;
-    }
-
-    void UpdateTimer()
-    {
-        /*if (currentScreen != Screen.Game)
-            return;
-
-        if (timer <= 0)
-            ScreenTransition("Title Screen");
-        else
-            timerDisplay.GetComponent<Text>().text = TimeSpan.FromSeconds(timer).ToString(@"mm\:ss");*/
-    }
-
-    void UpdateStrikes()
-    {
-        if (playerStrikes <= 0)
-            return;
-
-        strikesDisplay.GetComponent<Text>().text = "Strikes:";
-        for (int i = 0; i < playerStrikes; i++)
-            strikesDisplay.GetComponent<Text>().text += " X";
     }
 
     void UpdateOrders()
@@ -266,22 +196,6 @@ public class GameController : MonoBehaviour
 
                 if (doesMatch)
                     order.progress++;
-
-                /*// If subject required, check if the subject matches
-                if (order.anyReaction && post.subject == order.subject)
-                    order.progress++;
-
-                // If reaction required, check if the reaction matches
-                else if (order.anySubject && post.reaction == order.reaction)
-                    order.progress++;
-
-                // If both required, check if both matches
-                else if (post.subject == order.subject && post.reaction == order.reaction)
-                    order.progress++;
-                
-                // If neither required, just increase
-                else if (order.anySubject && order.anyReaction)
-                    order.progress++;*/
             }
 
             if (order.type == BossOrder.Type.Primary)
@@ -475,9 +389,7 @@ public class GameController : MonoBehaviour
         pointsHealth *= 2;
         pointsRadicalism *= 2;
 
-        // Go to next day
-        if (playerStrikes < 3)
-            ScreenTransition("Game Screen");
+        ScreenTransition("Game Screen");
     }
 
     void SelectEnding()
@@ -496,12 +408,8 @@ public class GameController : MonoBehaviour
     {
         currentScene = SceneManager.GetActiveScene();
 
-        if (currentScene.name == "Title Screen")
-            LoadTitleScreen();
-        else if (currentScene.name == "Game Screen")
+        if (currentScene.name == "Game Screen")
             LoadGameScreen();
-        else if (currentScene.name == "Load Screen")
-            LoadFileScreen();
     }
 
     public void ScreenTransition(string screenName)
