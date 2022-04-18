@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: Boss Order #33
   m_EditorClassIdentifier: 
   orderNumber: 33
-  day: 5
-  numberToBoost: 0
+  day: 2
+  numberToBoost: 1
   anySubject: 0
-  anyReaction: 0
-  dontBoost: 1
+  anyReaction: 1
+  dontBoost: 0
   publisher: None
-  subject: 0
-  narrativeSubject: 3
+  subject: 2
+  narrativeSubject: 2
   reaction: 0
   type: 1
   progress: 0

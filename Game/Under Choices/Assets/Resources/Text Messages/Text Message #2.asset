@@ -15,6 +15,11 @@ MonoBehaviour:
   messageNumber: 2
   correspondingEvent: 0
   messages:
-  - Good Morning. I am Braga Filha, your boss.
-  - I will speak with you further as you work in our news department.
+  - Good evening, and welcome to your trial shift. I am Braga Filha, your boss.
+  - Your shift today is solely to better your understanding of your position.
+  - Remember to make your choices before refreshing the page.
+  - You can't go back to previous posts, we'll have already taken them out of our
+    system.
+  - Lastly, your orders from us are curated to get us the most public engagement.
+    Follow them.
   character: 1

@@ -21,7 +21,7 @@ MonoBehaviour:
   publisher: None
   subject: 2
   narrativeSubject: 0
-  reaction: 0
+  reaction: 1
   type: 0
   progress: 0
   isComplete: 0

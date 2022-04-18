@@ -15,8 +15,8 @@ MonoBehaviour:
   messageNumber: 53
   correspondingEvent: 6
   messages:
-  - Hey Moleque! I heard the government just started a new system to make jobs for
-    everybody.
-  - Did you have something to do with this? No no, no need to tell me, I can already
-    tell. You're doing well, Nephew.
+  - Hey Moleque. The recent news is really bogging things down around here.
+  - I haven't seen my neighbour leave his house in days.
+  - "I hope we can meet up soon\u2026"
+  - ' Please.'
   character: 0

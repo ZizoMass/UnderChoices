@@ -15,7 +15,6 @@ MonoBehaviour:
   messageNumber: 57
   correspondingEvent: 8
   messages:
-  - Hey Moleque!
-  - So now you're a high-ranking member of the government, eh?
-  - That's pretty good! I'm so proud of you!
+  - "Hey Moleque\u2026 On second thought, you don't need to come visit your old uncle."
+  - There's clearly no need...
   character: 0

@@ -16,7 +16,7 @@ MonoBehaviour:
   day: 3
   numberToBoost: 1
   anySubject: 0
-  anyReaction: 0
+  anyReaction: 1
   dontBoost: 0
   publisher: None
   subject: 0

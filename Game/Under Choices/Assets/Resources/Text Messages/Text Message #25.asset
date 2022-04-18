@@ -17,8 +17,9 @@ MonoBehaviour:
   messages:
   - I take pleasure in informing you that you have no orders today, as we have discerned
     the source of our inappropriately posted news adverts.
-  - You. Your work term has been terminated and company officials are on route to
-    retrieve company property from your home.
+  - You.
+  - Your work term has been terminated and company officials are on route to retrieve
+    company property from your home.
   - You will no longer be able to injure and herd the people of our glorious country.
     Good night and good riddance.
   character: 1

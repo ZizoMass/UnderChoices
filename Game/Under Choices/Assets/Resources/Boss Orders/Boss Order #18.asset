@@ -19,9 +19,9 @@ MonoBehaviour:
   anyReaction: 0
   dontBoost: 1
   publisher: None
-  subject: 0
+  subject: 1
   narrativeSubject: 0
-  reaction: 1
+  reaction: 0
   type: 0
   progress: 0
   isComplete: 0
