@@ -15,7 +15,7 @@ MonoBehaviour:
   messageNumber: 13
   correspondingEvent: 11
   messages:
-  - This is a warning to certain staff members to stay inside your homes for the
-    time being.
+  - This is a standard warning to certain staff members to stay inside your homes
+    for the time being.
   - We don't want to risk our vital employees getting sick at this point in time.
   character: 1

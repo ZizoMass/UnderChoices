@@ -15,7 +15,8 @@ MonoBehaviour:
   messageNumber: 56
   correspondingEvent: 8
   messages:
-  - How's it feel to be working with the higher ups?
-  - I imagine you'll want to move out of your current home and look for a nicer place.
-  - Let me know and I will arrange to have a place prepared for you.
+  - Very well done. You've proven successful enough for us to consider hiring you
+    on at a higher position.
+  - I hope you enjoy the rewards that have come from you efforts with the UCE.
+  - I'll be speaking with you about your future here.
   character: 1

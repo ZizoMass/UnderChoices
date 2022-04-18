@@ -15,7 +15,8 @@ MonoBehaviour:
   messageNumber: 6
   correspondingEvent: 1
   messages:
-  - Welcome to your first day working for us at Under Choices Entertainment.
+  - Welcome to your first official day working for us at Under Choices Entertainment.
   - I've added your personal number to allow for more direct communication if necessary.
   - I hope that you enjoy your time working for us and that you abide by our expectations.
+  - Remember, social media is a powerful tool and everyone is affected by it.
   character: 1

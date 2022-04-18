@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Boss Order #24
   m_EditorClassIdentifier: 
   orderNumber: 24
-  day: 2
+  day: 3
   numberToBoost: 1
   anySubject: 0
   anyReaction: 0
@@ -21,7 +21,7 @@ MonoBehaviour:
   publisher: None
   subject: 1
   narrativeSubject: 1
-  reaction: 0
+  reaction: 1
   type: 1
   progress: 0
   isComplete: 0

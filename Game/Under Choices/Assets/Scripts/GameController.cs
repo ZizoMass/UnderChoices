@@ -488,8 +488,8 @@ public class GameController : MonoBehaviour
             ScreenTransition("Ending_Violence");
         else if (dominantSubject == MediaPost.Subject.Health)
             ScreenTransition("Ending_Health");
-        else
-            ScreenTransition("Title Screen");
+        else if (dominantSubject == MediaPost.Subject.Radicalism)
+            ScreenTransition("Ending_Radicalism");
     }
 
     void CheckScene()

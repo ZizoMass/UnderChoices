@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class Buttons : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler
 {
-    public bool isBoostButton;
+    public bool isBoostButton, isGeneralButton;
     public bool isEmailButton;
 
     //Reference to the Fmod master bus
@@ -123,13 +123,23 @@ public class Buttons : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,
             GetComponent<Image>().sprite = Resources.Load<Sprite>("Media Post Assets/media_post_button_OnHover");
             //Play the mouse over button sound
             FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/UI/ButtonOver");
-        }  
+        }
+
+        if (isGeneralButton && GetComponent<Button>().interactable == true)
+        {
+            GetComponent<Image>().sprite = Resources.Load<Sprite>("Media Post Assets/button_general_HOVER");
+            //Play the mouse over button sound
+            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/UI/ButtonOver");
+        }
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
         if (isBoostButton && GetComponent<Button>().interactable == true)
             GetComponent<Image>().sprite = Resources.Load<Sprite>("Media Post Assets/media_post_button_Default_Button");
+
+        if (isGeneralButton && GetComponent<Button>().interactable == true)
+            GetComponent<Image>().sprite = Resources.Load<Sprite>("Media Post Assets/button_general_DEFAULT");
     }
 
     public void OnPointerDown(PointerEventData eventData)
@@ -137,6 +147,13 @@ public class Buttons : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,
         if (isBoostButton && GetComponent<Button>().interactable == true)
         {
             GetComponent<Image>().sprite = Resources.Load<Sprite>("Media Post Assets/media_post_button_OnClick");
+            //Play the click button sound
+            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/UI/ButtonClick");
+        }
+
+        if (isGeneralButton && GetComponent<Button>().interactable == true)
+        {
+            GetComponent<Image>().sprite = Resources.Load<Sprite>("Media Post Assets/button_general_ON_CLICK");
             //Play the click button sound
             FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/UI/ButtonClick");
         }

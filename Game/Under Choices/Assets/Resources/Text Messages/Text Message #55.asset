@@ -15,5 +15,6 @@ MonoBehaviour:
   messageNumber: 55
   correspondingEvent: 7
   messages:
-  - Exemplary work so far! Keep it up and you won't end up like your predecessors.
+  - The results we've been receiving have been exemplary so far. You've learned well
+    from our techniques. Today we've left it to you to work with what you've learned.
   character: 1

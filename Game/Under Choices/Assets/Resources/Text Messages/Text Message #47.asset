@@ -15,8 +15,10 @@ MonoBehaviour:
   messageNumber: 47
   correspondingEvent: 4
   messages:
-  - Financial coverage from neighbouring countries has been discontinued recently.
-    Keep the public distracted while we find a way to fix this issue.
-  - Keep the public eye on the positives about the government. Do NOT fail us, or
-    you'll be fired!
+  - Recent events have sparked tragedies and controversy within the U.S.A.R., which
+    you will likely see in the posts today.
+  - Your orders have been submitted, and I will remind you to follow the trends of
+    negativity to nurture our ratings.
+  - It is proven that the more negative and outlandish a news post is, the more engagement
+    from the public.
   character: 1
