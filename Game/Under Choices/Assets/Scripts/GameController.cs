@@ -99,6 +99,7 @@ public class GameController : MonoBehaviour
         if (isNewGame)
             LoadInitialValues();
 
+        // Set start of day values
         playerFunds = startingFund;
         dayComplete = false;
         isPlayingMessage = false;
@@ -112,7 +113,6 @@ public class GameController : MonoBehaviour
         currentNightDisplay = GameObject.FindGameObjectWithTag("Current Night Display");
         timerDisplay = GameObject.FindGameObjectWithTag("Timer Display");
         strikesDisplay = GameObject.FindGameObjectWithTag("Strikes Display");
-        //postSpawnPoint = GameObject.FindGameObjectWithTag("Post Spawn Point");
         postSpawnPointSet = new List<GameObject>(GameObject.FindGameObjectsWithTag("Post Spawn Point"));
         messageSpawn = GameObject.FindGameObjectWithTag("Message Spawn");
         screen = GameObject.FindGameObjectWithTag("Screen");
@@ -124,6 +124,7 @@ public class GameController : MonoBehaviour
         if (currentNight != 8 || dominantSubject != MediaPost.Subject.Radicalism)
             radicalismEnding.SetActive(false);
 
+        // If it's not day 0, hide the tutorial email
         if (currentNight != 0)
             GameObject.FindGameObjectWithTag("Tutorial Email").SetActive(false);
 
@@ -170,16 +171,20 @@ public class GameController : MonoBehaviour
 
     void UpdatePlayerFunds()
     {
+        // Update player funds display label
         playerFundsDisplay.GetComponent<Text>().text = "R$" + playerFunds;
     }
 
     void UpdateOrders()
     {
+        // Clear the sticky notes
         primaryOrders.GetComponent<TextMeshProUGUI>().text = "";
         secondaryOrders.GetComponent<TextMeshProUGUI>().text = "";
 
+        // Go through each order in the current orders
         foreach (BossOrder order in currentOrders)
         {
+            // Check the progress of the order
             order.progress = 0;
             foreach (MediaPost post in boostedPosts)
             {
@@ -198,6 +203,7 @@ public class GameController : MonoBehaviour
                     order.progress++;
             }
 
+            // Check if it's a primary or secondary order
             if (order.type == BossOrder.Type.Primary)
                 primaryOrders.GetComponent<TextMeshProUGUI>().text += order.ToString() + "\n";
             else if (order.type == BossOrder.Type.Secondary)
@@ -214,13 +220,14 @@ public class GameController : MonoBehaviour
 
     void FindDominantSubject()
     {
-        // Find narrative subject with most points
+        // Create fields for checking narrative subjects
         int[] pointsArray = new int[4];
         pointsArray[0] = pointsGovernment;
         pointsArray[1] = pointsViolence;
         pointsArray[2] = pointsHealth;
         pointsArray[3] = pointsRadicalism;
 
+        // Find narrative subject with most points
         int highestIndex = 0;
         for (int i = 1; i < pointsArray.Length; i++)
         {
@@ -228,9 +235,11 @@ public class GameController : MonoBehaviour
                 highestIndex = i;
         }
 
+        // If the highest is 0 points, don't do anything
         if (pointsArray[highestIndex] == 0)
             return;
 
+        // Decide the dominant subject based on results
         if (highestIndex == 0)
             dominantSubject = MediaPost.Subject.Government;
         else if (highestIndex == 1)
@@ -243,6 +252,7 @@ public class GameController : MonoBehaviour
 
     public void PlayNarrativeEvent()
     {
+        // Check which narrative subject is dominant
         FindDominantSubject();
 
         // Play correspoing narrative event
@@ -260,20 +270,24 @@ public class GameController : MonoBehaviour
 
     void UpdateMessages(NarrativeEvent narrativeEvent)
     {
+        // Create new field for messages
         List<TextMessage> messages = new List<TextMessage>();
 
+        // Check if each text message matches the current event, if so then load the message
         foreach(TextMessage message in textMessages)
         {
             if (message.correspondingEvent == narrativeEvent.eventNumber)
                 messages.Add(message);
         }
 
+        // If there are any messages, load and play them
         if(messages.Count > 0)
             StartCoroutine(LoadMessage(messages, 0));
     }
 
     public void BoostPost(PostObject post)
     {
+        // If a post can be boosted, boost and update values
         if(CanBeBoosted(post))
         {
             post.Boost();
@@ -286,6 +300,7 @@ public class GameController : MonoBehaviour
 
     public Boolean CanBeBoosted(PostObject post)
     {
+        // Check if the post can be boosted and if the player has enough money
         if (!post.isBoosted && playerFunds >= post.mediaPost.boostCost)
             return true;
         else
@@ -300,7 +315,7 @@ public class GameController : MonoBehaviour
 
         currentPostSet.Clear();
 
-            // Load new set
+        // Load new set
         for (int i = 0; i < postSpawnPointSet.Count; i++)
         {
             if (currentDayPosts.Count <= 0)
@@ -346,16 +361,16 @@ public class GameController : MonoBehaviour
 
     public void CheckOrders()
     {
+        // Check each order in the current orders
         foreach(BossOrder order in currentOrders)
         {
             // Check for "don't boost" orders
             if (order.dontBoost && order.progress == 0)
                 completedOrders.Add(order);
 
-            // If there's an incomplete primary order, give a strike
+            // If there's an incomplete primary order, do nothing
             if (order.type == BossOrder.Type.Primary && !completedOrders.Contains(order))
             {
-                //playerStrikes++;
                 break;
             }
         }
@@ -374,6 +389,7 @@ public class GameController : MonoBehaviour
 
         StopAllCoroutines();
 
+        // If the game is over, play the corresponding ending
         if(currentNight > 8)
         {
             //Stop all Fmod audio events before return to the title scene
@@ -394,6 +410,7 @@ public class GameController : MonoBehaviour
 
     void SelectEnding()
     {
+        // Play ending based on dominant subject
         if(dominantSubject == MediaPost.Subject.Government)
             ScreenTransition("Ending_Government");
         else if (dominantSubject == MediaPost.Subject.Violence)
@@ -406,8 +423,10 @@ public class GameController : MonoBehaviour
 
     void CheckScene()
     {
+        // Check which scene the player is on
         currentScene = SceneManager.GetActiveScene();
 
+        // If it's the game screen, then load the game screen
         if (currentScene.name == "Game Screen")
             LoadGameScreen();
     }
@@ -419,6 +438,7 @@ public class GameController : MonoBehaviour
 
     IEnumerator Transition(string screenName)
     {
+        // Transition to a new screen with the black fade transition
         GameObject.FindGameObjectWithTag("Transition").GetComponent<Animator>().SetTrigger("Fade In");
         yield return new WaitForSeconds(1);
         SceneManager.LoadScene(screenName);
@@ -428,8 +448,8 @@ public class GameController : MonoBehaviour
 
     public void PlayEvent()
     {
+        // Check which event should be played
         int eventNum;
-
         if (currentEvent.effect == "Speech")
             eventNum = 0;
         else if(currentEvent.effect == "Hijack")
@@ -443,6 +463,7 @@ public class GameController : MonoBehaviour
         else
             eventNum = 5;
 
+        // Play the corresponding event
         GameObject.FindObjectOfType<event_animation_manager>().eventType = (event_animation_manager.Event) eventNum;
     }
 
@@ -459,6 +480,7 @@ public class GameController : MonoBehaviour
 
     IEnumerator LoadDelay(string screenName)
     {
+        // Wait a moment before checking the scene
         yield return new WaitForSeconds(0.0001f);
         CheckScene();
     }
@@ -479,10 +501,6 @@ public class GameController : MonoBehaviour
         newMessage.transform.localPosition = new Vector2(0, 0);
         newMessage.transform.localScale = new Vector2(1, 1);
 
-        // Remove offscreen messages
-        /*if (currentMessages.Count > 3)
-            currentMessages.RemoveAt(0);*/
-
         // Wait for next message
         yield return new WaitForSeconds(3);
 
@@ -496,7 +514,6 @@ public class GameController : MonoBehaviour
             _messages.RemoveAt(0);
             messagesTiedToRefresh = _messages;
             isPlayingMessage = false;
-            //StartCoroutine(LoadMessage(_messages, 0));
         }
     }
 }
