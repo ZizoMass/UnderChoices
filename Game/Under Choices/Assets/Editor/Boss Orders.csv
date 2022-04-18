@@ -39,7 +39,7 @@
 38,5,3,Health,Any,Health,None
 39,5,1,Health,Angry,Health,None
 40,5,0,Health,Happy,Health,None
-41,6,3,Health,Sad,Health,None
+41,6,2,Health,Sad,Health,None
 42,6,1,Health,Angry,Health,None
 43,6,0,Health,Happy,Health,None
 44,7,10,Any,Any,Health,None
@@ -47,7 +47,7 @@
 46,1,1,Health,Any,Radicalism,None
 47,2,2,Radicalism,Happy,Radicalism,None
 48,2,1,Government,Angry,Radicalism,None
-49,4,2,Radicalism,Happy,Radicalism,None
+49,4,3,Radicalism,Happy,Radicalism,None
 50,4,0,Radicalism,Angry,Radicalism,None
 51,5,3,Radicalism,Any,Radicalism,None
 52,5,2,Radicalism,Happy,Radicalism,None

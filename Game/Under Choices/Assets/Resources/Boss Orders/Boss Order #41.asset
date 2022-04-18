@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   orderNumber: 41
   day: 6
-  numberToBoost: 3
+  numberToBoost: 2
   anySubject: 0
   anyReaction: 0
   dontBoost: 0
